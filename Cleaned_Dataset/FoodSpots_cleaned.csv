@@ -1,0 +1,1519 @@
+FoodSpot_ID,Name,Latitude,Longitude,Address,County,Venue Type
+FS0001,Hungry Boba Pizzeria,53.351338,-6.2795464,"Unit 4, 8 Grangegorman Lower, Dublin, D07 X97Y",Dublin,Restaurant
+FS0002,Teach an Tae Aran Café & Tea Rooms,53.0654611,-9.5252873,"Inisheer, Aran Islands, ",Galway,Cafe
+FS0003,Acapulco Mexican Restaurant,53.343616,-6.2642333,"7 South Great George's Street, Dublin, D02 EV81",Dublin,Restaurant
+FS0004,Achill Cliff House Restaurant,53.976098,-10.0810517,"Keel, Keel East, Achill Island, , ",Mayo,Restaurant
+FS0005,Acorn Restaurant at the Castle Oaks House Hotel & Estate,52.7095835,-8.5085681,"Stradbally North, Castleconnell, V94 EH94",Limerick,Restaurant
+FS0006,Ahoy Café,54.6333848,-8.4460411,"Shore Road, Killybegs, F94 V322",Donegal,"Restaurant, Cafe"
+FS0007,Aileach Restaurant at the Clanree Hotel,54.9436594,-7.6983954,"Derry Road, Bunnagee, Letterkenny, ",Donegal,Restaurant
+FS0008,"Allo's Restaurant, Bar & Bistro",52.4465992,-9.4842248,"41 Church St, Listowel,",Kerry,Restaurant
+FS0009,Alternative Bread Company,51.8976506,-8.4747435,"24 Grand Parade, Centre, , T12 KP44",Cork,Restaurant
+FS0010,Amai By Viktor,53.3412722,-6.2611932,"4 Harry St, Grafton Street, Dublin City, D02 CX24",Dublin,Restaurant
+FS0011,Amicus Restaurant,51.899283,-8.4741568,"Paul St, Centre, , T12 WP97",Cork,Restaurant
+FS0012,Ceardlann Spiddal Craft Village and Café,53.2447242,-9.3004546,"craft village & cafe, Bohoona East, Spiddal, H91 XPA8",Galway,Cafe
+FS0013,An Evening of Irish Folklore and Fairies,53.3438235,-6.2636588,"1 Dame Ct, , D02 TW84",Dublin,Pub/Bar
+FS0014,An File,53.7995252,-9.5246469,"1 The, Octagon, Cahernamart, Westport,",Mayo,"Restaurant, Pub/Bar"
+FS0015,An Grianán,53.7546463,-6.2644448,"An Grianan ICA, Newtown, Termonfeckin, A92 X9TF",Louth,Restaurant
+FS0016,An Poitin Stil,53.281066,-6.476837,"Naas Dual Carriageway, Rathcoole, ",Dublin,"Restaurant, Pub/Bar"
+FS0017,An Port Mór Restaurant,53.799036,-9.522252,"1 Brewery Place, (Adjacent to Bridge Street), Westport, F28 KP70",Mayo,Restaurant
+FS0018,An Púcán,53.2745129,-9.0474341,"11 Forster St, , H91 P65D",Galway,"Restaurant, Pub/Bar"
+FS0019,Madigan’s Bar & Restaurant at Aran Islands Hotel,53.1180074,-9.6758716,"Kilronan, Aran Islands, H91 DH27",Galway,"Restaurant, Pub/Bar"
+FS0020,An Síbín Restaurant & Wine Bar,51.7656799,-9.7708152,"An Sibin Restaurant B&B, Lauragh Lower, Kenmare, V93 T4C2",Kerry,"Restaurant, Pub/Bar"
+FS0021,An Spailpín Fánach,51.8966158,-8.4765789,"Centre, Cork City, T12 DYX9",Cork,Pub/Bar
+FS0022,An Súgán Restaurant & Seafood Bar,51.6231669,-8.8858526,"41-42 Wolfe Tone St, Scartagh, Clonakilty, P85 DY95",Cork,"Restaurant, Pub/Bar"
+FS0023,An tSean Bheairic,55.1368631,-8.1016929,", Falcarragh, ",Donegal,Cafe
+FS0024,Anchor Bar Dungarvan,52.0898222,-7.6186611,"Davitts Quay, Abbeyside, Dungarvan, X35 D880",Waterford,Pub/Bar
+FS0025,AndChips,52.0894914,-7.6174619,"Unit 3, Castle House, Davitts Quay, Abbeyside, Dungarvan, X35 DP60",Waterford,Restaurant
+FS0026,Andy's Bar & Restaurant,54.2477282,-6.9721375,"12 Market St, Mullaghmonaghan, , H18 N772",Monaghan,"Restaurant, Pub/Bar"
+FS0027,Wright's Anglers Rest,53.3590233,-6.3587129,"20 Knockmaroon Hill, Chapelizod, Dublin, D20 AH96",Dublin,"Restaurant, Pub/Bar"
+FS0028,Anglers Rest Bar,53.5889263,-9.9644048,"Tully Cross, Renvyle, ",Galway,Pub/Bar
+FS0029,Ann McDonald’s Upper Deck Café,52.3954791,-6.943542,"8 Mary St, New Ross, Y34 TD40",Wexford,"Restaurant, Cafe"
+FS0030,Annalee Restaurant at The Hotel Kilmore,53.9865713,-7.3223043,"Dublin Rd, Killygarry, , H12 F6Y7",Cavan,Restaurant
+FS0031,Aqua Restaurant,53.392225,-6.0694722,"1 W Pier, Howth, Dublin,",Dublin,Restaurant
+FS0032,Áras Inis Gluaire,54.2224627,-9.9889332,"Church St, Belmullet, ",Mayo,Cafe
+FS0033,Ard Bia at Nimmos,53.2697959,-9.0540644,"Spanish Arch, Long Walk, , H91 E9XA",Galway,Restaurant
+FS0034,Ards Coffee Tree,55.1584056,-7.8636751,"Ards, , F92 Y23R",Donegal,Cafe
+FS0035,Arena7 Entertainment Complex,54.9571799,-7.7060473,"1 - 4, Ballyraine Industrial Estate, 4 Iona Rd, Ballyboe Lisnenan, Letterkenny, F92 VRC8",Donegal,Restaurant
+FS0036,Armoury Café Glencree,53.1988883,-6.2926906,"Centre for Peace and Reconciliation, Aurora, Glencree, ",Wicklow,"Restaurant, Cafe"
+FS0037,Aroma's Café at The Landmark Hotel,53.9433878,-8.0932708,"Shannon Lodge, Townparks, Carrick-On-Shannon, , ",Leitrim,Cafe
+FS0038,Arthur's Bar at the Court Yard Hotel,53.3637442,-6.4887746,"Main St, Leixlip, ",Kildare,Pub/Bar
+FS0039,The Lodge Bistro at the Shamrock Lodge Hotel,53.4210234,-7.9488631,"Clonown Rd, Bellaugh, Athlone, N37 CK73",Westmeath,Restaurant
+FS0040,Auburn Lodge Oyster Restaurant,52.865498,-8.9806526,"Galway Road, Ballycorey, Ennis, ",Clare,Restaurant
+FS0041,Auld Dubliner,53.34555,-6.26198,"24/25 Temple Bar, Dublin City Centre,",Dublin,Pub/Bar
+FS0042,Aunty Lena's Bar,52.5642363,-8.7909353,"Main St, Blackabbey, Adare, ",Limerick,Pub/Bar
+FS0043,Austies Pub & Kitchen,54.3047859,-8.5639768,"Rosses Upper, Rosses Point, ",Sligo,"Restaurant, Pub/Bar, Cafe"
+FS0044,"Avenue Café, Restaurant & Bar",53.3820621,-6.5888288,"Main St, Maynooth, ",Kildare,"Restaurant, Pub/Bar, Cafe"
+FS0045,Avoca Kilmacanoge,53.173152,-6.1422796,"Glencormick South, , A98 CC02",Wicklow,Cafe
+FS0046,Avoca Handweavers Molls Gap,51.9383811,-9.6577997,"Ring of Kerry, Eirk, Killarney, ",Kerry,Cafe
+FS0047,Avoca Mill,52.8614008,-6.2110146,"Knockanree Lower, Avoca, Y14 HN29",Wicklow,"Restaurant, Cafe"
+FS0048,Avoca Powerscourt,53.1843448,-6.1880895,"Powerscourt House, Powerscourt Demesne, Enniskerry, ",Wicklow,"Restaurant, Cafe"
+FS0049,Avondale House and Forest Park,52.9118311,-6.2220509,"Beyond the Trees, Forest Park, Avondale, Rathdrum, A67 P303",Wicklow,Cafe
+FS0050,Axe Club Glendalough,52.9999166,-6.2971812,"Axe Club, Brockagh, Glendalough, A67 K3K6",Wicklow,Cafe
+FS0051,Azure Harbour Bistro,51.8505229,-8.2931549,"11 West Beach, Kilgarvan, Cobh, P24 ED32",Cork,Restaurant
+FS0052,Azzurro Restaurant,52.1533873,-6.9949201,"Dock Rd, Nymphhall, Dunmore East, ",Waterford,Restaurant
+FS0053,B Bar at Clayton Hotel Burlington Road,53.3305569,-6.2489013,"Leeson Street Upper, , D04 A318",Dublin,Pub/Bar
+FS0054,B's Restaurant at the Castle Hotel & Leisure Centre Macroom,51.904814,-8.9585159,"Main St, Sleveen East, Macroom, ",Cork,Restaurant
+FS0055,Baan Thai Restaurant - Ballsbridge,53.3289919,-6.2302106,"16 Merrion Rd, Ballsbridge, Dublin, D04 E9P7",Dublin,Restaurant
+FS0056,Bad Ass Café,53.3453564313351,-6.26286739077261,"9 - 11 Crown Alley, , Temple Bar, ,",Dublin,"Restaurant, Pub/Bar"
+FS0057,Bailey's Bar & Bistro at Clanard Court Hotel,52.9984985,-6.9584305,"Unnamed Road, Gallowshill, , ",Kildare,"Restaurant, Pub/Bar"
+FS0058,Baily's Corner,52.2692537,-9.7038679,"30 Lower Castle St, Tralee, V92 N9FT",Kerry,Pub/Bar
+FS0059,Bakers Corner,53.280639,-6.15778,"Bakers Corner, Kill O The Grange, Dun Laoghaire, , ",Dublin,Pub/Bar
+FS0060,Ballinalacken Castle Country House Hotel and Restaurant,53.0464097,-9.3378457,"Coast Road, Craggycorradan East, Doolin, ",Clare,Restaurant
+FS0061,Ballincollig Farmers' Market,51.88853,-8.594319,", Ballincollig, ",Cork,Restaurant
+FS0062,Ballintubbert Gardens & House,52.9840283,-7.0852444,"Ballintubbert House, Ballintubbert, Stradbally, R14 E954",Laois,Cafe
+FS0063,Ballybunion Crazy Golf & Checkers Café,52.4950739,-9.6571718,"1, Ballyeagh, Ballybunnion, ,",Kerry,Cafe
+FS0064,Ballycroy Visitor Centre Wild Nephin National Park,54.0244585,-9.8233278,", Ballycroy, ",Mayo,Cafe
+FS0065,Ballykilcavan Brewery,53.0165403,-7.1173713,"Ballykilcavan, Stradbally, R32 Y0PK",Laois,Restaurant
+FS0066,Great National Ballykisteen Golf Hotel,52.502387,-8.2167437,"Gotinstown, Limerick Junction, E34 VK12",Tipperary,Restaurant
+FS0067,Ballymaloe House Restaurant,51.8652496,-8.0733299,"Shanagarry, Midleton, ",Cork,Restaurant
+FS0068,Ballynahinch Castle Hotel and Gardens,53.4600939,-9.8623903,"Recess, Connemara, Recess, ",Galway,Restaurant
+FS0069,The Palace Bar & Restaurant at Ballyroe Heights Hotel,52.296605,-9.750987,"Ballyroe, Tralee, V92 HT91",Kerry,"Restaurant, Pub/Bar"
+FS0070,Bambu Restaurant,52.6626676,-8.6277062,"28 O'Connell St, Prior's-Land, , V94 FH02",Limerick,Restaurant
+FS0071,Bandon Farmers' Market,51.7440126,-8.7395436,"3 Market St, Cloghmacsimon, Bandon, P72 TX36",Cork,Restaurant
+FS0072,Bang Restaurant,53.3383327264619,-6.25401534320827,"Bang Restaurant, 11 Merrion Row, ,",Dublin,Restaurant
+FS0073,Bantry House & Garden,51.6774722,-9.4645065,"Bantry House, Seafield, Bantry, ",Cork,"Restaurant, Cafe"
+FS0074,Bantry Market,51.6804707,-9.4534718,"Wolfe Tone Square, Town Lots, Bantry, P75 PC96",Cork,Restaurant
+FS0075,Bar and Restaurant at the Haven Hotel,52.152256,-6.9955806,"Dock Rd, Nymphhall, Dunmore East, ",Waterford,"Restaurant, Pub/Bar"
+FS0076,Bar Rua,53.3410567,-6.2624311,"32 Clarendon Street, ,",Dublin,"Restaurant, Pub/Bar"
+FS0077,Bar Square,54.1143774,-9.1564878,"Garden St, Ballina, ",Mayo,Pub/Bar
+FS0078,Barnagh Greenway Hub,52.4200785,-9.1331549,"Barnagh Greenway Hub, Limerick Greenway, Ballymurragh East, Newcastle West, ",Limerick,"Restaurant, Cafe"
+FS0079,FunKidz Klub,52.8628585,-8.9823536,"Gort Rd, Dulick, Ennis, V95 FF9W",Clare,Cafe
+FS0080,Barr An Chaladh,53.2752805,-9.0527779,"Daly's Place, 3 Woodquay, ,",Galway,Pub/Bar
+FS0081,Barron’s Bakery and Coffee House,52.14665,-7.849559,"4 Cook St, Cappoquin, P51 V2V5",Waterford,"Restaurant, Cafe"
+FS0082,Barry’s of Douglas,51.8771932,-8.4361263,"Douglas, Douglas East, Cork City, T12 YV08",Cork,"Restaurant, Pub/Bar"
+FS0083,Bartley's Bar & Restaurant at The Grafton Hotel,53.3411204,-6.2640698,"31/32 Stephen Street Lower, Dublin, D02 WV05",Dublin,"Restaurant, Pub/Bar"
+FS0084,Bastible,53.3320926,-6.2749177,"Leonard's Corner, 111 S Circular Rd, Portobello, , D08 RW2K",Dublin,Restaurant
+FS0085,Bastion,51.7057526,-8.5242331,"Sleveen, Kinsale, P17 C996",Cork,Restaurant
+FS0086,Battle of the Boyne Visitor Centre,53.7230614,-6.4188093,"Battle of the Boyne Visitor Centre, Drybridge, , ",Meath,Cafe
+FS0087,Bay Restaurant,53.3631218,-6.1785146,"369 Clontarf Rd, Clontarf, Dublin,",Dublin,Restaurant
+FS0088,Bayleaf Bistro ,51.7437828,-8.737621,"Cloghmacsimon, Bandon, P72 A254",Cork,Restaurant
+FS0089,Bayview Restaurant,53.1193043,-9.6687948,"Point Rd, Killeany, Kilronan, , ",Galway,"Restaurant, Cafe"
+FS0090,Beaches Restaurant at Kelly's Resort Hotel,52.2754194,-6.3875484,"Doogans Warren, , ",Wexford,Restaurant
+FS0091,Beal Organic Cheese,52.5733961,-9.6121121,"Beal Lodge Asdee, Castlequarter, Listowel, ",Kerry,Restaurant
+FS0092,Bean and Goose Chocolate,52.6924056,-6.2706302,"Unit 4A, Ballyloughan Business Park, Arklow Rd, Ballyloughan, Gorey, Y25 C1W2",Wexford,Restaurant
+FS0093,Beans and Leaves,53.4231156,-7.9395904,"Lloyd's Ln, Athlone, N37 HP63",Westmeath,Cafe
+FS0094,Beaumont House,53.3854462,-6.2336467,"1 Shantalla Rd, Beaumont, , D09 F6N1",Dublin,"Restaurant, Pub/Bar"
+FS0095,Beechdale Garden Centre,52.4607195,-6.6880463,"Beechdale, Moneytucker, Enniscorthy, Y21 V627",Wexford,Cafe
+FS0096,Bella & Brava Restaurant,54.1710166,-8.6056089,"unit 3 The Mill Centre, Coolaney, F56 NW98",Sligo,Restaurant
+FS0097,Bella Bia,52.2675247,-9.7083253,"1-2 Ivy Terrace, Tralee, V92 TF24",Kerry,Restaurant
+FS0098,Bella Italia,52.6624174,-8.6255779,"43 Thomas St, , V94 D527",Limerick,Restaurant
+FS0099,Belle's Kitchen,55.0953808,-7.5339707,"Pier Rd, Aghavannan Near, Rathmullan, F92 C935",Donegal,"Restaurant, Cafe"
+FS0100,Bells Bar,51.9025511,-8.4746469,"11 John Redmond St, Shandon, , T23 A9TF",Cork,Pub/Bar
+FS0101,Belmont Demesne,53.1672038,-6.0951855,"Lower Windgates, Windgate, Greystones, A63 FX34",Wicklow,"Restaurant, Cafe"
+FS0102,Beltra Country Market,54.2218763,-8.624828,"Tanrego East, Beltra, ",Sligo,Restaurant
+FS0103,Belturbet Heritage Railway Museum,54.0977954,-7.4422278,"Railway Station, Railway Rd, Corporation Lands, Belturbet, ",Cavan,Cafe
+FS0104,Belvedere House Gardens & Park,53.477197,-7.369202,"Belvidere, Mullingar, ",Westmeath,"Restaurant, Cafe"
+FS0105,Belvedere Irish Nights,53.3550411,-6.2624113,"Denmark Street Great, Rotunda, , D01 W1C0",Dublin,Restaurant
+FS0106,"Branley's Yard, Rathcormac Craft Village",54.3195186,-8.4840367,"Branley's Yard, Clooneen, Rathcormac, F91 P7WX",Sligo,Cafe
+FS0107,"Benny's Deli, Restaurant and Café",53.769361,-8.494767,"Main St, Demesne, Castlerea, ",Roscommon,Cafe
+FS0108,Bere Island Heritage Centre,51.6352472,-9.8800912,"Ballinakilla Bere Island Beara Ballinakilla Bere Island, Ballynakilla, , P75 W660",Cork,Cafe
+FS0109,Beshoffs Restaurant,53.3502615197419,-6.2600837233981,"6 Upper O Connell Street, Dublin City,",Dublin,Restaurant
+FS0110,Bewley's Café Grafton Street,53.3417202,-6.2602903,"78- 79 Grafton Street, , D02 K033",Dublin,Cafe
+FS0111,Beyond the Trees Avondale,52.9118003,-6.2220517,"Avondale, Forest Park, Avondale, Rathdrum, A67 P303",Wicklow,Cafe
+FS0112,The Bianconi,52.1060953,-9.7847527,"Annadale Rd, Dromavally, Killorglin, ",Kerry,"Restaurant, Pub/Bar"
+FS0113,Bianconi Restaurant at the Granville Hotel,52.2621139,-7.1121635,"Meagher's Quay, , ",Waterford,Restaurant
+FS0114,Biddy’s O’Barnes,54.709495,-7.9707692,"Biddys O'Barnes, Barnesmore Gap Barnesmore, Friarsbush, , F94 HP22",Donegal,Pub/Bar
+FS0115,Birchalls Ranelagh,53.3233552,-6.2502862,"Ranelagh Rd, Ranelagh, ",Dublin,Pub/Bar
+FS0116,Birr Castle Demesne & Historic Science Centre,53.0966825,-7.9144158,"Rosse Row, Townparks, Birr, R42 V027",Offaly,Cafe
+FS0117,Bison Bar & BBQ,53.34538,-6.266283,"11 Wellington Quay, Temple Bar, Dublin Southside, , D02 XY28",Dublin,Pub/Bar
+FS0118,Bistro Bianconi,54.2712333,-8.4742032,"Tobergal Ln, Abbeyquarter North, , ",Sligo,Restaurant
+FS0119,Blackrock Market,53.3013652,-6.1775631,"19a Main St, Blackrock, A94 C8Y1",Dublin,Restaurant
+FS0120,Blair’s Inn,51.9226156,-8.6498723,", Cloghroe, T23 D967",Cork,Pub/Bar
+FS0121,Blairscove House & Restaurant,51.6087252,-9.5388154,"Blairscove, Murreagh, Durrus, P75 FE44",Cork,Restaurant
+FS0122,Blarney Castle and Gardens,51.9290922,-8.5708847,", Blarney, ",Cork,Cafe
+FS0123,Blarney House and Gardens,51.92687,-8.5718407,", Blarney, T23 Y598",Cork,Cafe
+FS0124,Blas at the Gateway Lodge,54.6561928,-8.1140635,"Lough Eske Rd, Drumroosk West, , ",Donegal,Cafe
+FS0125,Bleecker Street Café Bar,53.3571801,-6.2639138,"68 Dorset Street Upper, Rotunda, Dublin, D01 KT22",Dublin,Pub/Bar
+FS0126,Blind Piper Pub & Restaurant,51.7695348,-10.10076,"Ballycarnahan, Caherdaniel, V93 DD83",Kerry,"Restaurant, Pub/Bar"
+FS0127,Blue Bar,53.5849426,-6.1048866,"25 Harbour Rd, Townparks, Skerries, K34 EW60",Dublin,"Restaurant, Pub/Bar"
+FS0128,Blue Serenade Restaurant,53.8586082,-9.2988252,"Tucker St, Garryduff, Castlebar, F23 XR80",Mayo,Restaurant
+FS0129,Boardwalk Café and Bar at The Landmark Hotel,53.9433639,-8.0931211,"Shannon Lodge, Townparks, Carrick-On-Shannon, , ",Leitrim,"Pub/Bar, Cafe"
+FS0130,Boathouse Beach Bites,54.9890032,-8.4972018,"Unnamed Road Leabgarrow Arranmore island, Leabgarrow, , F92 T9D9",Donegal,"Restaurant, Cafe"
+FS0131,Bobby Byrnes,52.6566863,-8.6334647,"1 - 3 O'Connell Ave, Limerick City, V94 CD73",Limerick,Pub/Bar
+FS0132,Bodega 1830 Tapas & Wine Bar,52.3547658,-7.7007773,"Richmond Mill, Emmet St, Oldbridge, Clonmel, E91 A003",Tipperary,"Restaurant, Pub/Bar"
+FS0133,Bodega Café,52.3553964,-7.7068258,"Queen St, Burgagery-Lands West, Clonmel, E91 YA25",Tipperary,"Restaurant, Cafe"
+FS0134,Bodéga Restaurant & Wine Bar,52.25784,-7.111617,"54 John St, , X91 XW2R",Waterford,Restaurant
+FS0135,Bollard's Bar,52.653415,-7.2535527,"31 St Kieran's St, Gardens, , R95 HY76",Kilkenny,Pub/Bar
+FS0136,Bombay Palace Indian Restaurant,51.897326,-8.471597,"14/15 Cook St, Centre, ,",Cork,Restaurant
+FS0137,Bon Appetit Malahide,53.451669,-6.151796,"9 James's Terrace, Malahide, K36 KR66",Dublin,Restaurant
+FS0138,Bonner's Corner Bar,54.799242,-7.783248,"Glenfinn Street, Ballybofey, ",Donegal,Pub/Bar
+FS0139,Botanical @ Dublin One Hotel,53.3596548,-6.260035,"493-511 N Circular Rd, Dublin, D01 A2Y5",Dublin,"Restaurant, Pub/Bar"
+FS0140,Bovinity ,53.3486916,-6.268981,"123 Capel St, North City, Dublin, D01 A099",Dublin,"Restaurant, Pub/Bar"
+FS0141,Bowe's Foodhall & Café,52.8457120733465,-7.394844315765,"The Square, Durrow, ",Laois,"Restaurant, Cafe"
+FS0142,Bowes Bar,53.3458614,-6.2578933,"31 Fleet St, Dublin, D02 DF77",Dublin,Pub/Bar
+FS0143,Brabazon Restaurant at Tankardstown House,53.740916,-6.610937,"Tankardstown House, Tankardstown, Slane, ",Meath,"Restaurant, Pub/Bar"
+FS0144,Bradshaw's Bar ,52.7134409,-8.5017036,"Castleview House, Coolbane, Castleconnell, ",Limerick,Pub/Bar
+FS0145,Brady's of Shankill,53.2301216,-6.124504,"Dublin Road R119, Shankill,",Dublin,"Restaurant, Pub/Bar"
+FS0146,Brasserie on the Corner,53.2746582,-9.0529013,"25 Eglinton St, , H91 CY1F",Galway,Restaurant
+FS0147,The Brasserie at the Kilkenny Hibernian Hotel,52.6502114,-7.252117,"1 Ormonde St, Gardens, , R95 WTK3",Kilkenny,"Restaurant, Pub/Bar"
+FS0148,Bread Naturally,53.3795195,-6.175408,"10b Main St, Raheny, D05 P6H0",Dublin,"Restaurant, Cafe"
+FS0149,Bread with Benefits,53.5643058,-6.5362632,"Corbalton Lodge, Colvinstown, Navan, C15 DX80",Meath,Restaurant
+FS0150,Breathnach's Steak & Ale House,52.6539586,-7.2479222,"23-24 John Street Upper, , R95 AXC9",Kilkenny,Pub/Bar
+FS0151,Breffni Arms Hotel Restaurant,53.9243777,-7.583421,"6-12, Main St, Drumalt, Arvagh,",Cavan,"Restaurant, Pub/Bar"
+FS0152,Brehon Brewhouse,53.9810625,-6.6355936,"Dunelty, , ",Monaghan,Restaurant
+FS0153,BrewDog Outpost Dublin,53.3444615,-6.2309553,"Three Locks Square, 4, Grand Canal Dock, Dublin, D02 E5R7",Dublin,"Restaurant, Pub/Bar"
+FS0154,Bricín Restaurant & Irish Craft Shop,52.060944,-9.510203,"26 High Street, Killarney, V93 EE61",Kerry,Restaurant
+FS0155,Bridgie Terries Bar & Restaurant,52.1245194,-7.5619317,"Killineen East, The Pike, , ",Waterford,Restaurant
+FS0156,Brogans Bar,53.3443022,-6.266322,"75 Dame Street, 75 Dame St, Temple Bar, Dublin,",Dublin,Pub/Bar
+FS0157,Brogans Bar and Restaurant,52.8435084,-8.9826747,"24 O'Connell Street, Clonroad Beg, Ennis, V95 XRW8",Clare,"Restaurant, Pub/Bar"
+FS0158,Brookwood,53.3378242,-6.252712,"141 Baggot Street Lower, Dublin, D02 KP64",Dublin,Restaurant
+FS0159,Brother Hubbard North,53.3471139,-6.2683722,"153 Capel St, North City, , D01 V9V0",Dublin,Cafe
+FS0160,Brother Hubbard South,53.3327441,-6.2656385,"46 Harrington St, Portobello, Dublin, D08 YFN7",Dublin,Cafe
+FS0161,Browne's Bar,52.2308338,-9.4639701,"27 Lower Main St, Chapel Quarter, Castleisland,",Kerry,Pub/Bar
+FS0162,Brú Chrónáin - The Round Tower Visitor Centre Clondalkin,53.3226219,-6.3955384,"15 Tower Road, Clondalkin, Dublin, D22 DV56",Dublin,Cafe
+FS0163,Brú na Bóinne Visitor Centre - Newgrange and Knowth,53.6936196,-6.4496026,"Brú na Bóinne, Glebe, Donore, A92 EH5C",Meath,Cafe
+FS0164,Brubakers Bar & Restaurant,54.001814,-6.404695,"39 Park St, Townparks, Dundalk, A91 Y9HN",Louth,"Restaurant, Pub/Bar"
+FS0165,Brunel Restaurant at Tinakilly Country House,52.996358,-6.0672,"Unnamed Rd, Tinakelly, , ",Wicklow,Restaurant
+FS0166,Bruxelles,53.3413679,-6.2608723,"8 Harry St, Dublin, D02 KX36",Dublin,Pub/Bar
+FS0167,Buckley's Bar at The Arbutus Hotel,52.0596118,-9.5059016,"College St, Killarney, ",Kerry,"Restaurant, Pub/Bar"
+FS0168,Budd's Restaurant,51.5627185,-9.4605283,"Main St, Ballydehob, P81 HP92",Cork,Restaurant
+FS0169,Bugler Doyles Bar,52.3358865,-6.4594077,"83 S Main St, Whitewell, , Y35 FV48",Wexford,Pub/Bar
+FS0170,Bunratty Castle & Folk Park,52.7003556,-8.8122455,"Bunratty East, Bunratty, ",Clare,Cafe
+FS0171,Burren Fine Wine & Food,53.0903681,-9.1735613,"Corkscrewhill Road, Croagh North, Ballyvaughan, H91 WY94",Clare,Restaurant
+FS0172,Burren Storehouse,53.0283964,-9.2907163,"Kincora Rd, Rathbaun, Lisdoonvarna, V95 T85K",Clare,Restaurant
+FS0173,Burzza Restaurant,52.2577626,-7.1116,"53 John St, , X91 TR94",Waterford,Restaurant
+FS0174,"Bush Bar, Restaurant and Coffee Shop at The Bush Hotel",53.946164,-8.093956,"Main St, Townparks, Carrick-On-Shannon, , ",Leitrim,"Restaurant, Pub/Bar"
+FS0175,Bushe's Bar,51.4831478,-9.3729564,", Baltimore, P81 F623",Cork,Pub/Bar
+FS0176,Busker Brownes Bar,53.2716667,-9.0544444,"5 Cross Street Upper, , H91 FX30",Galway,"Restaurant, Pub/Bar"
+FS0177,Buskers Bar,53.3458589,-6.2603428,"13 - 17 Fleet St, Temple Bar, , D02 WD51",Dublin,Pub/Bar
+FS0178,Buswells Hotel Bar,53.3407802,-6.2557572,"23-27 Molesworth St, Dublin, D02 CT80",Dublin,Pub/Bar
+FS0179,Butlers Chocolate Café - Blanchardstown Shopping Centre,53.3918686,-6.3910117,"Blanchardstown Rd S, Blanchardstown, ",Dublin,Cafe
+FS0180,Butlers Chocolate Café - Chatham Street,53.3407703,-6.2616666,"6 Chatham St, Dublin, D02 V840",Dublin,Cafe
+FS0181,Butlers Chocolate Café - Dublin Airport T1,53.4274291,-6.2455427,"Terminal 1, Collinstown,",Dublin,Cafe
+FS0182,Butlers Chocolate Café - Dublin Airport T2,53.4254799,-6.2407178,"Terminal 2, Corballis, Swords,",Dublin,Cafe
+FS0183,Butlers Chocolate Café - Dundrum Town Centre,53.2872252,-6.2420791,"Ground Floor Dundrum Town Centre Sandyford Road, Dundrum, D16 W593",Dublin,Cafe
+FS0184,Butlers Chocolate Café - Grafton Street,53.3401241,-6.2605652,"51 Grafton Street, Dublin, D02 KD39",Dublin,Cafe
+FS0185,Butlers Chocolate Café - Henry Street,53.3498466,-6.2607277,"31 Henry St, North City, Dublin, D01 RT21",Dublin,Cafe
+FS0186,Butlers Chocolate Café - Heuston Station,53.34646,-6.292835,"8 St John's Rd W, Saint James' (part of Phoenix Park), Dublin, D08 E2CV",Dublin,Cafe
+FS0187,Butlers Chocolate Café - Jervis Street,53.3486024,-6.2659591,"Unit 1B, Ground Floor, Jervis Shopping Centre, Jervis St, North City, Dublin, D01 X2K7",Dublin,Cafe
+FS0188,Butlers Chocolate Café - Liffey Street,53.3470485,-6.2632048,"4 Liffey St. Lower, North City, Dublin, D01 Y364",Dublin,Cafe
+FS0189,Butlers Chocolate Café - Limerick,52.640457,-8.645748,"Unit 18, Crescent Shopping Centre, Dooradoyle,",Limerick,Cafe
+FS0190,Butlers Chocolate Café - Ranelagh,53.3245178,-6.253516,"61 Ranelagh, Dublin, D06 NP10",Dublin,Cafe
+FS0191,Butlers Chocolate Café - Swords,53.4547139,-6.2189436,"Main St, Miltonsfields, Swords, K67 TY72",Dublin,Cafe
+FS0192,Butlers Chocolate Café - Wicklow Street,53.3429986,-6.2619593,"24 Wicklow St, , D02 R981",Dublin,Cafe
+FS0193,Butlers Chocolate Café Cork,51.8978741,-8.4707239,"30 Oliver Plunkett St, Centre, , T12 R68V",Cork,Cafe
+FS0194,Butlers Chocolate Café Galway,53.2734148,-9.0518179,"40 William St, , H91 T3YC",Galway,Cafe
+FS0195,Byrnes Restaurant,52.939698,-9.293531,"Main St, Ennistimon, Ennistymon, ",Clare,Restaurant
+FS0196,Café at Butlers Chocolate Experience,53.4037455,-6.2191942,"Clonshaugh Business & Technology Park, Dublin, ",Dublin,Cafe
+FS0197,Café en Seine,53.340658,-6.2586199,"40 Dawson St, ,",Dublin,"Restaurant, Pub/Bar"
+FS0198,Café Goa,52.2628616,-7.1154653,"36 Merchants Quay, , X91 HN36",Waterford,Restaurant
+FS0199,Café India,53.275892,-7.4897105,"16 Harbour St, County, Tullamore, R35 R129",Offaly,Restaurant
+FS0200,Café Le Chéile,53.790058,-8.9171427,"Unnamed Road, Knock Shrine, Churchfield, Knock, ",Mayo,Cafe
+FS0201,Linnalla Pure Irish Ice Cream,53.1494209,-9.1196111,"Unnamed Rd, Rine, New Quay, , ",Clare,Cafe
+FS0202,Café Lounge,53.9439717,-8.093613,"Unit 3, Mercantile Plaza, Townparks, Carrick-On-Shannon, ,",Leitrim,Cafe
+FS0203,Café Lucia,52.2464591,-7.0824836,"Ardkeen Shopping Centre, Dunmore Rd, , ",Waterford,Cafe
+FS0204,Café Mexicana,51.8988157,-8.4737952,"Centre, Cork City, T12 D568",Cork,Restaurant
+FS0205,Café Rua,53.8593407781074,-9.29822195948986,"New Antrim Street, Castlebar, ",Mayo,Cafe
+FS0206,Café Topolis,53.3443315,-6.2674117,"37 Parliament St, Temple Bar, Dublin Southside, , D02 NY92",Dublin,Restaurant
+FS0207,Caffe Banba,55.3819553,-7.3738601,"Banbas Crown, Ardmalin, Ballyhillion, , ",Donegal,Cafe
+FS0208,Caheny's Bar,54.2660124,-8.4714819,"Mail Coach Rd, Abbeyquarter South, , ",Sligo,Pub/Bar
+FS0209,Caherdaniel Market,51.7694561232302,-10.0993625072067,", Caherdaniel, ",Kerry,Restaurant
+FS0210,Cahersiveen Market,51.947542,-10.223003,", Cahersiveen, ",Kerry,Restaurant
+FS0211,The Record Break Café,52.8437567,-8.9836478,"9 Upper Market St, Clonroad Beg, Ennis, V95 HA89",Clare,Cafe
+FS0212,Zita's Restaurant at the Caisleáin Oir Hotel,55.0208676,-8.3252462,"Wild Atlantic Way, Illannavoree, Annagry, F94 WY03",Donegal,"Restaurant, Pub/Bar"
+FS0213,Caitin's Pub,52.0328232,-10.0778997,"Gleensk, Kells, V23 K023",Kerry,Pub/Bar
+FS0214,Camden Kitchen,53.3342406,-6.2658919,"Camden Market, 3A Grantham St, Saint Kevin's, Dublin, DO8R260",Dublin,Restaurant
+FS0215,Campagne,52.6559079,-7.2464007,"The Arches, 5 Gas House Ln, Highhays, , R95 X092",Kilkenny,Restaurant
+FS0216,Canal Boat Restaurant,53.3331082,-6.2486558,", Dublin, D04 V4H9",Dublin,Restaurant
+FS0217,Captain Americas Blanchardstown ,53.39494,-6.390948,"Unit 410, Blanchardstown Centre, Blanchardstown, Dublin, D15 YF4E",Dublin,Restaurant
+FS0218,Captain Americas Grafton Street,53.3405,-6.260625,"44 Grafton Street, , D02 CA21",Dublin,Restaurant
+FS0219,Captain House Restaurant,53.2749061,-7.4959597,"Townmore House, Main St, Kilcruttin, Tullamore, ",Offaly,Restaurant
+FS0220,Carlingford Arms Bar & Restaurant,54.0404328,-6.1867039,"Newry St, Liberties of Carlingford, Carlingford, ",Louth,"Restaurant, Pub/Bar"
+FS0221,Carrick Cineplex,53.9428697,-8.1044229,"Sligo Road, Cortober, Carrick on Shannon, , N41 E6P7",Roscommon,Cafe
+FS0222,Carrick-On-Shannon Farmer's Market,53.9449452,-8.0960739,"Market Yard Centre, St George's Terrace, Townparks, Carrick-On-Shannon, , ",Leitrim,Restaurant
+FS0223,Carrygerry Country House,52.7168861,-8.9306111,"Carrigerry, Newmarket on Fergus, , V95 FE81",Clare,Restaurant
+FS0224,Casa Clontarf,53.3627511,-6.2183093,"55 Clontarf Rd, Clontarf West, , D03 C2X0",Dublin,Restaurant
+FS0225,Casey's Bar & Restaurant at Brook Lane Hotel,51.8837411,-9.5909672,"Casey's, Killarney Rd, Dromneavane, Kenmare, V93 T289",Kerry,Restaurant
+FS0226,Casey's Of Baltimore,51.4846717,-9.3625067,"Ballylinchy, Baltimore, P81 YW66",Cork,"Restaurant, Pub/Bar"
+FS0227,Cashel Blue Cheese,52.5303192,-7.75426,"Beechmount Farm, Foulkstown, Fethard, ",Tipperary,Restaurant
+FS0228,Casita Mexicana,52.0597951,-9.5084236,"New Market Ln, Killarney, ",Kerry,Restaurant
+FS0229,Cassidys,53.3340228,-6.2648928,"42 Camden Street Lower, Saint Kevin's, Dublin, D02 YP57",Dublin,Pub/Bar
+FS0230,Castle Bar,54.0058284,-6.396543,"11 Seatown, Townparks, Dundalk, A91 YN77",Louth,Pub/Bar
+FS0231,Castle Grove Country House and Restaurant,54.9869594,-7.6481831,"Ramelton Rd, Eighterross, Letterkenny, ",Donegal,Restaurant
+FS0232,Castle Tea Rooms,53.354714,-6.2634725,"1 Frederick St N, Rotunda, , D01 R640",Dublin,"Restaurant, Cafe"
+FS0233,Castlecomer Discovery Park and Visitor Centre,52.80722,-7.202151,"The Estate Yard, Ardra, Castlecomer, R95 HY7X",Kilkenny,Cafe
+FS0234,Castlecoote House and Gardens,53.616453,-8.2911494,", Castlecoote, F42 H288",Roscommon,Cafe
+FS0235,The Castlelough Restaurant at The Lake Hotel,52.0387264,-9.5006378,"Lake Shore, Muckross Rd, Castlelough, Killarney, ",Kerry,Restaurant
+FS0236,"Castles, Colts & Culture",52.5063753,-7.6850719,"Coolmore, Fethard, E91 XK26",Tipperary,"Restaurant, Pub/Bar"
+FS0237,Castletown House,53.349127,-6.53029,"Castletown, Celbridge, ",Kildare,Cafe
+FS0238,Castletown House and Parklands,53.349127,-6.53029,"Castletown, Celbridge, ",Kildare,Cafe
+FS0239,Castletownbere Market,51.6513476751184,-9.90974823066246,", Castletownbere, ",Cork,Restaurant
+FS0240,Cathedral Restaurant,54.004632,-6.3996818,"5 Roden Pl, Townparks, Dundalk, A91 X264",Louth,Restaurant
+FS0241,CaToCa Fine Food and Giftware,53.107397,-7.198147,"Emo Tea Rooms, Emo Court, Emo Park, Emo, ",Laois,Cafe
+FS0242,CaToCa Fine Food at Portumna Castle Tea Rooms,53.0868183,-8.2193138,"Portumna Castle, Castle Demesne, Portumna, ",Galway,"Restaurant, Cafe"
+FS0243,Causkey's Bar,51.6940429,-9.9580667,", Eyeries, ",Cork,Pub/Bar
+FS0244,Cavan County Museum,53.8670732,-7.2010764,"Virginia Rd, Kilmore, Ballyjamesduff, A82 YP70",Cavan,Cafe
+FS0245,Cavan Farmer's Market,53.9897186,-7.3633319,", , ",Cavan,Restaurant
+FS0246,Caviston's,53.2871091,-6.1224008,"56 Glasthule Rd, Sandycove, Glasthule, A96 TH76",Dublin,Restaurant
+FS0247,Cavistons Seafood Restaurant and Food Emporium,53.2871369,-6.1228425,"58/59 Glasthule Rd, Glenageary, Glasthule, A96 FR63",Dublin,Restaurant
+FS0248,Cedars Restaurant at Lough Eske Castle,54.6879443,-8.0663892,"Lougheask Demesne, Lough Eske, , ",Donegal,Restaurant
+FS0249,Cellar Bar,53.3387739,-6.2526225,"Upper Merrion St, , ",Dublin,"Restaurant, Pub/Bar"
+FS0250,Cellar Restaurant at Step House Hotel,52.601216,-6.927276,"Main St, Knocknagundarragh, Borris, ",Carlow,Restaurant
+FS0251,Celtic Nights Dinner & Show,53.3473639,-6.2608556,"23 Bachelors Walk, North City, Dublin, D01 E8P4",Dublin,"Restaurant, Pub/Bar"
+FS0252,Century Complex,54.9440803,-7.736165,"Leckview Lane Pearse Road, Oldtown, Letterkenny, F92 DA02",Donegal,"Restaurant, Cafe"
+FS0253,Chandpur Indian Restaurant,54.6534915,-8.1079851,"Unit 4, Main Street Car Park, ,",Donegal,Restaurant
+FS0254,Chang Thai Restaurant at Treacys Hotel,52.5030556,-6.5652778,"Templeshannon, Enniscorthy, ",Wexford,Restaurant
+FS0255,Fitzgerald's of Sandycove,53.2859438,-6.1185972,"11 Sandycove Road, Sandycove, A96 WE09",Dublin,Pub/Bar
+FS0256,Charlie Farrelly's Bar,53.9768013,-7.6459692,"Clooncorick, , H12 A0K1",Leitrim,Pub/Bar
+FS0257,Charlotte Quay Restaurant,53.3428916,-6.2370214,"Millennium Tower, Ground Floor, Charlotte Quay Dock, Ringsend Rd, Dublin, ",Dublin,"Restaurant, Pub/Bar"
+FS0258,Charm Bee ,52.6246315,-9.2460269,"Bóthar Chill Rois, Cloonkerry West, Labasheeda, V15 W201",Clare,Cafe
+FS0259,Checkers Restaurant at Randles Hotel,52.053937,-9.50645,"Randles Court Hotel, Muckross Road, Killarney, ",Kerry,Restaurant
+FS0260,Chewbrew,53.3411311213986,-6.26572122214475,"77 Aungier Street, Dublin City,",Dublin,Cafe
+FS0261,Chez Christophe,52.2696183,-9.7037723,"11 Courthouse Ln, Ashe St, Tralee, V92 K063",Kerry,Restaurant
+FS0262,Restaurant at the Fitzwilton Hotel,52.2633931,-7.1196923,"Bridge St, , X91 RC9A",Waterford,Restaurant
+FS0263,Chili Club,53.3408739,-6.2596455,"1 Anne's Ln, Dublin, D02 Y052",Dublin,Restaurant
+FS0264,China Garden Restaurant,53.651971,-6.6885093,"58 Brews Hill, Dillonsland, Navan, C15 KT18",Meath,Restaurant
+FS0265,China Sichuan Restaurant,53.278054,-6.21055,"The Forum, Ballymoss Rd, Sandyford Business Park, Sandyford, Dublin, D18 XH28",Dublin,Restaurant
+FS0266,Chocolate Brown - Offaly,53.27574,-7.492367,"Chocolate Brown, William Street, Tullamore, R35 F6C0",Offaly,Cafe
+FS0267,Chocolate Brown - Mullingar,53.526078,-7.337745,"Austin Friars St, Bellview, Mullingar, ",Westmeath,Cafe
+FS0268,Chorus Café,53.3443388,-6.2696503,"7 Fishamble St, Temple Bar, Dublin,",Dublin,Cafe
+FS0269,CHQ Dublin,53.3490142,-6.2480492,"Custom House Quay, Dublin Docklands, Dublin, D01 KF84",Dublin,"Restaurant, Pub/Bar, Cafe"
+FS0270,Christophe's,53.3483356,-6.277164,"Duck Lane, Smithfield, Dublin, ",Dublin,Restaurant
+FS0271,Christy's Lounge and Bar,52.7981689,-6.1532449,"38 Main St, Arklow, Y14 W6P6",Wicklow,Pub/Bar
+FS0272,Ciarán's Bar,52.8452978,-8.9814622,"2 Francis St, Lifford, Ennis, V95 NA7X",Clare,Pub/Bar
+FS0273,The Cinnamon Garden Restaurant,53.512678,-6.398892,"Frederick St, Milltown, Ashbourne, ",Meath,Restaurant
+FS0274,The Comedy Club - City Limits,51.9018756,-8.4708513,"16 Coburg St, Victorian Quarter, , T23 X9AK",Cork,Pub/Bar
+FS0275,CJ's Restaurant at The Landmark Hotel,53.9434489,-8.0932412,"Shannon Lodge, Townparks, Carrick-On-Shannon, , ",Leitrim,Restaurant
+FS0276,Clancys Bar Cork,51.8971065,-8.4730239,"15-16 Princes St, Centre, , T12 V6FH",Cork,"Restaurant, Pub/Bar"
+FS0277,Clancy's Bar & Istabraq Restaurant,52.476859,-8.5478661,"14 Main St, Bruff,",Limerick,"Restaurant, Pub/Bar"
+FS0278,Clare Island Whiskey,53.7614596,-9.9037198,"Capnagower, Westport, ",Mayo,Restaurant
+FS0279,Classic India,54.2702238,-8.4734178,"7-8 Market St, Abbeyquarter North, , F91 WNH7",Sligo,Restaurant
+FS0280,"The Brasserie at The Radisson Blu Hotel & Spa, Sligo",54.2992639,-8.4997729,"Ballincar, Rosses Point, ",Sligo,Restaurant
+FS0281,Cleere's Bar and Theatre,52.65503,-7.255224,"28 Parliament Street, Kilkenny City,",Kilkenny,Pub/Bar
+FS0282,Cleere's Bar & Theatre,52.6550549,-7.2551907,"28 Parliament St, Gardens, , R95 YR61",Kilkenny,Pub/Bar
+FS0283,Cleire Goats,51.4420574,-9.492451,"Unnamed Road, Cape Clear island, , P81 P793",Cork,Restaurant
+FS0284,"Cliffs View Café, Cliffs of Moher",52.9719433,-9.4263309,"Lislorkan North, Liscannor, V95 KN9T",Clare,"Restaurant, Cafe"
+FS0285,Clonakilty Blackpudding Visitor Centre,51.6199697,-8.9046032,"Clonakilty Blackpudding Visitor Centre, Western Road, Clonakilty, P85 V966",Cork,Restaurant
+FS0286,Cluain Restaurant,52.3527696,-7.6987569,"11 Nelson St, Clonmel,",Tipperary,Restaurant
+FS0287,Coach House Coffee,52.2017563,-7.4063066,"The Courtyard, The Workhouse, Union Road, Kilmacthomas, X42 VY33",Waterford,Cafe
+FS0288,Denette Restaurant at Coach House Hotel,54.0888652,-8.513209,"Grattan Street, Rathnakelliga, Ballymote, ",Sligo,Restaurant
+FS0289,Coach Lane Restaurant,54.2717406,-8.4805293,"2 Lord Edward St, Abbeyquarter North, ,",Sligo,"Restaurant, Pub/Bar"
+FS0290,The Coachman's Inn,53.432459,-6.229251,"Cloghran, Airport Road, ",Dublin,"Restaurant, Pub/Bar"
+FS0291,Coast & Co,54.0319204,-6.133232,"Euston St, Greenore, A91 FN22",Louth,"Restaurant, Cafe"
+FS0292,Coast Restaurant at The Grand Hotel,53.4506192,-6.1481615,"1 Grove Rd, Malahide, K36 NC44",Dublin,Restaurant
+FS0293,Coastguard Cultural Centre Tramore,52.156187,-7.1584627,"Doneraile Dr, Tramore West, Tramore, X91 HP63",Waterford,"Restaurant, Cafe"
+FS0294,Cobblestone,53.3498083,-6.2778361,"77 King St N, Smithfield, , D07 TP22",Dublin,Pub/Bar
+FS0295,Coffee Cottage,53.396335,-9.9184918,"1 Quay Court New Pier, Roundstone, Connemara, H91 D9V0",Galway,"Restaurant, Cafe"
+FS0296,Comedy Cellar,53.3431142,-6.2617769,"23 Wicklow St, , D02 VH59",Dublin,Pub/Bar
+FS0297,Community Coffee,53.2952353,-6.2466122,"Dundrum Rd, Dundrum, Dublin, D14 W895",Dublin,Cafe
+FS0298,Con and Maura's Bar Clonakilty,51.623282,-8.888493,"52 McCurtain Hill, Scartagh, Clonakilty, P85 T258",Cork,Pub/Bar
+FS0299,Conall Cearnach Restaurant at the Slieve Russell Hotel,54.0968993,-7.5572701,"Cranaghan, Ballyconnell, H14 FE03",Cavan,Restaurant
+FS0300,Connolly's Pub,54.3110195,-9.8250426,"Carrowteige, , F26 XN62",Mayo,Pub/Bar
+FS0301,Conservatory Bar at The Glenview Hotel,53.1423096,-6.126874,"Glenview Hotel, Glen of the Downs, Bellevue Demesne, Delgany, ",Wicklow,Pub/Bar
+FS0302,Copper and Spice Restaurant,52.6684253,-8.528519,"Above Mill Bar, Rivers, Annacotty, ",Limerick,Restaurant
+FS0303,Copper Spice,53.6525419,-6.6835614,"18 Ludlow St, Dillonsland, Navan, C15 V267",Meath,Restaurant
+FS0304,Coppinger Restaurant ,53.3419795,-6.262093,"1 Coppinger Row, , D02 Y973",Dublin,Restaurant
+FS0305,Coral Leisure Arklow,52.8006591,-6.1445479,"Seaview Ave, Ferrybank, Arklow, Y14 X753",Wicklow,Cafe
+FS0306,Corbett Court,52.203675,-8.26861,"Ballinrush, Fermoy, ",Cork,Restaurant
+FS0307,Corcoran's Pub,52.3990826,-6.9302833,"Irishtown, New Ross, ",Wexford,Pub/Bar
+FS0308,Corkery's Bar,52.0599198,-9.5099325,"65 High Street, Killarney,",Kerry,Pub/Bar
+FS0309,Cornmarket Street Market,51.8997814,-8.4766568,"Cornmarket St, Centre, , ",Cork,Restaurant
+FS0310,Cornstore Limerick,52.6625525,-8.62525,"19 Thomas St, , V94 XR44",Limerick,Restaurant
+FS0311,Cornucopia,53.3431,-6.2614248,"19-20 Wicklow St, , D02 FK27",Dublin,Restaurant
+FS0312,Corrib House Tea Rooms,53.2765537,-9.0548379,"3 Waterside, ,",Galway,Cafe
+FS0313,Cosy Joe's,53.7994881,-9.5220284,"Bridge St, Cahernamart, Westport, ",Mayo,Pub/Bar
+FS0314,Courthouse Restaurant - Monaghan,53.9781104,-6.719359,"1 Monaghan St, Drummond Etra, Carrickmacross, A81 X066",Monaghan,Restaurant
+FS0315,Courtney's Bar,52.0585565,-9.5081496,"24 Plunkett St, Killarney, V93 RR04",Kerry,Pub/Bar
+FS0316,Cove Restaurant,55.1777687,-7.9324184,"Rockhill, Portnablagh, , F92 C970",Donegal,"Restaurant, Pub/Bar"
+FS0317,Cox's Bar and Steak House,53.8575466,-7.9211577,"Harbour Rd, Clooncolry, Drumod, , N41 X893",Leitrim,"Restaurant, Pub/Bar"
+FS0318,Coyne's Bar & Bistro,53.3223322,-9.7370096,"Kilkieran Connemara, Kilkieran, ",Galway,Pub/Bar
+FS0319,Crafternoon Tea,53.17047,-6.5333481,"N81, Blessington Rd, Blessington,",Dublin,Cafe
+FS0320,Craic Den Comedy Club,53.3453788,-6.2663901,"10 Wellington Quay, Temple Bar, , D02 VX36",Dublin,Pub/Bar
+FS0321,Cré na Cille,53.5147271,-8.8537381,"High St, Corralea West, Tuam, ",Galway,Restaurant
+FS0322,Cream Café,52.3372329,-6.4603602,"20 Henrietta St, Ferrybank South, , Y35 A344",Wexford,Cafe
+FS0323,Creamery Café,53.2584504,-9.0792009,"The Promenade, Salthill, H91 T866",Galway,Cafe
+FS0324,Crew Brewing Company,52.6619598,-8.6236997,"35 Thomas St, , V94 A5X4",Limerick,"Restaurant, Pub/Bar"
+FS0325,Cronin's Restaurant,52.0594181,-9.5067047,"College St, Killarney, ",Kerry,Restaurant
+FS0326,Cronin's Sheebeen,53.7940222,-9.5609568,"Rosbeg, Westport, ",Mayo,Restaurant
+FS0327,Crossogue Equestrian Centre,52.6725654,-7.9120035,"Crossogue House, Crossoge, Thurles, ",Tipperary,Restaurant
+FS0328,Crotty’s Bar,52.6381951,-9.4846153,"Market Square, Drimna, Kilrush, ",Clare,Pub/Bar
+FS0329,Curragh Chase Forest Park,52.6180645,-8.8797631,"Toreen, Kilcornan, ",Limerick,Cafe
+FS0330,Da Vinci's Italian Restaurant & Bar,53.3634043,-6.4913853,"95-97 R148, Leixlip,",Kildare,"Restaurant, Pub/Bar"
+FS0331,Daly's Inn,53.6926739,-6.4236563,"Staleen Rd, Cruicerath, , A92 RR71",Meath,"Restaurant, Pub/Bar"
+FS0332,Danny Minnie's Restaurant,55.0213081,-8.3148355,"1 St Mary's View, Annagary, Annagry, F94 X862",Donegal,"Restaurant, Pub/Bar"
+FS0333,Daróg Wine Bar,53.2710732,-9.0568341,"56 Dominick St Lower, Galway city, , H91 K225",Galway,Restaurant
+FS0334,Davy Byrnes,53.3418339,-6.2593664,"21 Duke St, , D02 K380",Dublin,Pub/Bar
+FS0335,Dax Restaurant,53.334811,-6.254518,"Pembroke Street Upper Pembroke Street Upper, Dublin, D02 AK20",Dublin,Restaurant
+FS0336,De Barra's Folk Club,51.6229531,-8.8890145,"55 Pearse St, Scartagh, Clonakilty, P85 RH95",Cork,Pub/Bar
+FS0337,Deer Park Café Bar,53.380601,-6.0784455,"Deer Park Golf Club Howth Castle, Howth, ",Dublin,"Pub/Bar, Cafe"
+FS0338,The Whitehorn at the Rine Hotel,52.7889674,-8.9147565,"Newmarket-On-Fergus, Dromoland, V95 EPF5",Clare,Restaurant
+FS0339,Dela Restaurant,53.2710530071245,-9.05714560555725,"51 Lower Dominic Street, Galway City,",Galway,Restaurant
+FS0340,Delphi Fishery,53.632087,-9.7456373,"Tawnyinlough, Leenaun, , H91 R5Y6",Galway,"Restaurant, Pub/Bar"
+FS0341,Dennehy’s Bar,51.9000999621624,-8.47663360463503,"11 Cornmarket Street, Cork City,",Cork,Pub/Bar
+FS0342,Cois Lacha Restaurant at The Lakeside Hotel,52.811047,-8.444048,"Cullenagh, Killaloe, V94 E2D6",Clare,Restaurant
+FS0343,Devitt's of Camden Street,53.3355369,-6.2654381,"78 Camden Street Lower, Saint Kevin's, Dublin, D02 C642",Dublin,Pub/Bar
+FS0344,Dicey Reilly's Pub,54.5028462,-8.1901326,"Market Street, Townparks, Ballyshannon, F94 FY61",Donegal,Pub/Bar
+FS0345,Dicey's Garden,53.3358582,-6.263556,"21-25 Harcourt St, Saint Kevin's, Dublin, D02 YF24",Dublin,Pub/Bar
+FS0346,Dick Mack's,52.1412347,-10.2706481,"47 Green St, Dingle, V92 FF25",Kerry,Pub/Bar
+FS0347,Dick's Bar,52.5631139,-8.7654374,"Knockanes, Adare, ",Limerick,Pub/Bar
+FS0348,Dillon's Bar and Grill at Dillon's Hotel,54.9506913,-7.7366076,"27 Upper Main St, Letterkenny, F92 E30F",Donegal,"Restaurant, Pub/Bar"
+FS0349,Dining at Hylands Burren Hotel,53.1155986,-9.1491458,"Main Street, Ballyvaughan, H91 EY00",Clare,"Restaurant, Pub/Bar"
+FS0350,Dinis Cottage,52.009697,-9.5484291,"Killarney National Park, Muckross Rd, Dinish Island, Killarney, ",Kerry,Cafe
+FS0351,"Dinos, Kinsale",51.7048587,-8.5218876,"4 Pier Rd, Sleveen, Kinsale,",Cork,Restaurant
+FS0352,disndat pub,53.3437397,-6.2636209,"3 Dame Ct, Dublin, D02 TW84",Dublin,Pub/Bar
+FS0353,DiVino Italian Restaurant Skerries,53.5780482,-6.1069343,"Church St, Townparks, Skerries, ",Dublin,Restaurant
+FS0354,Dodi Café,52.9327209,-9.3460973,"Main St, Dough, Lahinch, ",Clare,Cafe
+FS0355,Doe Castle Coffee,55.1344444,-7.8660101,"Unnamed Road, Castledoe, , ",Donegal,Cafe
+FS0356,Doheny & Nesbitt,53.33805,-6.252831,"5 Baggot Street Lower, Dublin, D02 F866",Dublin,Pub/Bar
+FS0357,Donnelly's of Barna,53.2511683,-9.1518217,"Freeport, Bearna, , H91 TD65",Galway,"Restaurant, Pub/Bar"
+FS0358,Dooley's Seafood & Steakhouse,51.8284545,-10.1743378,"Dooley's Seafood & Steak House Waterfront Bar & Restaurant, Ring of Kerry, Waterville, ",Kerry,"Restaurant, Pub/Bar"
+FS0359,Doyle's Seafood Restaurant,52.1406893,-10.2665604,"4 John St, Dingle, V92 K039",Kerry,Restaurant
+FS0360,Doyles Of College Street,53.3457679,-6.257511,"9 College St, Dublin, D02 WN62",Dublin,Pub/Bar
+FS0361,The Kingfisher Bar & Bistro at Celtic Ross Hotel,51.5756885,-9.029253,"Englishisland, Rosscarbery, ",Cork,Restaurant
+FS0362,Drumcoura City Saloon,54.0275072,-7.752023,"Drumcoura City, Drumcoura, Ballinamore, ",Leitrim,"Restaurant, Pub/Bar"
+FS0363,Dry Dock Bar at the Ferrycarrig Hotel,52.354155,-6.505917,"Ferrycarrig Hotel, Ferrycarrig, ",Wexford,Restaurant
+FS0364,Duffy's Pub Malahide,53.4507179,-6.1544733,"Main St, Malahide, ",Dublin,Pub/Bar
+FS0365,Dún na Sí Amenity & Heritage Park,53.4002064,-7.7376366,"Lake Road, Aghanargit, Moate, N37 P271",Westmeath,Cafe
+FS0366,Dunbrody Abbey and Visitor Centre,52.282115,-6.95523,"Dunbrody, Campile, ",Wexford,Cafe
+FS0367,Dunbrody Famine Ship Experience and Restaurant,52.3938096,-6.9478547,", New Ross, ",Wexford,Restaurant
+FS0368,Dunfanaghy Country Market,55.1835021,-7.9720126,"Market Square, Main St, Dunfanaghy, ",Donegal,Restaurant
+FS0369,Dunne & Crescenzi,53.3422242,-6.2566065,"14-16 Frederick St S, , D02 RK68",Dublin,Restaurant
+FS0370,Durty Nelly's,52.6963739,-8.8116933,"Bunratty West, Bunratty, ",Clare,"Restaurant, Pub/Bar"
+FS0371,E J Kings,53.4883843,-10.02283,"Market Square, Clifden, H71 XV21",Galway,"Restaurant, Pub/Bar"
+FS0372,Eala Bhán Restaurant,54.271207,-8.47283,"5 Rockwood Parade, Abbeyquarter South, , F91 YX52",Sligo,Restaurant
+FS0373,"Earl of Desmond Hotel, Bar & Restaurant",52.2556106,-9.636088,"Ballyseedy, Tralee, V92 FC79",Kerry,Restaurant
+FS0374,East Restaurant at The Spencer Hotel,53.3480107,-6.2433997,"Excise Walk, International Financial Services Centre, Dublin, D01 X4C9",Dublin,Restaurant
+FS0375,East Village,51.877749,-8.434174,"East Village, Douglas, ",Cork,"Restaurant, Pub/Bar"
+FS0376,Eatokyo Japanese Noodle & Sushi Bar Temple Bar,53.3460087,-6.2626034,"51 Wellington Quay, Temple Bar, Dublin, D02 NH04",Dublin,Restaurant
+FS0377,Eclipse Cinemas Bundoran,54.4778999,-8.2741632,"Station Rd, Drumacrin, Bundoran, F94 C973",Donegal,Cafe
+FS0378,Eclipse Cinemas Lifford-Strabane,54.8339429,-7.4769527,"Three Rivers Centre, Station Rd, Lifford, F93 NX99",Donegal,Cafe
+FS0379,Eco Douglas,51.8771079,-8.4359587,"1/2 Eastville, Douglas East, , T12 R288",Cork,Restaurant
+FS0380,Eco Pizzeria and Restaurant,52.6751984,-6.2967511,"50 S Main St, Gorey corporation lands, Gorey, Y25 A299",Wexford,Restaurant
+FS0381,Eddie Rockets City Diner,53.3412331,-6.2596627,"7 Anne St S, Centre, , D02 W020",Dublin,Restaurant
+FS0382,P. Egan's Bar,53.3959283,-7.7217311,"Main St, Cartronkeel, Moate, N37 R6TO",Westmeath,Pub/Bar
+FS0383,Elephant & Castle Brittas Bay,52.90435,-6.04796,"McDaniel's, Ballynacarrig, , A67 DX70",Wicklow,Restaurant
+FS0384,Elephant & Castle Churchtown,53.2950629,-6.2590358,"Unit 3, 96/98 Churchtown Rd Upper, Churchtown Upper, , D14 F8X2",Dublin,Restaurant
+FS0385,Elephant & Castle Rathmines,53.3226118,-6.2653652,"272 Rathmines Rd Lower, Rathmines, Dublin, D06 YY51",Dublin,Restaurant
+FS0386,Elephant & Castle The Mayson,53.3473633,-6.2324654,"82 N Wall Quay, North Wall, Dublin, D01 XR83",Dublin,Restaurant
+FS0387,Elephant & Castle Temple Bar,53.3457098,-6.2623998,"18-19 Temple Bar, Dublin,",Dublin,Restaurant
+FS0388,Elephant & Castle Beacon,53.2780006,-6.2154177,"Unit D4 Beacon South Quarter, Sandyford, Dublin,",Dublin,Restaurant
+FS0389,Elephant & Castle Galway,53.2770763,-9.0467544,"80 Prospect Hill, Centre, , H91 T9C4",Galway,"Restaurant, Pub/Bar"
+FS0390,Elephant & Castle Lucan,53.3585282,-6.4199984,"The Foxhunter, Ballydowd, Lucan, ",Dublin,Restaurant
+FS0391,Emma Jane's Coffee Hut,53.1570592,-8.8088422,"Emma Jane's Coffee Hut, Ardrahan North, Ardrahan, ",Galway,"Restaurant, Cafe"
+FS0392,The Stables Birr,53.0981574,-7.9129969,"6 Oxmantown Mall, Townparks, Birr, R42 TD21",Offaly,"Restaurant, Cafe"
+FS0393,English Market,51.898,-8.474,"English Market, Centre, Cork City, ",Cork,Restaurant
+FS0394,Ennis Whiskey Experience,52.8373643,-8.9763513,"Ennis Whiskey Experience, Tracklands Business Park, Tobarteascáin, Ennis, V95 DD73",Clare,"Restaurant, Pub/Bar"
+FS0395,The Enterprise Bar,52.0896086,-7.6214634,"26 Grattan Square, Dungarvan, X35 E512",Waterford,Pub/Bar
+FS0396,EPIC The Irish Emigration Museum,53.3483124,-6.2481792,"The Chq Building, Custom House Quay, North Wall, Dublin, ",Dublin,Cafe
+FS0397,Espresso Waterford,52.257431,-7.111104,"4 Parnell St, ,",Waterford,Restaurant
+FS0398,Everett’s Restaurant,52.26044,-7.1083169,"22 High St, , X91 Y983",Waterford,Restaurant
+FS0399,Experience Irish Whiskey,53.3396583,-6.2656855,"58 York St, , D02 RW67",Dublin,"Restaurant, Pub/Bar"
+FS0400,F.X. Buckley Crow Street,53.3446014,-6.2638828,"2 Crow St, Temple Bar, Dublin, D02 N228",Dublin,Restaurant
+FS0401,Fabio's Homemade Italian Ice Cream,54.2720352,-8.4758401,"Lower Knox St, Knappagh Beg, , F91 V838",Sligo,Restaurant
+FS0402,Fade Street Social,53.3418518,-6.2639381,"6 Fade St, Dublin, D02 NF77",Dublin,"Restaurant, Pub/Bar"
+FS0403,Fagan's,53.3674889,-6.2559915,"146 Drumcondra Rd Lower, Drumcondra, Dublin, D09 YR83",Dublin,Pub/Bar
+FS0404,Fahrenheit Restaurant at the Clontarf Castle Hotel,53.364764,-6.2070192,"Clontarf Castle, Castle Ave, Clontarf East, Dublin, D03 W5N0",Dublin,Restaurant
+FS0405,Fairyhouse Racecourse,53.4842453,-6.467504,"Fairyhouse Rd, Ballybin, Ratoath, A85 XK30",Meath,Restaurant
+FS0406,The Dining Room at Fallon & Byrne,53.343151,-6.263287,"11-17, Exchequer St, , D02 RY63",Dublin,Restaurant
+FS0407,Fallon's Bar & Restaurant,53.1315918,-6.7419057,"Main St, Kilcullenbridge, Kilcullen, R56 W597",Kildare,"Restaurant, Pub/Bar"
+FS0408,Fanny O'Dea's,52.7392061,-9.1729932,"Lissycasey, Co. Clare, Gortygeeheen, Liscasey, Ennis, V95 DX08 GPS 52.738998 - 9",Clare,Pub/Bar
+FS0409,Fara's Restaurant at the Villa Rose Hotel,54.8002558,-7.7813545,"Main St, Ballybofey, F93 C2CF",Donegal,Restaurant
+FS0410,Farmgate,51.8976655,-8.4742975,"The English Market, Princes St, Centre, , T12 NC8Y",Cork,"Restaurant, Cafe"
+FS0411,Farren's Bar,55.3685759,-7.3369785,"Slievebawn, Malin Head, F93 FX56",Donegal,Pub/Bar
+FS0412,Fawn Restaurant at The Chancery Hotel,53.3416547,-6.267866,"21 Ship Street Great, Dublin Castle, Dublin, D08 AFY9",Dublin,Restaurant
+FS0413,Fenagh Visitor Centre,54.0207216,-7.8391667,"Fenagh, Commons, Ballinamore, ",Leitrim,Cafe
+FS0414,Fenton's Restaurant,52.1400225,-10.2716611,", Dingle, V92 YA72",Kerry,Restaurant
+FS0415,Fertha Bar and Restaurant,51.9461817,-10.2257496,"20 Main St, Cahersiveen,",Kerry,"Restaurant, Pub/Bar"
+FS0416,Fiacri Country House Restaurant,52.8867191,-7.7394484,"Boolereagh Knock, Boolareagh, Roscrea, ",Tipperary,Restaurant
+FS0417,Fibber Magees,53.3529458,-6.2603666,"80-81 Parnell St, Rotunda, Dublin, D01 CK74",Dublin,Pub/Bar
+FS0418,Fiddlers Creek Bar & Restaurant,54.271301,-8.4734773,"Rockwood Parade, Abbeyquarter North, , ",Sligo,"Restaurant, Pub/Bar"
+FS0419,Field Kitchen,51.5702193,-8.9311107,"Field Kitchen Camus Farm, Camus, Clonakilty, P85 PX57",Cork,Restaurant
+FS0420,Pizza Pop Up at Fifty4 Skerries,53.5777221,-6.1056043,"54 Strand St, Townparks, Skerries, K34 KH98",Dublin,Restaurant
+FS0421,Fig & Olive Café,51.6238263,-8.8816574,"Scartagh, Clonakilty, ",Cork,"Restaurant, Cafe"
+FS0422,The Patriot's Inn,53.3417224,-6.3075761,"760 S Circular Rd, Kilmainham, D08 HV0A",Dublin,"Restaurant, Pub/Bar"
+FS0423,MJ Finnegans Restaurant & Bar ,52.6723609,-8.5180526,"Dublin Rd, Carrowkeel, Castletroy, ",Limerick,"Restaurant, Pub/Bar"
+FS0424,FIRE Steakhouse & Bar,53.3405397,-6.2579222,"The Mansion House, Dawson St, Dublin, ",Dublin,"Restaurant, Pub/Bar"
+FS0425,Fisher Street Restaurant at the Actons Hotel Kinsale,51.703141,-8.5206858,"Pier Rd, Scilly, Kinsale, ",Cork,Restaurant
+FS0426,Fisherman’s Bar & Sea Food Restaurant,51.8855205,-10.366579,"2 Harbour View, Doory, Portmagee, V23 Y439",Kerry,"Restaurant, Pub/Bar"
+FS0427,Fishy Fishy Restaurant,51.7040079,-8.5214737,", Kinsale, ",Cork,Restaurant
+FS0428,Fitzgerald's Bar,53.3466745,-6.2596306,"22 Aston Quay, Temple Bar, Dublin, D02 FH28",Dublin,Pub/Bar
+FS0429,Fitzpatrick's Bar & Lounge,52.9806653,-6.044193,"Abbey St, , ",Wicklow,Pub/Bar
+FS0430,Fitzpatrick's Bar & Restaurant,54.0087018,-6.2937704,"Rockmarshall, Jenkinstown, ",Louth,"Restaurant, Pub/Bar"
+FS0431,Fitzsimons Temple Bar,53.3454721,-6.265026,"21/22 Wellington Quay, Temple Bar, ,",Dublin,Pub/Bar
+FS0432,Flanagans Bar & Restaurant,53.3503301,-6.2609278,"61 O'Connell Street Upper, North City, Dublin, D01 Y274",Dublin,"Restaurant, Pub/Bar"
+FS0433,Flannery's Bistro,53.6199844,-9.2213471,"Cornmarket, Knockfereen, Ballinrobe, ",Mayo,Restaurant
+FS0434,Flight Club Dublin,53.3404339,-6.2586882,"35-36 Dawson St, Dublin, D02 CR29",Dublin,"Restaurant, Pub/Bar"
+FS0435,Foley's Seafood and Steak Restaurant,52.0606791,-9.5099051,"22-24, High Street, Killarney, V93 X721",Kerry,Restaurant
+FS0436,Foley's Bar,53.3383196,-6.2537644,"1 Merrion Row, Dublin, D02 HY07",Dublin,"Restaurant, Pub/Bar"
+FS0437,Food 4 Thought,53.272973,-9.0516622,"Unit 4, Abbeygate Street Lower, ,",Galway,Cafe
+FS0438,Food at Fishers Café,53.0933421,-6.111471,"Fishers, The Old Schoolhouse, Kilmacullagh, Newtownmountkennedy, , ",Wicklow,"Restaurant, Cafe"
+FS0439,Taste Waterford,52.0892176244674,-7.61951568834309,"Waterford County Festival of Food, The Courthouse, Dungarvan, ",Waterford,Restaurant
+FS0440,Foodworks,52.6538112,-7.254282,"7 Parliament St, Gardens, , R95 X577",Kilkenny,"Restaurant, Cafe"
+FS0441,Fore Abbey Coffee Shop,53.6810088,-7.2274926,"Fore, Castlepollard, N91 TN92",Westmeath,Cafe
+FS0442,Fowlers Malahide,53.451127,-6.1538457,"12 New St, Malahide,",Dublin,"Restaurant, Pub/Bar"
+FS0443,Foxford Café,53.9821418,-9.1145749,"Foxford Woollen Mills, Foxford, F26 H9E4",Mayo,"Restaurant, Cafe"
+FS0444,Franciscan Well Brewery and Brew Pub,51.9011277,-8.4818692,"14B N Mall, Sunday's Well, , T23 RHW2",Cork,"Restaurant, Pub/Bar"
+FS0445,Franzinis,53.55547,-6.7904598,"5 Frenchs Ln, Trim, C15 NH34",Meath,Restaurant
+FS0446,Fraynes Home Bakery & Coffee Shop,53.5251923,-7.3414056,"7 Mount St, Commons, Mullingar, N91 RF6V",Westmeath,Cafe
+FS0447,Freddys Restaurant,52.6610136,-8.6306486,"Theatre Ln, Lower Glentworth St, Limerick City, V94 T3K1",Limerick,Restaurant
+FS0448,Friel's Pub,52.8545145303559,-9.40124529259037,"The Square, Miltown Malbay, , ",Clare,Pub/Bar
+FS0449,Front Door & Sonnys Bar and Restaurant,53.2716679,-9.0540869,", Galway City, H91 YY06",Galway,Pub/Bar
+FS0450,Furey's Bar & Restaurant,53.429487,-6.916225,", Moyvalley, ",Kildare,"Restaurant, Pub/Bar"
+FS0451,Ryan's Victorian Pub & F.X. Buckley Steakhouse,53.3481667,-6.2935959,"28 Parkgate St, Stoneybatter, Dublin, D08 CH93",Dublin,"Restaurant, Pub/Bar"
+FS0452,F.X. Buckley Monkstown ,53.2940645,-6.1534442,"3A Monkstown Cres, Monkstown, A94 VE42",Dublin,"Restaurant, Pub/Bar"
+FS0453,F.X. Buckley Pembroke Street,53.3372824,-6.2518492,"1A Pembroke Street Lower, Dublin,",Dublin,Restaurant
+FS0454,Gallery Café Gort ,53.0672575,-8.8198276,"Gallery Cafe, Market Square, Gort, ",Galway,Restaurant
+FS0455,Gally's Bar & Restaurant,52.2579886,-9.6895578,"Castlemaine Rd, Ballymullen, Tralee, V92 DF38",Kerry,"Restaurant, Pub/Bar"
+FS0456,Galway Bakery Company Restaurant and Coffee Shop,53.2740779,-9.050859,"7 Williamsgate St, , H91 W6W7",Galway,"Restaurant, Cafe"
+FS0457,Galway Cakery Café,53.3384418,-9.1796865,"17, Cearnóg Nua, Killarainy, Moycullen, H91 KP49",Galway,"Restaurant, Cafe"
+FS0458,Garavan’s Bar,53.2733225,-9.051983,"46 William St, , H91 RX54",Galway,Pub/Bar
+FS0459,13 On The Green,53.2743153,-9.0477452,"13 Eyre Square, Galway City,",Galway,"Restaurant, Pub/Bar"
+FS0460,Gearoidin's Restaurant,51.6231935,-8.8897492,"18 Pearse St, Scartagh, Clonakilty, P85 K504",Cork,Restaurant
+FS0461,Geary's Bar,52.354442,-8.6833289,"76 Main St, Rathgoggan Middle, Charleville, P56 YY95",Cork,"Restaurant, Pub/Bar"
+FS0462,Geoff's Café Bar,52.2580795,-7.1119571,"9 John St, , X91 WP98",Waterford,Pub/Bar
+FS0463,Germaine's of Baltinglass,52.9414352,-6.7072817,"Inisfáil, Main St, Baltinglass East, Baltinglass, ",Wicklow,Pub/Bar
+FS0464,Gertie Browne's Bar & Bistro,53.423618,-7.940225,"Custume Place, Athlone, ",Westmeath,"Restaurant, Pub/Bar"
+FS0465,"Gilbert & Wright, Malahide",53.4517004,-6.1535605,"1 Ross Lane, Malahide,",Dublin,"Restaurant, Pub/Bar"
+FS0466,Gilroy's Bar,54.2128762,-9.0933196,"4 Main St, Carrowhubbuck South, Enniscrone, F26 D596",Sligo,Pub/Bar
+FS0467,Giltraps,53.098089,-7.722301,"The Walk, Kinnitty, ",Offaly,Pub/Bar
+FS0468,Gino's Gelato Grafton Street,53.3410609,-6.2603803,"34B Grafton Street, Dublin, D02 Y527",Dublin,Cafe
+FS0469,Gino's Gelato Blanchardstown Shopping Centre,53.3922,-6.3936673,"1st Floor, Blanchardstown Shopping Centre, Blanchardstown, Dublin,",Dublin,"Restaurant, Cafe"
+FS0470,Glencar teaSHED,54.3391719,-8.3696709,"Largandoon, Glencar, F91 PY6A",Leitrim,Cafe
+FS0471,Glenveagh National Park and Castle,55.0575877,-7.9376869,", Letterkenny, ",Donegal,"Restaurant, Cafe"
+FS0472,Glynsk House,53.3710368,-9.8214996,"Glynsk, Cashel, Connemara, H91 DF80",Galway,"Restaurant, Pub/Bar"
+FS0473,Gourmet Parlour,54.2723001,-8.4715781,"Bridge St, Abbeyquarter North, , ",Sligo,Cafe
+FS0474,Gourmet Parlour Coffee Shop -  Collooney,54.1829719,-8.4843626,"1 Union Rd, Rathrippin, Collooney, F91 CKF8",Sligo,Cafe
+FS0475,Gourmet Tart Company,53.2603335,-9.0754738,"Jameson Court, opposite, Salthill, ",Galway,"Restaurant, Cafe"
+FS0476,Govinda's Restaurant,53.3484115,-6.2608803,"83 Middle Abbey St, North City, Dublin, D01 EV91",Dublin,Restaurant
+FS0477,Gran Grans Foods,53.2114783,-8.8706527,"An post building, Main Street, Killeely More, Kilcolgan, H91 Y4C6",Galway,"Restaurant, Cafe"
+FS0478,Grangecon Café and Foodstore,53.1701646394835,-6.53273403233357,"Kilbride Road, Blessington, ",Wicklow,Cafe
+FS0479,Granvilles Bar & Grill,51.9050082,-8.9607645,"Castle St, Maghereen, Macroom, ",Cork,"Restaurant, Pub/Bar"
+FS0480,Green Acres Restaurant and Gallery,52.3413346,-6.4639912,"2 Lower george's St, Selskar St, Ferrybank South, , Y35 RW7C",Wexford,"Restaurant, Cafe"
+FS0481,Green’s Berry Farm Market,52.7107644,-6.2588352,"Tinnock House, Ballydermot, Gorey, Y25 AW68",Wexford,Restaurant
+FS0482,Greenes Restaurant at Hotel Isaacs Cork,51.9015948,-8.4681003,"48 MacCurtain Street, Victorian Quarter, , T23 F6EK",Cork,Restaurant
+FS0483,Greens & Co.,53.2703769,-9.0589762,"4 Henry St, , H91 E205",Galway,Restaurant
+FS0484,Greenway Lane art studio-café,53.9049625,-9.6138615,"Greenway Lane Art Studio, Newport, F28 WY97",Mayo,Cafe
+FS0485,Grogan's Castle Lounge,53.3422396,-6.2626181,"15 William St S, Dublin, D02 H336",Dublin,Pub/Bar
+FS0486,Ground & Co.,53.2598955,-9.0743756,"Aquarium Building, Salthill, ",Galway,"Restaurant, Cafe"
+FS0487,Grow HQ,52.2463536,-7.0797693,"Farronshoneen, Dunmore Road, , ",Waterford,Cafe
+FS0488,Guinea Pig,53.276462,-6.103362,"The Fish Restaurant, 17 Railway Road, Dalkey,",Dublin,Restaurant
+FS0489,Guinness Storehouse,53.341978,-6.2867111,"St. James's Gate, Saint Catherine's, Dublin, D08 VF8H",Dublin,"Restaurant, Pub/Bar"
+FS0490,Guiry's Bar,53.9810385,-9.1144889,"Guirys Bar, Main Street, Foxford, ",Mayo,Pub/Bar
+FS0491,The Gulfstream Restaurant at the Inchydoney Island Lodge & Spa,51.5973713,-8.8622848,"Inchydoney Island, , P85 X258",Cork,Restaurant
+FS0492,Gus O' Connors Pub,53.0124359,-9.3864399,"Fisher St, Ballyvara, Doolin, V95 FY67",Clare,Pub/Bar
+FS0493,Guy's,53.2960314,-6.1470034,"West Pier, , Dun Laoghaire, , ",Dublin,Cafe
+FS0494,Guys Bar Clifden,53.488523,-10.022241,"Main St, Clifden, H71 Y277",Galway,"Restaurant, Pub/Bar"
+FS0495,Ha'Penny Bridge Inn,53.345871,-6.263344,"42 Wellington Quay, Dublin City Centre,",Dublin,Pub/Bar
+FS0496,Hamlets Street Food & Gastro Garden Kinsale,51.706736,-8.5229089,"Sleveen, Kinsale, P17 R722",Cork,"Restaurant, Pub/Bar"
+FS0497,Hamptons Bar & Grill,52.6633338,-8.6289596,"Henry St, , V94 TC65",Limerick,Restaurant
+FS0498,Hanged Man's Pub & Restaurant,53.2035917,-6.8647547,"Hanged Man's, Milltown, ",Kildare,Pub/Bar
+FS0499,Hannigan's Bar & Restaurant at the International Hotel,52.0579526,-9.5073547,"Kenmare Pl, Killarney, V93 PXK3",Kerry,"Restaurant, Pub/Bar"
+FS0500,Hanora D' Restaurant at Lucan Spa Hotel,53.3555197,-6.4638022,"Junction 4A N4 Westbound, Cooldrinagh, Lucan, K78 X3H3",Dublin,Restaurant
+FS0501,Hanora's Cottage,52.277282,-7.634253,"Nire Valley, Tooreen West, Ballymacarbry, , ",Waterford,Restaurant
+FS0502,Happy Out Café,53.3550407,-6.17029,"Clontarf East, Dublin City, D03 C5R3",Dublin,Cafe
+FS0503,Harbourmaster Pub & Restaurant,53.349766,-6.24911,"Old Dock Offices, Customs House Dock, , ",Dublin,"Restaurant, Pub/Bar"
+FS0504,Hard Rock Café,53.3458781,-6.2608664,"12 Fleet St, Temple Bar, , D02 NW56",Dublin,"Restaurant, Pub/Bar, Cafe"
+FS0505,Hargadon Bros,54.270693,-8.4752678,"O'Connell St, Abbeyquarter North, , ",Sligo,"Restaurant, Pub/Bar"
+FS0506,Harnan's Bar,53.4879333,-6.804627,"Rathmolyon, Enfield, ",Meath,Pub/Bar
+FS0507,Harrigan’s Bar & Restaurant,53.182312,-6.7949414,"Lower Main St, Piercetown, Newbridge, W12 X2R9",Kildare,"Restaurant, Pub/Bar"
+FS0508,Harrison's Bar & Restaurant,54.4313011,-8.4512262,"Cliffony, Cartronkillerdoo, Cliffony, ",Sligo,"Restaurant, Pub/Bar"
+FS0509,Harry's Bar & Gastro Pub,54.3056585,-8.5568389,"Rosses Upper, Rosses Point, ",Sligo,"Restaurant, Pub/Bar"
+FS0510,Hartley's Restaurant,53.2947903,-6.1337694,"1Harbour Road, Dún Laoghaire,",Dublin,Restaurant
+FS0511,The Restaurant at Harvey's Point,54.69586,-8.053665,"Lough Eske, Tawnyvorgal, Donegal Town, F94 E771",Donegal,Restaurant
+FS0512,Hatters’ Lane Bistro,53.4234548,-7.940124,"2 Strand St, Loughanaskin, Athlone, N37 K7K8",Westmeath,Restaurant
+FS0513,The Haven Restaurant at the Downings Bay Hotel,55.1946226,-7.8353503,"Crocknamurleog, Downings, F92 H7WK",Donegal,Restaurant
+FS0514,Hawksmoor Dublin,53.3441649,-6.2600986,"34 College Green, Dublin, D02 C850",Dublin,"Restaurant, Pub/Bar"
+FS0515,Hazel Mountain Chocolate,53.1262455,-9.0481067,"Oughtmama, , H91 VCF1",Clare,"Restaurant, Cafe"
+FS0516,Hennessy's Pub,53.271418,-7.827723,"Main St, Ferbane, ",Offaly,Pub/Bar
+FS0517,Henry's Bistro & Wine Bar,52.8419791,-8.9853162,"Market Street, Clonroad Beg, Ennis, ",Clare,"Restaurant, Pub/Bar"
+FS0518,Henrys Bar & Restaurant,54.3601406,-8.5225941,"Old Bundoran Rd, Cashelgarran, , ",Sligo,"Restaurant, Pub/Bar"
+FS0519,Heron Gallery Café and Gardens,51.602583,-9.629106,"Rossnacaheragh, Ahakista, ",Cork,Cafe
+FS0520,High Café,53.2716826,-9.0536747,"2 High St, Galway City, H91 KWH2",Galway,"Restaurant, Cafe"
+FS0521,Hiney's of Crossmolina,54.1004455,-9.3200199,"Main St, Crossmolina, F26 X9H6",Mayo,"Restaurant, Pub/Bar"
+FS0522,Hogan's Bar,53.3419903,-6.2645631,"South Great George's Street, Dublin, D02 T328",Dublin,Pub/Bar
+FS0523,Hogs & Heifers,53.445757,-6.2239252,"Airside Retail Park, Swords, ",Dublin,Restaurant
+FS0524,Hogs & Heifers - Liffey Valley,53.3524258,-6.3942605,"Liffey Valley Shopping Centre, Fonthill Rd, Irishtown, D22 Y623",Dublin,"Restaurant, Pub/Bar"
+FS0525,Homestead Cottage Doolin,52.9927143,-9.4029982,"R 478, Luogh North, Doolin, V95 KH30",Clare,Restaurant
+FS0526,Hook & Ladder Café Waterford,52.2489215,-7.1183101,"2, Westgate Retail Park, Tramore Rd, , X91 KH52",Waterford,Cafe
+FS0527,Hook & Ladder: Sarsfield Street Café Limerick City,52.6642547,-8.628073,"7 Sarsfield St, Prior's-Land, , V94 TN88",Limerick,Cafe
+FS0528,Hook Lighthouse & Visitor Centre,52.1237453,-6.9293683,"Hook Head, Churchtown, ",Wexford,Cafe
+FS0529,Hooked Sligo,54.2714058,-8.4743589,"Rockwood Parade, Abbeyquarter North, , ",Sligo,Restaurant
+FS0530,Horan's Bar & Restaurant,52.9409362,-6.7081348,"Main St, Baltinglass East, Baltinglass, W91 X3YF",Wicklow,"Restaurant, Pub/Bar"
+FS0531,Murphy's Bar & Bistro at The Horse & Hound Hotel,52.369193,-6.836414,"Ballynabola, Foulksmills, , ",Wexford,"Restaurant, Pub/Bar"
+FS0532,Horseshoe Bar & Restaurant,52.4462667,-9.4860722,"14 Lower William St, Listowel,",Kerry,"Restaurant, Pub/Bar"
+FS0533,House Of Plates ,53.8576281,-9.3015884,"Upper Chapel St, Garryduff, Castlebar, ",Mayo,Restaurant
+FS0534,HOUSE Wine Bar & Tap Room,54.9486973,-7.737879,"21 Lower Main St, Letterkenny, F92 NW56",Donegal,Pub/Bar
+FS0535,Hugo's Restaurant at Druids Glen Hotel,53.0916636,-6.0788519,"Leabeg Upper, Newtown Mount Kennedy, A63 DW08",Wicklow,Restaurant
+FS0536,Hurley's Bar,51.6664626,-8.5958731,"6 10 Main St, Ballinspittle, P17 NY44",Cork,Pub/Bar
+FS0537,Il Corvo,53.3719910050559,-6.2526796355819,"98-100 Upper Drumcondra Road, Drumcondra,",Dublin,Restaurant
+FS0538,il Pomo D'oro,52.2677246,-9.7096715,"2a Prince's St, Tralee, V92 FY93",Kerry,Restaurant
+FS0539,Connie Foxes Bar & Steakhouse at The Imperial Hotel,52.2684638,-9.7051191,"27 Denny St, Tralee,",Kerry,Restaurant
+FS0540,In Stitches Comedy Club,53.3442868,-6.2653646,"PEADAR KEARNEY'S PUB, 64 Dame Street, Dublin, D02 RT72",Dublin,Pub/Bar
+FS0541,IndoChine,53.3305508,-6.2516068,"133 Leeson Street Upper, Dublin, D04 HX48",Dublin,Restaurant
+FS0542,Gleneagle Conferences and Events,52.0447376,-9.5024537,"Killarney Convention Centre, Muckross Road, Poulnamuck, Killarney, ",Kerry,"Restaurant, Pub/Bar"
+FS0543,Irish Film Institute Café Bar,53.3446347,-6.2649033,"6 Eustace St, Temple Bar, Dublin, D02 PD85",Dublin,Cafe
+FS0544,Isaac's Restaurant,51.9015641,-8.4680757,"48 MacCurtain Street, Victorian Quarter, , T23 F6EK",Cork,Restaurant
+FS0545,Island Cottage,51.4974262,-9.4300323,"Inishodriscol, Hare Island East, , P81 HY52",Cork,Restaurant
+FS0546,Italian Connection,52.6546844,-7.2545819,"38 Parliament St, Gardens, , R95 Y966",Kilkenny,Restaurant
+FS0547,itsa,53.3481539,-6.2626767,"1 Middle Abbey St, North City, Dublin, D01 C3Y9",Dublin,Cafe
+FS0548,Jack Meade's Bar & Beer Garden,52.2359513,-7.0339973,", Cheekpoint, X91 NY64",Waterford,"Restaurant, Pub/Bar"
+FS0549,Jack Nealon's Pub,53.3464344,-6.2681159,"165-166 Capel St, North City, , D01 XD72",Dublin,Pub/Bar
+FS0550,Jack O'Rourke's,53.3015444,-6.1778147,"15 Main St, Blackrock, A94 HN66",Dublin,"Restaurant, Pub/Bar"
+FS0551,Jack's Coastguard Restaurant,52.1117865,-9.9024404,"Cromane Lower, Cromane, V93 Y42F",Kerry,Restaurant
+FS0552,Jackson's Restaurant,53.6310768,-8.1898679,"Harrison Centre, The Square, Cloonbrackna, , F42 H968",Roscommon,Restaurant
+FS0553,Jacob's Ladder Restaurant at the WatersEdge Hotel,51.849027,-8.297908,"WatersEdge Hotel, Cobh, ",Cork,Restaurant
+FS0554,Jacobs on the Mall,51.8963236,-8.4721095,"30 S Mall, Centre, , T12 NY22",Cork,Restaurant
+FS0555,Jacobs Well,52.9325828,-6.2307476,"Main St, Rathdrum, ",Wicklow,"Restaurant, Pub/Bar"
+FS0556,Jacques Restaurant,51.898079,-8.469813,"23 Oliver Plunkett St, Centre, , T12 A5D7",Cork,Restaurant
+FS0557,Jade Garden Restaurant,54.0024189,-6.4038145,"24 Park St, Townparks, Dundalk, A91 EW70",Louth,Restaurant
+FS0558,Jaipur Dalkey,53.277496,-6.104259,"21 Castle Street, Dalkey,",Dublin,Restaurant
+FS0559,Jaipur Malahide,53.4514512524202,-6.15179475826642,"5 Saint James Terrace, Malahide,",Dublin,Restaurant
+FS0560,Jake's Bar at Lynhams Hotel,53.008191,-6.2973239,"Ballard, Laragh, , ",Wicklow,Pub/Bar
+FS0561,James Joyce Restaurant at the Greville Arms,53.5258333,-7.3408333,"Pearse St, Commons, Mullingar, ",Westmeath,Restaurant
+FS0562,Jasmine Palace Restaurant,52.661925,-8.628462,"38 O'Connell St, Prior's-Land, , V94 N8CC",Limerick,Restaurant
+FS0563,Jay Kays Café,53.3471045,-6.2652304,"Millennium Walkway, Middle Abbey St, North City, Dublin, D01 RP40",Dublin,Cafe
+FS0564,J.C.Doorly's - The Corner House,53.6319541,-8.1903174,"Castle St, Cloonbrackna, , F42 C954",Roscommon,Pub/Bar
+FS0565,JC's Bar at the Downings Bay Hotel,55.1946226,-7.8353503,"Crocknamurleog, Downings, F92 H7WK",Donegal,"Restaurant, Pub/Bar"
+FS0566,Jimmy Brien's Bar,52.0600185,-9.5056458,"Fair Hill Cottages, Fair Hill, killarney, Killarney, ",Kerry,Pub/Bar
+FS0567,Jimmyz Bar,52.6390201,-6.2356488,"2 Main St, Seamount, Riverchapel, , Y25 E863",Wexford,"Restaurant, Pub/Bar"
+FS0568,"JJ Killeen's Bar, Restaurant and Live Music Venue",53.2797594,-8.0448954,"Main St, Raghra, Shannonbridge, N37 K7T8",Offaly,"Restaurant, Pub/Bar"
+FS0569,JJ O'Malley's Bar and Restaurant,53.7986111,-9.5227778,"Bridge St, Cahernamart, Westport, ",Mayo,"Restaurant, Pub/Bar"
+FS0570,Joel's Restaurant at the Louis Fitzgerald Hotel,53.3147861,-6.3843994,"Naas Rd, Newlands Cross, Dublin City, ",Dublin,Restaurant
+FS0571,John Benny's Pub,52.1393711,-10.2744605,"Strand St, Dingle, V92 N207",Kerry,Pub/Bar
+FS0572,The Restaurant at the McWilliam Park Hotel,53.7251871,-8.9906133,"McWilliam Park Hotel, Boherduff, Claremorris, F12 D1W3",Mayo,Restaurant
+FS0573,John Joe's Pub,54.6324918,-8.5922624,"Main Street, Keenaghan, Kilcar, F94 A3NR",Donegal,Pub/Bar
+FS0574,John Kavanagh The Gravediggers,53.369637,-6.2719898,"1 Prospect Square, Glasnevin, D09 CF72",Dublin,Pub/Bar
+FS0575,John Keoghs The Lock Keeper,53.2700667,-9.0586114,"22-24 Dominick St Upper, , H91 WNH0",Galway,"Restaurant, Pub/Bar"
+FS0576,Shaw's of Summerhill,53.4822864,-6.7328073,", Summerhill, ",Meath,Pub/Bar
+FS0577,Johnnie Fox's Pub and Restaurant,53.2217581,-6.2190633,"Ballybetagh Rd, Glencullen, , D18 X635",Dublin,"Restaurant, Pub/Bar"
+FS0578,JP Clarke’s Country Pub,52.6991293,-8.8159124,"Old Bunratty Rd, Bunratty West, Bunratty, V95 K727",Clare,"Restaurant, Pub/Bar"
+FS0579,J.R. Mahon's,53.3469777,-6.2581381,"1-2, Burgh Quay, Dublin, D02 F243",Dublin,"Restaurant, Pub/Bar"
+FS0580,Judge Roy Beans,53.1786738,-6.8004568,"1 Edward St, Moorfield, Newbridge, W12 TD58",Kildare,Pub/Bar
+FS0581,Julian's of Midfield,53.896749,-8.926744,"Midfield National School, Treanlaur, Swinford, ",Mayo,"Restaurant, Pub/Bar"
+FS0582,Kafe Katz,52.6504722,-7.2521915,"3 Ormonde St, Gardens, , R95 XR28",Kilkenny,Cafe
+FS0583,Taste Café,53.3409759,-6.2631814,"39-40 William St S, Dublin, D02 AK50",Dublin,Cafe
+FS0584,Kai Restaurant,53.269572,-9.061189,"22 Sea Rd, , H91 DX47",Galway,Restaurant
+FS0585,Karoo Farm Shop and Café,52.2569746,-6.4557968,"Killinick Village, Fernyhill, Killinick, ",Wexford,Cafe
+FS0586,Kate Browne's Pub and Restaurant,52.3260549,-9.780227,"Main Street, Ardfert, ",Kerry,"Restaurant, Pub/Bar"
+FS0587,Kate Kearney's Cottage,52.03999,-9.63188,"Dunloe Upper, Kate Kearney's Cottage, , ",Kerry,"Restaurant, Pub/Bar"
+FS0588,Katie Daly's Bar and Restaurant,52.6757535,-6.293811,"78 Main St, Gorey corporation lands, Gorey, Y25 R5P9",Wexford,"Restaurant, Pub/Bar"
+FS0589,Kavanagh's Bar & Venue,53.0342294,-7.2980333,"28 Main St, Moneyballytyrrell, Portlaoise, R32 EP2K",Laois,Pub/Bar
+FS0590,Kayne's Bar & Brasserie at Dromhall Hotel,52.0530891,-9.5065221,"Muckross Rd, Dromhale, Killarney, ",Kerry,"Restaurant, Pub/Bar"
+FS0591,KC Peaches Nassau Street,53.3427366,-6.2572952,"27-29 Nassau St, Dublin,",Dublin,Cafe
+FS0592,KC Peaches - Dame Street,53.3442909,-6.2643393,"54 Dame St, Temple Bar, , D02 X364",Dublin,Cafe
+FS0593,KC Peaches - St Stephen's Green,53.3387263,-6.2553292,"North, 35 - 37 St Stephen's Green, Dublin,",Dublin,Cafe
+FS0594,Kealys of Cloghran,53.425315,-6.230054,"Old Airport Road, Cloghran, , ",Dublin,Pub/Bar
+FS0595,Keanes of Curraheen Bar & Restaurant,52.243833,-9.7883832,"Curraheen, Tralee, ",Kerry,"Restaurant, Pub/Bar"
+FS0596,Kehoes Heritage Pub,53.3411639,-6.2594277,"9 Anne St S, , D02 NY88",Dublin,Pub/Bar
+FS0597,Kelly's Bar Cobh,51.8502644,-8.2946827,"19 Casement Square, Kilgarvan, Cobh, P24 Y560",Cork,Pub/Bar
+FS0598,Kelly’s Bar,53.0967096,-7.9123892,"439 R439, Townparks, ,",Offaly,"Restaurant, Pub/Bar"
+FS0599,Kelly’s Pub,53.5116539,-6.3974728,"Main St, Milltown, Ashbourne, ",Meath,Pub/Bar
+FS0600,Kelly's Restaurant,51.8971676,-8.4739126,"64 Oliver Plunkett St, Centre, , T12 K5FH",Cork,Restaurant
+FS0601,Kelly's Steakhouse at Midlands Park Hotel,53.0348,-7.302967,"Kellys Steakhouse, Jessop Street, Moneyballytyrrell, Portlaoise, ",Laois,Restaurant
+FS0602,Kenmare Market,51.8801017,-9.5835202,", Kenmare, ",Kerry,Restaurant
+FS0603,Kennedy's,53.342157,-6.250759,"30 to 32 Westland Row, Dublin City Centre,",Dublin,Pub/Bar
+FS0604,Ken's Oriental Restaurant,53.4259195,-7.9350029,"The Crescent, Athlone, N37 WV50",Westmeath,Restaurant
+FS0605,Keogh's Café,53.344033,-6.262204,"1-2 Trinity Street, Dublin city centre, ,",Dublin,Cafe
+FS0606,Keogh's Restaurant Kinvara,53.1389033,-8.938103,"Main St, Kinvarra, , ",Galway,"Restaurant, Pub/Bar, Cafe"
+FS0607,Keoghs Bar,53.4311265,-10.0755435,", Ballyconneely, ",Galway,Pub/Bar
+FS0608,Bar & Restaurant at Kettles County House Hotel,53.482437,-6.288287,"Lispopple, Swords, ",Dublin,Restaurant
+FS0609,Kildare Village Shopping Destination,53.1540269,-6.9167071,"Kildare, Nurney Road, , R51 R265",Kildare,"Restaurant, Cafe"
+FS0610,Kilkenny Café,53.3422024,-6.2553325,"Trinity College Dublin, 15 Nassau St, ,",Dublin,Cafe
+FS0611,Kilkenny Café - Kilkenny City,52.6497825,-7.2493662,"The Castle Yard, The Parade, Gardens, , R95 CAA6",Kilkenny,Cafe
+FS0612,Kilkenny Castle,52.6504624,-7.2492979,"The Parade, Collegepark, , R95 YRK1",Kilkenny,Cafe
+FS0613,Killaloe Farmer's Market,52.807297,-8.439435,"Between the Waters, Killaloe, ",Clare,Restaurant
+FS0614,Killarney Country Market,52.058865,-9.506106,", Killarney, ",Kerry,Restaurant
+FS0615,Killarney Grand,52.0581579,-9.5090194,"Main St, Killarney, ",Kerry,Pub/Bar
+FS0616,Killarney Outlet Centre,52.0596359,-9.5029311,"Fair Hill, Avenue, Killarney, V93 HKP2",Kerry,Cafe
+FS0617,Killarney Racecourse,52.0490085,-9.5146494,"Ross Rd, Bunrower, Killarney, V93 KR0H",Kerry,"Restaurant, Pub/Bar"
+FS0618,Killary Fjord Shellfish,53.6009459,-9.8043011,"Bunowen, , ",Galway,Restaurant
+FS0619,King Sitric Seafood Bar,53.388203,-6.06366,"East Pier, Howth, ",Dublin,Restaurant
+FS0620,Kingdom Whiskey Experiences,52.2713096,-9.6999325,", Tralee, ",Kerry,Restaurant
+FS0621,Kingfisher Bistro,54.0392001,-6.1862566,"Dundalk St, Liberties of Carlingford, Carlingford, ",Louth,Restaurant
+FS0622,Kingfisher Restaurant,53.351832,-6.263301,"166 - 168 Parnell Street, Dublin City Centre,",Dublin,Restaurant
+FS0623,Kinsale Good Food Circle,51.705591,-8.524388,", Kinsale, ",Cork,Restaurant
+FS0624,The Seafood Bar @ Kirwans Lane,53.2713884,-9.0543563,"3 Kirwan's Ln, , H91 N8H4",Galway,Restaurant
+FS0625,Knox's Pub & Storehouse Restaurant,52.8449511,-8.9824345,"18 Abbey St, Lifford, Ennis, V95 AX83",Clare,"Restaurant, Pub/Bar"
+FS0626,Kōbe One Japanese Fusion,53.2698427,-6.1668306,"Unit 2, The, Mart Ln, Bray Rd, Cornelscourt, Dublin, D18 HF22",Dublin,Restaurant
+FS0627,KoKo Kinsale,51.705104,-8.5221907,"Pier Rd, Town-Plots, Kinsale, ",Cork,Restaurant
+FS0628,Krēm Gelateria and Café,53.7992443,-9.5223898,"Krēm Gelateria & Cafe (Gelato, Coffee, Crepes And More), Bridge Street, Cahernamart, Westport, ",Mayo,"Restaurant, Cafe"
+FS0629,Kruger's Bar,52.1342618,-10.4536516,"Ballynaraha, Tralee, V92 P291",Kerry,Pub/Bar
+FS0630,Kytelers Inn,52.6531445,-7.2532767,"St Kieran's St, Gardens, , ",Kilkenny,"Restaurant, Pub/Bar"
+FS0631,La Bucca Restaurant,53.5120067,-6.3980166,"Frederick St, Milltown, Ashbourne, ",Meath,Restaurant
+FS0632,La Casa,52.6807446,-9.6452316,"Gratten St, Dough, Kilkee, V15 FN12",Clare,Restaurant
+FS0633,La Cave Wine Bar & Restaurant,53.341034,-6.259714,"28 South Anne Street, ,",Dublin,"Restaurant, Pub/Bar"
+FS0634,La Caverna Restaurant and Wine Bar,53.3451399,-6.2632768,"12 Fownes Street Upper, Temple Bar, Dublin, D02 PY51",Dublin,"Restaurant, Pub/Bar"
+FS0635,La Côte Seafood Restaurant,52.3388442,-6.4596753,"Church Ln, Ferrybank South, , ",Wexford,Restaurant
+FS0636,La Fougére Restaurant at Knockranny House Hotel & Spa,53.8021533,-9.5079164,"Knockranny House Hotel, Knockranny, Westport, F28 X340",Mayo,Restaurant
+FS0637,La Jolie Brise at the Waterfront Hotel Baltimore,51.4830975,-9.3729375,"The Square, Baltimore, ",Cork,Restaurant
+FS0638,La Peniche,53.3312694,-6.2577533,"Grand Canal Jetty, Charlemont Pl, Saint Kevin's, Dublin, ",Dublin,Restaurant
+FS0639,La Rivista Market,52.6546749,-7.2551097,"22 Parliament St, Gardens, , R95 FH29",Kilkenny,Restaurant
+FS0640,La Scala,52.2687124,-9.7060222,"1, 2, 3 The Square, Tralee, V92 H603",Kerry,Restaurant
+FS0641,The Lady Belle,52.089933,-7.620243,"13 Grattan Square, Dungarvan,",Waterford,Pub/Bar
+FS0642,Lady Helen Restaurant at Mount Juliet,52.5292833,-7.1876268,"Mount Juliet Estate & Golf Club, Walton's Grove, Mount Juliet, , ",Kilkenny,Restaurant
+FS0643,Lagom Restaurant,51.878372,-9.5834255,"Lagom Restaurant & Accommodation Kenmare, 36 Henry Street, Kenmare,",Kerry,Restaurant
+FS0644,Lakeside Café,52.2731768453068,-9.70051681721145,"Tralee Bay Wetlands Centre, Ballyard, Tralee, ",Kerry,Cafe
+FS0645,Lakeview (Radharc na Locha) Coffee Shop,53.3717684830894,-9.54316059152825,"Lakeview (Radharc na Locha) Coffee Shop, Camus, Casla P.O., , ",Galway,Cafe
+FS0646,Lali's Restaurant,53.432469,-6.125109,"Strand Road, Portmarnock, ",Dublin,Restaurant
+FS0647,Land to Sea,52.1403052,-10.2665274,"John St, Farran, Dingle, V92 ET22",Kerry,Restaurant
+FS0648,Langton's Bar and Restaurant,52.653313,-7.2481715,"67-69 John Street Lower, , R95 XN44",Kilkenny,"Restaurant, Pub/Bar"
+FS0649,Lanigan's Bar & Restaurant,52.6516319,-7.2514617,"29 Rose Inn St, Gardens, ,",Kilkenny,"Restaurant, Pub/Bar"
+FS0650,Larkin's Bar and Restaurant,52.9045858,-8.3458468,"Garrykennedy, Portroe, E45 W729",Tipperary,"Restaurant, Pub/Bar"
+FS0651,Larkins Pub Restaurant B&B,52.1450866,-9.7175718,"Main Street, Milltown, ",Kerry,"Restaurant, Pub/Bar"
+FS0652,Bistro Restaurant at Lawlor's of Naas,53.2195182,-6.6598605,"Poplar Square, Naas East, Naas, W91 Y65N",Kildare,Restaurant
+FS0653,Le Bistro Kinsale,51.7065441,-8.5252588,"Le Bistro, 3 Cork St, Town-Plots, Kinsale, P17 Y478",Cork,"Restaurant, Cafe"
+FS0654,Montmartre Restaurant,54.2679107,-8.4743965,"1 Market St, Abbeyquarter North, ,",Sligo,Restaurant
+FS0655,Le Petit Perroquet,53.3430805,-6.261149,"17 Wicklow St, Dublin, D02 PA07",Dublin,"Restaurant, Cafe"
+FS0656,Left Bank,52.6505735,-7.2517164,"1 The Parade, Gardens, Kilkenny City,",Kilkenny,"Restaurant, Pub/Bar"
+FS0657,Left Bank Bistro,53.4224281,-7.9422965,"Fry Place, High St, Athlone, ",Westmeath,"Restaurant, Cafe"
+FS0658,Planet Entertainment Galway,53.2795387,-9.048232,"Headford Rd, , H91 KP0N",Galway,Restaurant
+FS0659,Lemon & Duke ,53.34157,-6.259121,"1 Royal Hibernian Way, Duke Lane Upper, , D02 YK71",Dublin,Pub/Bar
+FS0660,Lemon Crepe and Coffee Co.,53.3429157,-6.2619368,"66 William St S, , D02 FT51",Dublin,Cafe
+FS0661,Lemon Jelly Café,53.347195,-6.26540399999999,"Millenium Walkway, Jervis Street, , ",Dublin,Cafe
+FS0662,Lemon Leaf Café,51.7055275,-8.5239648,"70 Main St, Sleveen, Kinsale, P17 PN28",Cork,Cafe
+FS0663,Lemon Tree Restaurant,54.9485502,-7.7370402,"32-34, Courtyard Shopping Centre, Lower main Street, Letterkenny,",Donegal,Restaurant
+FS0664,Lemongrass Restaurant,52.8351,-6.9305416,"Hanover Square, Kennedy Ave, Graigue, , ",Carlow,Restaurant
+FS0665,Lennons @ Visual,52.8391007,-6.9290807,"Old Dublin Rd, Graigue, , ",Carlow,Restaurant
+FS0666,Leo's Tavern,55.0277265,-8.271386,"Meenaleck, Meenalecky, Crolly, ",Donegal,Pub/Bar
+FS0667,Leopardstown Inn,53.2792761,-6.196973,"Brewery Rd, Stillorgan, A94 F6Y0",Dublin,"Restaurant, Pub/Bar"
+FS0668,Les Petites Tartres,53.567368221728,-8.25585947275386,"Main Street, Athleague, ",Roscommon,"Restaurant, Cafe"
+FS0669,Lighthouse Tavern,55.27013,-7.640668,"Arryheernabin, , ",Donegal,Pub/Bar
+FS0670,Limerick Whiskey Experience,52.662749,-8.622283,"9 High St, , V94 W8XF",Limerick,"Restaurant, Pub/Bar"
+FS0671,Linnane's Lobster Bar,53.1559592,-9.0758348,"Cartron, New Quay, , ",Clare,Pub/Bar
+FS0672,Listowel Farmers Market,52.444983,-9.486109,"The Square, Listowel, ",Kerry,Restaurant
+FS0673,Lock 13 Brewpub,53.2493898,-6.6648944,"Canal View, Sallins, W91 XVH3",Kildare,"Restaurant, Pub/Bar"
+FS0674,Loose Leaf,51.8981038,-8.4797435,"Fenns Quay, 4 Sheares St, Centre, , T12 VH4F",Cork,Cafe
+FS0675,Lord Baker's Seafood Restaurant & Bar,52.1414804,-10.2683878,"Main St, Dingle, ",Kerry,"Restaurant, Pub/Bar"
+FS0676,Lorge Chocolatier,51.8160062,-9.5366578,"n71 bonane, Milleens, Kenmare, V93 F344",Kerry,Restaurant
+FS0677,Lottie's,53.3217071,-6.2666602,"7-9, Rathgar Rd, Rathmines, D06 R971",Dublin,Restaurant
+FS0678,Lough Lounge Bar & Restaurant at the Four Seasons Hotel Carlingford,54.0395603,-6.1818983,"Four Seasons Hotel, Liberties of Carlingford, Carlingford, ",Louth,Restaurant
+FS0679,Lowry’s Irish Music and Whiskey Bar,53.4880980446474,-10.0221869292136,"Market Street, Clifden, ",Galway,"Restaurant, Pub/Bar"
+FS0680,Luigi Malones Cork,51.9000053,-8.4724114,"1-2 Emmett Pl, Centre, , T12 VF43",Cork,"Restaurant, Pub/Bar"
+FS0681,Luigi Malone's Dublin,53.345076,-6.263506,"5 Cecilia St, Temple Bar, Dublin, D02 DP62",Dublin,Restaurant
+FS0682,LUNA coffee + wine,52.0579751,-9.5071065,"1 Brewery Ln, Kenmare Place, Killarney, V93 PX32",Kerry,"Restaurant, Cafe"
+FS0683,Lyons Café & Bakeshop,54.2725222,-8.476102,"Quay St, Abbeyquarter North, , ",Sligo,Cafe
+FS0684,MacCarthy's Bar at the Glengarriff Park Hotel,51.7502801,-9.5497333,"The Village, Monteensudder, Glengarriff, ",Cork,Pub/Bar
+FS0685,MacDonagh Junction Kilkenny - Shopping Centre,52.6552401,-7.244462,"Hebron Rd, Highhays, , ",Kilkenny,"Restaurant, Cafe"
+FS0686,MacNean House & Restaurant,54.2912665,-7.876377,"Main St, Tuam, Blacklion, F91 YK0F",Cavan,Restaurant
+FS0687,Macreddin Village Food Market,52.88138,-6.33242,"Macreddin West, Macreddin Village, ",Wicklow,Restaurant
+FS0688,Macroom Country Market,51.904256,-8.954041,"GAA Hall, Macroom, ",Cork,Restaurant
+FS0689,Maddens at The Clew Bay Hotel,53.8003938,-9.5233304,"James St, Cahernamart, Westport, ",Mayo,"Restaurant, Pub/Bar"
+FS0690,Maddens Bridge Bar,54.4774322,-8.2811273,"Main St, Magheracar, Bundoran, ",Donegal,"Restaurant, Pub/Bar"
+FS0691,Maddens Coffee,52.2702306,-9.7057332,"11-12 Milk Market Ln, Gallowsfields, Tralee, V92 XYD3",Kerry,"Restaurant, Cafe"
+FS0692,Madigan's Pub Kilbarrack,53.3883743,-6.1673784,"Unit 7, Kilbarrack Shopping Centre, Swan's Nest Rd, Donaghmede,",Dublin,Pub/Bar
+FS0693,Madigan's Pub North Earl Street,53.3501774,-6.259357,"25 N Earl St, North City, Dublin, D01 KX67",Dublin,"Restaurant, Pub/Bar"
+FS0694,Madigan's Pub O'Connell Street,53.3514281326651,-6.26051267196658,"19 O'Connell Street, ,",Dublin,Pub/Bar
+FS0695,Maggie Mays Bar and Restaurant,53.1994705,-8.5636272,"36-37 Bride St, Farranalynch, Loughrea, H62 KD91",Galway,"Restaurant, Pub/Bar"
+FS0696,Maggie's Tavern,54.8946501,-7.4653075,"R265, St Johnston, Carrickmore, F93 YY56",Donegal,"Restaurant, Pub/Bar"
+FS0697,Mahon Point Farmers Market,51.8856032,-8.397403,"Mahon Point Shopping Centre, Mahon, , ",Cork,Restaurant
+FS0698,Mahon Point Shopping Centre,51.8861994,-8.3970235,"Mahon Link Road, Mahon, , T12 X7HK",Cork,"Restaurant, Cafe"
+FS0699,Malay Kitchen Kinsale,51.7057903,-8.5233998,"Short Quay, Sleveen, Kinsale, P17 KR74",Cork,Restaurant
+FS0700,The Mallard Bar at The Landmark Hotel,53.9433878,-8.0932708,"Shannon Lodge, Townparks, Carrick-On-Shannon, , ",Leitrim,Pub/Bar
+FS0701,Mallow Mia,54.991706,-7.5575841,", Ardee, F93 PW29",Donegal,Restaurant
+FS0702,Malzards Pub and Hurling Experience,52.5361723,-7.2273511,"19 Main St, Ballycoam, Stoneyford,",Kilkenny,Pub/Bar
+FS0703,Man Friday,51.7050057,-8.517391,"Scilly, Kinsale, ",Cork,Restaurant
+FS0704,Man O'War Pub and Restaurant,53.561764,-6.184144,"Courtlough, Balbriggan, ",Dublin,"Restaurant, Pub/Bar"
+FS0705,Man of Aran Fudge,53.1192904,-9.6688086,"Killeany, Lower Kilronan, Bayview, H91 NY01",Galway,Restaurant
+FS0706,Mandarin Court Chinese Restaurant,54.2723468,-8.4764712,"Wine St, Rathedmond, , ",Sligo,Restaurant
+FS0707,Mannion's Pub,52.414805,-6.9365337,"Mount Elliott, Knockavilla, New Ross, Y34 YY15",Wexford,"Restaurant, Pub/Bar"
+FS0708,Mercantile Bar & Bistro at Manor West Hotel,52.2640546,-9.6763687,"Manor West Hotel, Manor West, Tralee, V92 YC59",Kerry,"Restaurant, Pub/Bar"
+FS0709,Marco Pierre White Steakhouse & Grill,53.341601,-6.258479,"51 Dawson Street, Dublin City Centre,",Dublin,Restaurant
+FS0710,Marconi Restaurant at Foyle's Hotel,53.4885802,-10.0226976,"Main St, Clifden, ",Galway,Restaurant
+FS0711,Marcopolo,52.6619834,-8.6283359,"38 O'Connell St, Prior's-Land, ,",Limerick,Restaurant
+FS0712,The Mardyke Entertainment Complex,51.8981068,-8.4810963,"The, Mardyke Entertainment Complex, Sheares St, Centre, , T12 CX7A",Cork,"Restaurant, Pub/Bar"
+FS0713,The Marina Inn,52.1393522,-10.2749527,"Strand St, Dingle, ",Kerry,"Restaurant, Pub/Bar"
+FS0714,The Market Bar,53.3420615,-6.2640604,"14a Fade St, Dublin, D02 A368",Dublin,"Restaurant, Pub/Bar"
+FS0715,Market Lane,51.898388,-8.468106,"5/6 Oliver Plunkett Street, Cork City,",Cork,Restaurant
+FS0716,Marlene's Chocolate Haven,53.8000829,-9.5234722,"James St, Cahernamart, Westport, F28 YR74",Mayo,Restaurant
+FS0717,Marlfield House Restaurant,52.668747,-6.275211,"Courtown Rd, Raheenagurren, Gorey, Y25 DK23",Wexford,Restaurant
+FS0718,Martine's Restaurant and Wine Bar,53.2708802,-9.0542098,", Galway City, H91 XR58",Galway,Restaurant
+FS0719,Martry Mill,53.6941593,-6.786273,"Martry Mill, Martry, Kells, A82 HP93",Meath,Restaurant
+FS0720,Mary Ann's Bar & Restaurant,51.5282841,-9.174876,"Main Street, Castletownsend, , ",Cork,"Restaurant, Pub/Bar"
+FS0721,Mary's Bar & Hardware Shop,53.3428619,-6.2603316,"8 Wicklow St, Dublin, D02 AX90",Dublin,Pub/Bar
+FS0722,Massimo,53.2699969,-9.0598829,"10 William St W, , H91 C2X3",Galway,Pub/Bar
+FS0723,Matt Molloy,53.7992029,-9.5226252,"Bridge St, Cahernamart, Westport, ",Mayo,Pub/Bar
+FS0724,Matt The Millers Bar & Restaurant,52.652195,-7.249847,"1 John Street, Kilkenny City,",Kilkenny,"Restaurant, Pub/Bar"
+FS0725,Matt The Thresher,53.3369563,-6.2517008,"31-32 Pembroke Street Lower, Dublin, D02 Y523",Dublin,Pub/Bar
+FS0726,Matty's Pub & Accommodation,52.7023205,-6.9851375,"Royal Oak Rd, Clorusk Lower, Muine Bheag, , R21 K883",Carlow,Pub/Bar
+FS0727,Maunsells Dining Pub & Off Licence,53.266592,-7.46437,"Cloncollig, Cloncollog, Tullamore, R35 F9C9",Offaly,"Restaurant, Pub/Bar"
+FS0728,Max's Seafood Restaurant Kinsale,51.704564,-8.52226,"48 Main St, Town-Plots, Kinsale, P17 XY07",Cork,Restaurant
+FS0729,McDaid's Pub,53.3412535,-6.2610003,"3 Harry St, , D02 NC42",Dublin,Pub/Bar
+FS0730,McDermotts Pub,53.0189993,-9.3711257,"Toomullin, Doolin, V95 P285",Clare,"Restaurant, Pub/Bar"
+FS0731,McDonagh's Seafood House,53.2709622,-9.0545095,"22 Quay St, , H91 N902",Galway,Restaurant
+FS0732,McGann's Pub,53.0183287,-9.3720718,"Main Street, Toomullin, Roadford, ",Clare,Pub/Bar
+FS0733,McGarrigles Restaurant,54.4803694,-8.2747725,"Main St, Drumacrin, Bundoran, F94 TR23",Donegal,"Restaurant, Cafe"
+FS0734,McGettigan's Galway,53.2754692,-9.0492537,"9-11, Prospect Hill, , H91 VK27",Galway,"Restaurant, Pub/Bar"
+FS0735,McGettigan's Letterkenny at the Clanree Hotel,54.9435525,-7.6980016,"Clanree Hotel, Derry Rd, Bunnagee, Letterkenny, ",Donegal,Pub/Bar
+FS0736,McGettigan's Limerick,52.6608157,-8.6327595,"Lower Mallow St, Prior's-Land, , ",Limerick,Pub/Bar
+FS0737,McGettigans Cookhouse & Bar at The Address Connolly,53.3516889,-6.2501044,"1 Amiens St, Mountjoy, ,",Dublin,Restaurant
+FS0738,McGourty's Bar,53.7691535,-8.4933872,"1 Main St, Demesne, Castlerea,",Roscommon,Pub/Bar
+FS0739,McGowans of Phibsboro,53.356587,-6.273956,"18 Phibsboro Road, ,",Dublin,"Restaurant, Pub/Bar"
+FS0740,McGrory’s Hotel Bar,55.2862671,-7.1656415,"McGrory's Hotel, Culdaff, ",Donegal,"Restaurant, Pub/Bar"
+FS0741,McHale's Bar & Grill at Raheen Woods Hotel,53.300658,-8.76173,"Raheen, Athenry, H65 E443",Galway,Restaurant
+FS0742,McHughs Bar & Venue,53.7160485,-6.3467985,"1-3 Cord Rd, East Drogheda, Drogheda, A92 E2NK",Louth,Pub/Bar
+FS0743,McLaughlins Restaurant,52.6667813,-8.5768931,"University Gates, Dublin Rd, Newcastle, ",Limerick,Restaurant
+FS0744,McMunn's of Ballybunion,52.5110802,-9.675609,"Main St, Ballybunnion, Ballybunion, ",Kerry,"Restaurant, Pub/Bar"
+FS0745,McSwiggan's Steak & Seafood Restaurant,53.2750807,-9.0525403,"3 Eyre St, ,",Galway,Restaurant
+FS0746,Merry Ploughboy Irish Music Pub,53.2641499,-6.2968957,"Edmondstown Rd, Rathfarnham, D16 HK02",Dublin,"Restaurant, Pub/Bar"
+FS0747,Merry Ploughboy Pub Traditional Nights,53.2641499,-6.2968957,"Edmondstown Rd, Rathfarnham, D16 HK02",Dublin,"Restaurant, Pub/Bar"
+FS0748,Mespil Road Lunchtime Market,53.3335849,-6.2472615,"Mespil Rd, Dublin, ",Dublin,Restaurant
+FS0749,Michael A's Pub,52.8556965,-9.4007487,"Main St, Leagard North, Miltown Malbay, , V95 X2R4",Clare,Pub/Bar
+FS0750,Michael Flannerys Bar,52.663168,-8.62343,"17 Upper Denmark St, , V94 T9W3",Limerick,Pub/Bar
+FS0751,Michelangelo Restaurant,53.340881,-6.53769,"Main St, Celbridge, W23 R9F3",Kildare,Restaurant
+FS0752,Mickey Finn's Pub,52.8893381,-6.1448505,"Main Street, Ballygillaroe, Redcross, A67 H799",Wicklow,Pub/Bar
+FS0753,Mikey Ryan’s Bar and Kitchen,52.516817,-7.8881274,"76 Main St, St. Dominick's Abbey, Cashel, E25 NY58",Tipperary,"Restaurant, Pub/Bar"
+FS0754,Milano Restaurant,52.663666,-8.6301174,"Harvey's Quay, Prior's-Land, , V94 R1H1",Limerick,Restaurant
+FS0755,Mitchells Restaurant,53.4881206,-10.0222322,"Market St, Clifden, ",Galway,Restaurant
+FS0756,Mo Chara,54.0047545,-6.3981237,"19 Roden Pl, Townparks, Dundalk, A91 AH7W",Louth,"Restaurant, Pub/Bar"
+FS0757,Moby Dick's,51.9532983,-7.8462074,"Market Square, Youghal-Lands, Youghal, ",Cork,Pub/Bar
+FS0758,Moghul Indian Restaurant,51.6799459,-9.4500677,"Barrack St, Town Lots, Bantry, ",Cork,Restaurant
+FS0759,Molly Fultons Restaurant,54.2351583,-8.4832707,"Carrickhenry, , F91 ET8Y",Sligo,"Restaurant, Pub/Bar"
+FS0760,Monart Destination Spa,52.5071361,-6.6123399,"Monart, The Still, , Y21 XY79",Wexford,"Restaurant, Cafe"
+FS0761,Monasterboice Inn,53.7698326,-6.399775,"Drogheda Rd, Silloge, Drogheda, ",Louth,"Restaurant, Pub/Bar"
+FS0762,"Monks Ballyvaughan, Seafood Restaurant & Bar",53.1197515,-9.154676,"The Pier, Lisnanard, Ballyvaughan, H91 W9TN",Clare,"Restaurant, Pub/Bar"
+FS0763,Monroe's Tavern,53.2699902,-9.0577598,"14 Dominick St Upper, Galway City, H91 WD2H",Galway,"Restaurant, Pub/Bar"
+FS0764,Monty's of Kathmandu,53.344471,-6.264691,"28 Eustace Street, Temple Bar, Dublin city centre, ,",Dublin,Restaurant
+FS0765,Moore's of Grangecon,52.9980556,-6.7427778,"Grangecon Parks, Grangecon, , ",Wicklow,"Restaurant, Pub/Bar"
+FS0766,Moore Street Market,53.350192,-6.262309,"Moore Street, , ",Dublin,Restaurant
+FS0767,Moorings Seafood Restaurant,51.8857273,-10.3657163,"Main Street, Portmagee, V23 RX05",Kerry,Restaurant
+FS0768,Moorlands Equestrian Centre,54.0541604,-8.0430542,"Corrachuill, Cois Struttain, , ",Leitrim,Cafe
+FS0769,Moran's Oyster Cottage,53.2109295,-8.895266,"The Weir House, Rahaneena, Kilcolgan, ",Galway,"Restaurant, Pub/Bar"
+FS0770,Morelands Grill,53.345712,-6.2588372,"39 Westmoreland St, , D02 HR67",Dublin,Restaurant
+FS0771,Morrissey's of Doonbeg,52.7309266,-9.5243905,"Main St, Doonbeg, V15 W674",Clare,"Restaurant, Pub/Bar"
+FS0772,Mother Macs Public House,52.662749,-8.622283,"9 High St, , V94 W8XF",Limerick,Pub/Bar
+FS0773,John J. Burke's Bar & Restaurant,53.5445374,-9.3651048,"Mount Gable House, Cloonbur, Clonbur, F12 X251",Galway,"Restaurant, Pub/Bar"
+FS0774,Mountain View Markets,52.452154,-7.1798892,"Mountain View, Kiltorcan, Ballyhale, R95 NH31",Kilkenny,Restaurant
+FS0775,Mountshannon Community Market,52.931724,-8.4298344,", Mountshannon, ",Clare,Restaurant
+FS0776,Moycullen Country Market,53.336132,-9.179474,"An Fuaran, Moycullen, ",Galway,Restaurant
+FS0777,The Yew Tree Restaurant at Muckross Park Hotel,52.0250538,-9.489689,"Muckross Rd, Dromyrourk, Killarney, V93 NH5W",Kerry,Restaurant
+FS0778,Mulcahy's,52.35363,-7.7013602,"47 Gladstone St, Oldbridge, Clonmel,",Tipperary,"Restaurant, Pub/Bar"
+FS0779,Mullichain Café,52.4877231,-6.9287735,"The Quay, Ballyknock, St Mullin's, , R95 XY93",Carlow,Cafe
+FS0780,Mulligans Pub,53.3468861,-6.2554264,"8 Poolbeg St, Dublin, DO2TK71",Dublin,Pub/Bar
+FS0781,Horseshoe Bar at Mullingar Park Hotel ,53.5228043,-7.3032536,"Dublin Rd, Marlinstown Bog, Mullingar, N91 A4EP",Westmeath,"Restaurant, Pub/Bar"
+FS0782,Munster Room Restaurant at Waterford Castle Hotel,52.253377,-7.059379,"The Island, Ballinakill, Waterford City, ",Waterford,Restaurant
+FS0783,Murphy's Ice Cream Dingle,52.1395646,-10.2717771,"Strand St, Dingle, ",Kerry,Restaurant
+FS0784,Murphy's Ice Cream Galway,53.2721653,-9.05352,"12 High St, , H91 DC8W",Galway,Restaurant
+FS0785,Murphy's Ice Cream Killarney,52.05908,-9.509224,"37 Main St, Killarney, V93 PK73",Kerry,Restaurant
+FS0786,Murphy's of Killarney,52.0594004,-9.5062685,"18 College St, Killarney, V93 EFP1",Kerry,"Restaurant, Pub/Bar"
+FS0787,Murphy's Restaurant,51.652338,-9.9087141,"7 Main St, Knockaneroe, Castletown-Bearhaven, , P75 FF83",Cork,Restaurant
+FS0788,Murrays Coffee House,53.2685457,-9.0662731,"1 Nile Lodge Corner, Salthill Rd Lower, ,",Galway,Cafe
+FS0789,Murty Rabbitt's ,53.2748471,-9.0470334,"23 Forster St, , H91 W1WK",Galway,Pub/Bar
+FS0790,Synge & Byrne Café,53.883572,-9.207509,"Turlough Park House, Gortnafolla, Castlebar, ",Mayo,Cafe
+FS0791,Muskerry Arms Bar and B & B Blarney,51.9331337,-8.5677292,"The Square, Monacnapa, Blarney, T23 XE95",Cork,Pub/Bar
+FS0792,MV Cill Airne The Boat,53.3470707,-6.2379602,"Quay 16 N Wall Quay, Dublin Docklands, Dublin,",Dublin,Restaurant
+FS0793,Myles Creek Bar & Restaurant,52.6782755,-9.6490495,"O'Curry St, Dough, Kilkee, ",Clare,"Restaurant, Pub/Bar"
+FS0794,10 Fleet Street Restaurant & Bar at The Morgan Hotel,53.3457958187091,-6.2612322100822,"10 Fleet Street, Temple Bar, ,",Dublin,"Restaurant, Pub/Bar"
+FS0795,360 Cookhouse,52.0889797,-7.6172589,"Castle St, Abbeyside, Dungarvan, X35 E192",Waterford,"Restaurant, Pub/Bar"
+FS0796,37 Dawson Street,53.34054,-6.258755,"37 Dawson St, , D02 W220",Dublin,"Restaurant, Pub/Bar"
+FS0797,54 Degrees at The Gateway Hotel Dundalk,53.980318,-6.3886317,"Inner Relief Rd, Marshes Upper, Dundalk, A91 EF88",Louth,"Restaurant, Pub/Bar"
+FS0798,56 Central Restaurant,53.272925,-9.052348,"5/6 Shop St, , H91 FT5D",Galway,"Restaurant, Pub/Bar, Cafe"
+FS0799,64 Wine,53.2872152821415,-6.12311677152729,"64 Glasthule Road, Dun Laoghaire, Glenageary,",Dublin,"Pub/Bar, Cafe"
+FS0800,Naas Country Market,53.2186111,-6.6641667,"The Moat Theatre, Abbey Road, Naas East, Naas, ",Kildare,Restaurant
+FS0801,Naas Farmers Market,53.2178382,-6.6632372,"21 N Main St, Naas East, Naas, W91 VH74",Kildare,Restaurant
+FS0802,Naked Bakes Café,53.3367069,-6.2751241,"Naked Bakes at Hen's Teeth, Blackpitts, Dublin, D08 A9FD",Dublin,"Restaurant, Cafe"
+FS0803,Nancy Blakes,52.663449,-8.6238747,"19 Upper Denmark St, , V94 T284",Limerick,Pub/Bar
+FS0804,Nancy Hands Bar & Restaurant,53.3482267,-6.2939767,"30-32 Parkgate St, Stoneybatter, Dublin, D08 W6X3",Dublin,"Restaurant, Pub/Bar"
+FS0805,Nancy's Barn,55.28078,-7.391788,"Main St, Ballyliffin, Clonmany, ",Donegal,"Restaurant, Cafe"
+FS0806,National Basketball Arena,53.292364,-6.334469,"Tymon Park, Tallaght, ",Dublin,Cafe
+FS0807,Navan Racecourse,53.683279,-6.6736824,"Navan Racecourse, Proudstown Rd, Proudstown, Navan, C15 A623",Meath,Restaurant
+FS0808,Neary's Bar & Lounge,53.340709,-6.261229,"1 Chatham Street, Dublin City Centre,",Dublin,Pub/Bar
+FS0809,Neighbourhood Naas,53.219613,-6.662125,"1 N Main St, Naas West, Naas, W91 RH96",Kildare,Restaurant
+FS0810,Nenagh Farmer's Market,52.8611941,-8.1976121,"Kenyon St, Nenagh South, Nenagh, ",Tipperary,Restaurant
+FS0811,Newgrange Open Farm and Coffee Shop,53.6930543,-6.4794757,"Newgrange Farm, Newgrange, Slane, C15 X5EV",Meath,Cafe
+FS0812,No.27 Bar & Lounge at The Shelbourne Hotel,53.3390289,-6.2560971,"27 St Stephen's Green, , D02 K224",Dublin,"Restaurant, Pub/Bar"
+FS0813,No. 35,51.879564,-9.582127,"35 Main St, Kenmare, V93 Y038",Kerry,Restaurant
+FS0814,NoLIta,53.3424631,-6.2647267,"64 South Great George's Street, ,",Dublin,Restaurant
+FS0815,Noo Chocolates,54.132414455859106,-9.13759341726541,"Unit 2, The Quay, Ballina,",Mayo,Restaurant
+FS0816,Nook Café & Restaurant,54.1851633,-8.4921048,"Lower Main St, Rinn, Collooney, ",Sligo,"Restaurant, Cafe"
+FS0817,O'Ceallachains,52.3453111,-7.4103641,"57 Main St, Carrickbeg, Carrick-on-Suir,",Tipperary,Pub/Bar
+FS0818,The O'Connell Restaurant at Ballyseede Castle Hotel,52.256245,-9.646792,"Tralee, Ballyseede, Tralee, ",Kerry,Restaurant
+FS0819,O'Connell's Bar Galway,53.2746381,-9.0483405,"8 Eyre Square, , H91 FT22",Galway,Pub/Bar
+FS0820,O'Connor's Bar & Restaurant,52.2347421,-10.1823198,"Main Street, Drom West, Cloghane, V92 PV48",Kerry,"Restaurant, Pub/Bar"
+FS0821,"O'Connor's Bar & Lounge, Tinahely",52.7994354,-6.4636251,"Dwyer Square, Ballinacor, Tinahely, Y14 EW68",Wicklow,"Restaurant, Pub/Bar"
+FS0822,O'Connor's Famous Pub,53.2610959,-9.0746115,"Salthill House, Upper Salthill Rd, , H91 W4C6",Galway,Pub/Bar
+FS0823,O'Connor's Bar & Lounge,54.2097892,-8.5085622,"Main Street, Ballysadare, , F91 R2T1",Sligo,Pub/Bar
+FS0824,O' Donoghue's Pub,51.6514954,-9.9103302,"Cametringane, Castletown-Bearhaven, , ",Cork,Pub/Bar
+FS0825,O'Donoghue's Bar,53.338185,-6.254168,"15 Merrion Row, Dublin City Centre,",Dublin,Pub/Bar
+FS0826,O’Dowd’s Seafood Bar and Restaurant,53.3965023,-9.9193027,"Main Street, Roundstone, ",Galway,Restaurant
+FS0827,O'Flaherty's Bar,52.1390739,-10.2709496,"Bridge St, Dingle, ",Kerry,Pub/Bar
+FS0828,O’Gormans Bar and Restaurant,53.0436428,-7.2663264,"Kilminchy Court, Kilminchy, Portlaoise, R32 DTW5",Laois,"Restaurant, Pub/Bar, Cafe"
+FS0829,O'Neill's Pub & Kitchen,53.3439052,-6.2607613,"2 Suffolk St, Dublin, D02 KX03",Dublin,Pub/Bar
+FS0830,O' Neill's Bar & Restaurant,51.6416727,-10.044071,"Main St, Cloan, Allihies, P75 PE80",Cork,"Restaurant, Pub/Bar"
+FS0831,O'Neills Victorian Pub,53.344885,-6.2524708,"36-37 Pearse St, Dublin, D02 VX62",Dublin,Pub/Bar
+FS0832,O’Neills The Point Seafood Bar,51.9291304,-10.2774471,"Reenard, Reenard Point, , V23 HK06",Kerry,"Restaurant, Pub/Bar"
+FS0833,O’ Regan’s Restaurant,52.6115726,-9.1098398,"Aras Ide, Main St, Ballynacragga North, Foynes, ",Limerick,Restaurant
+FS0834,O'Reilly's Bar,53.3469956,-6.2541858,"Tara Street Station, Poolbeg St, Dublin, ",Dublin,Pub/Bar
+FS0835,O’Reilly’s Bar & Kitchen,53.2595863,-9.0766372,"232 Upper Salthill, , H91 PTD9",Galway,"Restaurant, Pub/Bar"
+FS0836,The Odeon,53.334205,-6.262809,"57 Harcourt Street, Dublin City Centre,",Dublin,Pub/Bar
+FS0837,Old Mill Restaurant,53.345655,-6.262958,"14 Temple Bar, Dublin city centre, ,",Dublin,Restaurant
+FS0838,The Old Music Shop Restaurant at the Castle Hotel Dublin,53.3549867,-6.2637671,"3 -5 Frederick St N, Rotunda, Dublin,",Dublin,Restaurant
+FS0839,The Old Punch Bowl Bar,53.308795,-6.1966317,"116 Rock Rd, Booterstown, Blackrock, A94 X2C6",Dublin,"Restaurant, Pub/Bar"
+FS0840,Old Street Restaurant,53.4520009,-6.1548704,"Old St, Malahide, K36 A262",Dublin,Restaurant
+FS0841,Olde Castle Bar,54.654489,-8.110506,"Castle St, Milltown, Donegal Town, ",Donegal,"Restaurant, Pub/Bar"
+FS0842,Olde Post Inn,54.0801902,-7.3694709,"Cloverhill, Knockateery, Cloverhill, ",Cavan,Restaurant
+FS0843,Olesya's Wine Bar & Bistro,53.3429662,-6.2631649,"18 Exchequer St, Dublin, D02 EN26",Dublin,Restaurant
+FS0844,Oliver's Bar & Restaurant,53.5564846,-10.1115206,"Knockbrack, Cleggan, ",Galway,"Restaurant, Pub/Bar"
+FS0845,Oliver St. John Gogarty,53.345541,-6.261708,"58-59 Fleet Street, Temple Bar, Dublin,",Dublin,Pub/Bar
+FS0846,Oliveto at Haddington House Hotel,53.2920773,-6.130567,"9-12, 9-12 Haddington Terrace, Dún Laoghaire, A96 F2R9",Dublin,Restaurant
+FS0847,One Pico Restaurant,53.340583,-6.257302,"5-6 Molesworth Place, Schoolhouse Lane, Dublin City Centre,",Dublin,Restaurant
+FS0848,Opium,53.3366929189404,-6.26578606197131,"26 Wexford Street, Dublin City,",Dublin,"Restaurant, Pub/Bar"
+FS0849,Orchids Restaurant at the Hayfield Manor Hotel,51.8908314,-8.4901598,"Hayfield Manor Hotel, Perrott Ave, College Rd, Centre, , T12 HT97",Cork,Restaurant
+FS0850,"Organico Café, Shop and Bakery",51.680212,-9.449422,"2 Glengarriff Rd, Town Lots, Bantry, P75 CC80",Cork,"Restaurant, Cafe"
+FS0851,Orso Kitchen and Bar,51.8975302,-8.4698384,"8 Pembroke St, Centre, , T12 YY90",Cork,Restaurant
+FS0852,Orwell Road Restaurant,53.3116565,-6.2745797,"8 Orwell Rd, Dublin, D06 H2Y5",Dublin,Restaurant
+FS0853,The 64,52.675,-6.2961111,"64 Main St, Gorey corporation lands, Gorey, Y25 A0W8",Wexford,Pub/Bar
+FS0854,Oscars Seafood Bistro,53.2700307,-9.0585855,"Clan House, 22 Dominick St Upper, ,",Galway,Restaurant
+FS0855,Osta Café & Wine Bar,54.272084,-8.4738697,"Garavogue Weir View, Stephen St, Abbeyquarter North, , ",Sligo,Cafe
+FS0856,Out of the Blue,52.1393578,-10.2754191,"Strand St, Waterside, Dingle, V92 T181",Kerry,Restaurant
+FS0857,Overends Kitchen,53.2879548011902,-6.23517081747434,"Overend Way, Dundrum, ",Dublin,Cafe
+FS0858,Owen Traynor Bar & Grocery,53.7695041,-7.1631899,"The Square, Oldcastle, ",Meath,Pub/Bar
+FS0859,Pacino's,53.343321,-6.259871,"18 Suffolk Street, , Dublin city centre, ,",Dublin,"Restaurant, Pub/Bar"
+FS0860,Paddy Cullen's Pub,53.3290169,-6.2302996,"14 Merrion Rd, Ballsbridge, Dublin, D04 T3Y7",Dublin,Pub/Bar
+FS0861,Paddy Flynn's Pub,53.2242982,-7.8836562,"Banagher St, Cloghan, Birr, R42 XP22",Offaly,Pub/Bar
+FS0862,Paddy's Bar & Restaurant,53.0547168,-8.2035153,"Carrownaglogh, Terryglass, E45 XA59",Tipperary,"Restaurant, Pub/Bar"
+FS0863,Padraicins Seafood Bar & Lounge,53.2504799,-9.2249206,"Ballynahown, Furbo, ",Galway,"Restaurant, Pub/Bar"
+FS0864,Páidí Ó'Sé's Pub,52.1274668,-10.3801472,"Emlaghslat, Church Cross, , ",Kerry,Pub/Bar
+FS0865,Panama Coffee,54.0043825,-6.4030524,"6 Magnet Rd, Townparks, Dundalk, A91 W5PT",Louth,"Restaurant, Cafe"
+FS0866,PantiBar,53.3465724,-6.2678769,"7-8 Capel St, North City, Dublin, D01 EH93",Dublin,Pub/Bar
+FS0867,Paradiso,51.8971017,-8.4828333,"16 Lancaster Quay, Mardyke, , T12 AR24",Cork,Restaurant
+FS0868,Partridges Bistro,52.6762366,-6.2919231,"94 Main St, Gorey corporation lands, Gorey, Y25 WF99",Wexford,Cafe
+FS0869,Pasta Bella,53.525989013848,-7.33531731779101,"Austin Friar Street, Mullingar, ",Westmeath,Restaurant
+FS0870,Restaurant Patrick Guilbaud,53.3383937,-6.2530018,"21 Merrion St Upper, Dublin, D02 KF79",Dublin,Restaurant
+FS0871,Patrick Larkin Bar & Lounge,53.3432883,-7.0511245,"JKL St, Edenderry, ",Offaly,Pub/Bar
+FS0872,Patrick's Bar and Carvery at the Springfield Hotel Leixlip,53.3603718,-6.4794755,"Leixlip Road, Lucan Demesne, Leixlip, W23 W280",Kildare,Pub/Bar
+FS0873,Golden's of Kells Craft Shop & Restaurant,52.0129965,-10.0983999,"Knockaneyouloo, Kells, V23 K132",Kerry,Cafe
+FS0874,Peadar Kearney's,53.344272,-6.2653586,"64 Dame St, Temple Bar, , D02 RT72",Dublin,Pub/Bar
+FS0875,Pearl Brasserie,53.3383413,-6.2531829,"20 Merrion St Upper, Dublin, D02 XH98",Dublin,Restaurant
+FS0876,Pennyfeather Café,52.6511111,-7.2527778,"10 High St, Gardens, , R95 Y9TA",Kilkenny,Cafe
+FS0877,People's Park Café,53.2894348,-6.1290256,"People's Park, The Peoples Park, Park Rd, Dún Laoghaire, A96 CF74",Dublin,"Restaurant, Cafe"
+FS0878,Pepe's Restaurant,52.8615326,-8.1977497,"Kenyon St, Nenagh South, Nenagh, ",Tipperary,Restaurant
+FS0879,Peploe's St Stephens Green,53.339525,-6.258176,"16 St Stephens Green, ,",Dublin,Restaurant
+FS0880,Pepper's Pub,52.9309637,-8.6369774,"Feakle East, Feakle, V94 DV26",Clare,"Restaurant, Pub/Bar"
+FS0881,Perrotts Garden Bistro at the Hayfield Manor Hotel,51.8910132,-8.4896521,"Perrott Ave, College Rd, Centre, , T12 HT97",Cork,Restaurant
+FS0882,Peruke & Periwig,53.3400991,-6.2587752,"31 Dawson St, Dublin, D02 DR58",Dublin,"Restaurant, Pub/Bar"
+FS0883,Peter's Pub,53.3409325,-6.2632689,"1 Johnson Pl, , D02 HW58",Dublin,Pub/Bar
+FS0884,Phelan Licensed Grocer,52.9034279,-6.2594153,"Greenane Rd, Ballinacarrig Lower, , ",Wicklow,Pub/Bar
+FS0885,Phoenix Park Café,53.3658291,-6.3310101,"Ashtown Castle, Nunciature Road, Castleknock (part of Phoenix Park), Cabra, , D08 X6X3",Dublin,"Restaurant, Cafe"
+FS0886,Phoenix Yard Market,52.2626422,-7.1162264,"39 O'Connell St, , X91 CDC7",Waterford,Restaurant
+FS0887,PI,53.343432,-6.2645756,"Castle House, PI, South Great George's Street, Dublin City, ",Dublin,Restaurant
+FS0888,Picaderos,53.3821689,-6.5895173,"Desmond House, Main St, Maynooth, ",Kildare,Restaurant
+FS0889,Pichet Restaurant,53.343802,-6.262352,"14-15 Trinity St, Dublin, D02 T998",Dublin,Restaurant
+FS0890,Pier Head Bar & Restaurant,53.1404312,-8.9381323,"The Quay, Dungory West, Kinvara, ",Galway,"Restaurant, Pub/Bar"
+FS0891,Pinocchio Italian Restaurant & Wine Bar,53.3446614,-6.2682745,"1, Pudding Row, Essex St W, Temple Bar, ,",Dublin,Restaurant
+FS0892,Pizza & Pasta Napoli,53.2714714,-9.0541613,"15 Cross Street Upper, , H91 ANH9",Galway,Restaurant
+FS0893,Pizza Time Tralee,52.2688046,-9.7060987,"3 Abbey St, The Square, Tralee,",Kerry,Restaurant
+FS0894,PJ's Bar & Restaurant,54.0403602,-6.1861417,"Tholsel St, Liberties of Carlingford, Carlingford, A91 TC58",Louth,"Restaurant, Pub/Bar"
+FS0895,Poacher Restaurant,54.114898,-9.1560891,"First Floor, 4 Market Square, Ballina, F26 Y5D1",Mayo,Restaurant
+FS0896,The Poet's Corner Bar- Ennis,52.8423437,-8.9831105,"Station Rd, Clonroad Beg, Ennis, ",Clare,Pub/Bar
+FS0897,Pónaire,52.7112236,-8.4074566,"Main St, Newport, ",Tipperary,Cafe
+FS0898,Poppadom,54.2716598,-8.4751789,"34 O'Connell St, Abbeyquarter North, , F91 V8WT",Sligo,Restaurant
+FS0899,Poppadom Restaurant,52.663633,-8.6229034,"2c Robert St, Cornmarket Row, , V94 C665",Limerick,Restaurant
+FS0900,Poppy Seed Café,53.267443,-8.930073,"8 Castle Court, Caslte Road, Oranmore,",Galway,Cafe
+FS0901,"Porterhouse, Temple Bar",53.3451,-6.267354,"16-18 Parliament Street, Temple Bar, ,",Dublin,Pub/Bar
+FS0902,Portmagee Farmers' Market,51.8854344750723,-10.3643436513672,"Community Hall, Portmagee, ",Kerry,Restaurant
+FS0903,Portmagee Whiskey Experience,51.8836618,-10.3620652,"Portmagee Whiskey, Barrack Hill, Gortreagh, Portmagee, ",Kerry,Restaurant
+FS0904,POTA Café,53.2366385,-9.4937758,"Cartron, , H91 A9W8",Galway,"Restaurant, Cafe"
+FS0905,Praline Pastry Shop and Café,52.2635964,-8.2690972,"Unit 8, Mitchelstown Shopping Centre, Brigown Road, Mitchelstown, P67 EK53",Cork,Cafe
+FS0906,Punchestown Racecourse,53.1858201,-6.6292924,"Punchestown, Naas, ",Kildare,"Restaurant, Pub/Bar"
+FS0907,The Pygmalion Restaurant at Parknasilla Resort & Spa,51.8156968,-9.8747331,"Derryquin, Parknasilla, V93 EK71",Kerry,Restaurant
+FS0908,QC's Seafood Restaurant,51.9458617,-10.2270294,"3 Main St, Cahersiveen, V23 WA46",Kerry,Restaurant
+FS0909,Quay Co-op,51.8954933,-8.4750078,"24 Sullivan's Quay, , T12 X867",Cork,Restaurant
+FS0910,Quay West Restaurant,54.6521155,-8.1112632,"Quay St, Glebe, , F94 E2A2",Donegal,Restaurant
+FS0911,Quealy's Bar,52.0892698,-7.6221405,"82 O'Connell St, Dungarvan, X35 E167",Waterford,Pub/Bar
+FS0912,"Quinlan's Seafood Bar, The Horan Centre",52.2692763,-9.6913205,"Unit 5, The Horan Centre, Cloonalour, Tralee, V92 NWY9",Kerry,Restaurant
+FS0913,Quinlan's Seafood Bar,52.0593688,-9.509752,"77 High Street, Killarney, V93 R2X3",Kerry,Restaurant
+FS0914,Quinn's Bar & Restaurant (Tigh Uí Chuinn),52.1327039,-10.35936,"Cantra, Ventry, V92 AW89",Kerry,"Restaurant, Pub/Bar"
+FS0915,Quinn's De Bucket Bar & Restaurant ,52.6198105,-8.765907,"Kildimo, Ferry Bridge, ",Limerick,"Restaurant, Pub/Bar"
+FS0916,Sólás Spa,54.2992639,-8.4997729,"Ballincar, Rosses Point, ",Sligo,Restaurant
+FS0917,Ragazzi Italian Restaurant,53.277243,-6.102749,"109 Coliemore Road, Dalkey,",Dublin,Restaurant
+FS0918,Raglan Road Tearoom,54.0018061,-6.5762169,"Unnamed Road, Lacklom, , ",Monaghan,"Restaurant, Cafe"
+FS0919,Railway Inn,53.2483884,-6.665205,"Main Street, Sallins, W91 WR2D",Kildare,Pub/Bar
+FS0920,Ramelton Country Market,55.038571,-7.642384,"Ramelton Town Hall, Ramelton, ",Donegal,Restaurant
+FS0921,Rasam Restaurant,53.28691397242849,-6.12326137301636,"18-19 Glasthule Road, Dun Laoghaire, ,",Dublin,Restaurant
+FS0922,The Dining Room at Rathsallagh Country House,53.028256,-6.7276452,"Rathsallagh Demesne, Dunlavin, ",Wicklow,Restaurant
+FS0923,RAW Interiors & Café,52.8067786,-8.4404115,"Church Street, Shantraud, Killaloe, V94 RX5D",Clare,Cafe
+FS0924,Red Fox Inn,52.0735136,-9.8822559,"Unnamed Road, Quaybaun, , ",Kerry,"Restaurant, Pub/Bar"
+FS0925,Red Oak Restaurant,53.0663894,-8.3010667,"Clonmoylan, Ballushrule, Cloonmoylan, Portumna, ",Galway,Restaurant
+FS0926,Reddy's of Carlow,52.8358354,-6.9256328,"67 Tullow St, , R93 FN44",Carlow,"Restaurant, Pub/Bar"
+FS0927,Reeds Restaurant at the Ferrycarrig Hotel,52.354155,-6.505917,"Ferrycarrig Hotel, Ferrycarrig, ",Wexford,Restaurant
+FS0928,Reilly's Bar,53.3383111,-6.25365,"17 Merrion St Upper, , D02 WV59",Dublin,Pub/Bar
+FS0929,Restaurant 104,53.3721066990091,-6.25270147731555,"104 Upper Drumcondra Road, Drumcondra,",Dublin,Restaurant
+FS0930,Restaurant Chestnut,51.5625077,-9.4606909,"The Chestnut Tree, Staball Hill, Ballydehob, P81 X681",Cork,Restaurant
+FS0931,Frawley's Restaurant,51.7065309,-8.5233554,"Pearse St, Sleveen, Kinsale, P17 Y504",Cork,Restaurant
+FS0932,Revolution Craft Beer & Whiskey Bar,52.2574946,-7.1119169,"The Apple Market, 19 John St, , X91 V520",Waterford,Pub/Bar
+FS0933,R&R Brasserie at Errigal Country House Hotel,54.06548,-7.1018256,"Cavan Rd, Errigal, , ",Cavan,"Restaurant, Pub/Bar, Cafe"
+FS0934,Richmond House Restaurant,52.1412005,-7.8482698,", Cappoquin, ",Waterford,Restaurant
+FS0935,Ripples Restaurant,55.1358742,-7.6731491,"Ranny, , ",Donegal,Restaurant
+FS0936,Ristorante Rinuccini,52.6502854,-7.2507243,"1 The Parade, Gardens, , R95 XKR7",Kilkenny,Restaurant
+FS0937,Ristorante Uno,52.2674452,-9.7088668,"3 Ivy Terrace, Tralee,",Kerry,Restaurant
+FS0938,SteakHouse 1756 at the Court Yard Hotel,53.3637378,-6.4887853,"Main St, Leixlip, ",Kildare,Restaurant
+FS0939,River Bar & Terrace Riverbank House Restaurant at The Riverbank House Hotel,52.3445527,-6.4548986,"Riverbank House Hotel, Ferrybank South, , ",Wexford,"Restaurant, Pub/Bar"
+FS0940,Riverview Bar and Terrace at Kilkenny River Court Hotel,52.6515406,-7.2492572,"The Bridge, John Street Upper, Collegepark, , R95 Y104",Kilkenny,"Restaurant, Pub/Bar"
+FS0941,Salvadors & Robertinos Restaurant,52.0599088,-9.5093204,"9 High Street, Killarney, V93 V2N1",Kerry,Restaurant
+FS0942,Roches Bar,52.221287,-6.933726,"Duncannon The Hook Peninsula, Duncannon, New Ross, Y34 AH04",Wexford,"Restaurant, Pub/Bar"
+FS0943,Rody Bolands,53.3211442,-6.2653824,"12-14 Rathmines Rd Upper, Rathmines, D06 E1E8",Dublin,Pub/Bar
+FS0944,Rolf's Country House Restaurant & Wine Bar,51.4792193,-9.3684289,"The Hill, Baltimore, ",Cork,Restaurant
+FS0945,Rolys Bistro,53.329399,-6.232253,"7 Ballsbridge Terrace, ,",Dublin,Restaurant
+FS0946,Roscommon Farmer's Market,53.631054,-8.191384,"Market Square, Roscommon Town, ",Roscommon,Restaurant
+FS0947,Roscommon Racecourse,53.6470328,-8.2229038,"Racecourse Rd, Carrownabrickna, Lenabane, , F42 V052",Roscommon,Restaurant
+FS0948,Rouge Restaurant,53.2704792,-9.0571619,"38 Dominick St Lower, , H91 XYW0",Galway,Restaurant
+FS0949,Roundy Bar,51.8988159,-8.4761436,"1 Castle St, Centre, , T12 RX09",Cork,Pub/Bar
+FS0950,Row Wines,53.3420501,-6.2621512,"Row, Coppinger Row Unit, City Assembly House, Dublin, ",Dublin,"Restaurant, Pub/Bar"
+FS0951,Royal Spice Kilkenny,52.6552647,-7.2552571,"2 Water Gate, Gardens, , R95 K72D",Kilkenny,Restaurant
+FS0952,Ruby Ellen's Tea Rooms,54.041186,-6.186721,"Marian House, Newry St, Liberties of Carlingford, Carlingford, ",Louth,Cafe
+FS0953,Rúibín Bar & Restaurant,53.2700844,-9.0520046,"1 Dock Rd, , H91 D7NE",Galway,"Restaurant, Pub/Bar"
+FS0954,Ryan's Bar Scarriff,52.9109144,-8.5314285,"Market Square, Ballyminoge, Scarriff, ",Clare,Pub/Bar
+FS0955,Ryans Bar and Lounge,52.7105961,-8.404749,"Cork Rd, Cooldrisla, Newport, ",Tipperary,Pub/Bar
+FS0956,Saba Restaurant-Baggot Street,53.3335745015308,-6.24374065230938,"22 Upper Baggot Street, Dublin City Centre,",Dublin,Restaurant
+FS0957,Sage & Stone,53.6608651,-6.396201,"The Farm, Newlanes House, Blackditch, Duleek, ",Meath,Cafe
+FS0958,Salamanca,53.343483,-6.261616,"1 St. Andrew's Street, Dublin city centre, ,",Dublin,Restaurant
+FS0959,Sale e Pepe,53.4508985,-6.153488,"Main St, Malahide, ",Dublin,Restaurant
+FS0960,Sally Long's Bar,53.274072,-9.053622,"33 Abbeygate Street Upper, , H91 X210",Galway,Pub/Bar
+FS0961,Salthill Cabin,54.6305867,-8.2063893,"Salthill Demesne, , ",Donegal,Cafe
+FS0962,Salvi's Café,51.7061554,-8.5224969,"7 Pearse St, Sleveen, Kinsale,",Cork,Cafe
+FS0963,Sandyford House Bar & Restaurant,53.2698124,-6.2249056,"Sandyford Village, Sandyford, Dublin, ",Dublin,"Restaurant, Pub/Bar"
+FS0964,Sano Pizza,53.344284825471,-6.26781636266151,"1-2 Exchange Street Upper, Temple Bar, Dublin City,",Dublin,Restaurant
+FS0965,Savour Restaurant at the Kilkenny Ormonde Hotel,52.6496522,-7.2531723,"Ormonde St, Gardens, , ",Kilkenny,Restaurant
+FS0966,Savoury Fare,53.4221206,-7.9347916,"First Floor, Irishtown Central, Golden Island, Athlone, ",Westmeath,Cafe
+FS0967,Marguerite's Coffee Shop & Restaurant,52.0595431,-9.5098619,"73 High Street, Killarney, V93 VK03",Kerry,"Restaurant, Cafe"
+FS0968,Scholars Gastro Lounge at Scholars Townhouse Hotel,53.7180017,-6.3488493,"Scholars Townhouse Hotel, King St, Downtown Drogheda, Drogheda, A92 ED71",Louth,"Restaurant, Pub/Bar"
+FS0969,Scholars Restaurant at Scholars Townhouse Hotel,53.7180135,-6.348733,"Scholars Townhouse Hotel, King St, Downtown Drogheda, Drogheda, A92 ED71",Louth,Restaurant
+FS0970,Scoozi Restaurant,51.8985221,-8.4701182,"2/5 Winthrop Ln, Centre, ,",Cork,Restaurant
+FS0971,Scott's Bar and Gulliver's Restaurant,52.6682839,-7.2527571,"Castlecomer Rd, , ",Kilkenny,Restaurant
+FS0972,Seán Óg's Bar & Restaurant,55.0714913,-8.2967204,"Middletown, Derrybeg, F93 XY36",Donegal,"Restaurant, Pub/Bar"
+FS0973,Seán Ógs Bar at Upton Court Hotel,52.5174104,-6.2805769,"Kilmuckridge, Cosher, Kilmuckridge, ",Wexford,"Restaurant, Pub/Bar"
+FS0974,Sean's Bar,53.4226598,-7.9423362,"13 Main St, Athlone,",Westmeath,Pub/Bar
+FS0975,Searsons,53.3332243,-6.2428826,"42-44 Baggot Street Upper, Dublin, D04 V210",Dublin,Pub/Bar
+FS0976,Sha-Roe Bistro,52.6926835,-6.6454084,"Main St, Clonegall, , ",Carlow,Restaurant
+FS0977,Shanley's Bar,51.621767,-8.888962,"Connolly Street, Clonakilty, ",Cork,Pub/Bar
+FS0978,Sheedy's Hotel and Restaurant,53.0277476,-9.289638,"Main St, Rathbaun, Lisdoonvarna, ",Clare,Restaurant
+FS0979,Sheehan's,53.340957,-6.26178,"17 Chatham Street, Chatham Row, ,",Dublin,Pub/Bar
+FS0980,Shelbourne Bar,51.9014208,-8.4683764,"17 MacCurtain Street, Victorian Quarter, , T23 DE79",Cork,Pub/Bar
+FS0981,Shells Café,54.2700853,-8.6093799,"Seafront, Carrowbunnaun, Strandhill, ",Sligo,Cafe
+FS0982,Sheridan's Bar & Restaurant,53.615168,-8.900728,"Milltown, Tuam, H54 D252",Galway,"Restaurant, Pub/Bar"
+FS0983,Shines Seafood,54.6363476,-8.4449606,"Dockyard, Quay St, Killybegs, F94 Y1FT",Donegal,Restaurant
+FS0984,Silken Thomas,53.1567487,-6.909472,"16 Market Square, , R51 HK54",Kildare,"Restaurant, Pub/Bar"
+FS0985,The Singing Pub,55.2091153,-7.8189363,"Mevagh, Downings, ",Donegal,"Restaurant, Pub/Bar"
+FS0986,Sinnotts Bar,53.339967,-6.262002,"South King Street, , ",Dublin,Pub/Bar
+FS0987,Sirocco’s Italian Restaurant,53.2758431,-7.4941284,"Patrick St, Puttaghan, Tullamore, ",Offaly,Restaurant
+FS0988,Skelligs Chocolate,51.8459939,-10.3299805,"Aghort, , V23 HP64",Kerry,"Restaurant, Cafe"
+FS0989,Skelly's Bar and Restaurant,53.5633807,-7.7636279,"16 Main St, Ballymahon, N39 Y6T0",Longford,"Restaurant, Pub/Bar"
+FS0990,Sketch at The Imperial Hotel Cork,51.8973342,-8.469899,"Pembroke St, Centre, , ",Cork,"Restaurant, Pub/Bar"
+FS0991,Skibbereen Country Market,51.548717,-9.269557,"The Fairfield (Skibbereen Market), Bridge Street, Marsh, Skibbereen, P81 TH68",Cork,Restaurant
+FS0992,Skibbereen Farmers' Market,51.548717,-9.269557,"The Fairfield (Skibbereen Market), Bridge Street, Marsh, Skibbereen, P81 TH68",Cork,Restaurant
+FS0993,Skylon Bar & Grill at The Dublin Skylon Hotel,53.3727341,-6.2532086,"27 Drumcondra Rd Upper, Drumcondra, Dublin, D09 FP84",Dublin,"Restaurant, Pub/Bar"
+FS0994,Slevin’s,53.4192309,-6.4764686,"Maynooth Rd, Castlefarm, Dunboyne, A86 PC78",Meath,Pub/Bar
+FS0995,Slieve League Lodge,54.6577974,-8.6335373,"Main St, Roxborough Glebe, Carrick, F94 V6YF",Donegal,"Restaurant, Pub/Bar"
+FS0996,Slow Roast Sandwiches & Coffee,53.1983966,-8.5701098,", Loughrea, ",Galway,Cafe
+FS0997,Smugglers Creek,54.5472531,-8.2129177,"Cliff Road, Rossnowlagh, ",Donegal,"Restaurant, Pub/Bar"
+FS0998,Sol Rio Restaurant,53.7990857,-9.5223095,"Bridge St, Cahernamart, Westport, ",Mayo,Restaurant
+FS0999,SOLE Seafood & Grill,53.3421299,-6.2630775,"47 Drury St, , D02 K753",Dublin,Restaurant
+FS1000,South County,51.8761758,-8.4400284,"W Douglas St, Douglas, T12 CKD6",Cork,Pub/Bar
+FS1001,Spa Seafoods Deli,52.2752193,-9.7825434,"Spa Rd, Knockanush West, Tralee, ",Kerry,Restaurant
+FS1002,Spice Indian Restaurant,52.3415618,-6.4628883,"Monck St, Ferrybank South, , ",Wexford,Restaurant
+FS1003,Spillane's Bar & Restaurant,52.303059,-10.040086,"Fahamore, Castlegregory, ",Kerry,"Restaurant, Pub/Bar"
+FS1004,The Spirit Store,54.0089765,-6.3900726,"George's Quay, Marsh North, Dundalk, ",Louth,Pub/Bar
+FS1005,Stable Diet Café,52.3355694,-6.4588839,"100 S Main St, Whitewell, , Y35 EE78",Wexford,Cafe
+FS1006,Statham's at The Pembroke Hotel,52.6495409,-7.2513829,"11 Patrick St, Gardens, , R95 VNP4",Kilkenny,"Restaurant, Pub/Bar"
+FS1007,Stella Cinema,53.3223738,-6.2658589,"207, The Stella Cinema Rathmines, Rathmines Road Lower, Rathmines,",Dublin,Pub/Bar
+FS1008,Stella Cocktail Club,53.3223724,-6.2659039,"Stella Cocktail Club, Rathmines Road Lower, Rathmines, ",Dublin,"Restaurant, Pub/Bar"
+FS1009,Stella Maris Country House Hotel Restaurant,54.2995608,-9.3922571,"Killerduff, Ballycastle, ",Mayo,Restaurant
+FS1010,Stephenstown Pond Nature Park & The Dairy Maid Coffee Shop,53.963054,-6.459102,"Stephenstown Pond Project, Knockbridge, Rathroal, Dundalk, ",Louth,Cafe
+FS1011,Stillorgan Orchard,53.2882762,-6.1968604,"1 The Hill, Stillorgan, A94 VY94",Dublin,Pub/Bar
+FS1012,Stir Restaurant at Clayton Hotel Cardiff Lane,53.345259,-6.24113,"Sir John Rogerson's Quay, Cardiff Lane, Dublin City, ",Dublin,Restaurant
+FS1013,Stradbally Community Market,52.1357453,-7.4673048,", Newtown, X42 Y398",Waterford,Restaurant
+FS1014,Stradbally Fayre,53.017272,-7.151302,"Main St, Stradbally, ",Laois,"Restaurant, Cafe"
+FS1015,Strandfield Café,54.0319899,-6.3798469,"STRANDFIELD HOUSE, Dundalk, ",Louth,Cafe
+FS1016,Suesey Street Restaurant,53.3326583,-6.2527972,"26 Fitzwilliam Pl, , D02 T292",Dublin,Restaurant
+FS1017,Sullivan’s Taproom,52.65297,-7.2490724,"15 John Street Lower, , R95 H2CE",Kilkenny,"Restaurant, Pub/Bar"
+FS1018,Sweeneys Siopa Claddaigh,53.9322145,-9.9236614,"Illanbelfarsad, , ",Mayo,Cafe
+FS1019,Sweet Churro,53.3441843,-6.2676356,"4 Dame St, Temple Bar, , D02 E096",Dublin,"Restaurant, Cafe"
+FS1020,Sweet Sundaes,54.0402684,-6.1867645,"Market St, Liberties of Carlingford, Carlingford, ",Louth,Cafe
+FS1021,T.P. Smith's,53.34746,-6.265949,"9-10 Jervis Street, ,",Dublin,Pub/Bar
+FS1022,Taaffes Bar,53.2723487,-9.0531715,"19 Shop St, ,",Galway,Pub/Bar
+FS1023,The Talbot Bar,52.8618617,-8.1980413,"52 Kenyon St, Nenagh South, Nenagh, E45 P088",Tipperary,Pub/Bar
+FS1024,Talbot's Seafood Bar,54.223207,-9.985746,"Barrack St, Belmullet, ",Mayo,"Restaurant, Pub/Bar"
+FS1025,Tango Street Food,52.055677,-9.5069815,"Muckross Rd, Dromhale, Killarney, V93 FP40",Kerry,Restaurant
+FS1026,Tara Lounge & Mornington Restaurant at CityNorth Hotel,53.6392140585585,-6.25753894494858,"CityNorth Hotel & Conference Centre, Gormanston, , ",Meath,Restaurant
+FS1027,Taste the Atlantic - Salmon Experience,53.0279945,-9.292079,"Kincora Rd, Rathbaun, Lisdoonvarna, V95 HD70",Clare,Restaurant
+FS1028,Coastal Discovery Taste Trail by Taste Waterford,52.0936763,-7.6203627,", Dungarvan, ",Waterford,Restaurant
+FS1029,Tatler Jack,52.0584303,-9.5085484,"28-29 Plunkett St, Killarney, V93 VY2P",Kerry,Pub/Bar
+FS1030,Taylor's Bar,52.8425354,-8.985149,"Upper Market St, Clonroad Beg, Ennis, ",Clare,Pub/Bar
+FS1031,Taylors Three Rock,53.2685337,-6.2622883,"Grange Rd, Rathfarnham, Dublin, ",Dublin,Pub/Bar
+FS1032,Teach Dolmain,52.8361268,-6.925403,"76 Tullow St, , R93 NY70",Carlow,"Restaurant, Pub/Bar"
+FS1033,Temple Bar Food Market,53.3448792,-6.2651688,"Meeting House Square, Temple Bar, , ",Dublin,Restaurant
+FS1034,Tempo Café,54.2113006,-8.5076848,"Main Street, Ballysadare, , F91 TO27",Sligo,Cafe
+FS1035,Tequila Jack's Mexican Restaurant and Tequila Bar,51.8986977,-8.4645288,"City Quarter, Lapp's Quay, Centre, , T12 KCW0",Cork,"Restaurant, Pub/Bar"
+FS1036,The Pippin Tree Restaurant at Killashee Hotel,53.1911548,-6.674588,"Kilcullen Rd, Killashee, Naas, ",Kildare,Restaurant
+FS1037,Terrace Restaurant at The Mullingar Park Hotel,53.5228043,-7.3032536,"Dublin Rd, Marlinstown Bog, Mullingar, N91 A4EP",Westmeath,Restaurant
+FS1038,Texas Steakout Restaurant,52.6627708,-8.6281603,"116 O'Connell St, , V94 DDW7",Limerick,Restaurant
+FS1039,TGI Friday's Blanchardstown,53.3917376,-6.3925191,"15 The Mall, Blanchardstown, Dublin, D15 E0V1",Dublin,Restaurant
+FS1040,Thai House Restaurant,53.276706,-6.103244,"21 Railway Road, Dalkey,",Dublin,Restaurant
+FS1041,The 108,53.3120811326942,-6.27457217916799,"108 Rathgar Road, ,",Dublin,Pub/Bar
+FS1042,The 51,53.3346674,-6.2424793,"51 Haddington Rd, Dublin, D04 FD83",Dublin,Pub/Bar
+FS1043,The Abbey Bar,51.5773742,-9.0315905,"2 Church St, Townlands, Rosscarbery, P85 R638",Cork,Pub/Bar
+FS1044,The Abbey Tavern,53.3869991,-6.0657446,"28 Abbey St, Howth, D13 E9V4",Dublin,"Restaurant, Pub/Bar"
+FS1045,The Abbey Tavern Quin,52.8175199,-8.8639219,"Quin Rd, Quin, Ennis, ",Clare,"Restaurant, Pub/Bar"
+FS1046,The Academy,53.3480332571037,-6.26199741687344,"57 Middle Abbey Street, Dublin City Centre,",Dublin,Pub/Bar
+FS1047,The Algiers Inn,51.4834446,-9.3726455,"The Algiers Inn, Baltimore, P81 RH93",Cork,"Restaurant, Pub/Bar"
+FS1048,The Amber Court Chinese Restaurant,53.5247254,-7.3462451,"30 Dominick St, Commons, Mullingar, N91 RTX6",Westmeath,Restaurant
+FS1049,The Anchor Inn,52.807185,-8.4402435,"Bridge St, Shantraud, Killaloe, ",Clare,Pub/Bar
+FS1050,The Apex,52.3969993,-6.9344785,"Sports & Leisure, Bosheen, New Ross, Y34 X045",Wexford,Cafe
+FS1051,The Ardagh Restaurant at The Ardagh Hotel,53.4687603,-10.0173971,"Ardagh, R341 Ballyconneely Road, Ardagh, Clifden, H71 X590",Galway,"Restaurant, Pub/Bar"
+FS1052,The Ardattin Inn,52.7536065,-6.7067205,"Ardattin, , ",Carlow,Pub/Bar
+FS1053,The Avon,53.1615355,-6.5335434,"The Burgage, Burgage More, Blessington, W91 HFX3",Wicklow,"Restaurant, Cafe"
+FS1054,Bailey Bar & Café,53.3420172,-6.2595157,"1-4 Duke St, Dublin, D02 ET99",Dublin,Pub/Bar
+FS1055,The Bailey Bar & Eatery,52.5027222,-6.5682386,"Barrack St, Enniscorthy, ",Wexford,"Restaurant, Pub/Bar"
+FS1056,The Ballymaloe Shop & Café,51.8649421,-8.0741538,"Ballymaloe, Ballymaloe More, Shanagarry, ",Cork,"Restaurant, Cafe"
+FS1057,The Ballymore Inn,53.1338969,-6.6153447,"The Ballymore Inn, Main Street, Kimmeens, Ballymore Eustace, ",Kildare,"Restaurant, Pub/Bar"
+FS1058,The Bank on College Green,53.3441151,-6.2614964,"20-22 College Green, Dublin, D02 C868",Dublin,"Restaurant, Pub/Bar"
+FS1059,The Bankers,53.343947,-6.262441,"16 Trinity Street, ,",Dublin,Pub/Bar
+FS1060,The Barn Gastropub,51.918936,-8.4176523,"The Barn, Tivoli, Glanmire, T45 X684",Cork,"Restaurant, Pub/Bar"
+FS1061,The Anchor Restaurant at The Talbot Hotel,54.2231332,-9.9853861,"Barrack St, Belmullet, F26 NP08",Mayo,Restaurant
+FS1062,The Bay Tree Restaurant,54.0408904,-6.1868972,"Newry St, Liberties of Carlingford, Carlingford, A91 V054",Louth,Restaurant
+FS1063,The Beach Bar,54.268985,-8.7572007,"the beach bar, Aughris, Templeboy, F91 YE98",Sligo,Pub/Bar
+FS1064,The Beehive Craft and Coffee Shop ,53.9746173,-10.0853723,"R319 Keel Achill Island, Keel East, , F28 TN27",Mayo,"Restaurant, Cafe"
+FS1065,The Belfry Pub and Embassy Bar & Grill,54.2710593,-8.4712712,"Thomas St, Abbeyquarter North, , ",Sligo,"Restaurant, Pub/Bar"
+FS1066,The Bird Flanagan,53.3366015,-6.2992212,"471 S Circular Rd, Ushers, ,",Dublin,Pub/Bar
+FS1067,Oak & Anvil at the Killashee Hotel,53.1916464,-6.6738602,"Kilcullen Rd, Killashee, Naas, ",Kildare,Restaurant
+FS1068,The Black Sheep,53.3497948,-6.2690908,"61 Capel St, Rotunda, ,",Dublin,Pub/Bar
+FS1069,The Blackberry Café,52.5256852,-7.1390919,"Market St, Thomastown, ",Kilkenny,Cafe
+FS1070,The Bleeding Horse,53.3335429,-6.2649066,"24-25 Camden Street Upper, Saint Kevin's, ,",Dublin,Pub/Bar
+FS1071,The Bloody Stream,53.3889995,-6.0742026,"Howth Railway Station, Howth, ",Dublin,"Restaurant, Pub/Bar"
+FS1072,The Blue Apron Restaurant ,53.275878,-7.489516,"Harbour St, Tullamore, ",Offaly,"Restaurant, Pub/Bar"
+FS1073,The Blue Goat Ramelton,55.0383391,-7.6439482,"The Blue Goat Ramelton: Artisan Food Store and Cafe, The Quay, Rossreagh, Ramelton, ",Donegal,"Restaurant, Cafe"
+FS1074,"Blue Haven Bar & Bistro, Rare & The Moet Garden and The Newport Lounge",51.7064253,-8.5229873,"3 Pearse St, Sleveen, Kinsale, P17 NA72",Cork,"Restaurant, Pub/Bar"
+FS1075,The Blue Note,53.2700758,-9.0593127,"3 William St W, s West End, , H91 V184",Galway,Pub/Bar
+FS1076,The Boathouse,55.1589171,-7.1213353,"Tullynavinn, Redcastle, ",Donegal,"Restaurant, Pub/Bar"
+FS1077,The Boatyard Restaurant,52.1393464,-10.2760389,"Strand St, The-Wood, Dingle, ",Kerry,Restaurant
+FS1078,The Book & Coffee Shop,52.6517327,-7.2536597,"Gardens, Kilkenny City, R95 KCF1",Kilkenny,Cafe
+FS1079,The Bosun Bar and Restaurant ,51.849795,-8.331872,"9 De Vesci Pl, Ringacoltig, Monkstown,",Cork,"Restaurant, Pub/Bar"
+FS1080,The Boxty House,53.345719,-6.262216,"20-21, Temple Bar, Dublin, D02 ET66",Dublin,Restaurant
+FS1081,The Brasserie at The Fairways Hotel,53.9676024,-6.3874279,"Fairways Hotel, Haggardstown, Dundalk, A91 E6KC",Louth,"Restaurant, Pub/Bar"
+FS1082,The Brazen Head,53.3449326,-6.2763323,"20 Lower Bridge St, Usher's Quay, , D08 WC64",Dublin,Pub/Bar
+FS1083,The Brewery,53.9232191,-7.5823749,"Main St, Drumalt, Arvagh, H12 X6C2",Cavan,Pub/Bar
+FS1084,The Brewery Bar,54.9498166,-7.7378375,"Market Square, Letterkenny, ",Donegal,"Restaurant, Pub/Bar"
+FS1085,The Brewery Tap,53.274271,-7.4931314,"1 High St, Tullamore, R35 P761",Offaly,Pub/Bar
+FS1086,The Brick Oven,51.6803793,-9.4550379,"The Quay, Town Lots, , ",Cork,Restaurant
+FS1087,The Bridge 1859,53.329262,-6.232083,"The Bridge 1859, Ballsbridge Terrace, Ballsbridge,",Dublin,"Restaurant, Pub/Bar"
+FS1088,The Bridge Bar,51.8857666,-10.3654316,", Portmagee, ",Kerry,Pub/Bar
+FS1089,The Bridge Restaurant at Newgrange Hotel,53.651902,-6.682953,"Bridge St, Dillonsland, Navan, C15 A6WV",Meath,Restaurant
+FS1090,The Bridge Tavern,52.9810139,-6.0420639,"Bridge St, , ",Wicklow,Pub/Bar
+FS1091,The Brooklyn,53.4562873,-6.2207014,"The Plaza, Malahide Rd, Townparks, Swords, K67 WV44",Dublin,"Restaurant, Pub/Bar"
+FS1092,The Bull & Castle Steakhouse,53.3434473,-6.2698581,"5-7 Lord Edward St, Dublin, D02 P634",Dublin,"Restaurant, Pub/Bar"
+FS1093,The Burren Centre,52.990242,-9.2166124,"Main St, Maryville, Kilfenora, ",Clare,Cafe
+FS1094,The Butterbean Restaurant,55.2512932,-7.2597564,"Bank Pl, Gort Glebe, Carndonagh, ",Donegal,Restaurant
+FS1095,The Button Factory,53.3449334,-6.2645228,"Curved St, Temple Bar, , ",Dublin,"Restaurant, Pub/Bar"
+FS1096,The Candle Room Restaurant at the Killarney Royal Hotel,52.0600377,-9.5054943,"College St, Killarney, V93 XC90",Kerry,Restaurant
+FS1097,The Carrigart,55.1774717,-7.7927483,"Main St, Carrickart, , F92 C440",Donegal,"Restaurant, Pub/Bar"
+FS1098,The Castle Café,51.8999137,-8.4023952,"Blackrock Castle, Castle Rd, Blackrock, ",Cork,"Restaurant, Cafe"
+FS1099,The Castle Inn,53.0714587,-6.0646624,"Main street, Newcastle Middle, Newcastle, A63 Y673",Wicklow,"Restaurant, Pub/Bar"
+FS1100,The Cedar Tree,53.343245,-6.26209,"11a Saint Andrews Street, Dublin City Centre,",Dublin,Restaurant
+FS1101,The Cellar Bar,53.2743628,-9.0516419,"12 Eglinton St, , H91 D278",Galway,"Restaurant, Pub/Bar"
+FS1102,The Celt Bar,53.3505478,-6.2550578,"81 Talbot St, North City, , D01 YK51",Dublin,Pub/Bar
+FS1103,The Central Bar,54.9512767,-7.7366924,"58 Upper Main St, Letterkenny, F92 T2C5",Donegal,Pub/Bar
+FS1104,The Central,53.6526937,-6.6850147,"4 Trimgate St, Dillonsland, Navan, C15 YX00",Meath,"Restaurant, Pub/Bar, Cafe"
+FS1105,The Chasin Bull,54.4802677,-8.275229,"Main St, Drumacrin, Bundoran, ",Donegal,Pub/Bar
+FS1106,The Chocolate Warehouse,53.3149733,-6.3333243,"Mulcahy Keane Industrial Estate, Greenhills Rd, Walkinstown, Dublin, ",Dublin,Restaurant
+FS1107,"The Church, Café, Late Bar and Restaurant",53.3486388,-6.2667114,"Jervis St, North City, Dublin, D01 YX64",Dublin,"Restaurant, Pub/Bar"
+FS1108,"The Church Restaurant, Bar & Café",54.9329719,-7.7725911,"Rockhill House Estate, Rockhill, Letterkenny, F92 EC5H",Donegal,"Restaurant, Pub/Bar, Cafe"
+FS1109,The Circular Bar,53.3362039,-6.2979249,"536-538 South Circular Road, Saint James' (part of Phoenix Park), Dublin City,",Dublin,"Restaurant, Pub/Bar"
+FS1110,The Clan Colla,53.3978454,-8.3345239,"Main St, Ahascragh West, Ballinasloe, H53 TD80",Galway,"Restaurant, Cafe"
+FS1111,The Clermont ,53.963206,-6.3661527,"Main St, Haggardstown, Blackrock, A91 C9K3",Louth,"Restaurant, Pub/Bar, Cafe"
+FS1112,The Cliff Restaurant at The Cliff House Hotel,52.5144524,-9.6734273,"Cliff Rd, Dromin, Ballybunion, ",Kerry,Restaurant
+FS1113,The Club,53.277288,-6.10262,"107 Colimore Road, Dalkey,",Dublin,Pub/Bar
+FS1114,The Coach House Pub,52.6766669,-6.2907015,"1 Esmonde St, Goreybridge, Gorey, Y25 T922",Wexford,"Restaurant, Pub/Bar"
+FS1115,The Coachouse Restaurant at The Old Imperial Hotel,51.9555221,-7.8501036,"27 N Main St, Youghal-Lands, Youghal, P36 K006",Cork,Restaurant
+FS1116,The Coffee Pot Café at the Gap,52.0400715,-9.6320228,"Gap of Dunloe, Dunloe Upper, Beaufort, ",Kerry,Cafe
+FS1117,The Coffee Shop,52.9808461,-6.0433081,"Fitzwilliam Square, , A67 EP95",Wicklow,Cafe
+FS1118,The Comedy Crunch,53.3438235,-6.2636588,"1 Dame Ct, , D02 TW84",Dublin,Pub/Bar
+FS1119,The Cosy Cottage Café & Restaurant,55.1893346,-7.0391633,"Bath Terrace, Ballynally, Moville, F93 CDH6",Donegal,"Restaurant, Cafe"
+FS1120,The Cottage Loughmore,52.7571239,-7.8269581,"Tinvoher, Loughmoe, , E41 FK30",Tipperary,"Restaurant, Cafe"
+FS1121,The Courtroom Restaurant at Cabra Castle,53.9195973,-6.785608,"Carrickmacross Rd, Mullantra, Kingscourt, A82 EC64",Cavan,Restaurant
+FS1122,The Courtyard Bar & Restaurant,52.5907997,-6.496987,"Main St, Ferns Upper, Ferns, ",Wexford,"Restaurant, Pub/Bar"
+FS1123,The Crafty Fox,53.3364247849161,-6.26635939355993,"37-38 Camden Row, Dublin City,",Dublin,Pub/Bar
+FS1124,The Crane Bar,53.2698591,-9.0605523,"2 Sea Rd, , H91 YP97",Galway,Pub/Bar
+FS1125,The Danny Mann Pub at Eviston House Hotel,52.0588141,-9.510646,"97-99 New St, Killarney, V93 V0HR",Kerry,"Restaurant, Pub/Bar"
+FS1126,The Dew Drop Gastropub,53.2476653,-6.592685,"Main St, Kill East, Kill, ",Kildare,"Restaurant, Pub/Bar"
+FS1127,The Dew Drop Inn,53.2719399,-9.0542417,"Mainguard St, , ",Galway,Pub/Bar
+FS1128,The Dingle Peninsula Food & Drink Trail,52.1382626584424,-10.2700068489257,", Dingle Peninsula, ",Kerry,Restaurant
+FS1129,The Dingle Pub,52.1414499,-10.2678829,"Main St, Grove, Dingle, V92 RHP1",Kerry,Pub/Bar
+FS1130,The Dining Room at the Gregans Castle Hotel,53.0768513,-9.1843186,"Gragan East, , H91 CF60",Clare,Restaurant
+FS1131,The Dog House & Blue's Tea Rooms Howth,53.388795,-6.0746619,"Howth Dart Station, Howth Rd, Howth, ",Dublin,Restaurant
+FS1132,The Dough Bros,53.2727344,-9.0517607,"Cathedral Buildings, 1 Middle St, ,",Galway,Restaurant
+FS1133,The Drift Inn,55.1277017,-7.4572315,"Buncrana Fire Station, Railway Rd, Ballymacarry Lower, Buncrana, ",Donegal,"Restaurant, Pub/Bar"
+FS1134,The Dropping Well,53.308028,-6.254979,"Classon's Bridge, Milltown, ",Dublin,Pub/Bar
+FS1135,The Duke Pub,53.3419569,-6.2586996,"9 Duke St, Dublin, D02 NR76",Dublin,Pub/Bar
+FS1136,The Dungeon Bar at Kinnitty Castle Hotel,53.1025566,-7.6978107,"Castle Hotel, Castletown And Glinsk, Kinnitty, R42 CY50",Offaly,"Restaurant, Pub/Bar"
+FS1137,The Earl Inn,53.2845632,-8.5887208,"Raford, Kiltullagh, H65 AT25",Galway,"Restaurant, Pub/Bar"
+FS1138,The Edge Lahinch,52.9332333,-9.3468671,"Promenade, Dough, Lahinch, V95 FE4W",Clare,"Restaurant, Pub/Bar"
+FS1139,The Elm Tree,51.9120045,-8.3044175,"Killacloyne, Glounthaune Village, , ",Cork,Pub/Bar
+FS1140,The Embassy Steakhouse,54.2711546,-8.4710513,"John F Kennedy Parade, Abbeyquarter North, , ",Sligo,"Restaurant, Pub/Bar"
+FS1141,The Front Bar and Restaurant at the Emmet Hotel,51.6221775,-8.8912401,"2/3 Emmet Square, Maulnaskehy, Clonakilty, P85 PC89",Cork,"Restaurant, Pub/Bar"
+FS1142,The Esquire & Raglan Road,52.1613571,-7.1521808,"1 Little Market St, Tramore West, Tramore, X91 N638",Waterford,"Restaurant, Pub/Bar"
+FS1143,The Fáilte Restaurant at The Fáilte Hotel,52.0590963,-9.5067773,"33 College St, Killarney, V93 N625",Kerry,"Restaurant, Pub/Bar"
+FS1144,The Field Bar & Restaurant,52.6505742,-7.2520615,"2 High St, Gardens, , R95 W429",Kilkenny,"Restaurant, Pub/Bar"
+FS1145,The Fincourt,53.768321,-7.1625115,"Oliver plunkett's St, Oldcastle, ",Meath,Pub/Bar
+FS1146,The Flying Enterprise Lounge & Restaurant,51.8952991,-8.4760417,"Barrack St, S Gate Bridge, , ",Cork,"Restaurant, Pub/Bar"
+FS1147,The Foggy Dew,53.3444194,-6.2634164,"1 Fownes Street Upper, Temple Bar, Dublin, D02 WP21",Dublin,Pub/Bar
+FS1148,The Forge Bar and Restaurant,53.3367223,-9.1789517,"Moycullen, Ballycuirke West, Moycullen, ",Galway,"Restaurant, Pub/Bar"
+FS1149,The French Table Restaurant,52.6607636,-8.6352633,"1 Steamboat Quay, Dock Rd, Mountkennet, , V94 RW84",Limerick,Restaurant
+FS1150,The Galleon Restaurant,53.260331,-9.075926,"210 Upper Salthill Rd, , H91 YR99",Galway,Restaurant
+FS1151,The Gallery Bar at Lough Eske Castle,54.688067,-8.0659423,"Lough Eske Castle Hotel, Lough Eske, Lougheask Demesne, , F94 HX59",Donegal,Restaurant
+FS1152,The Galtee Inn,52.3750167,-7.9246353,"The Square, Townparks, Cahir, E21 Y670",Tipperary,Pub/Bar
+FS1153,The Galway Hooker Bar & Restaurant Dublin ,53.3467716,-6.2925564,"Heuston Station, St John's Rd W, Saint James' (part of Phoenix Park), Dublin, ",Dublin,"Restaurant, Pub/Bar, Cafe"
+FS1154,The Garden Restaurant at Jackson's Hotel,54.7999376,-7.7846036,"Glenfin St, Ballybofey, F93 RD40",Donegal,Restaurant
+FS1155,The Garden Room at The Merrion Hotel,53.3385640230111,-6.25294351367393,"The Merrion Hotel, Merrion Street Upper, , ",Dublin,Restaurant
+FS1156,The Gasworks Bar,53.3380541,-6.2374314,"Grand Canal Street Upper, Saint Peter's, , ",Dublin,Pub/Bar
+FS1157,Georgian Restaurant at The Listowel Arms Hotel,52.4452712,-9.4869332,"The Square, Listowel, ",Kerry,Restaurant
+FS1158,The Giddy Dolphin,53.3453246,-6.2671476,"2-5 Wellington Quay, Temple Bar, Dublin, D02 PK72",Dublin,"Restaurant, Pub/Bar"
+FS1159,The Glen Tavern Pub,52.6612357,-8.6306355,"1-2 Lower Glentworth St, , V94 WF63",Limerick,Pub/Bar
+FS1160,The Goat Bar and Grill,53.2926005,-6.2299095,"14 Lower Kilmacud Rd, Drummartin, , D14 PY56",Dublin,Pub/Bar
+FS1161,The Golden Ball Kilternan,53.2395401,-6.1966101,"Enniskerry Rd, Kiltiernan Domain, Kilternan, D18 TP30",Dublin,"Restaurant, Pub/Bar"
+FS1162,The Golden Nugget Bar & Restaurant,52.0702822,-9.572474,"R563, Fossa, Killarney, V93 K409",Kerry,"Restaurant, Pub/Bar"
+FS1163,Samuel's Restaurant at the Grand Hotel,52.2688889,-9.705,"Denny St, Tralee, ",Kerry,"Restaurant, Pub/Bar"
+FS1164,The Grapevine,52.6514275,-7.2512848,"6 Rose Inn St, Gardens, , R95 DH59",Kilkenny,"Restaurant, Pub/Bar"
+FS1165,Garden Room Restaurant at Great Southern Killarney,52.0587693,-9.5037713,"Town Centre, Avenue, Killarney, V93 R866",Kerry,Restaurant
+FS1166,Brownes Bar at The Great Southern Hotel,52.058927,-9.5037019,"The Great Southern Hotel, East Ave, Avenue, Killarney, V93 R866",Kerry,"Restaurant, Pub/Bar"
+FS1167,The Green 1918,52.9931492,-8.1283759,"The Green 1918, Fairgreen, Borrisokane, E45 P861",Tipperary,"Restaurant, Pub/Bar, Cafe"
+FS1168,The Green Barn at Burtown House and Gardens,52.9975887,-6.8730778,"Burtown House, Burtown Little, Athy, R14 AE67",Kildare,Restaurant
+FS1169,The Greenery Restaurant,53.4507311,-6.1446195,"1 Coast Rd, Malahide,",Dublin,Restaurant
+FS1170,The Guinness Open Gate Brewery,53.3433454,-6.2869935,"Guinness Open Gate Brewery, Saint James' (part of Phoenix Park), Dublin City, ",Dublin,"Restaurant, Pub/Bar"
+FS1171,The Ha'Penny Laugh,53.345871,-6.263344,"The Ha'Penny Bridge InnMerchant's Arch, 42 Wellington Quay, Dublin City Centre,",Dublin,Pub/Bar
+FS1172,The Hairy Lemon,53.3412644,-6.263869,"Stephen Street Lower, Dublin, ",Dublin,"Restaurant, Pub/Bar"
+FS1173,The Happy Pear,53.1454717,-6.064194,"Church Rd, Rathdown Lower, Greystones, ",Wicklow,Cafe
+FS1174,The Harbour Restaurant and Bar,54.6527196,-8.1110134,"Quay St, Glebe, Donegal, , F94 R660",Donegal,Restaurant
+FS1175,The Harcourt Bar and 1900 Restaurant at The Harcourt Hotel,53.334425,-6.262743,"60-61 Harcourt Street, Dublin City Centre,",Dublin,"Restaurant, Pub/Bar"
+FS1176,K Sixty Seven Bar & Grill at Carnegie Court Hotel,53.462329,-6.2181799,"North street swords Swords co, Townparks, , K67 W4A9",dublin,"Restaurant, Pub/Bar, Cafe"
+FS1177,The Harp Tavern,54.2736751,-8.4768658,"Lower Quay St, Rathquarter, , F91 AV97",Sligo,Pub/Bar
+FS1178,The Hawthorn Bar,51.8861682,-8.4888541,"The Hawthorn Bar, The Lough, , T12 Y7VP",Cork,Pub/Bar
+FS1179,The Hazelwood Restaurant at The Sligo Park Hotel,54.2540865,-8.4706658,"Pearse Rd, Cornageeha, , ",Sligo,Restaurant
+FS1180,The Helm Westport,53.8002045,-9.5476672,"The Quay, Cloonmonad, Westport, ",Mayo,"Restaurant, Pub/Bar"
+FS1181,The Heron's Cove,51.4959068,-9.7090063,"The Heron, s Cove, Ballydivlin, , P81 FT51",Cork,Restaurant
+FS1182,The Hole In The Wall,52.6513907,-7.2532853,"Hole in the Wall, 17 High St, Gardens, , R95 TY30",Kilkenny,Pub/Bar
+FS1183,The Hole In The Wall Dublin,53.366163,-6.323574,"Blackhorse Avenue, Phoenix Park, ",Dublin,Pub/Bar
+FS1184,The Hollow Bar and Seafood Restaurant,52.2454324,-6.9018663,"The hollow, Ramsgrange, New Ross, ",Wexford,"Restaurant, Pub/Bar"
+FS1185,The Hooker Brewery,53.269306596679,-8.92873146044917,"Deerpark, Oranmore, ",Galway,Restaurant
+FS1186,The Horse and Hound Delgany,53.1338219,-6.0910003,"Convent Rd, Delgany, ",Wicklow,"Restaurant, Pub/Bar"
+FS1187,The Horse Show House Pub,53.3285421159668,-6.22894636109925,"32 Merrion Road, Ballsbridge,",Dublin,Pub/Bar
+FS1188,The House,53.385823,-6.0652531,"4 Main St, Howth, D13 H2Y0",Dublin,Restaurant
+FS1189,House of Waterford,52.2592684,-7.1067612,"28 The Mall, ,",Waterford,Cafe
+FS1190,House Restaurant at the Cliff House Hotel,51.9487528,-7.7151625,"Middle Road, Dysert, Ardmore, P36 DK38",Waterford,Restaurant
+FS1191,The Hungry Monk,53.144579,-6.062967,"1 Church Rd, Killincarrig, Greystones,",Wicklow,Restaurant
+FS1192,The Hunted Hog,51.9118255,-8.0536062,"Main St, Gortnahomna Beg, Castlemartyr, ",Cork,Pub/Bar
+FS1193,The Huntsman Bar and Restaurant,51.7364009,-8.4836303,"19 Cramer's Cl, Ballindeenisk, Belgooly, P17 KA40",Cork,"Restaurant, Pub/Bar"
+FS1194,The Huntsman Inn,53.2814303,-9.0338818,"164 College Rd, , H91 D5DW",Galway,"Restaurant, Pub/Bar"
+FS1195,The Imperial Garden Chinese Restaurant,52.2516195,-7.1175244,"Unit 1, Manor Village, Cork Rd, Waterford City,",Waterford,Restaurant
+FS1196,The International Bar,53.3431026030091,-6.26172890091755,"23 Wicklow Street, Dublin City Centre,",Dublin,Pub/Bar
+FS1197,The Irish House Party - Dinner & Show,53.3322551,-6.2411973,"The Lansdowne Hotel, 27 Pembroke Rd, Saint Peter's, Dublin, D04 X5W9",Dublin,"Restaurant, Pub/Bar"
+FS1198,The Italian Kitchen at Clayton Hotel Dublin Airport,53.411579,-6.2183144,"Clayton Hotel Dublin Airport, Stockhole Lane, Clonshagh, Dublin City, K67 X3H5",Dublin,Restaurant
+FS1199,The Ivy Dawson Street,53.341468,-6.257957,"13-17 Dawson St, , D02 TF98",Dublin,"Restaurant, Pub/Bar"
+FS1200,The Ivy House,53.3724273,-6.252393,"114 Drumcondra Rd Upper, Drumcondra, Dublin, D09 CX74",Dublin,Pub/Bar
+FS1201,The Jockey's,54.0005183,-6.4074408,"48 Anne St, Townparks, Dundalk, A91 PT63",Louth,"Restaurant, Pub/Bar"
+FS1202,The Keepers Arms Restaurant,54.1204885,-7.6768234,"Corrasmongan, Bawnboy, ",Cavan,"Restaurant, Pub/Bar"
+FS1203,The Kerry Creamery Experience,52.1145752,-9.6682262,"Lissavane East, Milltown, V93 RR84",Kerry,Cafe
+FS1204,The Kings Head,53.272128,-9.053295,"15 High St, , H91 AY6P",Galway,"Restaurant, Pub/Bar"
+FS1205,The Lake Room Restaurant at Aghadoe Heights Hotel,52.0773339,-9.5562134,"Lakes of Killarney, Nunstown, Killarney, V93 DH59",Kerry,Restaurant
+FS1206,The Lantern,53.6540977,-6.6828306,"32 Watergate St, Dillonsland, Navan, C15 CX76",Meath,Pub/Bar
+FS1207,The Laughter Lounge,53.3479445,-6.2579921,"8 Eden Quay, North City, Dublin, D01 WY93",Dublin,Pub/Bar
+FS1208,The Laurels,52.0593368,-9.5092731,"Main St, Killarney, ",Kerry,"Restaurant, Pub/Bar"
+FS1209,The Lifeboat Inn,51.6337928,-8.7063121,"Main Street, Courtmacsherry, ",Cork,Pub/Bar
+FS1210,The Lime Tree Restaurant,51.8782006,-9.5820356,"3A Shelbourne St, Kenmare, V93 A462",Kerry,Restaurant
+FS1211,The Lobster Pot,54.983842,-8.4400194,", Burtonport, F94 HD91",Donegal,Restaurant
+FS1212,The Lobster Pot Pub and Restaurant,52.1988528,-6.3744167,"Ballyfán, Ballyfane, Carne, , ",Wexford,"Restaurant, Pub/Bar"
+FS1213,The Local,52.0897379,-7.6204607,"10- Ireland, 11 Grattan Square, Dungarvan, X35 VW24",Waterford,Pub/Bar
+FS1214,The Locke Bar,52.6672302,-8.6231786,"3 George's Quay, , V94 K8KX",Limerick,Pub/Bar
+FS1215,The Loft Café & Restaurant,54.3035755,-8.1735234,"Main St, Manorhamilton, ",Leitrim,"Restaurant, Cafe"
+FS1216,The Long Dock,52.6040532,-9.7107517,"West St, Rinemackaderrig, Carrigaholt, ",Clare,"Restaurant, Pub/Bar"
+FS1217,The Long Hall Pub,53.3418349,-6.2652064,"51 South Great George's Street, Dublin, D02 DV74",Dublin,Pub/Bar
+FS1218,The Lord Bagenal Inn Restaurant,52.7367185,-6.9766604,"Main St, Ballyknockan, Leighlinbridge, R93 E189",Carlow,"Restaurant, Pub/Bar, Cafe"
+FS1219,The Lord Kingsale,51.7055821,-8.5234688,"4 Main St, Town-Plots, Kinsale, P17 AX67",Cork,Pub/Bar
+FS1220,The Lord Lucan,53.3412711,-6.4516031,"Finnstown Shopping Centre, 5 Newcastle Rd, Finnstown, Lucan,",Dublin,Pub/Bar
+FS1221,The Lough Ree Inn,53.4653191,-7.9288042,"Coosan, Coosan Point, , N37 EA49",Westmeath,"Restaurant, Pub/Bar, Cafe"
+FS1222,The Maple Tree Bar & Bistro,53.279491573567,-6.4464133698591,"Unit 4, Slade Castle Court, Saggart,",Dublin,"Restaurant, Pub/Bar"
+FS1223,The Marble City Bar & Tea Rooms,52.6529033,-7.2535014,"66 High St, Gardens, , R95 TY24",Kilkenny,"Restaurant, Pub/Bar, Cafe"
+FS1224,The Marine Bar,52.041345,-7.659723,"N25, Pulla, Dungarvan,",Waterford,Pub/Bar
+FS1225,The Market House Restaurant at the Abbey Hotel,54.6537836,-8.1107834,"Donegal, Diamond, , ",Donegal,"Restaurant, Pub/Bar"
+FS1226,The Milk Market,52.6634761,-8.6221653,"Cornmarket Row, , V94 R602",Limerick,Restaurant
+FS1227,The Mill Restaurant at the Blarney Woollen Mills Hotel,51.9332623,-8.5652201,"Shean Lower, Blarney, ",Cork,Restaurant
+FS1228,The Mills Inn,51.9456748,-9.1707253,"Slievereagh, Ballyvourney, P12 FF86",Cork,Pub/Bar
+FS1229,The Mongolian Barbeque,53.344968,-6.261935,"7 Anglesea Street, Temple Bar, ,",Dublin,Restaurant
+FS1230,The New Ship Restaurant at Dooley's Hotel,52.2628342,-7.1156183,"30 Merchants Quay, ,",Waterford,Restaurant
+FS1231,The North Pole Bar,55.1968433,-7.3955205,"Shandrim, Drumfree, , ",Donegal,Pub/Bar
+FS1232,The Oak Room Restaurant,53.9897597,-7.3618708,"24 Bridge St, Abbeyland, , H12 W866",Cavan,Restaurant
+FS1233,The Oarsman,53.341656,-6.22786,"The Oarsman, Bridge Street, Dublin City, ",Dublin,Pub/Bar
+FS1234,The Oarsman Pub,53.943912,-8.094772,"Bridge Street, Carrick-On-Shannon, , ",Leitrim,"Restaurant, Pub/Bar"
+FS1235,The Old Courthouse Bistro,54.8331615,-7.4787188,"The Diamond, Lifford, ",Donegal,Cafe
+FS1236,The Old Lodge Gastro Pub at Shannon Springs Hotel,52.7148742,-8.8619508,"Ballycasey, Ballycasey More, Shannon, , V14 A336",Clare,"Restaurant, Pub/Bar"
+FS1237,The Old Mill Shop & Café,53.3968442,-8.3352128,"Chapel St, Ahascragh West, Ahascragh, H53 AH39",Galway,Cafe
+FS1238,The Old Oak Bar and Cyprus Avenue,51.8981475,-8.4700319,"113 Oliver Plunkett St, Centre, , T12 PY8A",Cork,Pub/Bar
+FS1239,The Old Orchard Inn,53.2946708,-6.2992291,"74 Butterfield Ave, Rathfarnham, D14 RF96",Dublin,Pub/Bar
+FS1240,The Old Quarter Pub & Café,52.664284,-8.624547,"3 Little Ellen St, , V94 A3N3",Limerick,"Pub/Bar, Cafe"
+FS1241,The Old Schoolhouse Bar & Restaurant,53.4567456,-6.2228797,"Church Rd, Townparks, Swords, K67 Y935",Dublin,"Restaurant, Pub/Bar"
+FS1242,The Old Ship,52.7983211,-6.1537546,"44 Main St, Arklow, Y14 A7X3",Wicklow,Pub/Bar
+FS1243,The Old Stand,52.5742487,-9.100552,"Main St, Shanagolden, ",Limerick,Pub/Bar
+FS1244,The Old Stand,53.3431396,-6.2621012,"37 Exchequer St, Dublin, D02 F251",Dublin,Pub/Bar
+FS1245,The Old Stone House Restaurant ,53.7417184,-8.6313677,"Church Rd, Ballinlough, Castlerea, F45 XH67",Roscommon,"Restaurant, Pub/Bar"
+FS1246,The Old Thatch Bar,51.9426317,-7.992481,"Main St, Killeagh Gardens, Killeagh, ",Cork,Pub/Bar
+FS1247,The Old Town Whiskey Bar,51.8995635,-8.4768272,"44-45 Cornmarket St, Centre, , T12 W27H",Cork,Pub/Bar
+FS1248,The Olde Fiddle Pub,52.1352254,-8.6407424,"2 Spa Square, Castlelands, Mallow, P51 C449",Cork,Pub/Bar
+FS1249,The Oliver Plunkett,51.8982219,-8.4695883,"116 Oliver Plunkett St, Centre, , T12 P957",Cork,Pub/Bar
+FS1250,The Oval Bar,53.3484586,-6.2603402,"78 Middle Abbey St, North City, Dublin, D01 RW24",Dublin,Pub/Bar
+FS1251,The Oyster Tavern,51.898172,-8.4744741,"4 Market's Lane, St Patrick's St, Centre, , T12 NP29",Cork,"Restaurant, Pub/Bar"
+FS1252,The Oyster Tavern Bar & Seafood Restaurant,52.2761526,-9.7804741,"The Spa, Knockanush West, Tralee, V92 F681",Kerry,"Restaurant, Pub/Bar"
+FS1253,The Palmer South Course,53.306582,-6.6252899,", Straffan, W23 YX53",Kildare,Restaurant
+FS1254,The Pantry Country Kitchen,52.6525256,-7.253253,"St Kieran's St, Gardens, , ",Kilkenny,Cafe
+FS1255,The Pantry & Corkscrew Restaurant,53.7989682,-9.5252896,"The Octagon, Cahernamart, Westport, ",Mayo,Restaurant
+FS1256,The Park Bistro at the Glengarriff Park Hotel,51.7502801,-9.5497333,"The Village, Monteensudder, Glengarriff, ",Cork,Restaurant
+FS1257,The Park Lodge Café,52.2573666,-7.1030894,"Peoples Park, Park Rd, , ",Waterford,"Restaurant, Cafe"
+FS1258,The Park Restaurant Killarney,52.057762,-9.504757,"Town Centre, Killarney, ",Kerry,Restaurant
+FS1259,The Parnell Heritage Pub & Grill,53.3522066,-6.2619734,"72-74 Parnell St, North City, Dublin, D01 ND00",Dublin,Pub/Bar
+FS1260,The Pavilion Garden Centre,51.8271799,-8.4637628,"Myrtle Hill, Ballyduhig South, Ballygarvan, T12 YD28",Cork,"Restaurant, Cafe"
+FS1261,The Peppermill Restaurant,52.8616834,-8.1984493,"Kenyon St, Nenagh South, Nenagh, ",Tipperary,Restaurant
+FS1262,The Phoenix Park Tea Rooms,53.3520901,-6.304657,"Chesterfield Ave, Saint James, Phoenix Park, Dublin City, D08 C447",Dublin,"Restaurant, Cafe"
+FS1263,The Pier House,51.6351092,-8.7103348,"Courtmacsherry Pier, Cullenagh, Courtmacsherry, ",Cork,Pub/Bar
+FS1264,The Pig's Ear Restaurant,53.3421312,-6.2549834,"4 Nassau St, , D02 YX74",Dublin,Restaurant
+FS1265,The Pike Restaurant at the Pikers Lodge Hotel,53.8731329,-7.5340019,", Lough Gowna, ",Cavan,Restaurant
+FS1266,The Pink Elephant,51.6456714,-8.6831437,"Wild Atlantic Way, Harbour View, Kilbrittain, P72 HC79",Cork,Restaurant
+FS1267,The Pins Gastro Bar and Pizza Dozzina at The Twelve Hotel,53.2513662,-9.1524153,"The Twelve Hotel Barna Coast Road, Ahaglugger, Bearna, , ",Galway,"Restaurant, Pub/Bar"
+FS1268,The Planet Athlone,53.4282023,-7.9516232,"Grace Rd, Ranelagh, Athlone, ",Westmeath,Cafe
+FS1269,The Plum Tree Bistro at the Woodford Dolmen Hotel,52.8138452,-6.9512933,"Kilkenny Rd, Mortarstown Upper, , R93 N207",Carlow,Restaurant
+FS1270,Poachers Seafood Restaurant & Bar,51.739425,-8.745157,"Clonakilty Rd, Gully, Bandon, ",Cork,Restaurant
+FS1271,The Portobello Bar & Restaurant,53.3303883,-6.2639316,"33 Richmond St S, Saint Kevin's, Dublin, D02 CF40",Dublin,Pub/Bar
+FS1272,The Post House ,54.112513,-9.1558737,"Casement St, Carrowcushlaun West, Ballina, F26 YY43",Mayo,Cafe
+FS1273,The Prince Bar at The Prince of Wales Hotel,53.4238205,-7.9384339,"Church St, Athlone, ",Westmeath,Pub/Bar
+FS1274,The Proleek Restaurant at Ballymascanlon Hotel & Golf Resort,54.0315551,-6.3525385,"Carlingford Rd, Ballymascanlan, Dundalk, A91 PF57",Louth,Restaurant
+FS1275,The Pumphouse,52.6549234,-7.2551505,"26 Parliament St, Gardens, , R95 VW31",Kilkenny,Pub/Bar
+FS1276,Purple Sage Restaurant at Talbot Hotel Stillorgan,53.2952012,-6.2027266,"Stillorgan Rd, Stillorgan, A94 V6K5",Dublin,Restaurant
+FS1277,The Purty Kitchen,53.2952202,-6.1481031,"3-5, 3-5 Old Dunleary Rd, Dún Laoghaire, A96 X7W1",Dublin,Pub/Bar
+FS1278,The Quays Irish Restaurant & Bar,53.3456732,-6.2632555,"10-12 Temple Bar, Dublin, D02 EW63",Dublin,Pub/Bar
+FS1279,The Quays Bar & Music Hall,53.2711357,-9.0539565,"The Quays Bar and Restaurant, Quay Lane, Galway City, ",Galway,"Restaurant, Pub/Bar"
+FS1280,The Rafter's Gastro Pub,52.6509995,-7.2533357,"4 Friary St, Gardens, , R95 VY62",Kilkenny,"Restaurant, Pub/Bar"
+FS1281,Younges The Ragg,52.7168036,-7.9112818,", Bouladuff, E41 R598",Tipperary,Pub/Bar
+FS1282,The Rambling House,54.6174619,-8.0860921,"Main St, Laghy, Laghey, F94 Y048",Donegal,"Restaurant, Pub/Bar"
+FS1283,The Rathcormac Inn,52.07375,-8.2828429,"Knocknabooly, , P61 R899",Cork,Pub/Bar
+FS1284,The Red Door Country House Restaurant,55.0852914,-7.466446,"Carrowmullin, Fahan, F93 FV4Y",Donegal,Restaurant
+FS1285,The Red Store Bar and Restaurant,51.9561116,-7.8505103,"150 N Main St, Youghal-Lands, Youghal, P36 XH10",Cork,Pub/Bar
+FS1286,The Reel Inn,54.6547447,-8.111422,"R925, ,",Donegal,Pub/Bar
+FS1287,The Reg Waterford,52.2603316,-7.105473,"2 The Mall, , X91 W866",Waterford,"Restaurant, Pub/Bar"
+FS1288,The Terrace Restaurant at the Abbey Hotel,53.6248762,-8.1936392,"Abbey Hotel, Galway Rd, Ballypheasan, , ",Roscommon,Restaurant
+FS1289,The Ring Lyne Bar & Restaurant,51.9067636,-10.3366015,"Valentia, Chapeltown, , V23 HY79",Kerry,"Restaurant, Pub/Bar"
+FS1290,The Rising Sun Restaurant,52.3708601,-7.1717388,"Main Street, Garrandarragh, Mullinavat, X91 W5CC",Kilkenny,"Restaurant, Pub/Bar"
+FS1291,The Riverside Cottage,52.2363889,-7.0594444,"Knockboy Cross, Dunmore Rd, Waterford City, ",Waterford,"Restaurant, Pub/Bar"
+FS1292,The Roastery Café,53.412766,-6.346519,"510 Mitchelstown Rd, NW Business Park, Ballycoolen, , D15 PY8H",Dublin,Cafe
+FS1293,The Roundwood Inn,53.0647701,-6.2247342,", Roundwood, ",Wicklow,"Restaurant, Pub/Bar"
+FS1294,The Rusty Mackerel,54.6370484,-8.6427367,"Teelin Rd, Lergadaghtan, Carrick, ",Donegal,Pub/Bar
+FS1295,The Salmon Inn,54.6057094,-8.1328332,"Mullanasole, , ",Donegal,"Restaurant, Pub/Bar"
+FS1296,The Sandwich Stall at the English Market,51.8975762,-8.4744954,"Unit 39, English Market, Grand Parade, Centre, Cork City,",Cork,Restaurant
+FS1297,The Secret Garden,53.2700401,-9.0594409,"4 William St W, , H91 YR89",Galway,Cafe
+FS1298,The Shack Restaurant,53.3454303,-6.2643475,"24 Essex St E, Temple Bar, Dublin, D02 N297",Dublin,Restaurant
+FS1299,The Horseshoe Bar at The Shelbourne Hotel,53.3389967,-6.2559042,"27 St Stephen's Green, Dublin,",Dublin,Pub/Bar
+FS1300,Signal Restaurant at The Station House Hotel,53.5637368,-6.6668596,"Kilmessan Village, Ringlestown, Kilmessan, C15 D3C4",Meath,Restaurant
+FS1301,The Silver Eel,53.8234136,-8.0691925,"Grange, Strokestown, ",Roscommon,Pub/Bar
+FS1302,The Silver Tassie Restaurant,54.9859924,-7.6704754,"R940 Ramelton Rd, Ballymaleel, Letterkenny, F92 NFP9",Donegal,"Restaurant, Pub/Bar"
+FS1303,The Skeff Bar & Kitchen,53.2741131,-9.0500584,"27 Eyre Square, ,",Galway,"Restaurant, Pub/Bar"
+FS1304,The Smuggler's Rest,53.791978,-6.2374861,"Harbour Rd, Clogher, Drogheda, ",Louth,"Restaurant, Pub/Bar"
+FS1305,The Snackery,52.2697733,-9.7064005,"34 The Mall, Tralee,",Kerry,Cafe
+FS1306,The Snailbox,53.5684931,-6.4550937,"Kilmoon, Ashbourne, ",Meath,"Restaurant, Pub/Bar"
+FS1307,The Snug Bar,54.2719636,-8.4732668,"Queen Maeve Square, Rathquarter, , F91 NHN3",Sligo,Pub/Bar
+FS1308,The Snug Café,52.9316705,-8.4306979,"Main Street, Dooros, Mountshannon, V94 HK24",Clare,"Restaurant, Cafe"
+FS1309,The Spa at Druids Glen Hotel & Golf Resort,53.0916636,-6.0788519,"Leabeg Upper, Newtown Mount Kennedy, A63 DW08",Wicklow,Restaurant
+FS1310,The Spaniard,51.7050153,-8.5168716,"Scilly, Kinsale, ",Cork,Pub/Bar
+FS1311,The Stable Yard Food Hall,52.2614584,-7.1124544,"24 George's Street, , X91 A31T",Waterford,"Restaurant, Cafe"
+FS1312,The Stag's Head,53.343813,-6.263538,"1 Dame Court, Dublin City,",Dublin,"Restaurant, Pub/Bar"
+FS1313,The Step Inn,53.2531021,-6.2142475,"Enniskerry Rd, Stepaside Village, Dublin, ",Dublin,Pub/Bar
+FS1314,The Strand Bar & Restaurants,54.270687,-8.608409,"Shore Rd, Carrowbunnaun, Strandhill, ",Sligo,"Restaurant, Pub/Bar"
+FS1315,The Strand Inn - Seafood Restaurant,52.155239,-6.994312,"The Strand, The Strand, Dunmore East, ",Waterford,Restaurant
+FS1316,The Strand Tavern,52.2209914,-6.9330537,"Main St, Duncannon, ",Wexford,"Restaurant, Pub/Bar"
+FS1317,The Strawberry Tree Restaurant at Brooklodge,52.879752,-6.3308686,"Macreddin Village, Aughrim, Y14 A362",Wicklow,Restaurant
+FS1318,The Sugar Club,53.335498,-6.256638,"8 Lower Leeson Street, ,",Dublin,Pub/Bar
+FS1319,The Tankard Bar and Seafood Restaurant,52.2773583,-9.8236145,"Ballymakegoge, , ",Kerry,"Restaurant, Pub/Bar"
+FS1320,The Tannery Restaurant,52.0885625,-7.616714,"10 Quay St, Abbeyside, Dungarvan,",Waterford,Restaurant
+FS1321,The Tavern Bar & Restaurant,53.7782754,-9.6309503,"Murrisk, Westport, ",Mayo,"Restaurant, Pub/Bar"
+FS1322,The Tea & Garden Rooms,53.1188863,-9.1534694,", Ballyvaughan, ",Clare,"Restaurant, Cafe"
+FS1323,The Temple Bar,53.345475,-6.264189,"47 / 48 Temple Bar, ,",Dublin,Pub/Bar
+FS1324,The Terrace Restaurant at Clayton Whites Hotel,52.3403402,-6.4635596,"Abbey St, Ferrybank South, , Y35 X8D7",Wexford,Restaurant
+FS1325,The Thatch Crinkill,53.0799509,-7.8982902,"Military Rd, Ballinree, Birr, ",Offaly,"Restaurant, Pub/Bar"
+FS1326,"The Thatched Cottage Restaurant, Bar and Banquet Room",52.8914698,-8.2448235,"Ballycommon, Nenagh, ",Tipperary,"Restaurant, Pub/Bar"
+FS1327,The Tower Bar,51.9050934,-8.4769434,"44 Gerald Griffin St, Shandon, , T23 DT92",Cork,Pub/Bar
+FS1328,The Towers Bar & Restaurant,53.7997003,-9.5507066,"The Towers Bar & Restaurant Westport, The Quay, Cloonmonad, Westport, ",Mayo,"Restaurant, Pub/Bar"
+FS1329,The Town Hall Bistro at the Old Ground Hotel Ennis,52.8424608,-8.9832877,"O'Connell Street, Clonroad Beg, Ennis, ",Clare,Restaurant
+FS1330,The Trappers Inn & Jackson's Restaurant,53.2890105,-9.0235831,"Tuam Rd, , ",Galway,"Restaurant, Pub/Bar"
+FS1331,The Traveller's Inn,55.0893437469809,-7.69907525084477,"Main Street, Milford, ",Donegal,"Restaurant, Pub/Bar"
+FS1332,The Treehouse,52.5627204,-8.7656247,"Fitzgeralds Woodlands House Hotel & Spa, Knockanes, Adare, V94 F1P9",Limerick,Cafe
+FS1333,The VAT House Bar at Blooms Hotel,53.3446566,-6.2619355,"2 Anglesea St, Temple Bar, Dublin,",Dublin,Pub/Bar
+FS1334,The Vee Cafe,52.1614285,-7.1512344,"1 Lower Main Street, Tramore East, Tramore,",Waterford,"Restaurant, Cafe"
+FS1335,The Venue Bar Steak & Seafood Restaurant,54.2668797,-8.5960889,"Top Rd, Larass, , F91 DY79",Sligo,"Restaurant, Pub/Bar"
+FS1336,The Waterbank Gastro Bar,53.3380724,-6.2374117,"Grand Canal Street Upper, Dublin, D04 X5X7",Dublin,"Restaurant, Pub/Bar"
+FS1337,The Waterfront Restaurant at the Waterford Marina Hotel,52.2584311,-7.1016963,"Canada St, , ",Waterford,"Restaurant, Pub/Bar"
+FS1338,The Waterloo Bar,53.3333567,-6.2432557,"36 Baggot Street Upper, Dublin, D04 R6Y6",Dublin,Pub/Bar
+FS1339,The Cook & Gardener,55.1009136,-7.5289587,"Rathmullan Terrace, Kinnegar, Rathmullan, F92 YA0F",Donegal,Restaurant
+FS1340,The West Wing Restaurant,53.506991,-8.881,"Galway Rd, Farrannamartin, Tuam, H54 F660",Galway,Restaurant
+FS1341,The Westbury Bars & Restaurants,53.3414007,-6.2614426,"Balfe St, Dublin, ",Dublin,"Restaurant, Pub/Bar"
+FS1342,The Whale's Tail,51.6215104,-8.8862513,"The Waterfront, Scartagh, Clonakilty, P85 EW82",Cork,Restaurant
+FS1343,The Wharf Tavern & Terrace at the Trident Hotel Kinsale,51.7010668,-8.5184333,"1, 9 Bóthar Na Cé, Scilly, Cork City,",Cork,Pub/Bar
+FS1344,The Wheelhouse Café,54.9836807,-8.4269237,"Leckenagh, Burtonport, ",Donegal,"Restaurant, Cafe"
+FS1345,Whitehorses Restaurant,51.9509914,-7.7240271,"Main St, Duffcarrick, Ardmore, ",Waterford,"Restaurant, Cafe"
+FS1346,The White House Bar & Bistro,51.7065778,-8.5233263,"Pearse St, Sleveen, Kinsale, P17 Y504",Cork,Pub/Bar
+FS1347,The Wicklow Arms,53.1329333,-6.0921355,"The Wicklow Arms, Delgany, ",Wicklow,"Restaurant, Pub/Bar"
+FS1348,The Wicklow Heather Restaurant,53.0087387,-6.3006589,"Glendalough Road, Ballard, Laragh, , ",Wicklow,Restaurant
+FS1349,The Wild West Bar,51.4950364,-9.7114555,"Main Street, Goleen, P81 XN24",Cork,"Restaurant, Pub/Bar"
+FS1350,The Workman's Club,53.3453972,-6.2664194,"10 Wellington Quay, Temple Bar, , D02 VX36",Dublin,Pub/Bar
+FS1351,Writers' Bar at The Listowel Arms Hotel,52.4452712,-9.4869332,"The Square, Listowel, ",Kerry,"Restaurant, Pub/Bar"
+FS1352,The Wytchway Inn & Restaurant,52.632958,-7.898547,"Bohernacrusha, Killeenyarda, Holy Cross, Thurles, ",Tipperary,"Restaurant, Pub/Bar"
+FS1353,The Yacht Bar & Restaurant,53.361683,-6.215115,"73 Clontarf Road, Clontarf,",Dublin,Pub/Bar
+FS1354,The Yellow Pepper Restaurant,54.948177,-7.7381448,"36 Lower Main St, Letterkenny, F92 K125",Donegal,Restaurant
+FS1355,Thomas Connolly Bar,54.2727943,-8.473905,"1 Markievicz Rd, Abbeyquarter North, , F91 HC04",Sligo,Pub/Bar
+FS1356,Thomas Moore Tavern,52.339891,-6.463431,"Cornmarket, Ferrybank South, Wexford, , ",Wexford,"Restaurant, Pub/Bar"
+FS1357,Thomond Bar,51.8978996,-8.4727351,"2 Marlboro St, Centre, ,",Cork,Pub/Bar
+FS1358,The Ol' 55 Bar and Venue,53.2758289,-9.0480767,"30 Prospect Hill, , H91 YD86",Galway,Pub/Bar
+FS1359,ThunderRoad Cafe,53.345578,-6.26123,"52-57 Fleet Street, Temple Bar, Dublin City Centre,",Dublin,Restaurant
+FS1360,No. 76 Bar at the Imperial Hotel Cork,51.8972143,-8.4700877,"76 S Mall, Street, T12 A2YT",Cork,Pub/Bar
+FS1361,Thyme Restaurant,53.4235714,-7.9403954,"Custume Pl, Athlone, ",Westmeath,"Restaurant, Pub/Bar"
+FS1362,Joe Watty's Bar and Seafood Restaurant,53.1239344,-9.6708852,"Stáisiun Doiteain Inis Mor, Kilronan, Aran Islands, ",Galway,"Restaurant, Pub/Bar"
+FS1363,Tig Cóilí,53.2723382,-9.0536004,"The Latin Quarter, Mainguard St, , ",Galway,Pub/Bar
+FS1364,Tigh Uí Mhurchú,52.1661183080758,-10.4065603675392,"Ballyferritter, Tralee, ",Kerry,Pub/Bar
+FS1365,Timmy Macs Bistro,52.562995,-8.7662315,"Fitzgeralds Woodlands House Hotel, Knockanes, Adare, ",Limerick,Restaurant
+FS1366,"Tinahely Farm Shop, Restaurant, Activity Centre & Animal Walkway",52.7963193,-6.4683589,"Acuan, Shillelagh Rd, Coolross, Tinahely, Y14 V386",Wicklow,Restaurant
+FS1367,Tír na nÓg Pub & Restaurant,52.2666173,-6.7499882,"Maudlintown, , ",Wexford,"Restaurant, Pub/Bar"
+FS1368,Tír na Sí Farm & Café,52.0291372,-8.3474797,"Fermoy Road, Condonstown South, Watergrasshill, ",Cork,"Restaurant, Cafe"
+FS1369,Toddys Bar & Brasserie at The Gresham Hotel,53.35166,-6.260295,"The Gresham Hotel, O'Connell Street, Dublin City Centre, ",Dublin,"Restaurant, Pub/Bar"
+FS1370,Toners Pub,53.3377648315365,-6.25238953372957,"139 Lower Baggot Street, ,",Dublin,Pub/Bar
+FS1371,TONI,53.3457805,-6.2619301,"1 Bedford Row, Temple Bar, , D02 RC61",Dublin,Restaurant
+FS1372,Giovanna's Restaurant,53.7993225,-9.5217346,"middle, 10 Market Ln, Bridge St, Cahernamart, Westport,",Mayo,Restaurant
+FS1373,Toscana Italian Restaurant & Pizzeria,53.3441752,-6.2675697,"3 Cork Hill, Dame St, Temple Bar, , D02 DR53",Dublin,Restaurant
+FS1374,Corbett's Traditional Irish Food Experience Dublin,53.345719,-6.262216,"20-21, Temple Bar, Dublin, D02 ET66",Dublin,Restaurant
+FS1375,Trails Café at Ticknock,53.2557772,-6.2491624,"Windy Ridge, Ticknock Rd, Tiknock, Dublin, D18 E8RK",Dublin,"Restaurant, Cafe"
+FS1376,Trails Café at Ballinastoe,53.1077963,-6.2175899,"Ballinastoe Wood, Ballinastoe, Roundwood, A98 PP49",Wicklow,Cafe
+FS1377,Treacy's Bar & Restaurant,53.067824,-7.217065,"Greatheath, Portlaoise, R32 X803",Laois,"Restaurant, Pub/Bar"
+FS1378,Treyvaud's Restaurant,52.0600755,-9.5100988,"62 High Street, Killarney, V93 KV66",Kerry,Restaurant
+FS1379,TRIBE Restaurant,53.6553601,-6.4186487,"Tribe Restaurant Duleek, Church Lane, Commons, Duleek, ",Meath,Restaurant
+FS1380,Trident Hotel Restaurants,51.7010819,-8.5184411,"Trident Hotel Kinsale World's End, Scilly, Kinsale, P17 NT38",Cork,"Restaurant, Pub/Bar"
+FS1381,Trocadero Restaurant,53.3434004,-6.2617296,"4 St Andrew's St, , D02 ET32",Dublin,Restaurant
+FS1382,Tuam Shopping Centre,53.5156107,-8.8547458,"Abbey Trinity Rd, Corralea West, Tuam, H54 HP30",Galway,"Restaurant, Cafe"
+FS1383,Tuar Ard Arts Centre,53.3959808,-7.7250342,"Church St, Cartronkeel, Moate, ",Westmeath,Cafe
+FS1384,Palmerstown House Pub,53.3564344,-6.370762,"Old Lucan Road Palmerstown, Redcowfarm, Dublin, ",Dublin,Pub/Bar
+FS1385,Tula Mexican Grill,53.3453254,-6.2651653,"30 Essex St E, Temple Bar, , D02 CC02",Dublin,Restaurant
+FS1386,The Tearoom at Tullynally Castle Gardens,53.6835288,-7.3272213,"Tullynally Castle Gardens, Pakenham Hall Road, Castlepollard, ",Westmeath,"Restaurant, Cafe"
+FS1387,Tulsi Restaurant Galway,53.2721748,-9.0517893,"3 Buttermilk Walk, , H91 XRX2",Galway,Restaurant
+FS1388,The Turntable Restaurant at Tara Hotel,54.6368585,-8.4409413,"Tara Hotel, Main St, Corporation, Killybegs, ",Donegal,Restaurant
+FS1389,Tyrrellspass Castle Restaurant,53.3859598,-7.3816218,"Main St, Ballykilmore, Tyrrellspass, N91 XY75",Westmeath,Restaurant
+FS1390,Uluru Outback Bar & Restaurant,52.2472859,-7.0848155,"Ardkeen roundabout, Dunmore Rd, , ",Waterford,Pub/Bar
+FS1391,Ulysses Pub at the Greville Arms Hotel,53.5258333,-7.3408333,"Pearse St, Commons, Mullingar, ",Westmeath,Pub/Bar
+FS1392,Umi Falafel,53.3440657,-6.2654941,"13 Dame St, South City, , D02 HX67",Dublin,Restaurant
+FS1393,Uncle Toms Cabin,53.2952461,-6.2464752,"Dundrum Rd, Dundrum, Dublin, D14 KX83",Dublin,"Restaurant, Pub/Bar"
+FS1394,Blackthorn at The Twelve Hotel,53.2513546,-9.1524773,"The Twelve Hotel Barna coast Road, Ahaglugger, Bearna, , H91 Y3KA",Galway,Restaurant
+FS1395,Upstairs at McCambridge's,53.2729868,-9.0523891,"38-39 Shop St, , H91 T2N7",Galway,Cafe
+FS1396,Urban Brewing,53.3490752,-6.2482662,"Vault C, CHQ Building, Custom House Quay, Dublin Docklands, , ",Dublin,Restaurant
+FS1397,Urbanity,53.3468278,-6.2791428,"Urbanity, 11 Coke Lane, Smithfield, Dublin City,",Dublin,Cafe
+FS1398,Vanilla Pod Restaurant at the Headfort Arms Hotel,53.7269155,-6.8747878,"Headfort Arms Hotel, Headfort Pl, Townparks, Kells, ",Meath,Restaurant
+FS1399,Vaughan’s Pub and Restaurant,52.9900007,-9.2196935,"Main Street, Kilcarragh, Creggaun, Kilfenora, V95 DT8K",Clare,"Restaurant, Pub/Bar"
+FS1400,Vela Restaurant & Bar,53.3540293,-6.4025811,"Liffey Valley Complex, Fonthill Rd, Irishtown, D22 A7X6",Dublin,"Restaurant, Pub/Bar"
+FS1401,Veldons Seafarer Bar & Restaurant,53.553425,-9.9488602,"Main street, Letterfrack, H91 FD28",Galway,"Restaurant, Pub/Bar"
+FS1402,Victoria Chinese Restaurant,53.320968,-6.393712,"4 Main Street, Clondalkin,",Dublin,Restaurant
+FS1403,Victorian Tea Times,52.7981293994646,-6.15307049711555,"37a Main Street, Arklow,",Wicklow,Restaurant
+FS1404,Victor's Bar and Restaurant at The Club House Hotel,52.6494083,-7.2517203,"22 & 23 Lower Patrick St, Gardens, , R95 DX76",Kilkenny,"Restaurant, Pub/Bar"
+FS1405,Village Inn Crumlin,53.320119,-6.316732,"Lisle House, Lisle Road, Crumlin, ",Dublin,Pub/Bar
+FS1406,Vincenzo Grill House & Stone Oven at The George Hotel,52.662327,-8.6288391,"Shannon St, Prior's-Land, , ",Limerick,"Restaurant, Pub/Bar"
+FS1407,Vintage Cocktail Club,53.3450546,-6.2629108,"15 Crown Alley, Temple Bar, Dublin, D02 E229",Dublin,Pub/Bar
+FS1408,Vintage Lane Café,54.3195782,-8.4837672,"N15 Bramleys Yard, Clooneen, Rathcormack, ,",Sligo,Cafe
+FS1409,Vittos Restaurant,53.9451622,-8.0955328,"Market Yard Centre, St Georges Terrace, Townparks, Carrick On Shannon, ",Leitrim,Restaurant
+FS1410,Walsh's Bakery & Coffee Shop,53.487637,-10.021141,"Market St, Clifden, ",Galway,Cafe
+FS1411,Walters Dún Laoghaire,53.2898401,-6.1300334,"68 George's Street Upper, Dún Laoghaire, A96 Y981",Dublin,"Restaurant, Pub/Bar"
+FS1412,House of Waterford Café,52.2592394,-7.1069551,"The Mall, , X91 FXN4",Waterford,"Restaurant, Cafe"
+FS1413,Waterfront Restaurant at Waterfront House,54.2169323,-9.094638,"Cliff Rd, Carrowhubbuck South, Enniscrone, F26 P9Y2",Sligo,Restaurant
+FS1414,WB's Coffee House,54.2724479,-8.4732524,"10 Stephen St, Abbeyquarter North, , F91 V2XR",Sligo,Cafe
+FS1415,Weir's Bar & Restaurant,53.6246435,-7.3907611,"Multy, Multyfarnham, Mullingar, N91 T9WY",Westmeath,"Restaurant, Pub/Bar"
+FS1416,West End Bar & Restaurant,52.2767224,-9.864344,"Fenit Without, Fenit, ",Kerry,"Restaurant, Pub/Bar"
+FS1417,West Wicklow House,53.1715082,-6.5320104,", Blessington, ",Wicklow,Pub/Bar
+FS1418,White Gables Restaurant,53.3379678,-9.1805582,"Ballycuirke West, Moycullen, ",Galway,Restaurant
+FS1419,White Oak Restaurant at the Kilford Arms Hotel,52.6539047,-7.2480248,"John Street Lower, , ",Kilkenny,Restaurant
+FS1420,Shirley Arms Restaurant in the Shirley Arms Hotel,53.9779686,-6.7198928,"Main St, Drummond Etra, Carrickmacross, ",Monaghan,Restaurant
+FS1421,Wicklow Way Wines,53.0850548,-6.1071129,"Unit 8, Moneycarroll, Newtown Business and Enterprise Centre, , A63 DT61",Wicklow,Restaurant
+FS1422,Wicklow Wolf Brewery & Taproom,53.0847654,-6.1084967,"Wicklow Wolf, Moneycarroll, Newtown Mount Kennedy, A63 A243",Wicklow,"Restaurant, Pub/Bar"
+FS1423,Wild & Native,52.2737336,-6.3871869,"Strand Rd, Doogans Warren, Rosslare, ",Wexford,Restaurant
+FS1424,Wild Honey Inn,53.0284585,-9.2958662,"Kincora Rd, Rathbaun, Lisdoonvarna, ",Clare,"Restaurant, Pub/Bar"
+FS1425,Wild Thyme Restaurant,54.2165098,-7.0436244,"Wild Thyme Restaurant, Cabragh, Three Mile House, , H18 P772",Monaghan,"Restaurant, Pub/Bar"
+FS1426,Wilde Irish Chocolates,52.8977841,-8.5456243,"Unit 6, Enterprise Centre, Drewsborough, Tuamgraney,",Clare,"Restaurant, Cafe"
+FS1427,Wilkin's Bar & Lounge,54.9885597,-7.8917126,"Church Hill, , ",Donegal,Pub/Bar
+FS1428,Winding Stair Bookshop and Restaurant,53.3466227,-6.2636123,"Ormond Quay Lower Ormond Quay Lower, North City, Dublin, D01 R9Y5",Dublin,Restaurant
+FS1429,Windsor Bar and Restaurant,53.9993828,-6.4060318,"Dublin St, Townparks, Dundalk, ",Louth,"Restaurant, Pub/Bar"
+FS1430,Wineport Lodge Restaurant,53.4648435,-7.8854184,"Wineport, Glasson, Athlone, N37 R2D7",Westmeath,Restaurant
+FS1431,Wings World Cuisine,53.3490357,-6.2676167,"32 Wolfe Tone St, North City, ,",Dublin,Restaurant
+FS1432,Woodlands Restaurant at the Glenview Hotel,53.142352,-6.12707,"Glen of the Downs, Bellevue Demesne, Glen of The Downs, Delgany, A63 DC95",Wicklow,Restaurant
+FS1433,Woolshed Baa & Grill,53.3502932,-6.2673601,"The Parnell Centre, 198-200 Parnell St, Centre, , D01 K5N8",Dublin,Pub/Bar
+FS1434,Wrights Findlater Howth,53.3885945,-6.0723663,"Harbour Rd, Howth Demesne, , ",Dublin,"Restaurant, Pub/Bar"
+FS1435,Wylam Chinese Restaurant,51.8924099,-8.5054333,"Victoria Cross Rd, , ",Cork,Restaurant
+FS1436,Yamamori Izakaya Japas & Sake Bar,53.3433723,-6.2642307,"12 South Great George's Street, Dublin, D02 RD36",Dublin,Restaurant
+FS1437,Yamamori South City,53.342837,-6.264673,"71-72 South Great Georges Street, Dublin City Centre,",Dublin,Restaurant
+FS1438,Yamamori North City,53.3466143,-6.2638255,"38 Ormond Quay Lower, Northside, Dublin, D01 A593",Dublin,Restaurant
+FS1439,Davis' Restaurant & Yeats Tavern,54.3287392,-8.5014574,"Drumcliff North, Drumcliffe North, , ",Sligo,Restaurant
+FS1440,Zaytoon,53.344889,-6.267318,"14/15 Parliament Street, Temple Bar, ,",Dublin,Restaurant
+FS1441,Zest!,52.6590529,-8.6283492,"Pery Square, Prior's-Land, , ",Limerick,Cafe
+FS1442,Zozimus Bar,53.340588,-6.259737,"Centenary House, Anne's Ln, Anne St S, , D02 AK30",Dublin,"Restaurant, Pub/Bar"
+FS1443,Zuni Restaurant,52.6496732,-7.2517985,"26 Patrick St, Gardens, , R95 A897",Kilkenny,Restaurant
+FS1444,Zizzi,53.3434901,-6.2603056,"24 Suffolk St, , D02 FR96",Dublin,Restaurant
+FS1445,M.J. Wright,53.3429272,-6.2640892,"17 South Great George's Street, Dublin, D02 HD76",Dublin,"Restaurant, Pub/Bar"
+FS1446,The Merchant's Arch Bar and Restaurant,53.345948,-6.2628274,"48-49 Wellington Quay, Temple Bar, , D02 EY65",Dublin,"Restaurant, Pub/Bar"
+FS1447,Nua Vista Restaurant,51.874802,-9.6723732,"Ring of Kerry Golf Club, Templenoe, V93 AK85",Kerry,Restaurant
+FS1448,The Stables Brasserie at Sheen Falls Lodge Hotel,51.873778,-9.5639389,"The Stables, Brasserie & Bar, Sheen Falls Lodge, Kenmare Old, Kenmare, V93 HR27",Kerry,"Restaurant, Pub/Bar"
+FS1449,Comet,53.3401767,-6.2588808,"3 Joshua Ln, , D02 C856",Dublin,Restaurant
+FS1450,The Washerwoman,53.375367,-6.2697652,"60 Glasnevin Hill, Botanic, Dublin, D09 DF30",Dublin,Restaurant
+FS1451,The Legal Eagle,53.3458596,-6.27213,"1-2 Chancery Pl, Inns Quay, Dublin, D07 HP40",Dublin,Restaurant
+FS1452,Little Washer,53.3754989,-6.2699848,"66 Glasnevin Hill, Glasnevin, Dublin, D09 R882",Dublin,Restaurant
+FS1453,O'Dwyers of Kilmacud,53.2886172,-6.2161566,"Ground Floor and Garden Terrace, 1st floor, 118 Lower Kilmacud Rd, Stillorgan, A94 TN99",Dublin,"Restaurant, Pub/Bar"
+FS1454,BAR 1661,53.3493039,-6.2704026,"1-5 Green St, Rotunda, , D07 YT6H",Dublin,Pub/Bar
+FS1455,The Oratory Pizza & Wine Bar,51.9451111,-10.2288725,"W Main St, Cahersiveen, V23 YC03",Kerry,Restaurant
+FS1456,The Sackville Lounge,53.3489293,-6.2590687,"16 Sackville Pl, North City, Dublin, D01 V0C7",Dublin,Pub/Bar
+FS1457,The Woollen Mills,53.3466537,-6.2634695,"Entrance on, 42 Ormond Quay Lower, Liffey St. Lower, North City, Dublin, D01 H304",Dublin,Restaurant
+FS1458,The Glyde Inn Seafood Bar,53.8823509,-6.3426681,"Main Street, Dillonstown, Annagassan, ",Louth,"Restaurant, Pub/Bar"
+FS1459,No19 Restaurant Kinsale,51.702424,-8.520395,"18/19 Lower O'Connell St, Dromderrig, Kinsale, P17 WP86",Cork,Restaurant
+FS1460,Scott's Seafood & Grill Restaurant,53.288656,-6.2158964,"116 Lower Kilmacud Rd, Kilmacud, A94 TN99",Dublin,Restaurant
+FS1461,Café Rí Fern,52.1538344,-10.4536382,"Louis Mulcahy Pottery, Ballyferriter Village, Clogher, V92 NV04",Kerry,Cafe
+FS1462,Peggy Moore's Pub,53.718554,-6.3499047,"Sunday's Gate, Moneymore, Drogheda, ",Louth,"Restaurant, Pub/Bar"
+FS1463,Gate 96 Restaurant at Temple Gate Hotel,52.8436122,-8.9813632,"Temple Gate Hotel, The Square, Clonroad Beg, Ennis, V95 HOXK",Clare,Restaurant
+FS1464,Kelehans Bar & Restaurant,53.2964963,-9.0933976,"N 59, Bushypark, , H91 C3K2",Galway,"Restaurant, Pub/Bar"
+FS1465,Corbett's Traditional Irish Food Experience Tipperary,52.3743761,-7.9244197,"The Square, Townparks, Cahir, E21 H244",Tipperary,Restaurant
+FS1466,The White Horse,51.886066,-8.6076345,"The West Village, Ballincollig, P31 YA40",Cork,"Restaurant, Pub/Bar"
+FS1467,The Railway Tavern,55.0883605,-7.4760984,"Station Road, Figary, Fahan, F93 TVF2",Donegal,"Restaurant, Pub/Bar"
+FS1468,Bakestone,51.9000779,-8.4716368,"1-4 Perry St, Centre, , T12 TV04",Cork,"Restaurant, Cafe"
+FS1469,Box & Bean,52.9396706,-9.2932845,"Main St, Ennistimon, , V95 XE22",Clare,Cafe
+FS1470,Delalicious - Irish Baking Experience,52.450586,-7.6676621,"Drumdeel, Fethard, E91 E122",Tipperary,Restaurant
+FS1471,Super Social,53.2668044,-6.1954508,"Leopardstown Pavilion, Leopardstown Race Course, Carmanhall And Leopardstown, , D18 Y9T1",Dublin,"Restaurant, Pub/Bar"
+FS1472,Oceanfront Bar & Restaurant at the Cliff House Hotel,51.9487528,-7.7151625,"Middle Road, Dysert, Ardmore, P36 DK38",Waterford,"Restaurant, Pub/Bar"
+FS1473,Engine House,52.139229,-7.3707413,"ENGINE HOUSE, Templeyvrick, Bunmahon, X42 RW18",Waterford,"Restaurant, Pub/Bar"
+FS1474,Rívesci Coffee Shop,52.3521429,-7.7095756,"80 Irishtown, Burgagery-Lands West, Clonmel, E91 KR60",Tipperary,"Restaurant, Cafe"
+FS1475,DÍON Restaurant & Bar,53.344673,-6.2628723,"One Central Plaza, Dame St, Temple Bar, , ",Dublin,"Restaurant, Pub/Bar"
+FS1476,Hobson's Restaurant at The Tower Hotel,52.2601776,-7.1046772,"The Mall, , X91 VXE0",Waterford,Restaurant
+FS1477,Pier 37 Bar & Grill at The Tower Hotel,52.2601776,-7.1046772,"The Mall, , X91 VXE0",Waterford,"Restaurant, Pub/Bar"
+FS1478,The Hungry Tortoise Café,52.4270395,-6.7554473,"Coolnacon, Clonroche, Y21 DF85",Wexford,Cafe
+FS1479,The Earl's Pantry at Bunratty Castle & Folk Park,52.7006391,-8.8122896,"& Folk Park, Bunratty Castle, Bunratty East, Bunratty, V95 TY02",Clare,Cafe
+FS1480,ELY Wine Bar & Restaurant,53.3379531,-6.2540149,"22 Ely Pl, Dublin, D02 AH73",Dublin,Restaurant
+FS1481,The Rectory Café,52.9305535,-8.4293272,"The Old Rectory, Mountshannon, V94 P66V",Clare,Cafe
+FS1482,The Tea Room at Bunratty Castle & Folk Park,52.7004832,-8.8122896,"& Folk Park, Bunratty Castle, Bunratty East, Bunratty, V95 TY02",Clare,Cafe
+FS1483,Bearú,52.3944169,-6.9448894,"52 South St, New Ross, Y34 YR02",Wexford,"Restaurant, Cafe"
+FS1484,The Corn Barn Restaurant at Bunratty Castle & Folk Park,52.7005613,-8.8122467,"& Folk Park, Bunratty Castle, Bunratty East, Bunratty, V95 TY02",Clare,Restaurant
+FS1485,Top of Coom Ireland's Highest Pub,51.9035599,-9.2918726,"Top of Coom Ireland's Highest Pub, Coolnolhill, Kilgarvan, V93 EW90",Kerry,"Restaurant, Pub/Bar"
+FS1486,The Creamery Pub & Food Barn,52.6965103,-8.8134336,"Old Bunratty Rd, Bunratty East, Bunratty, V95 CC85",Clare,"Restaurant, Pub/Bar"
+FS1487,Pomodorino,53.4585778,-6.22064,"Unit 3, 14 Main St, Townparks, Swords, K67 X2C8",Dublin,Restaurant
+FS1488,Forest Avenue Restaurant,53.3315653,-6.2516066,"8 Sussex Terrace, Sussex Rd, Dublin, D04 C7F4",Dublin,Restaurant
+FS1489,Dolans,52.6588338,-8.6382066,"3-4 Dock Rd, Courtbrack, , V94 VH4X",Limerick,"Restaurant, Pub/Bar"
+FS1490,The Mill Pantry,53.0638872,-8.1437948,"Garryclohy, Carrigahorig, , E45 P520",Tipperary,"Restaurant, Cafe"
+FS1491,Blas na Gaillimhe | A Taste of Galway,53.274001,-9.0512662,", , ",Galway,"Restaurant, Pub/Bar, Cafe"
+FS1492,Hynes Bar,53.3542652,-6.2867191,"Prussia St, Stoneybatter, , D07 E1RD",Dublin,Pub/Bar
+FS1493,"Broyage Bar, Bistro & Terrace",53.3423979,-6.3084426,"S Circular Rd, Kilmainham, D08 XAK3",Dublin,"Restaurant, Pub/Bar"
+FS1494,Wright & Sons,53.1536235,-6.9168415,"35, Kildare Village, Kildare, Nurney Road, , R51 RT73",Kildare,"Restaurant, Cafe"
+FS1495,Slí Dala Restaurant at Kinnitty Castle Hotel,53.1024757,-7.6977729,"Castle Hotel, Castletown And Glinsk, Kinnitty, R42 CY50",Offaly,Restaurant
+FS1496,Kombu Ramen & Bao Bar,53.2708618,-9.053295,"Druid Ln, , H91 WD26",Galway,Restaurant
+FS1497,Aniar Restaurant & Cookery School,53.2710815,-9.0571347,"53 Dominick St Lower, , H91 XH52",Galway,Restaurant
+FS1498,Tides of Time Visitor Centre,52.3465321,-7.4134644,"Heritage Centre, Main St, Townparks, Carrick-on-Suir, E32 CX60",Tipperary,Cafe
+FS1499,The Malt House Mountbellew,53.46999,-8.499793,", Mountbellew, H53 XOA9",Galway,"Restaurant, Pub/Bar"
+FS1500,Cava Bodega,53.2715012,-9.0533184,"1 Middle St, , H91 AF89",Galway,Restaurant
+FS1501,As One,53.3468985,-6.2507066,"Unit 3, 13 - 18 City Quay, Dublin,",Dublin,"Restaurant, Cafe"
+FS1502,Authentic Irish Cottage Experience by Siobhán O'Brien,52.7903585,-9.4820273,"Bealach An Fheich, Clohaninchy, Quilty, V95 V6Y3",Clare,Restaurant
+FS1503,Emerging Irish Wine Tasting,53.3458853,-6.2596445,"fleet street, Dublin City, D02H950",Dublin,Restaurant
+FS1504,The Black Market,53.3420615,-6.2640604,"14a Fade St, Dublin, D02 A368",Dublin,"Restaurant, Pub/Bar"
+FS1505,Real Dublin Traditional Music Pub Tour,53.3486164,-6.2778697,"Skyview Tower, Smithfield, Dublin, ",Dublin,Pub/Bar
+FS1506,Kilkenny Café - Shanagarry,51.851551,-8.0331115,"Shanagarry South, , ",Cork,Cafe
+FS1507,Sally Mac's,53.3368114,-6.2486713,"43 Baggot Street Lower, Dublin, D02 YC83",Dublin,Pub/Bar
+FS1508,Idlewild,53.3420787,-6.2641311,"14 Fade St, Dublin, D02 HH33",Dublin,Pub/Bar
+FS1509,Kilkenny Café - Cobh Heritage Centre,51.8488735,-8.2990813,"Cobh Heritage Centre (Starting Point, Ringmeen, Kilgarvan, ",Cork,Cafe
+FS1510,The Chelsea Drugstore,53.342314,-6.264367,"25 South Great George's Street, Dublin, D02 XY71",Dublin,"Restaurant, Pub/Bar"
+FS1511,The Green Kitchen at the GPO Museum,53.3494146,-6.2606298,"General Post Office (GPO, GPO Museum, O'Connell Street Lower, North City, Dublin, D01 F5P2",Dublin,Cafe
+FS1512,Murray's Bar & Grill,53.3524627,-6.2608964,"33-34 O'Connell Street Upper, Rotunda, Dublin, D01 E0W2",Dublin,Pub/Bar
+FS1513,The Camden,53.3360289,-6.2655781,"84, Camden Street Lower, Saint Kevin's, Dublin, D02 DH36",Dublin,"Restaurant, Pub/Bar"
+FS1514,Lundy Foot's,53.3449278,-6.2679302,"Lundy Foot's Bar and Restaurant, Essex Gate, D2, ,",Dublin,"Restaurant, Pub/Bar"
+FS1515,Hollywood Lakes Golf & Estate,53.5523429,-6.2681027,"Hollywood Little, Ballyboughal, , A41 P308",Dublin,Restaurant
+FS1516,Jackie's Bar,53.3412545,-6.2657046,"79 Aungier St, Dublin, D02 KF89",Dublin,"Restaurant, Pub/Bar"
+FS1517,Old Town Wine Bar & Restaurant at Radisson Blu Royal Hotel,53.341612,-6.2684494,"Le Pole Square, Dublin, D08 C9KW",Dublin,Restaurant
+FS1518,Lena's Rooftop Bar & Restaurant at Radisson RED Galway,53.2873747,-9.0227479,"Crown Square, Joyce's Road, , H91 H5PX",Galway,"Restaurant, Pub/Bar"

@@ -1,0 +1,83 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix ex: <https://example.org/irish-tourism/> .
+
+<MuseumMapping> a rr:TriplesMap ;
+
+#MAP 1: Museum mapping
+rml:logicalSource [
+    rml:source "Cleaned_Museums.csv" ;
+    rml:referenceFormulation ql:CSV
+] ;
+
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/museum/{OBJECT_ID}" ;
+    rr:class ex:Museum
+] ;
+
+#name
+rr:predicateObjectMap [
+    rr:predicate ex:name ;
+    rr:objectMap [ 
+        rml:reference "Name of Museum or HC"
+    ]
+] ;
+
+#locatedInCounty
+rr:predicateObjectMap [
+    rr:predicate ex:locatedInCounty ;
+    rr:objectMap [
+        rr:template "https://example.org/irish-tourism/county/{County}"
+    ]
+] ; 
+
+#latitude
+rr:predicateObjectMap [
+    rr:predicate schema:latitude ;
+    rr:objectMap [
+        rml:reference "LATITUDE" ;
+        rr:datatype xsd:decimal
+    ]
+] ; 
+
+#longitude
+rr:predicateObjectMap [
+    rr:predicate schema:longitude ;
+    rr:objectMap [
+        rml:reference "LONGITUDE" ;
+        rr:datatype xsd:decimal
+    ]
+] .
+
+#MAP 2: County mapping
+<CountyMapping> 
+    a rr:TriplesMap ;
+
+rml:logicalSource [
+    rml:source "Cleaned_Museums.csv" ;
+    rml:referenceFormulation ql:CSV
+] ; 
+
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/county/{County}" ;
+    rr:class ex:County 
+    ] ; 
+
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "County"
+    ]
+] ;
+
+#connect each county w Ireland
+rr:predicateObjectMap [
+    rr:predicate ex:partOf ;
+    rr:objectMap [
+        rr:constant ex:Ireland
+    ]
+] .

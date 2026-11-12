@@ -9,11 +9,25 @@ if __name__ == '__main__':
     cols_to_drop = ['Add1', 'Add2', 'Add3', 'Postcode', 'Phone ', 'Website ', 'Email', 'Blurb']
     df = df.drop(columns=[col for col in cols_to_drop if col in df.columns])
     
+    # Exclude counties that are not in the Republic of Ireland (Northern Ireland)
+    ni_counties = {'antrim', 'armagh', 'down', 'fermanagh', 'derry', 'londonderry', 'tyrone', 'belfast'}
+    county_clean = (
+        df['County']
+        .astype(str)
+        .str.lower()
+        .str.replace(r'^(co\.?|county)\s+', '', regex=True)  # strip "Co." / "County" prefix
+        .str.strip()
+    )
+    rows_before = len(df)
+    df = df[~county_clean.isin(ni_counties)]
+    print(f"Removed {rows_before - len(df)} rows outside the Republic of Ireland")
+    
     # Handle missing coordinates
     df = df.dropna(subset=['ITM Easting', 'ITM Northing'])
     
-    # Ensure OBJECT_ID is an integer
-    df['OBJECT_ID'] = pd.to_numeric(df['OBJECT_ID'], errors='coerce').astype('Int64')
+    # Reassign OBJECT_ID sequentially from 1 (after all rows have been removed)
+    df = df.reset_index(drop=True)
+    df['OBJECT_ID'] = range(1, len(df) + 1)
     
     # Coordinate Conversion (ITM to WGS84 Lat/Long)
     transformer = Transformer.from_crs("EPSG:2157", "EPSG:4326", always_xy=True)

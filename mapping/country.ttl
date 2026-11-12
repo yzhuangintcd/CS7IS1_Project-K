@@ -1,0 +1,7 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <https://example.org/irish-tourism/> .
+
+#fixed ireland individual - type of country 
+ex:Ireland 
+    a ex:Country ;
+    rdfs:label "Ireland" .

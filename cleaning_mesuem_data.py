@@ -9,6 +9,13 @@ if __name__ == '__main__':
     cols_to_drop = ['Add1', 'Add2', 'Add3', 'Postcode', 'Phone ', 'Website ', 'Email', 'Blurb']
     df = df.drop(columns=[col for col in cols_to_drop if col in df.columns])
     
+    # Clean whitespace in County (leading/trailing, repeated, and non-breaking spaces)
+    df['County'] = (
+        df['County']
+        .str.replace(r'\s+', ' ', regex=True)  # collapse any whitespace run (incl. \xa0) to one space
+        .str.strip()
+    )
+    
     # Exclude counties that are not in the Republic of Ireland (Northern Ireland)
     ni_counties = {'antrim', 'armagh', 'down', 'fermanagh', 'derry', 'londonderry', 'tyrone', 'belfast'}
     county_clean = (

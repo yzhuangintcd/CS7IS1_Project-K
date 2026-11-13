@@ -1,0 +1,3234 @@
+@prefix ns1: <https://example.org/irish-tourism/> .
+@prefix ns2: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/irish-tourism/museum/1> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "Bishop Daniel Delany Museum" ;
+    ns2:latitude 52.80263321449014 ;
+    ns2:longitude -6.7331038996917565 .
+
+<https://example.org/irish-tourism/museum/10> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "St Laserian's Cathedral" ;
+    ns2:latitude 52.736111994955536 ;
+    ns2:longitude -7.024178199889429 .
+
+<https://example.org/irish-tourism/museum/100> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Isaac Butt Heritage Centre" ;
+    ns2:latitude 54.837590853760894 ;
+    ns2:longitude -7.93290866644728 .
+
+<https://example.org/irish-tourism/museum/101> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "An tSean Bhearic - Falcarragh Visitor's Centre" ;
+    ns2:latitude 55.13683949204298 ;
+    ns2:longitude -8.101623685419 .
+
+<https://example.org/irish-tourism/museum/102> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "The Waterwheels" ;
+    ns2:latitude 54.50895269608034 ;
+    ns2:longitude -8.201353943885577 .
+
+<https://example.org/irish-tourism/museum/103> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "The Workhouse" ;
+    ns2:latitude 55.17973428886195 ;
+    ns2:longitude -7.976607739682255 .
+
+<https://example.org/irish-tourism/museum/104> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Teach Mhici MacGabhann" ;
+    ns2:latitude 55.13129341451353 ;
+    ns2:longitude -8.162293154575101 .
+
+<https://example.org/irish-tourism/museum/105> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "County Donegal Historical Society Museum" ;
+    ns2:latitude 54.546683323626986 ;
+    ns2:longitude -8.20555812821006 .
+
+<https://example.org/irish-tourism/museum/106> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Fintown Railway - An Mhuc Dhubh" ;
+    ns2:latitude 54.86755894000421 ;
+    ns2:longitude -8.119950447773034 .
+
+<https://example.org/irish-tourism/museum/107> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Ardara Heritage Centre" ;
+    ns2:latitude 54.761792913208595 ;
+    ns2:longitude -8.41329426782776 .
+
+<https://example.org/irish-tourism/museum/108> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Doagh Famine Village" ;
+    ns2:latitude 55.309188313435065 ;
+    ns2:longitude -7.335792136466115 .
+
+<https://example.org/irish-tourism/museum/109> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Glenveagh National Park" ;
+    ns2:latitude 55.036523032735076 ;
+    ns2:longitude -7.968713080069779 .
+
+<https://example.org/irish-tourism/museum/11> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "The Weavers Cottages" ;
+    ns2:latitude 52.695122309282816 ;
+    ns2:longitude -6.648427973782117 .
+
+<https://example.org/irish-tourism/museum/110> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Lurgyvale Thatched Cottages" ;
+    ns2:latitude 55.03139007046522 ;
+    ns2:longitude -7.781801449033467 .
+
+<https://example.org/irish-tourism/museum/111> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "The Old Courthouse" ;
+    ns2:latitude 54.833255960046756 ;
+    ns2:longitude -7.4787335854734796 .
+
+<https://example.org/irish-tourism/museum/112> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Graham Family Museum" ;
+    ns2:latitude 54.92522608229424 ;
+    ns2:longitude -7.536982913850736 .
+
+<https://example.org/irish-tourism/museum/113> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Old Church VisitorsCentre" ;
+    ns2:latitude 55.03907519599924 ;
+    ns2:longitude -7.434136944247139 .
+
+<https://example.org/irish-tourism/museum/114> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Biddy & Joe's Cottage" ;
+    ns2:latitude 54.85494164055125 ;
+    ns2:longitude -7.9554608926093096 .
+
+<https://example.org/irish-tourism/museum/115> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Donegal County Archives" ;
+    ns2:latitude 54.83369915398972 ;
+    ns2:longitude -7.47732701132101 .
+
+<https://example.org/irish-tourism/museum/116> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Lough Derg" ;
+    ns2:latitude 54.60679810580753 ;
+    ns2:longitude -7.860695694222756 .
+
+<https://example.org/irish-tourism/museum/117> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Killybegs International Carpet Making & Fishing Centre" ;
+    ns2:latitude 54.635703280155134 ;
+    ns2:longitude -8.447175470894452 .
+
+<https://example.org/irish-tourism/museum/118> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Oakfield Park" ;
+    ns2:latitude 54.87703422862249 ;
+    ns2:longitude -7.576957436152421 .
+
+<https://example.org/irish-tourism/museum/119> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Slieve League Cliffs Centre" ;
+    ns2:latitude 54.63435653252959 ;
+    ns2:longitude -8.64603880719088 .
+
+<https://example.org/irish-tourism/museum/12> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:name "Ballyhugh Arts and Cultural Centre" ;
+    ns2:latitude 54.11627602618191 ;
+    ns2:longitude -7.584129595287862 .
+
+<https://example.org/irish-tourism/museum/120> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Teach John Mhicí Bán" ;
+    ns2:latitude 55.1760439004395 ;
+    ns2:longitude -7.785407442056516 .
+
+<https://example.org/irish-tourism/museum/121> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "The Cairn Visitor Centre" ;
+    ns2:latitude 55.20319840200995 ;
+    ns2:longitude -6.997450820754332 .
+
+<https://example.org/irish-tourism/museum/122> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Monreagh Heritage Centre" ;
+    ns2:latitude 54.956158287040545 ;
+    ns2:longitude -7.45622332089967 .
+
+<https://example.org/irish-tourism/museum/123> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Raphoe Heritage Project" ;
+    ns2:latitude 54.87351960393216 ;
+    ns2:longitude -7.6003648579742995 .
+
+<https://example.org/irish-tourism/museum/124> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Airfield Trust" ;
+    ns2:latitude 53.28832590531448 ;
+    ns2:longitude -6.23469715998456 .
+
+<https://example.org/irish-tourism/museum/125> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Áras an Uachtaráin" ;
+    ns2:latitude 53.359628432837724 ;
+    ns2:longitude -6.317391339529448 .
+
+<https://example.org/irish-tourism/museum/126> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Ardgillan Castle" ;
+    ns2:latitude 53.58650692643014 ;
+    ns2:longitude -6.160360599145875 .
+
+<https://example.org/irish-tourism/museum/127> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "All Hallows College Archives" ;
+    ns2:latitude 53.37185665631782 ;
+    ns2:longitude -6.248978660650775 .
+
+<https://example.org/irish-tourism/museum/128> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Phoenix Park Visitor Centre - Ashtown Castle" ;
+    ns2:latitude 53.36610639091922 ;
+    ns2:longitude -6.330660166944919 .
+
+<https://example.org/irish-tourism/museum/129> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Drimnagh Castle" ;
+    ns2:latitude 53.324522960526686 ;
+    ns2:longitude -6.332884531124116 .
+
+<https://example.org/irish-tourism/museum/13> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:name "Cavan County Museum" ;
+    ns2:latitude 53.86668040727472 ;
+    ns2:longitude -7.200731410448354 .
+
+<https://example.org/irish-tourism/museum/130> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dublin Castle" ;
+    ns2:latitude 53.34318860293365 ;
+    ns2:longitude -6.267725782159638 .
+
+<https://example.org/irish-tourism/museum/131> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "The Jeanie Johnston Tall Ship" ;
+    ns2:latitude 53.347716856978444 ;
+    ns2:longitude -6.245462075728256 .
+
+<https://example.org/irish-tourism/museum/132> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Waterways Ireland Visitors Centre" ;
+    ns2:latitude 53.341866196360435 ;
+    ns2:longitude -6.238793825503098 .
+
+<https://example.org/irish-tourism/museum/133> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "GPO Witness History - An Post Museum" ;
+    ns2:latitude 53.34937391021386 ;
+    ns2:longitude -6.260415087929998 .
+
+<https://example.org/irish-tourism/museum/134> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Abbey Theatre Archive" ;
+    ns2:latitude 53.348696918423315 ;
+    ns2:longitude -6.257138075450314 .
+
+<https://example.org/irish-tourism/museum/135> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Chester Beatty Library" ;
+    ns2:latitude 53.34219177378726 ;
+    ns2:longitude -6.267165452778437 .
+
+<https://example.org/irish-tourism/museum/136> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Christ Church Cathedral" ;
+    ns2:latitude 53.34315537504417 ;
+    ns2:longitude -6.271632028624823 .
+
+<https://example.org/irish-tourism/museum/137> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dublin City Gallery The Hugh lane" ;
+    ns2:latitude 53.354108357446265 ;
+    ns2:longitude -6.264578854988635 .
+
+<https://example.org/irish-tourism/museum/138> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dublin Writers Museum" ;
+    ns2:latitude 53.3542792770219 ;
+    ns2:longitude -6.263970999626384 .
+
+<https://example.org/irish-tourism/museum/139> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dublinia" ;
+    ns2:latitude 53.34333938044023 ;
+    ns2:longitude -6.271924963777525 .
+
+<https://example.org/irish-tourism/museum/14> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:name "Museum of the Master Saddler" ;
+    ns2:latitude 54.1219236317834 ;
+    ns2:longitude -7.784617886902132 .
+
+<https://example.org/irish-tourism/museum/140> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dublins City Hall" ;
+    ns2:latitude 53.34399269743426 ;
+    ns2:longitude -6.267392799897887 .
+
+<https://example.org/irish-tourism/museum/141> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dublin City Library and Archive" ;
+    ns2:latitude 53.34322108661087 ;
+    ns2:longitude -6.245346308918023 .
+
+<https://example.org/irish-tourism/museum/142> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dublin Fire Brigade Museum" ;
+    ns2:latitude 53.370558190581534 ;
+    ns2:longitude -6.227991943299982 .
+
+<https://example.org/irish-tourism/museum/143> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dublin Zoo" ;
+    ns2:latitude 53.35227205540844 ;
+    ns2:longitude -6.305663562696062 .
+
+<https://example.org/irish-tourism/museum/144> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dún Laoghaire Local History Department at the Lexicon" ;
+    ns2:latitude 53.29306075458913 ;
+    ns2:longitude -6.132492006076686 .
+
+<https://example.org/irish-tourism/museum/145> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dunsink Observatory" ;
+    ns2:latitude 53.38733193465057 ;
+    ns2:longitude -6.338098562906375 .
+
+<https://example.org/irish-tourism/museum/146> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Blessed Edmund Rice House" ;
+    ns2:latitude 53.357773633796384 ;
+    ns2:longitude -6.250908303872277 .
+
+<https://example.org/irish-tourism/museum/147> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Erasmus Smith Trust Archive" ;
+    ns2:latitude 53.30641326276339 ;
+    ns2:longitude -6.272966524511588 .
+
+<https://example.org/irish-tourism/museum/148> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Farmleigh" ;
+    ns2:latitude 53.365071024319874 ;
+    ns2:longitude -6.359701574172678 .
+
+<https://example.org/irish-tourism/museum/149> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Fingal Local Studies & Archives" ;
+    ns2:latitude 53.45788635907372 ;
+    ns2:longitude -6.219538168181014 .
+
+<https://example.org/irish-tourism/museum/15> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:name "St. Kilian's Heritage Centre" ;
+    ns2:latitude 53.81251134859161 ;
+    ns2:longitude -6.957440087853819 .
+
+<https://example.org/irish-tourism/museum/150> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Freemasons Hall Museum" ;
+    ns2:latitude 53.34103963320156 ;
+    ns2:longitude -6.255948584499456 .
+
+<https://example.org/irish-tourism/museum/151> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Fry Model Railway" ;
+    ns2:latitude 53.45075766359869 ;
+    ns2:longitude -6.158403879238327 .
+
+<https://example.org/irish-tourism/museum/152> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "The GAA Museum" ;
+    ns2:latitude 53.36116284070493 ;
+    ns2:longitude -6.249116705292373 .
+
+<https://example.org/irish-tourism/museum/153> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Garda Síochána Museum and Archives" ;
+    ns2:latitude 53.34290167727149 ;
+    ns2:longitude -6.266535913420337 .
+
+<https://example.org/irish-tourism/museum/154> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Gallery of Photography" ;
+    ns2:latitude 53.3448626243916 ;
+    ns2:longitude -6.265404994936959 .
+
+<https://example.org/irish-tourism/museum/155> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Geological Survey of Ireland Archives" ;
+    ns2:latitude 53.336329094374406 ;
+    ns2:longitude -6.235117711648468 .
+
+<https://example.org/irish-tourism/museum/156> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Geological Museum of Trinity College Dublin" ;
+    ns2:latitude 53.342339692743685 ;
+    ns2:longitude -6.240426358297359 .
+
+<https://example.org/irish-tourism/museum/157> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Glasnevin Cemetery Museum" ;
+    ns2:latitude 53.38428841196901 ;
+    ns2:longitude -6.281842488768533 .
+
+<https://example.org/irish-tourism/museum/158> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Imaginosity, Dublin's Childrens Museum" ;
+    ns2:latitude 53.277546262249025 ;
+    ns2:longitude -6.216996414653309 .
+
+<https://example.org/irish-tourism/museum/159> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Irish Air Corps Museum" ;
+    ns2:latitude 53.30900282257172 ;
+    ns2:longitude -6.441386746021389 .
+
+<https://example.org/irish-tourism/museum/16> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:name "Bawnboy Workhouse" ;
+    ns2:latitude 54.120593767702296 ;
+    ns2:longitude -7.672959760236084 .
+
+<https://example.org/irish-tourism/museum/160> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Irish Architectural Archive" ;
+    ns2:latitude 53.338661962955705 ;
+    ns2:longitude -6.247035235043483 .
+
+<https://example.org/irish-tourism/museum/161> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Irish Film Archive" ;
+    ns2:latitude 53.3446742373471 ;
+    ns2:longitude -6.264811867427568 .
+
+<https://example.org/irish-tourism/museum/162> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Military Archives" ;
+    ns2:latitude 53.32624369413194 ;
+    ns2:longitude -6.270664328136281 .
+
+<https://example.org/irish-tourism/museum/163> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Irish Jewish Museum" ;
+    ns2:latitude 53.330719888654656 ;
+    ns2:longitude -6.2694322425679205 .
+
+<https://example.org/irish-tourism/museum/164> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Irish Labour History Society Museum & Archives" ;
+    ns2:latitude 53.33624148773594 ;
+    ns2:longitude -6.235271494193206 .
+
+<https://example.org/irish-tourism/museum/165> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Irish Museum of Modern Art" ;
+    ns2:latitude 53.34320366243924 ;
+    ns2:longitude -6.300015653399853 .
+
+<https://example.org/irish-tourism/museum/166> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Irish Traditional Music Archive" ;
+    ns2:latitude 53.338979916019014 ;
+    ns2:longitude -6.250326026187089 .
+
+<https://example.org/irish-tourism/museum/167> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Irish Theatre Archive" ;
+    ns2:latitude 53.34322984856917 ;
+    ns2:longitude -6.2453309301833535 .
+
+<https://example.org/irish-tourism/museum/168> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "James Joyce Tower and Museum" ;
+    ns2:latitude 53.28871908283985 ;
+    ns2:longitude -6.113631299282752 .
+
+<https://example.org/irish-tourism/museum/169> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Kilmainham Gaol Museum" ;
+    ns2:latitude 53.34172534128898 ;
+    ns2:longitude -6.309836335429703 .
+
+<https://example.org/irish-tourism/museum/17> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:name "The Backyard Arts Centre" ;
+    ns2:latitude 53.9685134205588 ;
+    ns2:longitude -7.353024632526765 .
+
+<https://example.org/irish-tourism/museum/170> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Lambert Puppet Theatre and Museum" ;
+    ns2:latitude 53.294488711758596 ;
+    ns2:longitude -6.1549327819289275 .
+
+<https://example.org/irish-tourism/museum/171> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Little Museum of Dublin" ;
+    ns2:latitude 53.33945781489945 ;
+    ns2:longitude -6.258415952316462 .
+
+<https://example.org/irish-tourism/museum/172> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Lusk Heritage Centre" ;
+    ns2:latitude 53.52593641615162 ;
+    ns2:longitude -6.166757933264239 .
+
+<https://example.org/irish-tourism/museum/173> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Malahide Castle & Gardens" ;
+    ns2:latitude 53.44542631865297 ;
+    ns2:longitude -6.162398327556778 .
+
+<https://example.org/irish-tourism/museum/174> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Marsh's Library" ;
+    ns2:latitude 53.33909569649381 ;
+    ns2:longitude -6.2705948265518705 .
+
+<https://example.org/irish-tourism/museum/175> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Botanic Gardens" ;
+    ns2:latitude 53.371797490375755 ;
+    ns2:longitude -6.269570745345404 .
+
+<https://example.org/irish-tourism/museum/176> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Gallery of Ireland" ;
+    ns2:latitude 53.341617910448626 ;
+    ns2:longitude -6.252470764793047 .
+
+<https://example.org/irish-tourism/museum/177> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Irish Visual Arts Library (NIVAL)" ;
+    ns2:latitude 53.34288938849158 ;
+    ns2:longitude -6.278100845045241 .
+
+<https://example.org/irish-tourism/museum/178> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Leprechaun Museum" ;
+    ns2:latitude 53.347662567304404 ;
+    ns2:longitude -6.266342745039227 .
+
+<https://example.org/irish-tourism/museum/179> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Maritme Museum" ;
+    ns2:latitude 53.2922453093057 ;
+    ns2:longitude -6.132077542559433 .
+
+<https://example.org/irish-tourism/museum/18> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:name "The Cavan Burren" ;
+    ns2:latitude 54.26376650923222 ;
+    ns2:longitude -7.88641384939206 .
+
+<https://example.org/irish-tourism/museum/180> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Museum of Ireland - Archaeology" ;
+    ns2:latitude 53.34048749907705 ;
+    ns2:longitude -6.255070042293681 .
+
+<https://example.org/irish-tourism/museum/181> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Museum of Ireland - Decorative Arts & History" ;
+    ns2:latitude 53.34839368109017 ;
+    ns2:longitude -6.285839948791709 .
+
+<https://example.org/irish-tourism/museum/182> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Museum of Ireland - Natural History" ;
+    ns2:latitude 53.33973592894 ;
+    ns2:longitude -6.252848078941734 .
+
+<https://example.org/irish-tourism/museum/183> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Photographic Archive" ;
+    ns2:latitude 53.34495026999884 ;
+    ns2:longitude -6.265251241877564 .
+
+<https://example.org/irish-tourism/museum/184> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Transport Museum of Ireland" ;
+    ns2:latitude 53.3866217908289 ;
+    ns2:longitude -6.081039862662454 .
+
+<https://example.org/irish-tourism/museum/185> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Newbridge House - Museum of Curiosities" ;
+    ns2:latitude 53.48643139555939 ;
+    ns2:longitude -6.169517130781014 .
+
+<https://example.org/irish-tourism/museum/186> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Newman House" ;
+    ns2:latitude 53.33678487803597 ;
+    ns2:longitude -6.260026537196552 .
+
+<https://example.org/irish-tourism/museum/187> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Number Twenty Nine (Georgian House Museum)" ;
+    ns2:latitude 53.33795436841584 ;
+    ns2:longitude -6.247815112210209 .
+
+<https://example.org/irish-tourism/museum/188> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Old Jameson Distillery" ;
+    ns2:latitude 53.34781479307938 ;
+    ns2:longitude -6.276850902296899 .
+
+<https://example.org/irish-tourism/museum/189> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Pearse Museum - St. Enda's Park" ;
+    ns2:latitude 53.28272326149605 ;
+    ns2:longitude -6.281870799884197 .
+
+<https://example.org/irish-tourism/museum/19> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:name "Bailieborough Arts and Culture Centre" ;
+    ns2:latitude 53.91849246704641 ;
+    ns2:longitude -6.971242607108324 .
+
+<https://example.org/irish-tourism/museum/190> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Plunket Museum of Irish Education" ;
+    ns2:latitude 53.32651803012735 ;
+    ns2:longitude -6.2647981615158175 .
+
+<https://example.org/irish-tourism/museum/191> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Rathfarnham Castle" ;
+    ns2:latitude 53.29802454109697 ;
+    ns2:longitude -6.28335703457713 .
+
+<https://example.org/irish-tourism/museum/192> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Revenue Museum" ;
+    ns2:latitude 53.34307697140287 ;
+    ns2:longitude -6.266228425538929 .
+
+<https://example.org/irish-tourism/museum/193> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Royal College of Physicians Heritage Centre" ;
+    ns2:latitude 53.34138358004447 ;
+    ns2:longitude -6.254883268992399 .
+
+<https://example.org/irish-tourism/museum/194> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Royal Irish Academy Library" ;
+    ns2:latitude 53.340713213036096 ;
+    ns2:longitude -6.258214608748437 .
+
+<https://example.org/irish-tourism/museum/195> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Skerries Mills" ;
+    ns2:latitude 53.57440158278711 ;
+    ns2:longitude -6.110297762387316 .
+
+<https://example.org/irish-tourism/museum/196> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Local Studies" ;
+    ns2:latitude 53.28849133875809 ;
+    ns2:longitude -6.372686474148285 .
+
+<https://example.org/irish-tourism/museum/197> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "St. Patrick's Cathedral" ;
+    ns2:latitude 53.3395687598753 ;
+    ns2:longitude -6.272227616251791 .
+
+<https://example.org/irish-tourism/museum/198> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "St. Audeon's Church & Visitor Centre" ;
+    ns2:latitude 53.343735627266625 ;
+    ns2:longitude -6.274462175084448 .
+
+<https://example.org/irish-tourism/museum/199> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "St. Mary's Abbey" ;
+    ns2:latitude 53.347618503929304 ;
+    ns2:longitude -6.269498820745863 .
+
+<https://example.org/irish-tourism/museum/2> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "Carlow County Museum" ;
+    ns2:latitude 52.83613044519985 ;
+    ns2:longitude -6.92813605379258 .
+
+<https://example.org/irish-tourism/museum/20> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:name "Belturbet Railway Station" ;
+    ns2:latitude 54.097723462480324 ;
+    ns2:longitude -7.440758234213041 .
+
+<https://example.org/irish-tourism/museum/200> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "State Apartments" ;
+    ns2:latitude 53.3430944155714 ;
+    ns2:longitude -6.267429224035308 .
+
+<https://example.org/irish-tourism/museum/201> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Swords Heritage Centre" ;
+    ns2:latitude 53.46155343824542 ;
+    ns2:longitude -6.218330452618783 .
+
+<https://example.org/irish-tourism/museum/202> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "The Douglas Hyde Gallery" ;
+    ns2:latitude 53.34304215982442 ;
+    ns2:longitude -6.257669109750755 .
+
+<https://example.org/irish-tourism/museum/203> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Archives of Ireland" ;
+    ns2:latitude 53.338438598572466 ;
+    ns2:longitude -6.2686691830307915 .
+
+<https://example.org/irish-tourism/museum/204> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "The Science Gallery" ;
+    ns2:latitude 53.34418990498168 ;
+    ns2:longitude -6.250112685808494 .
+
+<https://example.org/irish-tourism/museum/205> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "The Herbarium" ;
+    ns2:latitude 53.34395342501421 ;
+    ns2:longitude -6.252375245682469 .
+
+<https://example.org/irish-tourism/museum/206> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "The Old Library & Book of Kells Exhibition" ;
+    ns2:latitude 53.34401052805195 ;
+    ns2:longitude -6.256277896750374 .
+
+<https://example.org/irish-tourism/museum/207> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "UCD Archives" ;
+    ns2:latitude 53.30702254017997 ;
+    ns2:longitude -6.2226711523581155 .
+
+<https://example.org/irish-tourism/museum/208> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "The Classical Museum" ;
+    ns2:latitude 53.306562229922065 ;
+    ns2:longitude -6.221939968819994 .
+
+<https://example.org/irish-tourism/museum/209> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Weingreen Museum" ;
+    ns2:latitude 53.34348691392693 ;
+    ns2:longitude -6.257350594426565 .
+
+<https://example.org/irish-tourism/museum/21> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Brian Boru Heritage Centre" ;
+    ns2:latitude 52.80752735049412 ;
+    ns2:longitude -8.440205274769552 .
+
+<https://example.org/irish-tourism/museum/210> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Zoological Museum" ;
+    ns2:latitude 53.34340786331375 ;
+    ns2:longitude -6.251946990376059 .
+
+<https://example.org/irish-tourism/museum/211> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Guinness Storehouse" ;
+    ns2:latitude 53.34166728186477 ;
+    ns2:longitude -6.28686070004442 .
+
+<https://example.org/irish-tourism/museum/212> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "James Joyce Centre" ;
+    ns2:latitude 53.35413259038251 ;
+    ns2:longitude -6.260071053932472 .
+
+<https://example.org/irish-tourism/museum/213> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "James Joyce House of the Dead" ;
+    ns2:latitude 53.34637211282366 ;
+    ns2:longitude -6.282766869963952 .
+
+<https://example.org/irish-tourism/museum/214> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Print Museum" ;
+    ns2:latitude 53.33507373976181 ;
+    ns2:longitude -6.235319709170803 .
+
+<https://example.org/irish-tourism/museum/215> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Wax Museum Plus" ;
+    ns2:latitude 53.34507092789268 ;
+    ns2:longitude -6.261191069335895 .
+
+<https://example.org/irish-tourism/museum/216> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Royal Hibernian Academy" ;
+    ns2:latitude 53.336975438420716 ;
+    ns2:longitude -6.254612767363541 .
+
+<https://example.org/irish-tourism/museum/217> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Hurdy-Gurdy Museum of Vintage Radio" ;
+    ns2:latitude 53.387600197685224 ;
+    ns2:longitude -6.063705634614122 .
+
+<https://example.org/irish-tourism/museum/218> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Dalkey Castle & Heritage Centre" ;
+    ns2:latitude 53.277894894696026 ;
+    ns2:longitude -6.10556017630714 .
+
+<https://example.org/irish-tourism/museum/219> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "St. Michan's Church" ;
+    ns2:latitude 53.34742944897246 ;
+    ns2:longitude -6.275064004648213 .
+
+<https://example.org/irish-tourism/museum/22> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Clare County Archives" ;
+    ns2:latitude 52.84918608578014 ;
+    ns2:longitude -8.975386277407722 .
+
+<https://example.org/irish-tourism/museum/220> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "St. Werburgh'sChurch" ;
+    ns2:latitude 53.34285978274452 ;
+    ns2:longitude -6.269841736514574 .
+
+<https://example.org/irish-tourism/museum/221> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Leinster House" ;
+    ns2:latitude 53.340756982004315 ;
+    ns2:longitude -6.255059038378267 .
+
+<https://example.org/irish-tourism/museum/222> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Tailor's Hall" ;
+    ns2:latitude 53.34273448492118 ;
+    ns2:longitude -6.273601482684667 .
+
+<https://example.org/irish-tourism/museum/223> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "National Folklore Collection" ;
+    ns2:latitude 53.305764967790886 ;
+    ns2:longitude -6.222723391110743 .
+
+<https://example.org/irish-tourism/museum/224> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Casino Marino" ;
+    ns2:latitude 53.37135547003782 ;
+    ns2:longitude -6.227207401984662 .
+
+<https://example.org/irish-tourism/museum/225> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Irish Whiskey Museum" ;
+    ns2:latitude 53.344238401967885 ;
+    ns2:longitude -6.259572832437637 .
+
+<https://example.org/irish-tourism/museum/226> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Hard Rock Cafe Dublin" ;
+    ns2:latitude 53.345782986760184 ;
+    ns2:longitude -6.260711496710532 .
+
+<https://example.org/irish-tourism/museum/227> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:name "Sweny's Pharmacy" ;
+    ns2:latitude 53.34185879573041 ;
+    ns2:longitude -6.250508517733425 .
+
+<https://example.org/irish-tourism/museum/228> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Dartfield Horse Museum and Heritage Centre" ;
+    ns2:latitude 53.22494217241637 ;
+    ns2:longitude -8.477719876512058 .
+
+<https://example.org/irish-tourism/museum/229> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Dunguaire Castle" ;
+    ns2:latitude 53.14186687425355 ;
+    ns2:longitude -8.925653336450807 .
+
+<https://example.org/irish-tourism/museum/23> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Clare Museum" ;
+    ns2:latitude 52.844097430727594 ;
+    ns2:longitude -8.982100802136358 .
+
+<https://example.org/irish-tourism/museum/230> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Athenry Heritage Centre" ;
+    ns2:latitude 53.29950529766323 ;
+    ns2:longitude -8.74633390731737 .
+
+<https://example.org/irish-tourism/museum/231> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Athenry Castle" ;
+    ns2:latitude 53.30005665730854 ;
+    ns2:longitude -8.744393244428812 .
+
+<https://example.org/irish-tourism/museum/232> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Aughnanure Castle" ;
+    ns2:latitude 53.41868656224991 ;
+    ns2:longitude -9.275717426940831 .
+
+<https://example.org/irish-tourism/museum/233> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Battle of Aughrim Centre" ;
+    ns2:latitude 53.302583596263304 ;
+    ns2:longitude -8.31835658364855 .
+
+<https://example.org/irish-tourism/museum/234> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Castleblakeney Heritage Centre" ;
+    ns2:latitude 53.42842438270402 ;
+    ns2:longitude -8.473828955468777 .
+
+<https://example.org/irish-tourism/museum/235> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Clonfert Diocesan Museum" ;
+    ns2:latitude 53.19705176418919 ;
+    ns2:longitude -8.566606804824506 .
+
+<https://example.org/irish-tourism/museum/236> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Dan O'Mara Homestead/Connemara Heritage & History Centre" ;
+    ns2:latitude 53.47904068533562 ;
+    ns2:longitude -9.912129989113991 .
+
+<https://example.org/irish-tourism/museum/237> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Connemara Pony Breeders Heritage Centre" ;
+    ns2:latitude 53.48744845249116 ;
+    ns2:longitude -10.018453013994012 .
+
+<https://example.org/irish-tourism/museum/238> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Coole Park & Gardens and Visitor Centre" ;
+    ns2:latitude 53.09263614055951 ;
+    ns2:longitude -8.837853059372856 .
+
+<https://example.org/irish-tourism/museum/239> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Dún Uí Mhaoilíosa Museum" ;
+    ns2:latitude 53.27034153241044 ;
+    ns2:longitude -9.029921845033513 .
+
+<https://example.org/irish-tourism/museum/24> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Clare Heritage and Genealogy Centre" ;
+    ns2:latitude 52.944965890136494 ;
+    ns2:longitude -9.062946367023976 .
+
+<https://example.org/irish-tourism/museum/240> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Galway City Museum" ;
+    ns2:latitude 53.26977520181678 ;
+    ns2:longitude -9.053595373461505 .
+
+<https://example.org/irish-tourism/museum/241> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Glengowla Mines" ;
+    ns2:latitude 53.41822248050282 ;
+    ns2:longitude -9.374244862971771 .
+
+<https://example.org/irish-tourism/museum/242> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Inishbofin Heritage Museum" ;
+    ns2:latitude 53.61346428531903 ;
+    ns2:longitude -10.20675573157568 .
+
+<https://example.org/irish-tourism/museum/243> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "James Mitchell Geology Museum" ;
+    ns2:latitude 53.277430931943 ;
+    ns2:longitude -9.061880709300823 .
+
+<https://example.org/irish-tourism/museum/244> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Kiltartan Gregory Museum & Millenium Park" ;
+    ns2:latitude 53.09926288787706 ;
+    ns2:longitude -8.815434117078137 .
+
+<https://example.org/irish-tourism/museum/245> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Kylemore Abbey & Victorian Walled Garden" ;
+    ns2:latitude 53.561472699178694 ;
+    ns2:longitude -9.888823858695085 .
+
+<https://example.org/irish-tourism/museum/246> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Lackagh Museum & Heritage Centre" ;
+    ns2:latitude 53.36978082560956 ;
+    ns2:longitude -8.891066553030722 .
+
+<https://example.org/irish-tourism/museum/247> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Leenane Sheep and Wool Centre" ;
+    ns2:latitude 53.59647780819865 ;
+    ns2:longitude -9.693971695417288 .
+
+<https://example.org/irish-tourism/museum/248> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Mountbellew Forge Museum & Heritage Centre" ;
+    ns2:latitude 53.46835251541514 ;
+    ns2:longitude -8.511022829073887 .
+
+<https://example.org/irish-tourism/museum/249> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "National Aquarium" ;
+    ns2:latitude 53.25970392136918 ;
+    ns2:longitude -9.074331543359277 .
+
+<https://example.org/irish-tourism/museum/25> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Clare Heritage and Genealogy Museum" ;
+    ns2:latitude 52.94533065051245 ;
+    ns2:longitude -9.06236013008956 .
+
+<https://example.org/irish-tourism/museum/250> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Nora Barnacle House" ;
+    ns2:latitude 53.27309189305669 ;
+    ns2:longitude -9.054576510409559 .
+
+<https://example.org/irish-tourism/museum/251> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Pearse's Cottage" ;
+    ns2:latitude 53.386199402782225 ;
+    ns2:longitude -9.620063357798635 .
+
+<https://example.org/irish-tourism/museum/252> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Portumna Castle & Gardens" ;
+    ns2:latitude 53.086842005897644 ;
+    ns2:longitude -8.220927398945136 .
+
+<https://example.org/irish-tourism/museum/253> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Station House Musuem" ;
+    ns2:latitude 53.48844400833199 ;
+    ns2:longitude -10.018048171505445 .
+
+<https://example.org/irish-tourism/museum/254> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Teach Synge" ;
+    ns2:latitude 53.08430022789088 ;
+    ns2:longitude -9.592579885517203 .
+
+<https://example.org/irish-tourism/museum/255> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Thomas Dillon's Claddagh Gold Museum" ;
+    ns2:latitude 53.27139127092571 ;
+    ns2:longitude -9.053785033651339 .
+
+<https://example.org/irish-tourism/museum/256> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Claregalway Museum" ;
+    ns2:latitude 53.359793453962695 ;
+    ns2:longitude -8.927965669153872 .
+
+<https://example.org/irish-tourism/museum/257> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Herbarium" ;
+    ns2:latitude 53.27869156954891 ;
+    ns2:longitude -9.061612057791002 .
+
+<https://example.org/irish-tourism/museum/258> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:name "Computer and Communications Museum of Ireland" ;
+    ns2:latitude 53.29008150749557 ;
+    ns2:longitude -9.074343593629195 .
+
+<https://example.org/irish-tourism/museum/259> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Kerry County Museum" ;
+    ns2:latitude 52.267068572520095 ;
+    ns2:longitude -9.705840149819428 .
+
+<https://example.org/irish-tourism/museum/26> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Cliffs of Moher Visitor Experience" ;
+    ns2:latitude 52.97173113067622 ;
+    ns2:longitude -9.425400687335076 .
+
+<https://example.org/irish-tourism/museum/260> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Kerry Local History and Archives Department" ;
+    ns2:latitude 52.266814768869395 ;
+    ns2:longitude -9.698504305925972 .
+
+<https://example.org/irish-tourism/museum/261> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "The Skellig Experience Visitor Centre" ;
+    ns2:latitude 51.88980400302626 ;
+    ns2:longitude -10.36817151405011 .
+
+<https://example.org/irish-tourism/museum/262> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Valentia Heritage Centre" ;
+    ns2:latitude 51.925430813626626 ;
+    ns2:longitude -10.294428356833059 .
+
+<https://example.org/irish-tourism/museum/263> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "The Old Barracks Heritage Centre" ;
+    ns2:latitude 51.94952267417835 ;
+    ns2:longitude -10.224364845213998 .
+
+<https://example.org/irish-tourism/museum/264> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Dingle Oceanworld Aquarium" ;
+    ns2:latitude 52.13971707142135 ;
+    ns2:longitude -10.278543309824757 .
+
+<https://example.org/irish-tourism/museum/265> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Ross Castle" ;
+    ns2:latitude 52.04121703440417 ;
+    ns2:longitude -9.531327878972906 .
+
+<https://example.org/irish-tourism/museum/266> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Kilgarvan Motor Museum" ;
+    ns2:latitude 51.88898178612766 ;
+    ns2:longitude -9.434472230203014 .
+
+<https://example.org/irish-tourism/museum/267> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Muckross House, Gardens & Traditional Farms" ;
+    ns2:latitude 52.01819001170969 ;
+    ns2:longitude -9.504460205919349 .
+
+<https://example.org/irish-tourism/museum/268> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Kenmare Heritage Centre" ;
+    ns2:latitude 51.88067145620106 ;
+    ns2:longitude -9.58469630468097 .
+
+<https://example.org/irish-tourism/museum/269> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Lartigue Monorailway" ;
+    ns2:latitude 52.44977044537837 ;
+    ns2:longitude -9.490288871323942 .
+
+<https://example.org/irish-tourism/museum/27> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Knappogue Castle & Walled Garden" ;
+    ns2:latitude 52.793654583497315 ;
+    ns2:longitude -8.83180006335981 .
+
+<https://example.org/irish-tourism/museum/270> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Ardfert Cathedral" ;
+    ns2:latitude 52.32851327922569 ;
+    ns2:longitude -9.781860090075034 .
+
+<https://example.org/irish-tourism/museum/271> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Derrynane House" ;
+    ns2:latitude 51.76264207219075 ;
+    ns2:longitude -10.130112749005715 .
+
+<https://example.org/irish-tourism/museum/272> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Músaem Chorca Dhuibhne" ;
+    ns2:latitude 52.166399585301086 ;
+    ns2:longitude -10.40622865973573 .
+
+<https://example.org/irish-tourism/museum/273> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Blennerville Windmill" ;
+    ns2:latitude 52.25681204876998 ;
+    ns2:longitude -9.737234718742961 .
+
+<https://example.org/irish-tourism/museum/274> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Ballybunion Heritage Museum" ;
+    ns2:latitude 52.511641092667745 ;
+    ns2:longitude -9.670065167680832 .
+
+<https://example.org/irish-tourism/museum/275> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "The Seanchaí Kerry Writers Museum" ;
+    ns2:latitude 52.444695118932856 ;
+    ns2:longitude -9.48643985991704 .
+
+<https://example.org/irish-tourism/museum/276> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Vintage Wireless Museum" ;
+    ns2:latitude 52.44898462927286 ;
+    ns2:longitude -9.481287890160681 .
+
+<https://example.org/irish-tourism/museum/277> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Tarbert Bridewell, Courthouse and Jail" ;
+    ns2:latitude 52.5735785649302 ;
+    ns2:longitude -9.376453258863014 .
+
+<https://example.org/irish-tourism/museum/278> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Tarbert House" ;
+    ns2:latitude 52.579596219357256 ;
+    ns2:longitude -9.369116337511064 .
+
+<https://example.org/irish-tourism/museum/279> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Kerry Bog Village Museum" ;
+    ns2:latitude 52.07389741529873 ;
+    ns2:longitude -9.881851017974752 .
+
+<https://example.org/irish-tourism/museum/28> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "DeValera Public Library and Gallery" ;
+    ns2:latitude 52.84623695038243 ;
+    ns2:longitude -8.984227447099963 .
+
+<https://example.org/irish-tourism/museum/280> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "The Blasket Centre - Ionad an Bhlascoid Mhoir" ;
+    ns2:latitude 52.13241431477846 ;
+    ns2:longitude -10.462835049789817 .
+
+<https://example.org/irish-tourism/museum/281> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Cloghane Brandon Heritage & Craft Centre - An Tinteán Ceoil" ;
+    ns2:latitude 52.25673225768921 ;
+    ns2:longitude -10.171000308909345 .
+
+<https://example.org/irish-tourism/museum/282> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:name "Listowel Castle" ;
+    ns2:latitude 52.44450986748359 ;
+    ns2:longitude -9.486874945179675 .
+
+<https://example.org/irish-tourism/museum/283> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Athy Heritage Centre Museum" ;
+    ns2:latitude 52.99174779881438 ;
+    ns2:longitude -6.98327259000715 .
+
+<https://example.org/irish-tourism/museum/284> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Castletown House and Berkeley Costume and Toy Museum" ;
+    ns2:latitude 53.3489502564011 ;
+    ns2:longitude -6.529601692446451 .
+
+<https://example.org/irish-tourism/museum/285> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Curragh Military Museum" ;
+    ns2:latitude 53.14602278769463 ;
+    ns2:longitude -6.831489917884943 .
+
+<https://example.org/irish-tourism/museum/286> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Irish National Stud Horse Museum" ;
+    ns2:latitude 53.14462603325666 ;
+    ns2:longitude -6.901934618655623 .
+
+<https://example.org/irish-tourism/museum/287> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "National Science Museum" ;
+    ns2:latitude 53.37853433691086 ;
+    ns2:longitude -6.598024372480253 .
+
+<https://example.org/irish-tourism/museum/288> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Museum of Style Icons" ;
+    ns2:latitude 53.176059652063465 ;
+    ns2:longitude -6.797164816353268 .
+
+<https://example.org/irish-tourism/museum/289> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Lullymore Heritage and Discovery Park" ;
+    ns2:latitude 53.270883877349085 ;
+    ns2:longitude -6.949825587260777 .
+
+<https://example.org/irish-tourism/museum/29> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Local Studies Centre" ;
+    ns2:latitude 52.8462381807492 ;
+    ns2:longitude -8.984079020389222 .
+
+<https://example.org/irish-tourism/museum/290> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Ballitore Library and Quaker Museum" ;
+    ns2:latitude 53.00969719217468 ;
+    ns2:longitude -6.815356302542259 .
+
+<https://example.org/irish-tourism/museum/291> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Russell Library Archives" ;
+    ns2:latitude 53.37942922539442 ;
+    ns2:longitude -6.597694356192577 .
+
+<https://example.org/irish-tourism/museum/292> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "The Steam Museum & Lodge Park Walled Garden" ;
+    ns2:latitude 53.31150838402646 ;
+    ns2:longitude -6.599921593505514 .
+
+<https://example.org/irish-tourism/museum/293> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Straffan Butterfly Farm" ;
+    ns2:latitude 53.314266650049625 ;
+    ns2:longitude -6.636300730036984 .
+
+<https://example.org/irish-tourism/museum/294> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "The Mondello Park Museum of Motorsport" ;
+    ns2:latitude 53.25666801537497 ;
+    ns2:longitude -6.743796837175757 .
+
+<https://example.org/irish-tourism/museum/295> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Bog of Allen Nature Centre" ;
+    ns2:latitude 53.27819106524359 ;
+    ns2:longitude -6.942748846203426 .
+
+<https://example.org/irish-tourism/museum/296> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Leixlip Castle" ;
+    ns2:latitude 53.361948022205844 ;
+    ns2:longitude -6.490840569163965 .
+
+<https://example.org/irish-tourism/museum/297> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Burtown House" ;
+    ns2:latitude 52.996755001653824 ;
+    ns2:longitude -6.870830464428939 .
+
+<https://example.org/irish-tourism/museum/298> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "OPW Maynooth University Archive & Research Centre" ;
+    ns2:latitude 53.34895905534668 ;
+    ns2:longitude -6.529586369280084 .
+
+<https://example.org/irish-tourism/museum/299> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:name "Special Collections Exhibition Space" ;
+    ns2:latitude 53.38160307241251 ;
+    ns2:longitude -6.599126092097068 .
+
+<https://example.org/irish-tourism/museum/3> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "Cottage Collection and Museum" ;
+    ns2:latitude 52.75392892988544 ;
+    ns2:longitude -6.70927371599692 .
+
+<https://example.org/irish-tourism/museum/30> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "East Clare Heritage" ;
+    ns2:latitude 52.89663724606694 ;
+    ns2:longitude -8.539198374459025 .
+
+<https://example.org/irish-tourism/museum/300> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Rothe House & Garden" ;
+    ns2:latitude 52.65428383071959 ;
+    ns2:longitude -7.254503202814169 .
+
+<https://example.org/irish-tourism/museum/301> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Tullaherin Local Museum" ;
+    ns2:latitude 52.57872771303189 ;
+    ns2:longitude -7.128009664538352 .
+
+<https://example.org/irish-tourism/museum/302> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Noreview Folk & Heritage Museum" ;
+    ns2:latitude 52.59122068041725 ;
+    ns2:longitude -7.191225171695937 .
+
+<https://example.org/irish-tourism/museum/303> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Edmund Rice Heritage Centre 'Westcourt'" ;
+    ns2:latitude 52.55254637240106 ;
+    ns2:longitude -7.398378344581162 .
+
+<https://example.org/irish-tourism/museum/304> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Dunmore Caves" ;
+    ns2:latitude 52.733712536195746 ;
+    ns2:longitude -7.250335589242967 .
+
+<https://example.org/irish-tourism/museum/305> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Local History and Archives, Kilkenny Library" ;
+    ns2:latitude 52.65549344619855 ;
+    ns2:longitude -7.24679676396931 .
+
+<https://example.org/irish-tourism/museum/306> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Kilkenny Castle" ;
+    ns2:latitude 52.650117062377184 ;
+    ns2:longitude -7.249401531132991 .
+
+<https://example.org/irish-tourism/museum/307> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "St Canices Cathedral & Round Tower" ;
+    ns2:latitude 52.65645561495274 ;
+    ns2:longitude -7.256831189361549 .
+
+<https://example.org/irish-tourism/museum/308> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Duiske Abbey and Abbey Centre" ;
+    ns2:latitude 52.541281542313676 ;
+    ns2:longitude -6.954792498442711 .
+
+<https://example.org/irish-tourism/museum/309> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Cushendale Woollen Mills" ;
+    ns2:latitude 52.46006622307909 ;
+    ns2:longitude -6.959512877274452 .
+
+<https://example.org/irish-tourism/museum/31> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "The Clare Archaeology Centre" ;
+    ns2:latitude 52.91159316012682 ;
+    ns2:longitude -9.065994767519168 .
+
+<https://example.org/irish-tourism/museum/310> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Butler Gallery" ;
+    ns2:latitude 52.650385742673855 ;
+    ns2:longitude -7.249249142325675 .
+
+<https://example.org/irish-tourism/museum/311> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Kilkenny Barracks Museum" ;
+    ns2:latitude 52.65972775128261 ;
+    ns2:longitude -7.248349992622003 .
+
+<https://example.org/irish-tourism/museum/312> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Archives of St. Kieran's College" ;
+    ns2:latitude 52.64691709527556 ;
+    ns2:longitude -7.255071814935316 .
+
+<https://example.org/irish-tourism/museum/313> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Smithwicks Experience Kilkenny" ;
+    ns2:latitude 52.65437370289215 ;
+    ns2:longitude -7.254501674047986 .
+
+<https://example.org/irish-tourism/museum/314> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:name "Reptile Village Zoo" ;
+    ns2:latitude 52.630964843762655 ;
+    ns2:longitude -7.059461717197757 .
+
+<https://example.org/irish-tourism/museum/315> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:name "Abbeyleix Heritage House" ;
+    ns2:latitude 52.91762990533096 ;
+    ns2:longitude -7.345748485404202 .
+
+<https://example.org/irish-tourism/museum/316> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:name "Emo Court" ;
+    ns2:latitude 53.10689672964333 ;
+    ns2:longitude -7.196966787927134 .
+
+<https://example.org/irish-tourism/museum/317> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:name "Stradbally Steam Museum" ;
+    ns2:latitude 53.012150166054845 ;
+    ns2:longitude -7.142992636247204 .
+
+<https://example.org/irish-tourism/museum/318> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:name "Irish Fly Fishing and Game Shooting Museum" ;
+    ns2:latitude 52.8342316609039 ;
+    ns2:longitude -7.347299159789685 .
+
+<https://example.org/irish-tourism/museum/319> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:name "Donaghmore Famine Workhouse Museum" ;
+    ns2:latitude 52.87745529497836 ;
+    ns2:longitude -7.612270117986407 .
+
+<https://example.org/irish-tourism/museum/32> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "The Burren Centre" ;
+    ns2:latitude 52.99049982690605 ;
+    ns2:longitude -9.216589768274089 .
+
+<https://example.org/irish-tourism/museum/320> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:name "Mountmellick Museum" ;
+    ns2:latitude 53.115261162014114 ;
+    ns2:longitude -7.328561483403959 .
+
+<https://example.org/irish-tourism/museum/321> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:name "Poet's Cottage" ;
+    ns2:latitude 53.00456628475617 ;
+    ns2:longitude -7.593253095088318 .
+
+<https://example.org/irish-tourism/museum/322> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:name "Laois County Archive Service" ;
+    ns2:latitude 53.03205651157245 ;
+    ns2:longitude -7.300782235464783 .
+
+<https://example.org/irish-tourism/museum/323> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:name "Bygones Museum" ;
+    ns2:latitude 52.84679494491398 ;
+    ns2:longitude -7.394467248709116 .
+
+<https://example.org/irish-tourism/museum/324> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "The Cavan and Leitrim Railway" ;
+    ns2:latitude 53.85942787888775 ;
+    ns2:longitude -7.916545881970058 .
+
+<https://example.org/irish-tourism/museum/325> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "Parke's Castle" ;
+    ns2:latitude 54.26470351842045 ;
+    ns2:longitude -8.334626781639836 .
+
+<https://example.org/irish-tourism/museum/326> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "Sliabh an Iarainn Visitor Centre" ;
+    ns2:latitude 54.03853846254071 ;
+    ns2:longitude -8.048394437811165 .
+
+<https://example.org/irish-tourism/museum/327> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "Sean MacDiarmada's Homestead" ;
+    ns2:latitude 54.32267430451707 ;
+    ns2:longitude -8.013219402787923 .
+
+<https://example.org/irish-tourism/museum/328> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "Glenview Folk Museum" ;
+    ns2:latitude 54.02678507174453 ;
+    ns2:longitude -7.7970142224386665 .
+
+<https://example.org/irish-tourism/museum/329> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "Fenagh Visitor Centre" ;
+    ns2:latitude 54.020738002487796 ;
+    ns2:longitude -7.838855760002616 .
+
+<https://example.org/irish-tourism/museum/33> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "The Rock Shop" ;
+    ns2:latitude 52.9435261935654 ;
+    ns2:longitude -9.423878159465772 .
+
+<https://example.org/irish-tourism/museum/330> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "The Rainbow Ballroom of Romance" ;
+    ns2:latitude 54.28493537284142 ;
+    ns2:longitude -7.987714123724673 .
+
+<https://example.org/irish-tourism/museum/331> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "Manorhamilton Castle" ;
+    ns2:latitude 54.306817196901704 ;
+    ns2:longitude -8.179315358206683 .
+
+<https://example.org/irish-tourism/museum/332> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "St. George's Heritage & Visitor Centre" ;
+    ns2:latitude 53.94685426115169 ;
+    ns2:longitude -8.09459622097919 .
+
+<https://example.org/irish-tourism/museum/333> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:name "Local History Centre" ;
+    ns2:latitude 53.94505597216235 ;
+    ns2:longitude -8.095963053321242 .
+
+<https://example.org/irish-tourism/museum/334> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Foynes Flying Boat & Maritime Museum" ;
+    ns2:latitude 52.61161465246082 ;
+    ns2:longitude -9.109637409051825 .
+
+<https://example.org/irish-tourism/museum/335> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Kilmallock Museum and History Trail" ;
+    ns2:latitude 52.40157838580753 ;
+    ns2:longitude -8.57620042793614 .
+
+<https://example.org/irish-tourism/museum/336> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "King John's Castle" ;
+    ns2:latitude 52.66971892626283 ;
+    ns2:longitude -8.625407535191442 .
+
+<https://example.org/irish-tourism/museum/337> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "The Hunt Museum" ;
+    ns2:latitude 52.66639981420644 ;
+    ns2:longitude -8.624177422908463 .
+
+<https://example.org/irish-tourism/museum/338> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Irish Palatine Museum & Heritage Centre" ;
+    ns2:latitude 52.52550297931875 ;
+    ns2:longitude -8.944031292874097 .
+
+<https://example.org/irish-tourism/museum/339> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Limerick Museum" ;
+    ns2:latitude 52.667924560788855 ;
+    ns2:longitude -8.624790532677267 .
+
+<https://example.org/irish-tourism/museum/34> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Scattery Island Visitors Centre" ;
+    ns2:latitude 52.614412749296875 ;
+    ns2:longitude -9.514333708349577 .
+
+<https://example.org/irish-tourism/museum/340> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Limerick Local Studies Archives" ;
+    ns2:latitude 52.66613796730713 ;
+    ns2:longitude -8.622695292804085 .
+
+<https://example.org/irish-tourism/museum/341> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Lough Gur Heritage Centre" ;
+    ns2:latitude 52.52300007359769 ;
+    ns2:longitude -8.520465475465464 .
+
+<https://example.org/irish-tourism/museum/342> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Limerick City Gallery of Art" ;
+    ns2:latitude 52.65900668743379 ;
+    ns2:longitude -8.628506583637439 .
+
+<https://example.org/irish-tourism/museum/343> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Frank McCourt Museum" ;
+    ns2:latitude 52.65890660762975 ;
+    ns2:longitude -8.63042675062571 .
+
+<https://example.org/irish-tourism/museum/344> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Genesius Theatrical Museum" ;
+    ns2:latitude 52.42440314330079 ;
+    ns2:longitude -8.66309856440047 .
+
+<https://example.org/irish-tourism/museum/345> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Thomond Park Stadium & Munster Experience Museum" ;
+    ns2:latitude 52.67348695892218 ;
+    ns2:longitude -8.643500849079732 .
+
+<https://example.org/irish-tourism/museum/346> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "National Co-Operative Creamery Museum & Plunkett Heritage Centre" ;
+    ns2:latitude 52.33928092257988 ;
+    ns2:longitude -8.906748110853373 .
+
+<https://example.org/irish-tourism/museum/347> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "North Munster Masonic Centre" ;
+    ns2:latitude 52.67034804558325 ;
+    ns2:longitude -8.625416517939076 .
+
+<https://example.org/irish-tourism/museum/348> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:name "Desmond Hall" ;
+    ns2:latitude 52.45062821906261 ;
+    ns2:longitude -9.060714537780068 .
+
+<https://example.org/irish-tourism/museum/349> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Longford> ;
+    ns1:name "Battle of Ballinamuck Visitor Centre" ;
+    ns2:latitude 53.86532421618723 ;
+    ns2:longitude -7.717219197343763 .
+
+<https://example.org/irish-tourism/museum/35> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Vandeleur Walled Garden" ;
+    ns2:latitude 52.63614788723591 ;
+    ns2:longitude -9.472975593856898 .
+
+<https://example.org/irish-tourism/museum/350> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Longford> ;
+    ns1:name "Ardagh Heritage and Creativity Centre" ;
+    ns2:latitude 53.66708883620472 ;
+    ns2:longitude -7.682534236212761 .
+
+<https://example.org/irish-tourism/museum/351> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Longford> ;
+    ns1:name "Corlea Trackway Visitor Centre" ;
+    ns2:latitude 53.612231984757 ;
+    ns2:longitude -7.844797796883344 .
+
+<https://example.org/irish-tourism/museum/352> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Longford> ;
+    ns1:name "Longford County Archives and Local Studies" ;
+    ns2:latitude 53.72871720809439 ;
+    ns2:longitude -7.798452673492428 .
+
+<https://example.org/irish-tourism/museum/353> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Beaulieu House & Gardens" ;
+    ns2:latitude 53.72806231438661 ;
+    ns2:longitude -6.293770625420155 .
+
+<https://example.org/irish-tourism/museum/354> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "County Museum Dundalk" ;
+    ns2:latitude 54.00467285212342 ;
+    ns2:longitude -6.396741325858949 .
+
+<https://example.org/irish-tourism/museum/355> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Highlanes Gallery" ;
+    ns2:latitude 53.71526064949026 ;
+    ns2:longitude -6.348681068495772 .
+
+<https://example.org/irish-tourism/museum/356> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Louth County Archives Service" ;
+    ns2:latitude 53.99945556786126 ;
+    ns2:longitude -6.409907674191705 .
+
+<https://example.org/irish-tourism/museum/357> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Drogheda Museum Millmount" ;
+    ns2:latitude 53.71177411252341 ;
+    ns2:longitude -6.3500296174228295 .
+
+<https://example.org/irish-tourism/museum/358> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Carlingford Heritage Centre" ;
+    ns2:latitude 54.03959704168527 ;
+    ns2:longitude -6.185602965245711 .
+
+<https://example.org/irish-tourism/museum/359> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "The Tholsel Information Centre" ;
+    ns2:latitude 53.71483446768058 ;
+    ns2:longitude -6.350364353636516 .
+
+<https://example.org/irish-tourism/museum/36> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Regional Archive - Irish Traditional Music Archive" ;
+    ns2:latitude 52.859913416347325 ;
+    ns2:longitude -8.982457859996492 .
+
+<https://example.org/irish-tourism/museum/360> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Old Mellifont Abbey Visitor Centre" ;
+    ns2:latitude 53.74287977252162 ;
+    ns2:longitude -6.465700640445746 .
+
+<https://example.org/irish-tourism/museum/361> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Agnes Burn Cottage & Visitor Centre" ;
+    ns2:latitude 53.964882856417454 ;
+    ns2:longitude -6.460300806945153 .
+
+<https://example.org/irish-tourism/museum/362> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Shrine of St. Oliver Plunkett" ;
+    ns2:latitude 53.71513312268114 ;
+    ns2:longitude -6.3524737941469285 .
+
+<https://example.org/irish-tourism/museum/363> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Clarke Railway Station" ;
+    ns2:latitude 54.0011046668952 ;
+    ns2:longitude -6.4122855292808305 .
+
+<https://example.org/irish-tourism/museum/364> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Cooley Peninsula Tourist Office" ;
+    ns2:latitude 54.04076001344774 ;
+    ns2:longitude -6.1852469095539355 .
+
+<https://example.org/irish-tourism/museum/365> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:name "Greenore Railway Museum" ;
+    ns2:latitude 54.03223481409874 ;
+    ns2:longitude -6.133254145772653 .
+
+<https://example.org/irish-tourism/museum/366> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Ballintubber Abbey & The Celtic Furrow" ;
+    ns2:latitude 53.757163024221086 ;
+    ns2:longitude -9.282465365019688 .
+
+<https://example.org/irish-tourism/museum/367> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Belcarra Eviction Cottage" ;
+    ns2:latitude 53.81282321797829 ;
+    ns2:longitude -9.219170836151363 .
+
+<https://example.org/irish-tourism/museum/368> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Céide Fields Visitor Centre" ;
+    ns2:latitude 54.307389731769405 ;
+    ns2:longitude -9.458409030716696 .
+
+<https://example.org/irish-tourism/museum/369> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Famine Museum and Grainne Uaile Centre" ;
+    ns2:latitude 53.764026047160115 ;
+    ns2:longitude -9.809469946803237 .
+
+<https://example.org/irish-tourism/museum/37> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Irish Seed Savers" ;
+    ns2:latitude 52.91772533077634 ;
+    ns2:longitude -8.5656305719905 .
+
+<https://example.org/irish-tourism/museum/370> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Clew Bay Heritage Centre" ;
+    ns2:latitude 53.80202107336772 ;
+    ns2:longitude -9.55482824702683 .
+
+<https://example.org/irish-tourism/museum/371> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Teach Na Miasa - Croagh Patrick Visitor Centre" ;
+    ns2:latitude 53.77833246059861 ;
+    ns2:longitude -9.639682985147855 .
+
+<https://example.org/irish-tourism/museum/372> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Jackie Clarke Collection" ;
+    ns2:latitude 54.114614899642866 ;
+    ns2:longitude -9.153216243630494 .
+
+<https://example.org/irish-tourism/museum/373> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Ionad Deirbhle Visitor Centre" ;
+    ns2:latitude 54.12076254863891 ;
+    ns2:longitude -10.100980261254096 .
+
+<https://example.org/irish-tourism/museum/374> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Foxford Woollen Mills Visitor Centre" ;
+    ns2:latitude 53.98226061228072 ;
+    ns2:longitude -9.113422225240623 .
+
+<https://example.org/irish-tourism/museum/375> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Father Peyton CSC Memorial Centre" ;
+    ns2:latitude 54.05001960961169 ;
+    ns2:longitude -9.083773930189992 .
+
+<https://example.org/irish-tourism/museum/376> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Hennigans Heritage Centre" ;
+    ns2:latitude 53.97419441379686 ;
+    ns2:longitude -8.987599532530124 .
+
+<https://example.org/irish-tourism/museum/377> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Kiltimagh Railway Museum" ;
+    ns2:latitude 53.84815192364017 ;
+    ns2:longitude -8.99390069918007 .
+
+<https://example.org/irish-tourism/museum/378> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Knock Museum" ;
+    ns2:latitude 53.789989094060296 ;
+    ns2:longitude -8.917400902373895 .
+
+<https://example.org/irish-tourism/museum/379> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Mayo North Heritage Centre" ;
+    ns2:latitude 54.07066569016587 ;
+    ns2:longitude -9.311666195275562 .
+
+<https://example.org/irish-tourism/museum/38> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Michael Cusack Centre" ;
+    ns2:latitude 53.02113722061039 ;
+    ns2:longitude -9.08792139340167 .
+
+<https://example.org/irish-tourism/museum/380> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Mayo Local Studies" ;
+    ns2:latitude 53.85324233619487 ;
+    ns2:longitude -9.298321297170915 .
+
+<https://example.org/irish-tourism/museum/381> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Michael Davitt Museum" ;
+    ns2:latitude 53.921272025333565 ;
+    ns2:longitude -9.12945898842286 .
+
+<https://example.org/irish-tourism/museum/382> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "National Museum of Ireland - Country Life " ;
+    ns2:latitude 53.883934767344364 ;
+    ns2:longitude -9.207701353778306 .
+
+<https://example.org/irish-tourism/museum/383> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Quiet Man Cottage Museum" ;
+    ns2:latitude 53.540781688255485 ;
+    ns2:longitude -9.288136640586611 .
+
+<https://example.org/irish-tourism/museum/384> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Clogher Heritage Complex" ;
+    ns2:latitude 53.76311542274239 ;
+    ns2:longitude -9.24639663061992 .
+
+<https://example.org/irish-tourism/museum/385> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Westport House" ;
+    ns2:latitude 53.800642757202546 ;
+    ns2:longitude -9.536255803959934 .
+
+<https://example.org/irish-tourism/museum/386> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:name "Belleek Castle" ;
+    ns2:latitude 54.13311230557294 ;
+    ns2:longitude -9.145313855056175 .
+
+<https://example.org/irish-tourism/museum/387> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
+    ns1:name "Battle of the Boyne Visitor Centre" ;
+    ns2:latitude 53.7241655258967 ;
+    ns2:longitude -6.422587159949174 .
+
+<https://example.org/irish-tourism/museum/388> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
+    ns1:name "Columban Mission Awareness Centre" ;
+    ns2:latitude 53.60898952945282 ;
+    ns2:longitude -6.630449021336287 .
+
+<https://example.org/irish-tourism/museum/389> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
+    ns1:name "Irish Military War Museum" ;
+    ns2:latitude 53.76407140527311 ;
+    ns2:longitude -6.471298712183096 .
+
+<https://example.org/irish-tourism/museum/39> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Bunratty Castle Medieval Collection" ;
+    ns2:latitude 52.69663020733515 ;
+    ns2:longitude -8.812053212887305 .
+
+<https://example.org/irish-tourism/museum/390> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
+    ns1:name "Francis Ledwidge Museum" ;
+    ns2:latitude 53.707078179100364 ;
+    ns2:longitude -6.52759447081563 .
+
+<https://example.org/irish-tourism/museum/391> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
+    ns1:name "Meath Local Studies" ;
+    ns2:latitude 53.6502311256765 ;
+    ns2:longitude -6.685687704692888 .
+
+<https://example.org/irish-tourism/museum/392> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
+    ns1:name "Slane Castle" ;
+    ns2:latitude 53.70973070368485 ;
+    ns2:longitude -6.5609801641633245 .
+
+<https://example.org/irish-tourism/museum/393> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
+    ns1:name "Brú na Boinne Visitor Centre" ;
+    ns2:latitude 53.69481838562507 ;
+    ns2:longitude -6.446399896094758 .
+
+<https://example.org/irish-tourism/museum/394> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
+    ns1:name "Monaghan County Museum" ;
+    ns2:latitude 54.24775932083298 ;
+    ns2:longitude -6.972426137267615 .
+
+<https://example.org/irish-tourism/museum/395> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
+    ns1:name "Patrick Kavanagh Centre" ;
+    ns2:latitude 54.00199410744742 ;
+    ns2:longitude -6.576544089073056 .
+
+<https://example.org/irish-tourism/museum/396> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
+    ns1:name "The Wildlife and Heritage Centre" ;
+    ns2:latitude 54.22797042937609 ;
+    ns2:longitude -6.82292095850615 .
+
+<https://example.org/irish-tourism/museum/397> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
+    ns1:name "Clones Lace Museum" ;
+    ns2:latitude 54.17576705473194 ;
+    ns2:longitude -7.236446672733413 .
+
+<https://example.org/irish-tourism/museum/398> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
+    ns1:name "Clogher Historical Society" ;
+    ns2:latitude 54.263794900941406 ;
+    ns2:longitude -6.956216568922763 .
+
+<https://example.org/irish-tourism/museum/399> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
+    ns1:name "Carrickmacross Workhouse" ;
+    ns2:latitude 53.97832080268122 ;
+    ns2:longitude -6.725234266981112 .
+
+<https://example.org/irish-tourism/museum/4> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "Tullow Museum" ;
+    ns2:latitude 52.80217254085467 ;
+    ns2:longitude -6.737952137702357 .
+
+<https://example.org/irish-tourism/museum/40> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Bunratty Castle & Folk Park" ;
+    ns2:latitude 52.696449453792134 ;
+    ns2:longitude -8.812197802456017 .
+
+<https://example.org/irish-tourism/museum/400> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
+    ns1:name "Clonmacnoise Visitors Centre" ;
+    ns2:latitude 53.32547517363882 ;
+    ns2:longitude -7.9873910345453 .
+
+<https://example.org/irish-tourism/museum/401> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
+    ns1:name "Tullamore Dew Visitor Centre" ;
+    ns2:latitude 53.27775651504041 ;
+    ns2:longitude -7.493202627982236 .
+
+<https://example.org/irish-tourism/museum/402> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
+    ns1:name "Birr Castle Gardens and Science Centre" ;
+    ns2:latitude 53.09645276233855 ;
+    ns2:longitude -7.914147644491345 .
+
+<https://example.org/irish-tourism/museum/403> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
+    ns1:name "The Explorer's Museum" ;
+    ns2:latitude 53.26091314239787 ;
+    ns2:longitude -7.527874658758581 .
+
+<https://example.org/irish-tourism/museum/404> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
+    ns1:name "Offaly Local Studies and Archives Service" ;
+    ns2:latitude 53.27442442368324 ;
+    ns2:longitude -7.49159281497217 .
+
+<https://example.org/irish-tourism/museum/405> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
+    ns1:name "Presentation Convent" ;
+    ns2:latitude 53.27033225090642 ;
+    ns2:longitude -7.596581773895029 .
+
+<https://example.org/irish-tourism/museum/406> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Cruachan Aí / Rathcroghan Heritage Centre" ;
+    ns2:latitude 53.77876196370323 ;
+    ns2:longitude -8.253675211969892 .
+
+<https://example.org/irish-tourism/museum/407> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Boyle Abbey" ;
+    ns2:latitude 53.97393121236504 ;
+    ns2:longitude -8.297234186196844 .
+
+<https://example.org/irish-tourism/museum/408> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Castlecoote House" ;
+    ns2:latitude 53.61647264629799 ;
+    ns2:longitude -8.290787958298322 .
+
+<https://example.org/irish-tourism/museum/409> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Elphin Windmill" ;
+    ns2:latitude 53.85182298509243 ;
+    ns2:longitude -8.205177953609068 .
+
+<https://example.org/irish-tourism/museum/41> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Craggaunowen- The Living Past" ;
+    ns2:latitude 52.81182222284093 ;
+    ns2:longitude -8.790612919332563 .
+
+<https://example.org/irish-tourism/museum/410> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Clay Pipe Visitor Centre" ;
+    ns2:latitude 53.576347987187646 ;
+    ns2:longitude -8.095881118226824 .
+
+<https://example.org/irish-tourism/museum/411> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Clonallis House" ;
+    ns2:latitude 53.78016720746306 ;
+    ns2:longitude -8.515865546187253 .
+
+<https://example.org/irish-tourism/museum/412> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Derryglad Folk & Heritage Museum" ;
+    ns2:latitude 53.46582320074118 ;
+    ns2:longitude -8.080722347755813 .
+
+<https://example.org/irish-tourism/museum/413> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Dr. Douglas Hyde Interpretive Centre" ;
+    ns2:latitude 53.88197325852543 ;
+    ns2:longitude -8.451108950485493 .
+
+<https://example.org/irish-tourism/museum/414> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Drum Heritage Visitor Centre" ;
+    ns2:latitude 53.39826557915123 ;
+    ns2:longitude -8.031576179463086 .
+
+<https://example.org/irish-tourism/museum/415> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Hells Kitchen Railway Museum" ;
+    ns2:latitude 53.76974064981702 ;
+    ns2:longitude -8.495108045663645 .
+
+<https://example.org/irish-tourism/museum/416> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Strokestown Park - The Irish National Famine Museum" ;
+    ns2:latitude 53.77719274147925 ;
+    ns2:longitude -8.09831056711899 .
+
+<https://example.org/irish-tourism/museum/417> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "King House: Historic Mansion and Military Barracks" ;
+    ns2:latitude 53.973200946678844 ;
+    ns2:longitude -8.301801755645268 .
+
+<https://example.org/irish-tourism/museum/418> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Roscommon County Museum" ;
+    ns2:latitude 53.63114161333337 ;
+    ns2:longitude -8.191103525509586 .
+
+<https://example.org/irish-tourism/museum/419> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:name "Arigna Mining Experience" ;
+    ns2:latitude 54.077306828800175 ;
+    ns2:longitude -8.120411196602014 .
+
+<https://example.org/irish-tourism/museum/42> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:name "Ennis Friary" ;
+    ns2:latitude 52.8458996139414 ;
+    ns2:longitude -8.981547657453312 .
+
+<https://example.org/irish-tourism/museum/420> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "Carrowmore Visitor Centre & Megalithic Cemetery" ;
+    ns2:latitude 54.25093065177149 ;
+    ns2:longitude -8.519267248957194 .
+
+<https://example.org/irish-tourism/museum/421> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "Lissadell House" ;
+    ns2:latitude 54.34688328167239 ;
+    ns2:longitude -8.581383466756373 .
+
+<https://example.org/irish-tourism/museum/422> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "Sligo Abbey" ;
+    ns2:latitude 54.27071937818187 ;
+    ns2:longitude -8.470542315450082 .
+
+<https://example.org/irish-tourism/museum/423> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "The Model and Niland Collection" ;
+    ns2:latitude 54.2733340586994 ;
+    ns2:longitude -8.468269121545491 .
+
+<https://example.org/irish-tourism/museum/424> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "Sligo Local Studies" ;
+    ns2:latitude 54.27268772206059 ;
+    ns2:longitude -8.47271415149581 .
+
+<https://example.org/irish-tourism/museum/425> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "Sligo Folk Park" ;
+    ns2:latitude 54.12963207845674 ;
+    ns2:longitude -8.39902118124917 .
+
+<https://example.org/irish-tourism/museum/426> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "The Yeats Memorial Building" ;
+    ns2:latitude 54.27214076857906 ;
+    ns2:longitude -8.47470375032305 .
+
+<https://example.org/irish-tourism/museum/427> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "Sligo County Museum" ;
+    ns2:latitude 54.27268712014287 ;
+    ns2:longitude -8.472867674178541 .
+
+<https://example.org/irish-tourism/museum/428> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "The Coleman Irish Music Centre" ;
+    ns2:latitude 53.99607608199289 ;
+    ns2:longitude -8.522801213444437 .
+
+<https://example.org/irish-tourism/museum/429> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:name "Dolly's Cottage" ;
+    ns2:latitude 54.27067109034436 ;
+    ns2:longitude -8.584301931611964 .
+
+<https://example.org/irish-tourism/museum/43> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Allihies Copper Mine Museum" ;
+    ns2:latitude 51.638992951098224 ;
+    ns2:longitude -10.045561820918095 .
+
+<https://example.org/irish-tourism/museum/430> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Bolton Library" ;
+    ns2:latitude 52.5151909870966 ;
+    ns2:longitude -7.885818837128367 .
+
+<https://example.org/irish-tourism/museum/431> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Cahir Castle" ;
+    ns2:latitude 52.37473633158462 ;
+    ns2:longitude -7.926862380586145 .
+
+<https://example.org/irish-tourism/museum/432> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Tipperary Agricultural and Heritage Museum" ;
+    ns2:latitude 52.49708906309444 ;
+    ns2:longitude -7.9860093503476355 .
+
+<https://example.org/irish-tourism/museum/433> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Ormonde Castle" ;
+    ns2:latitude 52.34539983960286 ;
+    ns2:longitude -7.405597224184553 .
+
+<https://example.org/irish-tourism/museum/434> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Redwood Castle" ;
+    ns2:latitude 53.13867596338152 ;
+    ns2:longitude -8.106860189154611 .
+
+<https://example.org/irish-tourism/museum/435> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Carrick on Suir Heritage Centre" ;
+    ns2:latitude 52.34642593062001 ;
+    ns2:longitude -7.41306877422106 .
+
+<https://example.org/irish-tourism/museum/436> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Farney Castle" ;
+    ns2:latitude 52.67177687445463 ;
+    ns2:longitude -7.9009360290543755 .
+
+<https://example.org/irish-tourism/museum/437> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Fethard Folk Farm and Transport Museum" ;
+    ns2:latitude 52.46858536649458 ;
+    ns2:longitude -7.703589524943423 .
+
+<https://example.org/irish-tourism/museum/438> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Lár na Páirce" ;
+    ns2:latitude 52.67814222370017 ;
+    ns2:longitude -7.81308193716532 .
+
+<https://example.org/irish-tourism/museum/439> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Nenagh Heritage Centre" ;
+    ns2:latitude 52.34771744262144 ;
+    ns2:longitude -8.198143821523942 .
+
+<https://example.org/irish-tourism/museum/44> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Bantry Historical Society and Museum" ;
+    ns2:latitude 51.68098625148039 ;
+    ns2:longitude -9.453775742595068 .
+
+<https://example.org/irish-tourism/museum/440> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Parson's Green Agricultural Museum" ;
+    ns2:latitude 52.280739072899514 ;
+    ns2:longitude -7.990181033146713 .
+
+<https://example.org/irish-tourism/museum/441> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Roscrea Heritage, Castle and Damer House" ;
+    ns2:latitude 52.95502952936486 ;
+    ns2:longitude -7.797752292540306 .
+
+<https://example.org/irish-tourism/museum/442> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Swiss Cottage" ;
+    ns2:latitude 52.35729677034118 ;
+    ns2:longitude -7.92366146659053 .
+
+<https://example.org/irish-tourism/museum/443> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "The Famine Warhouse 1848" ;
+    ns2:latitude 52.61917465322871 ;
+    ns2:longitude -7.52240349692499 .
+
+<https://example.org/irish-tourism/museum/444> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Slieveardagh Coalmining Museum" ;
+    ns2:latitude 52.62555557183307 ;
+    ns2:longitude -7.545080164766771 .
+
+<https://example.org/irish-tourism/museum/445> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Thurles Famine and War Museum" ;
+    ns2:latitude 52.68073487663648 ;
+    ns2:longitude -7.804493416758024 .
+
+<https://example.org/irish-tourism/museum/446> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Tipperary County Museum" ;
+    ns2:latitude 52.355499735355274 ;
+    ns2:longitude -7.698915092192885 .
+
+<https://example.org/irish-tourism/museum/447> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Rock of Cashel" ;
+    ns2:latitude 52.51986969855314 ;
+    ns2:longitude -7.890963825944797 .
+
+<https://example.org/irish-tourism/museum/448> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Cashel Folk Village" ;
+    ns2:latitude 52.51762018338378 ;
+    ns2:longitude -7.8883172980313745 .
+
+<https://example.org/irish-tourism/museum/449> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Cashel Heritage Centre" ;
+    ns2:latitude 52.51681069042763 ;
+    ns2:longitude -7.887730006525985 .
+
+<https://example.org/irish-tourism/museum/45> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Bantry House and Garden" ;
+    ns2:latitude 51.67707360072477 ;
+    ns2:longitude -9.46478508842485 .
+
+<https://example.org/irish-tourism/museum/450> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Brú Ború Heritage Centre" ;
+    ns2:latitude 52.52121545043979 ;
+    ns2:longitude -7.88830818097505 .
+
+<https://example.org/irish-tourism/museum/451> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Tipperary County Archives Service" ;
+    ns2:latitude 52.36536332238728 ;
+    ns2:longitude -7.6897444510960025 .
+
+<https://example.org/irish-tourism/museum/452> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Museum of Transport" ;
+    ns2:latitude 52.361357241606534 ;
+    ns2:longitude -7.670832873442135 .
+
+<https://example.org/irish-tourism/museum/453> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Cormackstown Heritage Centre" ;
+    ns2:latitude 52.66258189468558 ;
+    ns2:longitude -7.872426459782524 .
+
+<https://example.org/irish-tourism/museum/454> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Thomas MacDonagh Heritage Centre" ;
+    ns2:latitude 52.94315100005026 ;
+    ns2:longitude -8.041658437219017 .
+
+<https://example.org/irish-tourism/museum/455> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Tipperary Studies" ;
+    ns2:latitude 52.67930500023785 ;
+    ns2:longitude -7.809527798901007 .
+
+<https://example.org/irish-tourism/museum/456> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "Holycross Abbey" ;
+    ns2:latitude 52.639208012566954 ;
+    ns2:longitude -7.867766567576385 .
+
+<https://example.org/irish-tourism/museum/457> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:name "The Main Guard" ;
+    ns2:latitude 52.35289945561948 ;
+    ns2:longitude -7.701428205117356 .
+
+<https://example.org/irish-tourism/museum/458> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Waterford Treasures - Bishop's Palace" ;
+    ns2:latitude 52.25947885809614 ;
+    ns2:longitude -7.107478263068976 .
+
+<https://example.org/irish-tourism/museum/459> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Museum of Contemporary Figurative Arts and Gardens" ;
+    ns2:latitude 52.239791243435114 ;
+    ns2:longitude -7.2635183063272235 .
+
+<https://example.org/irish-tourism/museum/46> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Barryscourt Castle" ;
+    ns2:latitude 51.904362243314345 ;
+    ns2:longitude -8.258676450890038 .
+
+<https://example.org/irish-tourism/museum/460> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Lismore Castle Gardens and Gallery" ;
+    ns2:latitude 52.14013739973714 ;
+    ns2:longitude -7.9322143132836 .
+
+<https://example.org/irish-tourism/museum/461> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Copper Coast Geopark Centre" ;
+    ns2:latitude 52.14240289498055 ;
+    ns2:longitude -7.365058173279404 .
+
+<https://example.org/irish-tourism/museum/462> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Curraghmore House, Shell House & Gardens" ;
+    ns2:latitude 52.29031993675171 ;
+    ns2:longitude -7.357961521195814 .
+
+<https://example.org/irish-tourism/museum/463> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Cappoquin House and Gardens" ;
+    ns2:latitude 52.14995034882848 ;
+    ns2:longitude -7.85095557146147 .
+
+<https://example.org/irish-tourism/museum/464> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Edmund Rice International Heritage Centre" ;
+    ns2:latitude 52.2568519974828 ;
+    ns2:longitude -7.116759072530632 .
+
+<https://example.org/irish-tourism/museum/465> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Waterford Treasures - Medieval Museum" ;
+    ns2:latitude 52.259741836195424 ;
+    ns2:longitude -7.106594061591289 .
+
+<https://example.org/irish-tourism/museum/466> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Waterford County Museum" ;
+    ns2:latitude 52.08875541084752 ;
+    ns2:longitude -7.61928887537736 .
+
+<https://example.org/irish-tourism/museum/467> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Waterford Municipal Art Collection" ;
+    ns2:latitude 52.25965528542812 ;
+    ns2:longitude -7.107035260997119 .
+
+<https://example.org/irish-tourism/museum/468> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Greyfriars Municipal Art Gallery" ;
+    ns2:latitude 52.26055403429716 ;
+    ns2:longitude -7.107017207838817 .
+
+<https://example.org/irish-tourism/museum/469> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Waterford City Archives" ;
+    ns2:latitude 52.26050929784688 ;
+    ns2:longitude -7.108233969238551 .
+
+<https://example.org/irish-tourism/museum/47> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Blackrock Castle Observatory" ;
+    ns2:latitude 51.90009289502479 ;
+    ns2:longitude -8.402509364728484 .
+
+<https://example.org/irish-tourism/museum/470> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Waterford County Archives " ;
+    ns2:latitude 52.0898312174666 ;
+    ns2:longitude -7.618404161825661 .
+
+<https://example.org/irish-tourism/museum/471> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Lismore Heritage Centre" ;
+    ns2:latitude 52.137171359590724 ;
+    ns2:longitude -7.9326570560537695 .
+
+<https://example.org/irish-tourism/museum/472> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Waterford Treasures - Reginald's Tower" ;
+    ns2:latitude 52.26045085275999 ;
+    ns2:longitude -7.105261408762253 .
+
+<https://example.org/irish-tourism/museum/473> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Dungarvan Castle" ;
+    ns2:latitude 52.08919490734001 ;
+    ns2:longitude -7.616220726723498 .
+
+<https://example.org/irish-tourism/museum/474> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "The Old Market House" ;
+    ns2:latitude 52.088928568826816 ;
+    ns2:longitude -7.617244475050371 .
+
+<https://example.org/irish-tourism/museum/475> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "House of Waterford Crystal" ;
+    ns2:latitude 52.259471103148776 ;
+    ns2:longitude -7.106453016242316 .
+
+<https://example.org/irish-tourism/museum/476> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Christ Church Cathedral" ;
+    ns2:latitude 52.25993155349349 ;
+    ns2:longitude -7.107908637223001 .
+
+<https://example.org/irish-tourism/museum/477> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Bewick Art Exhibition WIT" ;
+    ns2:latitude 52.245859017181594 ;
+    ns2:longitude -7.137479130196544 .
+
+<https://example.org/irish-tourism/museum/478> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:name "Coast Guard Cultural Centre" ;
+    ns2:latitude 52.15602969127607 ;
+    ns2:longitude -7.1582154675958725 .
+
+<https://example.org/irish-tourism/museum/479> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "The Kilbeggan Distilery Experience" ;
+    ns2:latitude 53.36910474457234 ;
+    ns2:longitude -7.502637422774814 .
+
+<https://example.org/irish-tourism/museum/48> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Boole Library Archive Services" ;
+    ns2:latitude 51.89283500140826 ;
+    ns2:longitude -8.491069951123665 .
+
+<https://example.org/irish-tourism/museum/480> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "The Ecclesiastical museum" ;
+    ns2:latitude 53.52669625900378 ;
+    ns2:longitude -7.345449081805431 .
+
+<https://example.org/irish-tourism/museum/481> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "Dún na Sí Amenity and Heritage Park" ;
+    ns2:latitude 53.403014730726035 ;
+    ns2:longitude -7.737888267516277 .
+
+<https://example.org/irish-tourism/museum/482> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "Moate Museum" ;
+    ns2:latitude 53.39542736270051 ;
+    ns2:longitude -7.720944972051683 .
+
+<https://example.org/irish-tourism/museum/483> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "Military Museum" ;
+    ns2:latitude 53.424947799400144 ;
+    ns2:longitude -7.944631863088153 .
+
+<https://example.org/irish-tourism/museum/484> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "Tullynally Castle and Gardens" ;
+    ns2:latitude 53.68233533883224 ;
+    ns2:longitude -7.32729511516001 .
+
+<https://example.org/irish-tourism/museum/485> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "Belvedere House Gardens & Park" ;
+    ns2:latitude 53.47739256520364 ;
+    ns2:longitude -7.368503582293464 .
+
+<https://example.org/irish-tourism/museum/486> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "Athlone Castle " ;
+    ns2:latitude 53.423419192137544 ;
+    ns2:longitude -7.942828430943697 .
+
+<https://example.org/irish-tourism/museum/487> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "Westmeath Local Studies and Archives" ;
+    ns2:latitude 53.5237051759363 ;
+    ns2:longitude -7.3408200990104024 .
+
+<https://example.org/irish-tourism/museum/488> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:name "Riverside Farm Museum" ;
+    ns2:latitude 53.67975501821228 ;
+    ns2:longitude -7.418004558383684 .
+
+<https://example.org/irish-tourism/museum/489> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Duncannon Fort" ;
+    ns2:latitude 52.22093196452566 ;
+    ns2:longitude -6.9358390605838816 .
+
+<https://example.org/irish-tourism/museum/49> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Cobh Museum" ;
+    ns2:latitude 51.84925170818453 ;
+    ns2:longitude -8.299436881291836 .
+
+<https://example.org/irish-tourism/museum/490> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "The Irish National Heritage Park" ;
+    ns2:latitude 52.34793208498381 ;
+    ns2:longitude -6.517542412089093 .
+
+<https://example.org/irish-tourism/museum/491> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Enniscorthy Castle" ;
+    ns2:latitude 52.501358307599965 ;
+    ns2:longitude -6.567180168732144 .
+
+<https://example.org/irish-tourism/museum/492> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Irish Agricultural Museum" ;
+    ns2:latitude 52.29246815386064 ;
+    ns2:longitude -6.503268790414423 .
+
+<https://example.org/irish-tourism/museum/493> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Hook Lighthouse & Heritage Centre" ;
+    ns2:latitude 52.12388253834396 ;
+    ns2:longitude -6.9295358832235445 .
+
+<https://example.org/irish-tourism/museum/494> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "The Kennedy Homestead" ;
+    ns2:latitude 52.34645451121847 ;
+    ns2:longitude -6.9808228630866 .
+
+<https://example.org/irish-tourism/museum/495> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "National 1798 Rebellion Centre" ;
+    ns2:latitude 52.49653469068955 ;
+    ns2:longitude -6.5696934784640195 .
+
+<https://example.org/irish-tourism/museum/496> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Ballymore Historic Features" ;
+    ns2:latitude 52.59855830516281 ;
+    ns2:longitude -6.374609033248607 .
+
+<https://example.org/irish-tourism/museum/497> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Dunbrody Abbey Visitor Centre" ;
+    ns2:latitude 52.28295781469086 ;
+    ns2:longitude -6.956191879927527 .
+
+<https://example.org/irish-tourism/museum/498> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Dunbrody Famine Ship" ;
+    ns2:latitude 52.39344793765665 ;
+    ns2:longitude -6.948003532548506 .
+
+<https://example.org/irish-tourism/museum/499> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Fr Murphy Centre" ;
+    ns2:latitude 52.549875285511995 ;
+    ns2:longitude -6.4104723587262376 .
+
+<https://example.org/irish-tourism/museum/5> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "Huntington Castle & Gardens" ;
+    ns2:latitude 52.69019549600707 ;
+    ns2:longitude -6.649911505105157 .
+
+<https://example.org/irish-tourism/museum/50> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Cobh Heritage Centre" ;
+    ns2:latitude 51.84898314300484 ;
+    ns2:longitude -8.298999661767388 .
+
+<https://example.org/irish-tourism/museum/500> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Wexford County Archive" ;
+    ns2:latitude 52.35864712180722 ;
+    ns2:longitude -6.44891139181903 .
+
+<https://example.org/irish-tourism/museum/501> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Newtownbarry House, Gardens & Gallery" ;
+    ns2:latitude 52.658704294193086 ;
+    ns2:longitude -6.647186516284682 .
+
+<https://example.org/irish-tourism/museum/502> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:name "Rosslare Harbour Maritime Heritage Centre" ;
+    ns2:latitude 52.242757050061826 ;
+    ns2:longitude -6.348251042536596 .
+
+<https://example.org/irish-tourism/museum/503> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Altidore Castle" ;
+    ns2:latitude 53.110683264702004 ;
+    ns2:longitude -6.138164790568041 .
+
+<https://example.org/irish-tourism/museum/504> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Tom Barrington History Room" ;
+    ns2:latitude 53.18920056494328 ;
+    ns2:longitude -6.123989349300331 .
+
+<https://example.org/irish-tourism/museum/505> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Maritime Museum Arklow" ;
+    ns2:latitude 52.79831641821491 ;
+    ns2:longitude -6.1493117460362186 .
+
+<https://example.org/irish-tourism/museum/506> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Baltinglass Library" ;
+    ns2:latitude 52.94097592740792 ;
+    ns2:longitude -6.7068380106797685 .
+
+<https://example.org/irish-tourism/museum/507> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Greenan Farm Museums and Maze" ;
+    ns2:latitude 52.91548076681565 ;
+    ns2:longitude -6.308638041360727 .
+
+<https://example.org/irish-tourism/museum/508> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Dwyer McAllister Cottage" ;
+    ns2:latitude 52.96199213013281 ;
+    ns2:longitude -6.564499673478643 .
+
+<https://example.org/irish-tourism/museum/509> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Russborough House" ;
+    ns2:latitude 53.14136523351799 ;
+    ns2:longitude -6.569437348260497 .
+
+<https://example.org/irish-tourism/museum/51> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Cork City and County Archives" ;
+    ns2:latitude 51.90881081726818 ;
+    ns2:longitude -8.475256846820145 .
+
+<https://example.org/irish-tourism/museum/510> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Avondale House and Forest Park" ;
+    ns2:latitude 52.91332600634675 ;
+    ns2:longitude -6.22262676528201 .
+
+<https://example.org/irish-tourism/museum/511> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Glencree Visitor Centre" ;
+    ns2:latitude 53.19927331695705 ;
+    ns2:longitude -6.291646953496735 .
+
+<https://example.org/irish-tourism/museum/512> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Glendalough Visitor Centre" ;
+    ns2:latitude 53.01043798538433 ;
+    ns2:longitude -6.324002818311556 .
+
+<https://example.org/irish-tourism/museum/513> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Wicklow Mountains National Park Information Office" ;
+    ns2:latitude 53.00516021309018 ;
+    ns2:longitude -6.3450687759997635 .
+
+<https://example.org/irish-tourism/museum/514> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Kilruddery House and Gardens" ;
+    ns2:latitude 53.18202101374495 ;
+    ns2:longitude -6.1020081406590965 .
+
+<https://example.org/irish-tourism/museum/515> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Powerscourt House and Gardens" ;
+    ns2:latitude 53.18487810613066 ;
+    ns2:longitude -6.187324928619828 .
+
+<https://example.org/irish-tourism/museum/516> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Wicklow's Historic Gaol 1710-1924" ;
+    ns2:latitude 52.978997250794094 ;
+    ns2:longitude -6.037499112969517 .
+
+<https://example.org/irish-tourism/museum/517> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Tara's Palace Museum of Childhood" ;
+    ns2:latitude 53.18504637771668 ;
+    ns2:longitude -6.186569645981971 .
+
+<https://example.org/irish-tourism/museum/518> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Coolakay House Farm Museum" ;
+    ns2:latitude 53.16682290778862 ;
+    ns2:longitude -6.188086069079436 .
+
+<https://example.org/irish-tourism/museum/519> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "National Sealife Aquarium" ;
+    ns2:latitude 53.203355747276284 ;
+    ns2:longitude -6.098370721690818 .
+
+<https://example.org/irish-tourism/museum/52> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "The Cork Butter Museum" ;
+    ns2:latitude 51.90269254685275 ;
+    ns2:longitude -8.476645473702792 .
+
+<https://example.org/irish-tourism/museum/520> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "Ballymurrin Quaker Farmstead" ;
+    ns2:latitude 52.93409329751302 ;
+    ns2:longitude -6.1064791455355 .
+
+<https://example.org/irish-tourism/museum/521> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:name "National Botanic Gardens - Kilmacurragh" ;
+    ns2:latitude 52.92926764742946 ;
+    ns2:longitude -6.148192223998371 .
+
+<https://example.org/irish-tourism/museum/53> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Cork City Gaol" ;
+    ns2:latitude 51.89909477916862 ;
+    ns2:longitude -8.49883952171252 .
+
+<https://example.org/irish-tourism/museum/54> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Elizabeth Fort" ;
+    ns2:latitude 51.89468660089291 ;
+    ns2:longitude -8.478013697475575 .
+
+<https://example.org/irish-tourism/museum/55> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Cork Vision Centre" ;
+    ns2:latitude 51.899628683128846 ;
+    ns2:longitude -8.478502074902796 .
+
+<https://example.org/irish-tourism/museum/56> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Crawford Municipal Art Gallery" ;
+    ns2:latitude 51.899830779025216 ;
+    ns2:longitude -8.472982430530822 .
+
+<https://example.org/irish-tourism/museum/57> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Fota House, Arboretum and Gardens" ;
+    ns2:latitude 51.89364758191245 ;
+    ns2:longitude -8.303654694608591 .
+
+<https://example.org/irish-tourism/museum/58> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Fota Wildlife Park" ;
+    ns2:latitude 51.89075977022816 ;
+    ns2:longitude -8.30799364195008 .
+
+<https://example.org/irish-tourism/museum/59> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Gurtnagrough Folk Museum" ;
+    ns2:latitude 51.59510677831707 ;
+    ns2:longitude -9.462868175188401 .
+
+<https://example.org/irish-tourism/museum/6> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "St Mullins Heritage Centre" ;
+    ns2:latitude 52.48936591623947 ;
+    ns2:longitude -6.928929631461457 .
+
+<https://example.org/irish-tourism/museum/60> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Desmond Castle & the International Museum of Wine" ;
+    ns2:latitude 51.70723925801155 ;
+    ns2:longitude -8.524652173317527 .
+
+<https://example.org/irish-tourism/museum/61> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Kells Transport Museum" ;
+    ns2:latitude 51.941180819446366 ;
+    ns2:longitude -8.34339064037745 .
+
+<https://example.org/irish-tourism/museum/62> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Leahy's Open Farm and Museum" ;
+    ns2:latitude 52.0086276150881 ;
+    ns2:longitude -8.072247969550773 .
+
+<https://example.org/irish-tourism/museum/63> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Lewis Glucksman Gallery" ;
+    ns2:latitude 51.89454711526887 ;
+    ns2:longitude -8.490071561127502 .
+
+<https://example.org/irish-tourism/museum/64> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Lifetime Lab @ Old Cork Waterworks" ;
+    ns2:latitude 51.89500501979651 ;
+    ns2:longitude -8.509255463579947 .
+
+<https://example.org/irish-tourism/museum/65> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Michael Collins Centre" ;
+    ns2:latitude 51.64288322914422 ;
+    ns2:longitude -8.821122221080694 .
+
+<https://example.org/irish-tourism/museum/66> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Millstreet Local Museum" ;
+    ns2:latitude 52.059639404924866 ;
+    ns2:longitude -9.067177605757262 .
+
+<https://example.org/irish-tourism/museum/67> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Mizen Head Signal Station" ;
+    ns2:latitude 51.45032390442167 ;
+    ns2:longitude -9.818826073959494 .
+
+<https://example.org/irish-tourism/museum/68> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Jameson Experience Midleton" ;
+    ns2:latitude 51.913514440584485 ;
+    ns2:longitude -8.168900561907698 .
+
+<https://example.org/irish-tourism/museum/69> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Schull Planetarium" ;
+    ns2:latitude 51.52273576118186 ;
+    ns2:longitude -9.546873741277881 .
+
+<https://example.org/irish-tourism/museum/7> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "County Carlow Military Museum" ;
+    ns2:latitude 52.84738429708027 ;
+    ns2:longitude -7.596653549784108 .
+
+<https://example.org/irish-tourism/museum/70> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Sirius Arts Centre" ;
+    ns2:latitude 51.84925759624033 ;
+    ns2:longitude -8.297114573834078 .
+
+<https://example.org/irish-tourism/museum/71> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Skibbereen Heritage Centre" ;
+    ns2:latitude 51.550763581089186 ;
+    ns2:longitude -9.271817480405879 .
+
+<https://example.org/irish-tourism/museum/72> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Kilmurry Museum" ;
+    ns2:latitude 51.84228273975137 ;
+    ns2:longitude -8.881780187165399 .
+
+<https://example.org/irish-tourism/museum/73> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "West Cork Heritage Centre" ;
+    ns2:latitude 51.74682387544344 ;
+    ns2:longitude -8.736692256711509 .
+
+<https://example.org/irish-tourism/museum/74> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "West Cork Model Railway Village" ;
+    ns2:latitude 51.620239549221345 ;
+    ns2:longitude -8.881657872321686 .
+
+<https://example.org/irish-tourism/museum/75> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "West Cork Regional Museum" ;
+    ns2:latitude 51.622930963856106 ;
+    ns2:longitude -8.894275176544191 .
+
+<https://example.org/irish-tourism/museum/76> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Cape Clear Museum & Archive" ;
+    ns2:latitude 51.443209866010484 ;
+    ns2:longitude -9.488220812473207 .
+
+<https://example.org/irish-tourism/museum/77> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Cork Public Museum" ;
+    ns2:latitude 51.89623736795322 ;
+    ns2:longitude -8.494303614772356 .
+
+<https://example.org/irish-tourism/museum/78> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Youghal Heritage Centre" ;
+    ns2:latitude 51.953086600669465 ;
+    ns2:longitude -7.845789896174987 .
+
+<https://example.org/irish-tourism/museum/79> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Spike Island" ;
+    ns2:latitude 51.833737645184826 ;
+    ns2:longitude -8.284389012166315 .
+
+<https://example.org/irish-tourism/museum/8> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "The Delany Archive" ;
+    ns2:latitude 52.837301321061496 ;
+    ns2:longitude -6.928404075047998 .
+
+<https://example.org/irish-tourism/museum/80> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Camden Fort Meagher" ;
+    ns2:latitude 51.80903137622417 ;
+    ns2:longitude -8.278432804593 .
+
+<https://example.org/irish-tourism/museum/81> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Michael Collins House " ;
+    ns2:latitude 51.62178332861895 ;
+    ns2:longitude -8.891508572910292 .
+
+<https://example.org/irish-tourism/museum/82> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Triskel Christchurch Arts Centre" ;
+    ns2:latitude 51.89729748745554 ;
+    ns2:longitude -8.477024288985342 .
+
+<https://example.org/irish-tourism/museum/83> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Saint Fin Barre's Cathedral" ;
+    ns2:latitude 51.894497952438215 ;
+    ns2:longitude -8.480191092437108 .
+
+<https://example.org/irish-tourism/museum/84> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Kinsale Regional Museum" ;
+    ns2:latitude 51.70634228993205 ;
+    ns2:longitude -8.524207728039249 .
+
+<https://example.org/irish-tourism/museum/85> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:name "Charles Fort" ;
+    ns2:latitude 51.69683296004705 ;
+    ns2:longitude -8.499071775468948 .
+
+<https://example.org/irish-tourism/museum/86> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Dunlewey Centre - Ionad Cois Locha" ;
+    ns2:latitude 55.025567153422514 ;
+    ns2:longitude -8.14700846754088 .
+
+<https://example.org/irish-tourism/museum/87> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Donegal County Museum" ;
+    ns2:latitude 54.95464158357458 ;
+    ns2:longitude -7.735023310420578 .
+
+<https://example.org/irish-tourism/museum/88> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Donegal Studies  - Local and Family History" ;
+    ns2:latitude 54.94846649284523 ;
+    ns2:longitude -7.7379204315805055 .
+
+<https://example.org/irish-tourism/museum/89> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Glebe House and Gallery - The Derek Hill Collection" ;
+    ns2:latitude 55.00423441627257 ;
+    ns2:longitude -7.903088448533406 .
+
+<https://example.org/irish-tourism/museum/9> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:name "Borris House" ;
+    ns2:latitude 52.60090128047447 ;
+    ns2:longitude -6.927539582184038 .
+
+<https://example.org/irish-tourism/museum/90> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Cavanacor House and Gallery" ;
+    ns2:latitude 54.84902026761632 ;
+    ns2:longitude -7.51013957790871 .
+
+<https://example.org/irish-tourism/museum/91> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Glencolmcille Folk Village/Fr. McDyer's Folk Village Museum" ;
+    ns2:latitude 54.707312047269106 ;
+    ns2:longitude -8.740919800659155 .
+
+<https://example.org/irish-tourism/museum/92> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Donegal Railway Heritage Centre" ;
+    ns2:latitude 54.65660667437678 ;
+    ns2:longitude -8.108325282449568 .
+
+<https://example.org/irish-tourism/museum/93> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Donegal Castle" ;
+    ns2:latitude 54.65489785868094 ;
+    ns2:longitude -8.110180321535315 .
+
+<https://example.org/irish-tourism/museum/94> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "St Connells Cultural & Heritage Museum" ;
+    ns2:latitude 54.79523381354952 ;
+    ns2:longitude -8.2817691921629 .
+
+<https://example.org/irish-tourism/museum/95> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Fort Dunree" ;
+    ns2:latitude 55.19652709233684 ;
+    ns2:longitude -7.553159655886675 .
+
+<https://example.org/irish-tourism/museum/96> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Inishowen Maritime Museum and Planetarium" ;
+    ns2:latitude 55.2036138221623 ;
+    ns2:longitude -6.9825161232419815 .
+
+<https://example.org/irish-tourism/museum/97> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Newmills Corn & Flax Mills" ;
+    ns2:latitude 54.92919160382797 ;
+    ns2:longitude -7.808566000696246 .
+
+<https://example.org/irish-tourism/museum/98> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "The Dolmen Centre" ;
+    ns2:latitude 54.82253740488418 ;
+    ns2:longitude -8.436944287435054 .
+
+<https://example.org/irish-tourism/museum/99> a ns1:Museum ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:name "Colmcille Heritage Centre" ;
+    ns2:latitude 54.99363340524403 ;
+    ns2:longitude -7.903895334388111 .
+
+<https://example.org/irish-tourism/county/Longford> a ns1:County ;
+    rdfs:label "Longford" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Monaghan> a ns1:County ;
+    rdfs:label "Monaghan" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Offaly> a ns1:County ;
+    rdfs:label "Offaly" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Meath> a ns1:County ;
+    rdfs:label "Meath" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Cavan> a ns1:County ;
+    rdfs:label "Cavan" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Laois> a ns1:County ;
+    rdfs:label "Laois" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Leitrim> a ns1:County ;
+    rdfs:label "Leitrim" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Sligo> a ns1:County ;
+    rdfs:label "Sligo" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Westmeath> a ns1:County ;
+    rdfs:label "Westmeath" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Carlow> a ns1:County ;
+    rdfs:label "Carlow" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Louth> a ns1:County ;
+    rdfs:label "Louth" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Roscommon> a ns1:County ;
+    rdfs:label "Roscommon" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Wexford> a ns1:County ;
+    rdfs:label "Wexford" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Kilkenny> a ns1:County ;
+    rdfs:label "Kilkenny" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Limerick> a ns1:County ;
+    rdfs:label "Limerick" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Kildare> a ns1:County ;
+    rdfs:label "Kildare" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Wicklow> a ns1:County ;
+    rdfs:label "Wicklow" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Mayo> a ns1:County ;
+    rdfs:label "Mayo" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Waterford> a ns1:County ;
+    rdfs:label "Waterford" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Clare> a ns1:County ;
+    rdfs:label "Clare" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Kerry> a ns1:County ;
+    rdfs:label "Kerry" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Tipperary> a ns1:County ;
+    rdfs:label "Tipperary" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Galway> a ns1:County ;
+    rdfs:label "Galway" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Donegal> a ns1:County ;
+    rdfs:label "Donegal" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Cork> a ns1:County ;
+    rdfs:label "Cork" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Dublin> a ns1:County ;
+    rdfs:label "Dublin" ;
+    ns1:partOf ns1:Ireland .

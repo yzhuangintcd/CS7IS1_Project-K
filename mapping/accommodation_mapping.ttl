@@ -6,7 +6,7 @@
 @prefix schema: <https://schema.org/> .
 @prefix ex: <https://example.org/irish-tourism/> .
 
-#MAP 1: Accom individuals mapping
+#MAP 1: Accom mapping
 <AccommodationMapping> 
     a rr:TriplesMap ;  
 
@@ -29,7 +29,7 @@ rr:predicateObjectMap [
     ]
 ] ; 
 
-#locatedInCounty
+#link accom w county individual
 rr:predicateObjectMap [
     rr:predicate ex:locatedInCounty ;
     rr:objectMap [
@@ -53,11 +53,11 @@ rr:predicateObjectMap [
     ]
 ] ; 
 
-#city/Town
+#link accom to town individual
 rr:predicateObjectMap [
-    rr:predicate ex:cityTown ;
+    rr:predicate ex:locatedInTown ;
     rr:objectMap [
-        rml:reference "Address City/Town"
+        rr:template "https://example.org/irish-tourism/town/{Address County}/{Address City/Town}" ;
     ]
 ] ; 
 
@@ -143,5 +143,34 @@ rr:predicateObjectMap [
     rr:predicate rdfs:label ;
     rr:objectMap [
         rml:reference "Sector"
+    ]
+] .
+
+#MAP 4: Town mapping
+<TownMapping>
+    a rr:TriplesMap ;
+
+rml:logicalSource [
+    rml:source "Accommodation_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+] ; 
+
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/town/{Address County}/{Address City/Town}" ;
+    rr:class ex:Town 
+    ] ; 
+
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "Address City/Town"
+    ]
+] ;
+
+#connect each town w county
+rr:predicateObjectMap [
+    rr:predicate ex:townInCounty ;
+    rr:objectMap [
+        rr:template "https://example.org/irish-tourism/county/{Address County}" ;
     ]
 ] .

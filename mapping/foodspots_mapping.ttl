@@ -1,0 +1,124 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix ex: <https://example.org/irish-tourism/> .
+
+<FoodSpotMapping> a rr:TriplesMap ;
+
+# Map 1 
+rml:logicalSource [
+    rml:source "FoodSpots_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+] ;
+
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/foodspots/{FoodSpot_ID}" ;
+    rr:class ex:Foodspot
+] ;
+
+# Name of FoodSpot
+rr:predicateObjectMap [
+    rr:predicate ex:name ;
+    rr:objectMap [ 
+        rml:reference "Name"
+    ]
+] ;
+
+# ID -> name is -> name of food spot
+
+# County
+rr:predicateObjectMap [
+    rr:predicate ex:locatedInCounty ;
+    rr:objectMap [
+        rr:template "https://example.org/irish-tourism/county/{County}"
+    ]
+] ; 
+
+# ID -> located in -> location entity
+
+#latitude
+rr:predicateObjectMap [
+    rr:predicate schema:latitude ;
+    rr:objectMap [
+        rml:reference "Latitude" ;
+        rr:datatype xsd:decimal
+    ]
+] ; 
+
+# Id -> latitude is -> latitude reference
+
+#longitude
+rr:predicateObjectMap [
+    rr:predicate schema:longitude ;
+    rr:objectMap [
+        rml:reference "Longitude" ;
+        rr:datatype xsd:decimal
+    ]
+] ;
+
+# Id -> longitude is -> longitude reference
+
+#hasVenueType
+rr:predicateObjectMap [
+    rr:predicate ex:hasVenueType ;
+    rr:objectMap [
+        rr:template "https://example.org/irish-tourism/venue-type/{Venue Type}"
+    ]
+] .
+
+# Id -> has venue type -> the venue type
+
+
+#MAP 2: County mapping
+<CountyMapping> a rr:TriplesMap ;
+
+rml:logicalSource [
+    rml:source "FoodSpots_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+] ; 
+
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/county/{County}" ;
+    rr:class ex:County 
+    ] ; 
+
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "County"
+    ]
+] ;
+
+#connect each county w Ireland
+rr:predicateObjectMap [
+    rr:predicate ex:partOf ;
+    rr:objectMap [
+        rr:constant ex:Ireland
+    ]
+] .
+
+# Map 3: Venue Type mapping
+<VenueTypeMapping> a rr:TriplesMap ;
+
+rml:logicalSource [
+    rml:source "FoodSpots_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+] ; 
+
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/venue-type/{Venue Type}" ;
+    rr:class ex:VenueType 
+] ; 
+
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "Venue Type"
+    ]
+] .
+
+# venue type -> label is -> venue type reference
+

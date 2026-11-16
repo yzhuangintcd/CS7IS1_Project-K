@@ -1,0 +1,42 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <https://example.org/irish-tourism/> .
+
+ex:AccommodationShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Accommodation ;
+
+    sh:property [
+        sh:path ex:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Each Accommodation must have exactly one string name." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:locatedInCounty ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "^https://example.org/irish-tourism/county/" ;
+        sh:message "Each Accommodation must link to exactly one valid County IRI." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:hasAccommodationType ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "^https://example.org/irish-tourism/accommodation-type/" ;
+        sh:message "Each Accommodation must link to exactly one AccommodationType IRI." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:starRating ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 5 ;
+        sh:message "Star rating must be an integer between 1 and 5." ;
+    ] .

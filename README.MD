@@ -34,7 +34,7 @@ Steps 1-2 are completed
 
 - Data Uplift (RML Mapping): RML/YARRRML scripts converting the cleaned CSV rows into at least 30 valid RDF instance triples, restructuring the data to fit the custom ontology rather than performing a 1-to-1 column dump.
 
-- SHACL Validation: 3 custom SHACL shapes enforcing integration rules, such as requiring valid names and spatial coordinates for geographic entity matching.
+- SHACL Validation: 3 custom SHACL shapes enforcing integration rules, such as requiring valid names and spatial coordinates for geographic entity matching. (Using: https://www.itb.ec.europa.eu/shacl/any/upload)
 
 - GraphDB & SPARQL: 7 distinct SPARQL queries demonstrating advanced clauses (FILTER, GROUP BY, aggregations, etc.) executed against the final triplestore to extract insights.
 

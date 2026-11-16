@@ -1,0 +1,912 @@
+@prefix ns1: <https://example.org/irish-tourism/> .
+@prefix ns2: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/irish-tourism/accommodation/BBL11234> a ns1:Accommodation ;
+    ns1:address "Ballyling Lower" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Carlow/Graiguenamanagh> ;
+    ns1:name "Brandon View House" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 52.51178 ;
+    ns2:longitude -6.90198 .
+
+<https://example.org/irish-tourism/accommodation/BBL13092> a ns1:Accommodation ;
+    ns1:address "Green Lane, Dublin Road" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Carlow/Carlow> ;
+    ns1:name "Avlon House B&B" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 52.84207 ;
+    ns2:longitude -6.91713 .
+
+<https://example.org/irish-tourism/accommodation/CCS00338> a ns1:Accommodation ;
+    ns1:address "Corkagh Park, Green Isle Link Road" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Caravan%20and%20Camping%20Park> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Dublin/Clondalkin> ;
+    ns1:name "Camac Valley Tourist Caravan & Camping Park" ;
+    ns1:ratingDescription "Caravan and Camping - 4 star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.1817 ;
+    ns2:longitude -6.2455 .
+
+<https://example.org/irish-tourism/accommodation/BBL10570> a ns1:Accommodation ;
+    ns1:address "Brides Glen Road, Loughlinstown" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Dublin/Dublin%2018> ;
+    ns1:name "Brides Glen Farm House" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.23948 ;
+    ns2:longitude -6.14972 .
+
+<https://example.org/irish-tourism/accommodation/BBL11189> a ns1:Accommodation ;
+    ns1:address "Ballindrum" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Kildare/Athy> ;
+    ns1:name "Ballindrum Farm" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.01055 ;
+    ns2:longitude -6.88886 .
+
+<https://example.org/irish-tourism/accommodation/BBL11199> a ns1:Accommodation ;
+    ns1:address "Castleview, Lackaghmore" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Kildare/Kildare> ;
+    ns1:name "Castleview Farm" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.16158 ;
+    ns2:longitude -6.98659 .
+
+<https://example.org/irish-tourism/accommodation/BBL11233> a ns1:Accommodation ;
+    ns1:address "Clomantagh, Barna" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Kilkenny/Thurles> ;
+    ns1:name "Bungalow Farmhouse" ;
+    ns1:ratingDescription "B&B - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 52.72403 ;
+    ns2:longitude -7.51005 .
+
+<https://example.org/irish-tourism/accommodation/BBL11240> a ns1:Accommodation ;
+    ns1:address "Ballycocksoost" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Kilkenny/Inistioge> ;
+    ns1:name "Grove Farmhouse" ;
+    ns1:ratingDescription "B&B - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 52.47151 ;
+    ns2:longitude -7.09525 .
+
+<https://example.org/irish-tourism/accommodation/HHS03301> a ns1:Accommodation ;
+    ns1:address "The Square" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Laois/Durrow> ;
+    ns1:name "Castle Arms Hotel" ;
+    ns1:ratingDescription "Hotel - 2 Star" ;
+    ns1:starRating 2 ;
+    ns2:latitude 52.84537 ;
+    ns2:longitude -7.39604 .
+
+<https://example.org/irish-tourism/accommodation/HHS04128> a ns1:Accommodation ;
+    ns1:address "Old Cork Road" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Laois/Abbeyleix> ;
+    ns1:name "Abbeyleix Manor" ;
+    ns1:ratingDescription "Hotel - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 52.90649 ;
+    ns2:longitude -7.35262 .
+
+<https://example.org/irish-tourism/accommodation/BBL11381> a ns1:Accommodation ;
+    ns1:address "Clonrollagh" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Longford> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Longford/Longford> ;
+    ns1:name "Melview Lodge" ;
+    ns1:ratingDescription "B&B - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 53.75663 ;
+    ns2:longitude -7.79123 .
+
+<https://example.org/irish-tourism/accommodation/GAS07773> a ns1:Accommodation ;
+    ns1:address "Glebe" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Guest%20House> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Longford> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Longford/Cloondara> ;
+    ns1:name "Richmond Inn" ;
+    ns1:ratingDescription "Guest House - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 53.73142 ;
+    ns2:longitude -7.90467 .
+
+<https://example.org/irish-tourism/accommodation/BBL11383> a ns1:Accommodation ;
+    ns1:address "Blakestown" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Louth/Ardee> ;
+    ns1:name "Carraig Mor" ;
+    ns1:ratingDescription "B&B - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 53.83108 ;
+    ns2:longitude -6.53583 .
+
+<https://example.org/irish-tourism/accommodation/BBL11385> a ns1:Accommodation ;
+    ns1:address "Belmont, Crossalaney Road" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Louth/Carlingford> ;
+    ns1:name "Mourneview" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 54.02001 ;
+    ns2:longitude -6.17037 .
+
+<https://example.org/irish-tourism/accommodation/BBL11533> a ns1:Accommodation ;
+    ns1:address "Athlumney" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Meath/Navan> ;
+    ns1:name "Athlumney Manor" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.65172 ;
+    ns2:longitude -6.67194 .
+
+<https://example.org/irish-tourism/accommodation/GAS07759> a ns1:Accommodation ;
+    ns1:address "Bullstown, Donaghmore" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Guest%20House> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Meath/Ashbourne> ;
+    ns1:name "Broadmeadow Country House" ;
+    ns1:ratingDescription "Guest House - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.49056 ;
+    ns2:longitude -6.36019 .
+
+<https://example.org/irish-tourism/accommodation/BBL11563> a ns1:Accommodation ;
+    ns1:address "Crank Road, Banagher" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Offaly/Banagher> ;
+    ns1:name "Dun Cromain Bed and Breakfast" ;
+    ns1:ratingDescription "B&B - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 53.18993 ;
+    ns2:longitude -7.99733 .
+
+<https://example.org/irish-tourism/accommodation/BBL11566> a ns1:Accommodation ;
+    ns1:address "Ballinree, Fortal" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Offaly/Birr> ;
+    ns1:name "The Ring Farmhouse" ;
+    ns1:ratingDescription "B&B - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 53.07875 ;
+    ns2:longitude -7.88242 .
+
+<https://example.org/irish-tourism/accommodation/BBL11812> a ns1:Accommodation ;
+    ns1:address "Clonnageeragh, Fore" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Westmeath/Castlepollard> ;
+    ns1:name "Hounslow House" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.69157 ;
+    ns2:longitude -7.22923 .
+
+<https://example.org/irish-tourism/accommodation/HHS02908> a ns1:Accommodation ;
+    ns1:address "33-37 Pearse Street" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Westmeath/Mullingar> ;
+    ns1:name "Greville Arms Hotel" ;
+    ns1:ratingDescription "Hotel - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 53.52578 ;
+    ns2:longitude -7.34092 .
+
+
+<https://example.org/irish-tourism/accommodation/CCS00112> a ns1:Accommodation ;
+    ns1:address "Morriscastle Strand, Tinacree" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Caravan%20and%20Camping%20Park> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Wexford/Kilmuckridge> ;
+    ns1:name "Morriscastle Strand Family Caravan Park" ;
+    ns1:ratingDescription "Caravan and Camping - 4 star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 52.51789 ;
+    ns2:longitude -6.23953 .
+
+<https://example.org/irish-tourism/accommodation/HHS01421> a ns1:Accommodation ;
+    ns1:address "Rosslare" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Wexford/Rosslare> ;
+    ns1:name "Kelly's Resort Hotel" ;
+    ns1:ratingDescription "Hotel - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 52.2755 ;
+    ns2:longitude -6.38778 .
+
+<https://example.org/irish-tourism/accommodation/GAS07916> a ns1:Accommodation ;
+    ns1:address "Ballyknocken House" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Guest%20House> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Wicklow/Glenealy> ;
+    ns1:name "Ballyknocken House" ;
+    ns1:ratingDescription "Guest House - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 52.97707 ;
+    ns2:longitude -6.14312 .
+
+<https://example.org/irish-tourism/accommodation/HHS01228> a ns1:Accommodation ;
+    ns1:address "Newrath Bridge" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Wicklow/Rathnew> ;
+    ns1:name "Hunters Hotel" ;
+    ns1:ratingDescription "Hotel - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 53.00638 ;
+    ns2:longitude -6.08414 .
+
+<https://example.org/irish-tourism/accommodation/CCS00234> a ns1:Accommodation ;
+    ns1:address "Ballaghaline" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Caravan%20and%20Camping%20Park> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Clare/Doolin> ;
+    ns1:name "Nagles Doolin Camping and Caravan Park" ;
+    ns1:ratingDescription "Caravan and Camping - 4 star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.01632 ;
+    ns2:longitude -9.38473 .
+
+<https://example.org/irish-tourism/accommodation/GAS07847> a ns1:Accommodation ;
+    ns1:address "19 Gratten Street" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Guest%20House> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Clare/Kilkee> ;
+    ns1:name "Kilkee Thalasso Centre" ;
+    ns1:ratingDescription "Guest House - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 52.68097 ;
+    ns2:longitude -9.64487 .
+
+<https://example.org/irish-tourism/accommodation/HHS01245> a ns1:Accommodation ;
+    ns1:address "Gougane Barra" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Cork/Ballingeary> ;
+    ns1:name "Gougane Barra Hotel" ;
+    ns1:ratingDescription "Hotel - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 51.83885 ;
+    ns2:longitude -9.3165 .
+
+<https://example.org/irish-tourism/accommodation/HHS01354> a ns1:Accommodation ;
+    ns1:address "The Village" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Cork/Glengarriff> ;
+    ns1:name "Casey's Hotel" ;
+    ns1:ratingDescription "Hotel - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 51.74987 ;
+    ns2:longitude -9.5514 .
+
+<https://example.org/irish-tourism/accommodation/BBL41089> a ns1:Accommodation ;
+    ns1:address "Knockanish East, Spa" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Kerry/Tralee> ;
+    ns1:name "Brook Manor Lodge" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 52.28384 ;
+    ns2:longitude -9.7462 .
+
+<https://example.org/irish-tourism/accommodation/CCS00156> a ns1:Accommodation ;
+    ns1:address "Aughacasla North" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Caravan%20and%20Camping%20Park> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Kerry/Castlegregory> ;
+    ns1:name "Anchor Caravan Park" ;
+    ns1:ratingDescription "Caravan and Camping - 4 star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 52.24354 ;
+    ns2:longitude -9.9855 .
+
+<https://example.org/irish-tourism/accommodation/HHS01086> a ns1:Accommodation ;
+    ns1:address "The Square" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Limerick/Abbeyfeale> ;
+    ns1:name "Leens Hotel" ;
+    ns1:ratingDescription "Hotel - 2 Star" ;
+    ns1:starRating 2 ;
+    ns2:latitude 52.38502 ;
+    ns2:longitude -9.3009 .
+
+<https://example.org/irish-tourism/accommodation/HHS02151> a ns1:Accommodation ;
+    ns1:address "Main Street" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Limerick/Adare> ;
+    ns1:name "Dunraven Arms Hotel" ;
+    ns1:ratingDescription "Hotel - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 52.56551 ;
+    ns2:longitude -8.78676 .
+
+<https://example.org/irish-tourism/accommodation/HHS03503> a ns1:Accommodation ;
+    ns1:address "Glen Of Aherlow" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Tipperary/Aherlow> ;
+    ns1:name "Aherlow House Hotel" ;
+    ns1:ratingDescription "Hotel - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 52.42485 ;
+    ns2:longitude -8.19197 .
+
+<https://example.org/irish-tourism/accommodation/SCL15585> a ns1:Accommodation ;
+    ns1:address "Lorrha" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Individual%20Self%20Catering%20Cottage> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Tipperary/Nenagh> ;
+    ns1:name "Lorrha Cottages" ;
+    ns1:ratingDescription "Individual Self Catering Cottage - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.08811 ;
+    ns2:longitude -8.11341 .
+
+<https://example.org/irish-tourism/accommodation/BBL11781> a ns1:Accommodation ;
+    ns1:address "Belmont Road, Ferrybank" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Waterford/Waterford> ;
+    ns1:name "Belmont House" ;
+    ns1:ratingDescription "B&B - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 52.2695 ;
+    ns2:longitude -7.0948 .
+
+<https://example.org/irish-tourism/accommodation/HHL13037> a ns1:Accommodation ;
+    ns1:address "Lower Woodstown" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Historic%20House> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Waterford/Woodstown> ;
+    ns1:name "Gaultier Lodge" ;
+    ns1:ratingDescription "Historic House - Approved" ;
+    ns2:latitude 52.19287 ;
+    ns2:longitude -6.98352 .
+
+<https://example.org/irish-tourism/accommodation/BBL10703> a ns1:Accommodation ;
+    ns1:address "Belleek" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Galway/Clifden> ;
+    ns1:name "Rockmount House" ;
+    ns1:ratingDescription "B&B - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 53.49858 ;
+    ns2:longitude -10.099 .
+
+<https://example.org/irish-tourism/accommodation/GAS07617> a ns1:Accommodation ;
+    ns1:address "Aughnaure" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Guest%20House> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Galway/Oughterard> ;
+    ns1:name "Mountain View" ;
+    ns1:ratingDescription "Guest House - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.41279 ;
+    ns2:longitude -9.28031 .
+
+<https://example.org/irish-tourism/accommodation/HHS03505> a ns1:Accommodation ;
+    ns1:address "Main Street" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Leitrim/Carrigallen> ;
+    ns1:name "Kilbrackan Arms Hotel" ;
+    ns1:ratingDescription "Hotel - 2 Star" ;
+    ns1:starRating 2 ;
+    ns2:latitude 53.97693 ;
+    ns2:longitude -7.6444 .
+
+<https://example.org/irish-tourism/accommodation/HHS04390> a ns1:Accommodation ;
+    ns1:address "Lough Rynn" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Leitrim/Mohill> ;
+    ns1:name "Lough Rynn Castle" ;
+    ns1:ratingDescription "Hotel - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 53.89378 ;
+    ns2:longitude -7.84721 .
+
+<https://example.org/irish-tourism/accommodation/GAS07829> a ns1:Accommodation ;
+    ns1:address "Castlebar Road" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Guest%20House> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Mayo/Westport> ;
+    ns1:name "Clooneen Guesthouse" ;
+    ns1:ratingDescription "Guest House - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 53.80138 ;
+    ns2:longitude -9.5181 .
+
+<https://example.org/irish-tourism/accommodation/HHS01451> a ns1:Accommodation ;
+    ns1:address "Ashford Castle Estate" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Mayo/Cong> ;
+    ns1:name "Ashford Castle Hotel" ;
+    ns1:ratingDescription "Hotel - 5 Star" ;
+    ns1:starRating 5 ;
+    ns2:latitude 53.53451 ;
+    ns2:longitude -9.28459 .
+
+<https://example.org/irish-tourism/accommodation/SCL14986> a ns1:Accommodation ;
+    ns1:address "Knockvicar" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Individual%20Self%20Catering%20Cottage> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Roscommon/Boyle> ;
+    ns1:name "Riverhaven Log Cabins" ;
+    ns1:ratingDescription "Individual Self Catering Cottage - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 54.00306 ;
+    ns2:longitude -8.19641 .
+
+<https://example.org/irish-tourism/accommodation/WSL40713> a ns1:Accommodation ;
+    ns1:address "Clonalis" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/F%C3%A1ilte%20Ireland%27s%20Welcome%20Standard> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Roscommon/Castlerea> ;
+    ns1:name "Clonalis House and Self-Catering Cottages" ;
+    ns1:ratingDescription "Welcome Standard - Approved" ;
+    ns2:latitude 53.77015 ;
+    ns2:longitude -8.50869 .
+
+<https://example.org/irish-tourism/accommodation/CCS00102> a ns1:Accommodation ;
+    ns1:address "Rosses Upper" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Caravan%20and%20Camping%20Park> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Sligo/Rosses%20Point> ;
+    ns1:name "Rosses Point Caravan Park (Greenlands)" ;
+    ns1:ratingDescription "Caravan and Camping - 4 star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 54.18424 ;
+    ns2:longitude -8.34161 .
+
+<https://example.org/irish-tourism/accommodation/HHL11603> a ns1:Accommodation ;
+    ns1:address "Templehouse Demesne" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Historic%20House> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Sligo/Ballymote> ;
+    ns1:name "Temple House" ;
+    ns1:ratingDescription "Historic House - Approved" ;
+    ns2:latitude 54.11339 ;
+    ns2:longitude -8.58554 .
+
+<https://example.org/irish-tourism/accommodation/BBL13176> a ns1:Accommodation ;
+    ns1:address "Ballyhugh" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Cavan/Ballyconnell> ;
+    ns1:name "Dungimmon House" ;
+    ns1:ratingDescription "B&B - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 54.08586 ;
+    ns2:longitude -7.53191 .
+
+<https://example.org/irish-tourism/accommodation/GAS07111> a ns1:Accommodation ;
+    ns1:address "Gowna" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Guest%20House> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Cavan/Loch%20Gowna> ;
+    ns1:name "Piker's Lodge" ;
+    ns1:ratingDescription "Guest House - 2 Star" ;
+    ns1:starRating 2 ;
+    ns2:latitude 53.87287 ;
+    ns2:longitude -7.53401 .
+
+<https://example.org/irish-tourism/accommodation/BBL10475> a ns1:Accommodation ;
+    ns1:address "Quay Road" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/B%26Bs> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Donegal/Dungloe> ;
+    ns1:name "Radharc an Oileain" ;
+    ns1:ratingDescription "B&B - 3 Star" ;
+    ns1:starRating 3 ;
+    ns2:latitude 54.9472 ;
+    ns2:longitude -8.3616 .
+
+<https://example.org/irish-tourism/accommodation/CCS00306> a ns1:Accommodation ;
+    ns1:address "Belleek Road" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Caravan%20and%20Camping%20Park> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Donegal/Ballyshannon> ;
+    ns1:name "Lakeside Caravan and Camping Park" ;
+    ns1:ratingDescription "Caravan and Camping - 4 star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 54.49734 ;
+    ns2:longitude -8.17227 .
+
+<https://example.org/irish-tourism/accommodation/HHS03402> a ns1:Accommodation ;
+    ns1:address "Old Armagh Road" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Hotel> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Monaghan/Monaghan> ;
+    ns1:name "Hillgrove Hotel Leisure and Spa" ;
+    ns1:ratingDescription "Hotel - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 54.2465 ;
+    ns2:longitude -6.955 .
+
+<https://example.org/irish-tourism/accommodation/SCS08874> a ns1:Accommodation ;
+    ns1:address "Castle Leslie Estate" ;
+    ns1:hasAccommodationType <https://example.org/irish-tourism/accommodation-type/Holiday%20Cottage> ;
+    ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
+    ns1:locatedInTown <https://example.org/irish-tourism/town/Monaghan/Glaslough> ;
+    ns1:name "The Old Stable Mews" ;
+    ns1:ratingDescription "Holiday Cottage - 4 Star" ;
+    ns1:starRating 4 ;
+    ns2:latitude 54.31985 ;
+    ns2:longitude -6.88977 .
+
+<https://example.org/irish-tourism/town/Carlow/Graiguenamanagh> a ns1:Town ;
+    rdfs:label "Graiguenamanagh" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Carlow> .
+
+<https://example.org/irish-tourism/town/Carlow/Carlow> a ns1:Town ;
+    rdfs:label "Carlow" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Carlow> .
+
+<https://example.org/irish-tourism/town/Dublin/Clondalkin> a ns1:Town ;
+    rdfs:label "Clondalkin" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Dublin> .
+
+<https://example.org/irish-tourism/town/Dublin/Dublin%2018> a ns1:Town ;
+    rdfs:label "Dublin 18" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Dublin> .
+
+<https://example.org/irish-tourism/town/Kildare/Athy> a ns1:Town ;
+    rdfs:label "Athy" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Kildare> .
+
+<https://example.org/irish-tourism/town/Kildare/Kildare> a ns1:Town ;
+    rdfs:label "Kildare" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Kildare> .
+
+<https://example.org/irish-tourism/town/Kilkenny/Thurles> a ns1:Town ;
+    rdfs:label "Thurles" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Kilkenny> .
+
+<https://example.org/irish-tourism/town/Kilkenny/Inistioge> a ns1:Town ;
+    rdfs:label "Inistioge" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Kilkenny> .
+
+<https://example.org/irish-tourism/town/Laois/Durrow> a ns1:Town ;
+    rdfs:label "Durrow" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Laois> .
+
+<https://example.org/irish-tourism/town/Laois/Abbeyleix> a ns1:Town ;
+    rdfs:label "Abbeyleix" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Laois> .
+
+<https://example.org/irish-tourism/town/Longford/Longford> a ns1:Town ;
+    rdfs:label "Longford" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Longford> .
+
+<https://example.org/irish-tourism/town/Longford/Cloondara> a ns1:Town ;
+    rdfs:label "Cloondara" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Longford> .
+
+<https://example.org/irish-tourism/town/Louth/Ardee> a ns1:Town ;
+    rdfs:label "Ardee" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Louth> .
+
+<https://example.org/irish-tourism/town/Louth/Carlingford> a ns1:Town ;
+    rdfs:label "Carlingford" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Louth> .
+
+<https://example.org/irish-tourism/town/Meath/Navan> a ns1:Town ;
+    rdfs:label "Navan" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Meath> .
+
+<https://example.org/irish-tourism/town/Meath/Ashbourne> a ns1:Town ;
+    rdfs:label "Ashbourne" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Meath> .
+
+<https://example.org/irish-tourism/town/Offaly/Banagher> a ns1:Town ;
+    rdfs:label "Banagher" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Offaly> .
+
+<https://example.org/irish-tourism/town/Offaly/Birr> a ns1:Town ;
+    rdfs:label "Birr" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Offaly> .
+
+<https://example.org/irish-tourism/town/Westmeath/Castlepollard> a ns1:Town ;
+    rdfs:label "Castlepollard" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Westmeath> .
+
+<https://example.org/irish-tourism/town/Westmeath/Mullingar> a ns1:Town ;
+    rdfs:label "Mullingar" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Westmeath> .
+
+<https://example.org/irish-tourism/town/Wexford/Kilmuckridge> a ns1:Town ;
+    rdfs:label "Kilmuckridge" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Wexford> .
+
+<https://example.org/irish-tourism/town/Wexford/Rosslare> a ns1:Town ;
+    rdfs:label "Rosslare" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Wexford> .
+
+<https://example.org/irish-tourism/town/Wicklow/Glenealy> a ns1:Town ;
+    rdfs:label "Glenealy" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Wicklow> .
+
+<https://example.org/irish-tourism/town/Wicklow/Rathnew> a ns1:Town ;
+    rdfs:label "Rathnew" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Wicklow> .
+
+<https://example.org/irish-tourism/town/Clare/Doolin> a ns1:Town ;
+    rdfs:label "Doolin" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Clare> .
+
+<https://example.org/irish-tourism/town/Clare/Kilkee> a ns1:Town ;
+    rdfs:label "Kilkee" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Clare> .
+
+<https://example.org/irish-tourism/town/Cork/Ballingeary> a ns1:Town ;
+    rdfs:label "Ballingeary" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Cork> .
+
+<https://example.org/irish-tourism/town/Cork/Glengarriff> a ns1:Town ;
+    rdfs:label "Glengarriff" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Cork> .
+
+<https://example.org/irish-tourism/town/Kerry/Tralee> a ns1:Town ;
+    rdfs:label "Tralee" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Kerry> .
+
+<https://example.org/irish-tourism/town/Kerry/Castlegregory> a ns1:Town ;
+    rdfs:label "Castlegregory" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Kerry> .
+
+<https://example.org/irish-tourism/town/Limerick/Abbeyfeale> a ns1:Town ;
+    rdfs:label "Abbeyfeale" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Limerick> .
+
+<https://example.org/irish-tourism/town/Limerick/Adare> a ns1:Town ;
+    rdfs:label "Adare" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Limerick> .
+
+<https://example.org/irish-tourism/town/Tipperary/Aherlow> a ns1:Town ;
+    rdfs:label "Aherlow" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Tipperary> .
+
+<https://example.org/irish-tourism/town/Tipperary/Nenagh> a ns1:Town ;
+    rdfs:label "Nenagh" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Tipperary> .
+
+<https://example.org/irish-tourism/town/Waterford/Waterford> a ns1:Town ;
+    rdfs:label "Waterford" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Waterford> .
+
+<https://example.org/irish-tourism/town/Waterford/Woodstown> a ns1:Town ;
+    rdfs:label "Woodstown" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Waterford> .
+
+<https://example.org/irish-tourism/town/Galway/Clifden> a ns1:Town ;
+    rdfs:label "Clifden" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Galway> .
+
+<https://example.org/irish-tourism/town/Galway/Oughterard> a ns1:Town ;
+    rdfs:label "Oughterard" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Galway> .
+
+<https://example.org/irish-tourism/town/Leitrim/Carrigallen> a ns1:Town ;
+    rdfs:label "Carrigallen" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Leitrim> .
+
+<https://example.org/irish-tourism/town/Leitrim/Mohill> a ns1:Town ;
+    rdfs:label "Mohill" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Leitrim> .
+
+<https://example.org/irish-tourism/town/Mayo/Westport> a ns1:Town ;
+    rdfs:label "Westport" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Mayo> .
+
+<https://example.org/irish-tourism/town/Mayo/Cong> a ns1:Town ;
+    rdfs:label "Cong" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Mayo> .
+
+<https://example.org/irish-tourism/town/Roscommon/Boyle> a ns1:Town ;
+    rdfs:label "Boyle" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Roscommon> .
+
+<https://example.org/irish-tourism/town/Roscommon/Castlerea> a ns1:Town ;
+    rdfs:label "Castlerea" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Roscommon> .
+
+<https://example.org/irish-tourism/town/Sligo/Rosses%20Point> a ns1:Town ;
+    rdfs:label "Rosses Point" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Sligo> .
+
+<https://example.org/irish-tourism/town/Sligo/Ballymote> a ns1:Town ;
+    rdfs:label "Ballymote" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Sligo> .
+
+<https://example.org/irish-tourism/town/Cavan/Ballyconnell> a ns1:Town ;
+    rdfs:label "Ballyconnell" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Cavan> .
+
+<https://example.org/irish-tourism/town/Cavan/Loch%20Gowna> a ns1:Town ;
+    rdfs:label "Loch Gowna" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Cavan> .
+
+<https://example.org/irish-tourism/town/Donegal/Dungloe> a ns1:Town ;
+    rdfs:label "Dungloe" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Donegal> .
+
+<https://example.org/irish-tourism/town/Donegal/Ballyshannon> a ns1:Town ;
+    rdfs:label "Ballyshannon" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Donegal> .
+
+<https://example.org/irish-tourism/town/Monaghan/Monaghan> a ns1:Town ;
+    rdfs:label "Monaghan" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Monaghan> .
+
+<https://example.org/irish-tourism/town/Monaghan/Glaslough> a ns1:Town ;
+    rdfs:label "Glaslough" ;
+    ns1:townInCounty <https://example.org/irish-tourism/county/Monaghan> .
+
+<https://example.org/irish-tourism/county/Longford> a ns1:County ;
+    rdfs:label "Longford" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Offaly> a ns1:County ;
+    rdfs:label "Offaly" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Laois> a ns1:County ;
+    rdfs:label "Laois" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Carlow> a ns1:County ;
+    rdfs:label "Carlow" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Monaghan> a ns1:County ;
+    rdfs:label "Monaghan" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Roscommon> a ns1:County ;
+    rdfs:label "Roscommon" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Louth> a ns1:County ;
+    rdfs:label "Louth" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Westmeath> a ns1:County ;
+    rdfs:label "Westmeath" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Leitrim> a ns1:County ;
+    rdfs:label "Leitrim" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Cavan> a ns1:County ;
+    rdfs:label "Cavan" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Kilkenny> a ns1:County ;
+    rdfs:label "Kilkenny" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Kildare> a ns1:County ;
+    rdfs:label "Kildare" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Limerick> a ns1:County ;
+    rdfs:label "Limerick" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Sligo> a ns1:County ;
+    rdfs:label "Sligo" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Meath> a ns1:County ;
+    rdfs:label "Meath" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Waterford> a ns1:County ;
+    rdfs:label "Waterford" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Tipperary> a ns1:County ;
+    rdfs:label "Tipperary" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Wicklow> a ns1:County ;
+    rdfs:label "Wicklow" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Wexford> a ns1:County ;
+    rdfs:label "Wexford" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Mayo> a ns1:County ;
+    rdfs:label "Mayo" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Clare> a ns1:County ;
+    rdfs:label "Clare" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Donegal> a ns1:County ;
+    rdfs:label "Donegal" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Galway> a ns1:County ;
+    rdfs:label "Galway" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Cork> a ns1:County ;
+    rdfs:label "Cork" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Dublin> a ns1:County ;
+    rdfs:label "Dublin" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Kerry> a ns1:County ;
+    rdfs:label "Kerry" ;
+    ns1:partOf ns1:Ireland .
+
+
+<https://example.org/irish-tourism/accommodation-type/Historic%20House> a ns1:AccommodationType ;
+    rdfs:label "Historic House" .
+
+<https://example.org/irish-tourism/accommodation-type/Holiday%20Cottage> a ns1:AccommodationType ;
+    rdfs:label "Holiday Cottage" .
+
+<https://example.org/irish-tourism/accommodation-type/Caravan%20and%20Camping%20Park> a ns1:AccommodationType ;
+    rdfs:label "Caravan and Camping Park" .
+
+<https://example.org/irish-tourism/accommodation-type/Guest%20House> a ns1:AccommodationType ;
+    rdfs:label "Guest House" .
+
+<https://example.org/irish-tourism/accommodation-type/Individual%20Self%20Catering%20Cottage> a ns1:AccommodationType ;
+    rdfs:label "Individual Self Catering Cottage" .
+
+<https://example.org/irish-tourism/accommodation-type/B%26Bs> a ns1:AccommodationType ;
+    rdfs:label "B&Bs" .
+
+<https://example.org/irish-tourism/accommodation-type/F%C3%A1ilte%20Ireland%27s%20Welcome%20Standard> a ns1:AccommodationType ;
+    rdfs:label "Fáilte Ireland's Welcome Standard" .
+
+<https://example.org/irish-tourism/accommodation-type/Hotel> a ns1:AccommodationType ;
+    rdfs:label "Hotel" .
+

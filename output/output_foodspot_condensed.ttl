@@ -3,10 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://example.org/irish-tourism/county/dublin> a ns1:County ;
-    rdfs:label "dublin" ;
-    ns1:partOf ns1:Ireland .
-
 <https://example.org/irish-tourism/foodspots/1> a ns1:FoodSpot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;

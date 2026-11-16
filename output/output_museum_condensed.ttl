@@ -315,4 +315,106 @@
     ns2:latitude 52.94097592740792 ;
     ns2:longitude -6.7068380106797685 .
 
+<https://example.org/irish-tourism/county/Longford> a ns1:County ;
+    rdfs:label "Longford" ;
+    ns1:partOf ns1:Ireland .
 
+<https://example.org/irish-tourism/county/Monaghan> a ns1:County ;
+    rdfs:label "Monaghan" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Offaly> a ns1:County ;
+    rdfs:label "Offaly" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Meath> a ns1:County ;
+    rdfs:label "Meath" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Cavan> a ns1:County ;
+    rdfs:label "Cavan" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Laois> a ns1:County ;
+    rdfs:label "Laois" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Leitrim> a ns1:County ;
+    rdfs:label "Leitrim" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Sligo> a ns1:County ;
+    rdfs:label "Sligo" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Westmeath> a ns1:County ;
+    rdfs:label "Westmeath" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Carlow> a ns1:County ;
+    rdfs:label "Carlow" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Louth> a ns1:County ;
+    rdfs:label "Louth" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Roscommon> a ns1:County ;
+    rdfs:label "Roscommon" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Wexford> a ns1:County ;
+    rdfs:label "Wexford" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Kilkenny> a ns1:County ;
+    rdfs:label "Kilkenny" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Limerick> a ns1:County ;
+    rdfs:label "Limerick" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Kildare> a ns1:County ;
+    rdfs:label "Kildare" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Wicklow> a ns1:County ;
+    rdfs:label "Wicklow" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Mayo> a ns1:County ;
+    rdfs:label "Mayo" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Waterford> a ns1:County ;
+    rdfs:label "Waterford" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Clare> a ns1:County ;
+    rdfs:label "Clare" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Kerry> a ns1:County ;
+    rdfs:label "Kerry" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Tipperary> a ns1:County ;
+    rdfs:label "Tipperary" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Galway> a ns1:County ;
+    rdfs:label "Galway" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Donegal> a ns1:County ;
+    rdfs:label "Donegal" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Cork> a ns1:County ;
+    rdfs:label "Cork" ;
+    ns1:partOf ns1:Ireland .
+
+<https://example.org/irish-tourism/county/Dublin> a ns1:County ;
+    rdfs:label "Dublin" ;
+    ns1:partOf ns1:Ireland .

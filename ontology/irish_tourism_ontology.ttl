@@ -1,0 +1,174 @@
+@prefix : <https://example.org/irish-tourism/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@base <https://example.org/irish-tourism/> .
+
+<https://example.org/irish-tourism/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+:hasVenueType rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain :Foodspot ;
+    rdfs:range :VenueType ;
+    rdfs:label "hasVenueType" .
+
+:partOf rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdf:type owl:TransitiveProperty ;
+    rdfs:domain schema:Place ;
+    rdfs:range schema:Place ;
+    rdfs:label "partOf" .
+
+:townInCounty rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf :partOf , owl:topObjectProperty ;
+    rdfs:domain :Town ;
+    rdfs:range :County ;
+    rdfs:label "townInCounty" .
+
+:hasAccommodationType rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain :Accommodation ;
+    rdfs:range :AccommodationType ;
+    rdfs:label "hasAccommodationType" .
+
+:locatedInCounty rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf :countyHasPlace ;
+    rdfs:domain :TourismPlace ;
+    rdfs:range :County ;
+    rdfs:label "locatedInCounty" .
+
+:locatedInTown rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain :TourismPlace ;
+    rdfs:range :Town ;
+    rdfs:label "locatedInTown" .
+
+:countyHasPlace rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdfs:domain :County ;
+    rdfs:range :TourismPlace ;
+    rdfs:label "countyHasPlace" .
+
+:sharesCountyWith rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    rdf:type owl:SymmetricProperty ;
+    rdfs:domain :TourismPlace ;
+    rdfs:range :TourismPlace ;
+    rdfs:label "sharesCountyWith" .
+
+#################################################################
+#    Data properties
+#################################################################
+
+schema:latitude rdf:type owl:DatatypeProperty ;
+    rdfs:domain :TourismPlace ;
+    rdfs:range xsd:decimal .
+
+schema:longitude rdf:type owl:DatatypeProperty ;
+    rdfs:domain :TourismPlace ;
+    rdfs:range xsd:decimal .
+
+:address rdf:type owl:DatatypeProperty ;
+    rdfs:domain :TourismPlace ;
+    rdfs:range xsd:string .
+
+:name rdf:type owl:DatatypeProperty ;
+    rdfs:domain :TourismPlace ;
+    rdfs:range xsd:string .
+
+:ratingDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Accommodation ;
+    rdfs:range xsd:string .
+
+:starRating rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Accommodation ;
+    rdfs:range xsd:integer .
+
+#################################################################
+#    Classes
+#################################################################
+
+:Foodspot rdf:type owl:Class ;
+    rdfs:subClassOf :TourismPlace ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :hasVenueType ;
+                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onClass :VenueType
+                    ] ;
+    rdfs:label "Foodspot" .
+
+:TourismPlace rdf:type owl:Class ;
+    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty :locatedInCounty ;
+                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onClass :County
+                    ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :name ;
+                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:string
+                    ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty schema:latitude ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:decimal
+                    ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty schema:longitude ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:decimal
+                    ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :address ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:string
+                    ] ;
+    rdfs:label "TourismPlace" .
+
+:AccommodationType rdf:type owl:Class ;
+    rdfs:label "AccommodationType" .
+
+:Town rdf:type owl:Class ;
+    rdfs:label "Town" .
+
+:Accommodation rdf:type owl:Class ;
+    rdfs:subClassOf :TourismPlace ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :hasAccommodationType ;
+                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onClass :AccommodationType
+                    ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :ratingDescription ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:string
+                    ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :starRating ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:integer
+                    ] ;
+    rdfs:label "Accommodation" .
+
+:Museum rdf:type owl:Class ;
+    rdfs:subClassOf :TourismPlace ;
+    rdfs:label "Museum" .
+
+:VenueType rdf:type owl:Class ;
+    rdfs:label "VenueType" .
+
+:County rdf:type owl:Class ;
+    rdfs:label "County" .
+
+:Country rdf:type owl:Class ;
+    rdfs:label "Country" .
+
+schema:Place rdf:type owl:Class .

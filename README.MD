@@ -19,9 +19,10 @@ This project focuses on building a Semantic Web Knowledge Graph centered around 
 - `requirements.txt`: Python dependencies required for data cleaning (e.g., pandas, pyproj).
 
 ## Datasets
-The knowledge graph is built from Irish tourism and heritage datasets:
-- Museums__Collections___Archives_2015.csv
-
+The knowledge graph is built from cleaned Irish tourism and heritage datasets:
+- Accommodation_cleaned.csv
+- Cleaned_Museums.csv
+- FoodSpots_cleaned.csv
 
 ## Project Phases & Deliverables
 

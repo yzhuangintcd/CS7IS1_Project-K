@@ -1,7 +1,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix ex: <https://example.org/irish-tourism/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
 
 #fixed ireland individual - type of country 
 ex:Ireland 
     a ex:Country ;
-    rdfs:label "Ireland" .
+    rdfs:label "Ireland" ;
+    owl:sameAs dbr:Republic_of_Ireland .

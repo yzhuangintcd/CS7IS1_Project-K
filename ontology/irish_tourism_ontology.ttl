@@ -5,64 +5,89 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://example.org/irish-tourism/> .
 
-<https://example.org/irish-tourism/> rdf:type owl:Ontology .
+#################################################################
+#    Ontology Metadata (IRI Annotations)
+#################################################################
+<https://example.org/irish-tourism/> rdf:type owl:Ontology ;
+    dcterms:title "Irish Tourism Ontology"@en ;
+    rdfs:comment "Schema for an Irish Tourism Knowledge Graph integrating three datasets (accommodation, foodspots, museums) under a shared geographic hierarchy, reusing Schema.org terms where possible."@en ;
+    dcterms:creator "Aalaa Mohammed, Keerthi Sudhakar, Peng Liu, Yuchen Zhuang"@en ;
+    dcterms:created "2026-11-17"^^xsd:date .
+
 
 #################################################################
 #    Object Properties
 #################################################################
 
+# 1. VENUE TYPE LINK
 :hasVenueType rdf:type owl:ObjectProperty ;
     rdfs:subPropertyOf owl:topObjectProperty ;
     rdfs:domain :Foodspot ;
     rdfs:range :VenueType ;
-    rdfs:label "hasVenueType" .
+    rdfs:label "hasVenueType"@en ;
+    rdfs:comment "Derived from the venue type column in foodspot dataset. Links a :Foodspot to its specific classification. Restricting the domain strictly to :Foodspot prevents incorrect assertions from other tourism categories. Supports question: What venues exist in Dublin?"@en .
 
+# 2. HIERARCHICAL TRANSITIVE PARTOF
 :partOf rdf:type owl:ObjectProperty ;
     rdfs:subPropertyOf owl:topObjectProperty ;
     rdf:type owl:TransitiveProperty ;
     rdfs:domain schema:Place ;
     rdfs:range schema:Place ;
-    rdfs:label "partOf" .
+    rdfs:label "partOf"@en ;
+    rdfs:comment "Declared as an owl:TransitiveProperty over schema:Place. Enables multi-hop hierarchical reasoning so that if a town is part of a county, and that county is part of Ireland, the reasoner automatically infers the town is part of Ireland."@en .
 
+# 3. TOWN CONTAINMENT
 :townInCounty rdf:type owl:ObjectProperty ;
     rdfs:subPropertyOf :partOf , owl:topObjectProperty ;
     rdfs:domain :Town ;
     rdfs:range :County ;
-    rdfs:label "townInCounty" .
+    rdfs:label "townInCounty"@en ;
+    rdfs:comment "Sub-property of :partOf. Explicitly connects a :Town entity to its :County. Each assertion entails :partOf, so transitivity can be inferred."@en .
 
+# 4. ACCOMMODATION TYPE LINK
 :hasAccommodationType rdf:type owl:ObjectProperty ;
     rdfs:subPropertyOf owl:topObjectProperty ;
     rdfs:domain :Accommodation ;
     rdfs:range :AccommodationType ;
-    rdfs:label "hasAccommodationType" .
+    rdfs:label "hasAccommodationType"@en ;
+    rdfs:comment "Derived from the accommodation type column in accommodation dataset. Connects lodgings to their specific type category (:AccommodationType) to support structured filtering and SPARQL queries. Supports question: Which hotels are located in Clare?"@en .
 
+# 5. SPATIAL COUNTY MAPPING AND INVERSE PROPERTY
 :locatedInCounty rdf:type owl:ObjectProperty ;
     rdfs:subPropertyOf owl:topObjectProperty ;
     owl:inverseOf :countyHasPlace ;
     rdfs:domain :TourismPlace ;
     rdfs:range :County ;
-    rdfs:label "locatedInCounty" .
+    rdfs:label "locatedInCounty"@en ;
+    rdfs:comment "Core spatial property linking any :TourismPlace to its exact :County. Paired with its inverse (:countyHasPlace) to enable bi-directional graph traversal. Supports county-based queries across all datasets (e.g., Which museums are in the same county as a 4-star hotel?)"@en .
 
+# 6. SPATIAL TOWN MAPPING 
 :locatedInTown rdf:type owl:ObjectProperty ;
     rdfs:subPropertyOf owl:topObjectProperty ;
     rdfs:domain :TourismPlace ;
     rdfs:range :Town ;
-    rdfs:label "locatedInTown" .
+    rdfs:label "locatedInTown"@en ;
+    rdfs:comment "Links tourism spots directly to municipal :Town entities rather than raw string literals, supporting geographic queries."@en .
 
+# 7. INVERSE PROPERTY 
 :countyHasPlace rdf:type owl:ObjectProperty ;
     rdfs:subPropertyOf owl:topObjectProperty ;
     rdfs:domain :County ;
     rdfs:range :TourismPlace ;
-    rdfs:label "countyHasPlace" .
+    rdfs:label "countyHasPlace"@en ;
+    rdfs:comment "The inverse of :locatedInCounty. Allows users or applications to query either 'Which county is this place in?' or 'What places are in this county?' interchangeably."@en .
 
+# 8. SYMMETRIC PROXIMITY PROPERTY
 :sharesCountyWith rdf:type owl:ObjectProperty ;
     rdfs:subPropertyOf owl:topObjectProperty ;
     rdf:type owl:SymmetricProperty ;
     rdfs:domain :TourismPlace ;
     rdfs:range :TourismPlace ;
-    rdfs:label "sharesCountyWith" .
+    rdfs:label "sharesCountyWith"@en ;
+    rdfs:comment "Declared as an owl:SymmetricProperty. If Place A shares a county with Place B, the reasoner automatically infers the reverse direction. (Note: Property chain axioms were avoided here to prevent reflexive self-loops in GraphDB)."@en .
 
 #################################################################
 #    Data properties
@@ -70,27 +95,39 @@
 
 schema:latitude rdf:type owl:DatatypeProperty ;
     rdfs:domain :TourismPlace ;
-    rdfs:range xsd:decimal .
+    rdfs:range xsd:decimal ;
+    rdfs:label "latitude"@en ;
+    rdfs:comment "Reused from Schema.org vocabulary to store geographic latitude as a decimal value. Domain restricted to :TourismPlace to only include coordinates to tourism spots in our graph."@en .
 
 schema:longitude rdf:type owl:DatatypeProperty ;
     rdfs:domain :TourismPlace ;
-    rdfs:range xsd:decimal .
+    rdfs:range xsd:decimal ;
+    rdfs:label "longitude"@en ;
+    rdfs:comment "Reused from Schema.org vocabulary to store geographic longitude as a decimal value. Constrained locally to :TourismPlace."@en .
 
 :address rdf:type owl:DatatypeProperty ;
     rdfs:domain :TourismPlace ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:label "address"@en ;
+    rdfs:comment "Stores the street address of a tourism entity. Defined as string datatype to match flat string address fields in source datasets."@en .
 
 :name rdf:type owl:DatatypeProperty ;
     rdfs:domain :TourismPlace ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:label "name"@en ;
+    rdfs:comment "Defined as xsd:string datatype to map directly from source dataset name columns."@en .
 
 :ratingDescription rdf:type owl:DatatypeProperty ;
     rdfs:domain :Accommodation ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:label "ratingDescription"@en ;
+    rdfs:comment "Captures qualitative review text or tier descriptions specific to accommodations. Derived from accommodation reviews/ratings text in source dataset."@en .
 
 :starRating rdf:type owl:DatatypeProperty ;
     rdfs:domain :Accommodation ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:integer ;
+    rdfs:label "starRating"@en ;
+    rdfs:comment "Stores numeric star ratings (e.g., 3,4,5) for accommodation filtering."@en .
 
 #################################################################
 #    Classes
@@ -103,7 +140,8 @@ schema:longitude rdf:type owl:DatatypeProperty ;
                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                       owl:onClass :VenueType
                     ] ;
-    rdfs:label "Foodspot" .
+    rdfs:label "Foodspot"@en ;
+    rdfs:comment "Represents dining establishments.Enforces a minimum qualified cardinality of 1 for :hasVenueType to guarantee categorization."@en .
 
 :TourismPlace rdf:type owl:Class ;
     rdfs:subClassOf [ rdf:type owl:Restriction ;
@@ -131,13 +169,16 @@ schema:longitude rdf:type owl:DatatypeProperty ;
                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                       owl:onDataRange xsd:string
                     ] ;
-    rdfs:label "TourismPlace" .
+    rdfs:label "TourismPlace"@en ;
+    rdfs:comment "Superclass for all places of interest. Enforces strict OWL cardinality constraints: exactly 1 county, exactly 1 name string, and maximum 1 for coordinates and address."@en .
 
 :AccommodationType rdf:type owl:Class ;
-    rdfs:label "AccommodationType" .
+    rdfs:label "AccommodationType"@en ;
+    rdfs:comment "Lookup class for lodging types (e.g., Hotel, Hostel, BedAndBreakfast)."@en .
 
 :Town rdf:type owl:Class ;
-    rdfs:label "Town" .
+    rdfs:label "Town"@en ;
+    rdfs:comment "Represents municipal town entities supporting administrative hierarchy."@en .
 
 :Accommodation rdf:type owl:Class ;
     rdfs:subClassOf :TourismPlace ,
@@ -156,19 +197,26 @@ schema:longitude rdf:type owl:DatatypeProperty ;
                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                       owl:onDataRange xsd:integer
                     ] ;
-    rdfs:label "Accommodation" .
+    rdfs:label "Accommodation"@en ;
+    rdfs:comment "Subclass of TourismPlace representing places to stay. Enforces exactly 1 accommodation type and optional single star rating and description."@en .
 
 :Museum rdf:type owl:Class ;
     rdfs:subClassOf :TourismPlace ;
-    rdfs:label "Museum" .
+    rdfs:label "Museum"@en ;
+    rdfs:comment "Represents cultural attractions inheriting all base spatial and naming restrictions from TourismPlace."@en .
 
 :VenueType rdf:type owl:Class ;
-    rdfs:label "VenueType" .
+    rdfs:label "VenueType"@en ;
+    rdfs:comment "Lookup class for categorizing dining establishments."@en .
 
 :County rdf:type owl:Class ;
-    rdfs:label "County" .
+    rdfs:label "County"@en ;
+    rdfs:comment "Represents Irish administrative county entities serving as primary spatial containers."@en .
 
 :Country rdf:type owl:Class ;
-    rdfs:label "Country" .
+    rdfs:label "Country"@en ;
+    rdfs:comment "Represents top-level national entity (Ireland) at the root of all spatial containment."@en .
 
-schema:Place rdf:type owl:Class .
+schema:Place rdf:type owl:Class ;
+rdfs:label "Place"@en ;
+rdfs:comment "External vocabulary class reused from Schema.org as the superclass for spatial containment and transitivity (:partOf)."@en .

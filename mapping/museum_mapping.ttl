@@ -6,9 +6,38 @@
 @prefix schema: <https://schema.org/> .
 @prefix ex: <https://example.org/irish-tourism/> .
 
+# ==============================================================================
+# OVERVIEW: Irish Tourism Museums RML Mapping
+# ==============================================================================
+# Source File : Cleaned_Museums.csv
+# Target Graph: Irish Tourism Knowledge Graph (https://example.org/irish-tourism/)
+#
+# Purpose:
+#   Uplifts tabular CSV rows describing Irish museums and heritage centres into
+#   interconnected RDF triples. Each CSV row is decomposed into two semantic
+#   entities:
+#     1. ex:Museum - The cultural attraction with its name and coordinates.
+#     2. ex:County - The Irish county where it is located (linked to Ireland).
+#
+# High-Level Graph Structure:
+#   [ex:Museum] --(ex:locatedInCounty)--> [ex:County] --(ex:partOf)--> [ex:Ireland]
+# ==============================================================================
+
+# ==============================================================================
+# MAP 1: Museum Mapping
+# ==============================================================================
+# Generates the core Museum entity for each row using its unique OBJECT_ID and
+# attaches its name, coordinates, and link to the corresponding County entity.
+#
+# Illustration (Generated Triples per Row):
+#                        +--- rdf:type -----------> ex:Museum
+#                        +--- ex:name ------------> "Name of Museum or HC"
+#   <museum/{OBJECT_ID}> -+--- ex:locatedInCounty -> <county/{County}>
+#                        +--- schema:latitude ----> "LATITUDE"^^xsd:decimal
+#                        +--- schema:longitude ---> "LONGITUDE"^^xsd:decimal
+# ==============================================================================
 <MuseumMapping> a rr:TriplesMap ;
 
-#MAP 1: Museum mapping
 rml:logicalSource [
     rml:source "Cleaned_Museums.csv" ;
     rml:referenceFormulation ql:CSV
@@ -19,7 +48,7 @@ rr:subjectMap [
     rr:class ex:Museum
 ] ;
 
-#name
+# Name of the museum or heritage centre
 rr:predicateObjectMap [
     rr:predicate ex:name ;
     rr:objectMap [ 
@@ -27,7 +56,7 @@ rr:predicateObjectMap [
     ]
 ] ;
 
-#locatedInCounty
+# Link to the County entity
 rr:predicateObjectMap [
     rr:predicate ex:locatedInCounty ;
     rr:objectMap [
@@ -53,7 +82,17 @@ rr:predicateObjectMap [
     ]
 ] .
 
-#MAP 2: County mapping
+# ==============================================================================
+# MAP 2: County Mapping
+# ==============================================================================
+# Creates a shared County node for each unique county name and anchors it to
+# the top-level ex:Ireland entity so all datasets share common county hubs.
+#
+# Illustration (Generated Triples per County):
+#                        +--- rdf:type ---> ex:County
+#   <county/{County}> ---+--- rdfs:label -> "County"
+#                        +--- ex:partOf --> ex:Ireland
+# ==============================================================================
 <CountyMapping> 
     a rr:TriplesMap ;
 
@@ -74,7 +113,7 @@ rr:predicateObjectMap [
     ]
 ] ;
 
-#connect each county w Ireland
+# Link connecting every county to Ireland
 rr:predicateObjectMap [
     rr:predicate ex:partOf ;
     rr:objectMap [

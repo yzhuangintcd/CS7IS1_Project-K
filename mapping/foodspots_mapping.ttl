@@ -6,9 +6,41 @@
 @prefix schema: <https://schema.org/> .
 @prefix ex: <https://example.org/irish-tourism/> .
 
-<FoodSpotMapping> a rr:TriplesMap ;
 
-# Map 1 
+# ==============================================================================
+# OVERVIEW: Irish Tourism Food Spots RML Mapping
+# ==============================================================================
+# Source File : FoodSpots_cleaned.csv
+# Target Graph: Irish Tourism Knowledge Graph (https://example.org/irish-tourism/)
+#
+# Purpose:
+#   Uplifts tabular CSV rows of Irish food spots into interconnected RDF triples.
+#   Each CSV row is decomposed into three semantic entities:
+#     1. ex:Foodspot  - The restaurant/cafe with its name and coordinates.
+#     2. ex:County    - The Irish county where it is located (linked to Ireland).
+#     3. ex:VenueType - The category of the venue (e.g., Cafe, Pub, Restaurant).
+#
+# High-Level Graph Structure:
+#   [ex:Foodspot] --(ex:locatedInCounty)--> [ex:County] --(ex:partOf)--> [ex:Ireland]
+#         |
+#         +---------(ex:hasVenueType)-----> [ex:VenueType]
+# ==============================================================================
+
+# ==============================================================================
+# MAP 1: FoodSpot Mapping
+# ==============================================================================
+# Generates the core FoodSpot entity for each row using its unique FoodSpot_ID
+# and attaches its literal attributes and links to County and VenueType nodes.
+#
+# Illustration (Generated Triples per Row):
+#                        +--- rdf:type -----------> ex:Foodspot
+#                        +--- ex:name ------------> "Name"
+#   <foodspots/{ID}> ----+--- ex:locatedInCounty -> <county/{County}>
+#                        +--- schema:latitude ----> "Latitude"^^xsd:decimal
+#                        +--- schema:longitude ---> "Longitude"^^xsd:decimal
+#                        +--- ex:hasVenueType ----> <venue-type/{Venue Type}>
+# ==============================================================================
+<FoodSpotMapping> a rr:TriplesMap ;
 rml:logicalSource [
     rml:source "FoodSpots_cleaned.csv" ;
     rml:referenceFormulation ql:CSV
@@ -19,7 +51,7 @@ rr:subjectMap [
     rr:class ex:Foodspot
 ] ;
 
-# Name of FoodSpot
+# Name of the food spot
 rr:predicateObjectMap [
     rr:predicate ex:name ;
     rr:objectMap [ 
@@ -27,17 +59,13 @@ rr:predicateObjectMap [
     ]
 ] ;
 
-# ID -> name is -> name of food spot
-
-# County
+# Link to the County entity
 rr:predicateObjectMap [
     rr:predicate ex:locatedInCounty ;
     rr:objectMap [
         rr:template "https://example.org/irish-tourism/county/{County}"
     ]
 ] ; 
-
-# ID -> located in -> location entity
 
 #latitude
 rr:predicateObjectMap [
@@ -48,8 +76,6 @@ rr:predicateObjectMap [
     ]
 ] ; 
 
-# Id -> latitude is -> latitude reference
-
 #longitude
 rr:predicateObjectMap [
     rr:predicate schema:longitude ;
@@ -59,9 +85,7 @@ rr:predicateObjectMap [
     ]
 ] ;
 
-# Id -> longitude is -> longitude reference
-
-#hasVenueType
+# Link to the VenueType entity
 rr:predicateObjectMap [
     rr:predicate ex:hasVenueType ;
     rr:objectMap [
@@ -69,10 +93,18 @@ rr:predicateObjectMap [
     ]
 ] .
 
-# Id -> has venue type -> the venue type
 
-
-#MAP 2: County mapping
+# ==============================================================================
+# MAP 2: County Mapping
+# ==============================================================================
+# Creates a shared County node for each unique county name and anchors it to
+# the top-level ex:Ireland entity so all datasets share common county hubs.
+#
+# Illustration (Generated Triples per County):
+#                        +--- rdf:type ---> ex:County
+#   <county/{County}> ---+--- rdfs:label -> "County"
+#                        +--- ex:partOf --> ex:Ireland
+# ==============================================================================
 <CountyMapping> a rr:TriplesMap ;
 
 rml:logicalSource [
@@ -85,6 +117,7 @@ rr:subjectMap [
     rr:class ex:County 
     ] ; 
 
+# County label
 rr:predicateObjectMap [
     rr:predicate rdfs:label ;
     rr:objectMap [
@@ -92,7 +125,7 @@ rr:predicateObjectMap [
     ]
 ] ;
 
-#connect each county w Ireland
+# Link connecting every county to Ireland
 rr:predicateObjectMap [
     rr:predicate ex:partOf ;
     rr:objectMap [
@@ -100,7 +133,16 @@ rr:predicateObjectMap [
     ]
 ] .
 
-# Map 3: Venue Type mapping
+# ==============================================================================
+# MAP 3: Venue Type Mapping
+# ==============================================================================
+# Creates a reusable VenueType category node for each unique venue classification
+# (e.g., Restaurant, Cafe, Pub) and attaches a human-readable label.
+#
+# Illustration (Generated Triples per Venue Type):
+#                                  +--- rdf:type ---> ex:VenueType
+#   <venue-type/{Venue Type}> -----+--- rdfs:label -> "Venue Type"
+# ==============================================================================
 <VenueTypeMapping> a rr:TriplesMap ;
 
 rml:logicalSource [
@@ -113,6 +155,7 @@ rr:subjectMap [
     rr:class ex:VenueType 
 ] ; 
 
+# Venue category label
 rr:predicateObjectMap [
     rr:predicate rdfs:label ;
     rr:objectMap [
@@ -120,5 +163,4 @@ rr:predicateObjectMap [
     ]
 ] .
 
-# venue type -> label is -> venue type reference
 

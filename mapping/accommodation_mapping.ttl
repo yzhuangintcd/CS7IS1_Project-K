@@ -1,0 +1,229 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix ex: <https://example.org/irish-tourism/> .
+
+#MAP 1: Accommodation mapping
+#this map converts each accommodation record in the cleaned accommodation csv
+#into an RDF individual
+#includes its Name, geographic location, geographic coordinates, 
+#and relationships with other individuals such as counties or type of accommodation
+
+<AccommodationMapping> 
+    a rr:TriplesMap ;  
+
+#specifies the cleaned accommodation CSV as the data source
+rml:logicalSource [
+    rml:source "Accommodation_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+    ] ;
+
+#create a unique URI for each accommodation
+#use the Properety Reg Number as it's unique
+#assigns the Accommodation class 
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/accommodation/{Property Reg Number}" ;
+    rr:class ex:Accommodation 
+    ] ; 
+
+#maps the accommodation name as a literal
+#this is identified by the Account Name field
+rr:predicateObjectMap [
+    rr:predicate ex:name ;
+    rr:objectMap [
+        rml:reference "Account Name"
+    ]
+] ; 
+
+#link the accommodation with a county individual using a URI
+#this is identified by the Address County field
+rr:predicateObjectMap [
+    rr:predicate ex:locatedInCounty ;
+    rr:objectMap [
+        rr:template "https://example.org/irish-tourism/county/{Address County}"
+    ]
+] ; 
+
+#link the accommodation with its accommodationType individual 
+#this is identified by the Sector field
+rr:predicateObjectMap [
+    rr:predicate ex:hasAccommodationType ;
+    rr:objectMap [
+        rr:template "https://example.org/irish-tourism/accommodation-type/{Sector}"
+    ]
+] ;
+
+#maps the accommodation address as a literal
+#this is identified by the Address Line 1 field
+rr:predicateObjectMap [
+    rr:predicate ex:address ;
+    rr:objectMap [
+        rml:reference "Address Line 1"
+    ]
+] ; 
+
+#link the accommodation to a town individual using a URI
+#both county and town are included in the URI to distinguish
+#between identically named towns in Ireland
+rr:predicateObjectMap [
+    rr:predicate ex:locatedInTown ;
+    rr:objectMap [
+        rr:template "https://example.org/irish-tourism/town/{Address County}/{Address City/Town}" ;
+    ]
+] ; 
+
+#maps the orginal rating description literal
+#this is identified by the Rating field
+rr:predicateObjectMap [
+    rr:predicate ex:ratingDescription ;
+    rr:objectMap [
+        rml:reference "Rating"
+    ]
+] ; 
+
+#maps the numeric star rating
+#this is identified by the Star Rating field
+#integer datatype
+rr:predicateObjectMap [
+    rr:predicate ex:starRating ;
+    rr:objectMap [
+        rml:reference "Star Rating" ;
+        rr:datatype xsd:integer
+    ]
+] ; 
+
+#maps latitude as decimal using Schema.org vocabulary
+#this is identified by the Latitude field
+rr:predicateObjectMap [
+    rr:predicate schema:latitude ;
+    rr:objectMap [
+        rml:reference "Latitude" ;
+        rr:datatype xsd:decimal
+    ]
+] ; 
+
+#maps latitude as decimal using Schema.org vocabulary
+#this is identified by the Longitude field
+rr:predicateObjectMap [
+    rr:predicate schema:longitude ;
+    rr:objectMap [
+        rml:reference "Longitude" ;
+        rr:datatype xsd:decimal
+    ]
+] .
+
+
+#MAP 2: County mapping
+#this map creates County individuals from the accommodation dataset 
+#also establishes their relationship with Ireland
+
+<CountyMapping> 
+    a rr:TriplesMap ;
+
+#specifies the cleaned accommodation CSV as the data source
+rml:logicalSource [
+    rml:source "Accommodation_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+] ; 
+
+#creates a county individiual using the county name as its URI
+#identifier and assigns it to the County class
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/county/{Address County}" ;
+    rr:class ex:County 
+    ] ; 
+
+#assings the county name as a human readable label 
+#e.g. ex:county/Cork rdfs:label "Cork" .
+#this is identified by the Address County field
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "Address County"
+    ]
+] ;
+
+#links each county individual to the Ireland individiual
+#using ex: partOf
+#this establishes the County -> Country relationship
+#rr:constant assigns the same value to every County individual
+rr:predicateObjectMap [
+    rr:predicate ex:partOf ;
+    rr:objectMap [
+        rr:constant ex:Ireland
+    ]
+] .
+
+#MAP 3: Accom type mapping
+#this map creates AccommodationType individuals from the Sector field in the 
+#accommodation dataset
+#this allows accommodations to be categorised by their type
+
+<AccommodationTypeMapping> 
+    a rr:TriplesMap ;
+
+#specifies the cleaned accommodation CSV as the data source
+rml:logicalSource [
+    rml:source "Accommodation_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+] ; 
+
+#creates an accommodationType individual using the Sector field value
+#as its URI identifier 
+#assigns AccommodationType class
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/accommodation-type/{Sector}" ;
+    rr:class ex:AccommodationType 
+    ] ; 
+
+#assigns the orginal Sector value a human-readable label
+#this is identified by the Sector field
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "Sector"
+    ]
+] .
+
+#MAP 4: Town mapping
+#this map creates town individuals from the accommodation dataset
+#it also establishes their relationships with corresponding counties
+<TownMapping>
+    a rr:TriplesMap ;
+
+#specifies the cleaned accommodation CSV as the data source
+rml:logicalSource [
+    rml:source "Accommodation_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+] ; 
+
+#creates a town individual using both the county and town name in the URI
+#this allows for the URI to distinguish between towns with identical names
+#but are in different counties 
+#assigns the Town class
+rr:subjectMap [
+    rr:template "https://example.org/irish-tourism/town/{Address County}/{Address City/Town}" ;
+    rr:class ex:Town 
+    ] ; 
+
+#assigns the town name a human-readable label
+#this is identified by the Address City/Town field
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "Address City/Town"
+    ]
+] ;
+
+#links each town individual to its corresponding county individual 
+#uses the same county URI template defined in CountyMapping
+#this is identified by the Address County field
+rr:predicateObjectMap [
+    rr:predicate ex:townInCounty ;
+    rr:objectMap [
+        rr:template "https://example.org/irish-tourism/county/{Address County}" ;
+    ]
+] .

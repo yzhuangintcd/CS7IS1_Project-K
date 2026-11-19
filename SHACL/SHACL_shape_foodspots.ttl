@@ -5,7 +5,7 @@
 
 ex:FoodSpotShape
     a sh:NodeShape ;
-    sh:targetClass ex:FoodSpot ;
+    sh:targetClass ex:Foodspot ;
 
     sh:property [
         sh:path ex:name ;

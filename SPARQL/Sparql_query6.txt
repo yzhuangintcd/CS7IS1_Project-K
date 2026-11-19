@@ -1,0 +1,32 @@
+# Lists food spots across Ireland whose name contains the word "café"
+# or "restaurant", along with the county each one is in.
+# LCASE converts each name to lower case before CONTAINS checks it, so
+# the match ignores capitalisation ("Café", "CAFÉ" and "café" all match).
+# The filter looks at the food spot's name, not its venue type, so a
+# café whose name doesn't include "café" or "restaurant" won't appear.
+# BIND with REPLACE turns each county IRI into a readable county name.
+# Results are sorted by county, then alphabetically by name.
+#
+# Output:
+# - foodName:   string
+# - countyName: xsd:string (local name taken from the county IRI)
+#
+# Use Case:
+# 1. Travellers looking for a sit-down meal or a coffee stop can see
+#    cafés and restaurants grouped by county as they plan their route.
+# 2. A food guide can use the results as a starting list of cafés and
+#    restaurants in each county.
+
+PREFIX ex: <https://example.org/irish-tourism/>
+
+SELECT ?foodspotName ?countyName
+WHERE {
+  VALUES ?foodClass { ex:Foodspot }
+  ?food a ?foodClass ;
+        ex:name ?foodName ;
+        ex:locatedInCounty ?county .
+
+  BIND(REPLACE(STR(?county), "^.*/", "") AS ?countyName)
+  FILTER(CONTAINS(LCASE(?foodName), "café") || CONTAINS(LCASE(?foodName), "restaurant"))
+}
+ORDER BY ?countyName ?foodName

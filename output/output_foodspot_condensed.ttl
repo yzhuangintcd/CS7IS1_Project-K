@@ -3,357 +3,357 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://example.org/irish-tourism/foodspots/1> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
     ns1:name "Hungry Boba Pizzeria" ;
     ns2:latitude 53.351338 ;
     ns2:longitude -6.2795464 .
 
-<https://example.org/irish-tourism/foodspots/10> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/10> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
     ns1:name "Amai By Viktor" ;
     ns2:latitude 53.3412722 ;
     ns2:longitude -6.2611932 .
 
-<https://example.org/irish-tourism/foodspots/100> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/100> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
     ns1:name "Bells Bar" ;
     ns2:latitude 51.9025511 ;
     ns2:longitude -8.4746469 .
 
-<https://example.org/irish-tourism/foodspots/1000> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1000> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Cork> ;
     ns1:name "South County" ;
     ns2:latitude 51.8761758 ;
     ns2:longitude -8.4400284 .
 
-<https://example.org/irish-tourism/foodspots/1001> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1001> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
     ns1:name "Spa Seafoods Deli" ;
     ns2:latitude 52.2752193 ;
     ns2:longitude -9.7825434 .
 
-<https://example.org/irish-tourism/foodspots/1002> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1002> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
     ns1:name "Spice Indian Restaurant" ;
     ns2:latitude 52.3415618 ;
     ns2:longitude -6.4628883 .
 
-<https://example.org/irish-tourism/foodspots/1003> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1003> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Kerry> ;
     ns1:name "Spillane's Bar & Restaurant" ;
     ns2:latitude 52.303059 ;
     ns2:longitude -10.040086 .
 
-<https://example.org/irish-tourism/foodspots/1004> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1004> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
     ns1:name "The Spirit Store" ;
     ns2:latitude 54.0089765 ;
     ns2:longitude -6.3900726 .
 
-<https://example.org/irish-tourism/foodspots/1005> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1005> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Wexford> ;
     ns1:name "Stable Diet Café" ;
     ns2:latitude 52.3355694 ;
     ns2:longitude -6.4588839 .
 
-<https://example.org/irish-tourism/foodspots/1006> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1006> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
     ns1:name "Statham's at The Pembroke Hotel" ;
     ns2:latitude 52.6495409 ;
     ns2:longitude -7.2513829 .
 
-<https://example.org/irish-tourism/foodspots/1009> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1009> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
     ns1:name "Stella Maris Country House Hotel Restaurant" ;
     ns2:latitude 54.2995608 ;
     ns2:longitude -9.3922571 .
 
-<https://example.org/irish-tourism/foodspots/101> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/101> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
     ns1:name "Belmont Demesne" ;
     ns2:latitude 53.1672038 ;
     ns2:longitude -6.0951855 .
 
-<https://example.org/irish-tourism/foodspots/1010> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1010> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Louth> ;
     ns1:name "Stephenstown Pond Nature Park & The Dairy Maid Coffee Shop" ;
     ns2:latitude 53.963054 ;
     ns2:longitude -6.459102 .
 
-<https://example.org/irish-tourism/foodspots/1013> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1013> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
     ns1:name "Stradbally Community Market" ;
     ns2:latitude 52.1357453 ;
     ns2:longitude -7.4673048 .
 
-<https://example.org/irish-tourism/foodspots/1014> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1014> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
     ns1:name "Stradbally Fayre" ;
     ns2:latitude 53.017272 ;
     ns2:longitude -7.151302 .
 
-<https://example.org/irish-tourism/foodspots/1017> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1017> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Kilkenny> ;
     ns1:name "Sullivan’s Taproom" ;
     ns2:latitude 52.65297 ;
     ns2:longitude -7.2490724 .
 
-<https://example.org/irish-tourism/foodspots/1018> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1018> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Mayo> ;
     ns1:name "Sweeneys Siopa Claddaigh" ;
     ns2:latitude 53.9322145 ;
     ns2:longitude -9.9236614 .
 
-<https://example.org/irish-tourism/foodspots/102> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/102> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
     ns1:name "Beltra Country Market" ;
     ns2:latitude 54.2218763 ;
     ns2:longitude -8.624828 .
 
-<https://example.org/irish-tourism/foodspots/1022> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1022> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
     ns1:name "Taaffes Bar" ;
     ns2:latitude 53.2723487 ;
     ns2:longitude -9.0531715 .
 
-<https://example.org/irish-tourism/foodspots/1023> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1023> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
     ns1:name "The Talbot Bar" ;
     ns2:latitude 52.8618617 ;
     ns2:longitude -8.1980413 .
 
-<https://example.org/irish-tourism/foodspots/1026> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1026> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
     ns1:name "Tara Lounge & Mornington Restaurant at CityNorth Hotel" ;
     ns2:latitude 53.6392140585585 ;
     ns2:longitude -6.25753894494858 .
 
-<https://example.org/irish-tourism/foodspots/1027> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1027> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
     ns1:name "Taste the Atlantic - Salmon Experience" ;
     ns2:latitude 53.0279945 ;
     ns2:longitude -9.292079 .
 
-<https://example.org/irish-tourism/foodspots/1028> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1028> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Waterford> ;
     ns1:name "Coastal Discovery Taste Trail by Taste Waterford" ;
     ns2:latitude 52.0936763 ;
     ns2:longitude -7.6203627 .
 
-<https://example.org/irish-tourism/foodspots/103> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/103> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
     ns1:name "Belturbet Heritage Railway Museum" ;
     ns2:latitude 54.0977954 ;
     ns2:longitude -7.4422278 .
 
-<https://example.org/irish-tourism/foodspots/1030> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1030> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Clare> ;
     ns1:name "Taylor's Bar" ;
     ns2:latitude 52.8425354 ;
     ns2:longitude -8.985149 .
 
-<https://example.org/irish-tourism/foodspots/1032> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1032> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
     ns1:name "Teach Dolmain" ;
     ns2:latitude 52.8361268 ;
     ns2:longitude -6.925403 .
 
-<https://example.org/irish-tourism/foodspots/1034> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1034> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Sligo> ;
     ns1:name "Tempo Café" ;
     ns2:latitude 54.2113006 ;
     ns2:longitude -8.5076848 .
 
-<https://example.org/irish-tourism/foodspots/1036> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1036> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
     ns1:name "The Pippin Tree Restaurant at Killashee Hotel" ;
     ns2:latitude 53.1911548 ;
     ns2:longitude -6.674588 .
 
-<https://example.org/irish-tourism/foodspots/1037> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1037> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
     ns1:name "Terrace Restaurant at The Mullingar Park Hotel" ;
     ns2:latitude 53.5228043 ;
     ns2:longitude -7.3032536 .
 
-<https://example.org/irish-tourism/foodspots/1038> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1038> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
     ns1:name "Texas Steakout Restaurant" ;
     ns2:latitude 52.6627708 ;
     ns2:longitude -8.6281603 .
 
-<https://example.org/irish-tourism/foodspots/104> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/104> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Westmeath> ;
     ns1:name "Belvedere House Gardens & Park" ;
     ns2:latitude 53.477197 ;
     ns2:longitude -7.369202 .
 
-<https://example.org/irish-tourism/foodspots/1051> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1051> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Galway> ;
     ns1:name "The Ardagh Restaurant at The Ardagh Hotel" ;
     ns2:latitude 53.4687603 ;
     ns2:longitude -10.0173971 .
 
-<https://example.org/irish-tourism/foodspots/1052> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1052> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Carlow> ;
     ns1:name "The Ardattin Inn" ;
     ns2:latitude 52.7536065 ;
     ns2:longitude -6.7067205 .
 
-<https://example.org/irish-tourism/foodspots/1053> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1053> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Wicklow> ;
     ns1:name "The Avon" ;
     ns2:latitude 53.1615355 ;
     ns2:longitude -6.5335434 .
 
-<https://example.org/irish-tourism/foodspots/1057> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1057> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Kildare> ;
     ns1:name "The Ballymore Inn" ;
     ns2:latitude 53.1338969 ;
     ns2:longitude -6.6153447 .
 
-<https://example.org/irish-tourism/foodspots/107> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/107> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
     ns1:name "Benny's Deli, Restaurant and Café" ;
     ns2:latitude 53.769361 ;
     ns2:longitude -8.494767 .
 
-<https://example.org/irish-tourism/foodspots/1072> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1072> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
     ns1:name "The Blue Apron Restaurant " ;
     ns2:latitude 53.275878 ;
     ns2:longitude -7.489516 .
 
-<https://example.org/irish-tourism/foodspots/1073> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1073> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
     ns1:name "The Blue Goat Ramelton" ;
     ns2:latitude 55.0383391 ;
     ns2:longitude -7.6439482 .
 
-<https://example.org/irish-tourism/foodspots/1076> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1076> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Donegal> ;
     ns1:name "The Boathouse" ;
     ns2:latitude 55.1589171 ;
     ns2:longitude -7.1213353 .
 
-<https://example.org/irish-tourism/foodspots/1083> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1083> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Cavan> ;
     ns1:name "The Brewery" ;
     ns2:latitude 53.9232191 ;
     ns2:longitude -7.5823749 .
 
-<https://example.org/irish-tourism/foodspots/1085> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1085> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Offaly> ;
     ns1:name "The Brewery Tap" ;
     ns2:latitude 53.274271 ;
     ns2:longitude -7.4931314 .
 
-<https://example.org/irish-tourism/foodspots/1089> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1089> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Meath> ;
     ns1:name "The Bridge Restaurant at Newgrange Hotel" ;
     ns2:latitude 53.651902 ;
     ns2:longitude -6.682953 .
 
-<https://example.org/irish-tourism/foodspots/1120> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1120> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Tipperary> ;
     ns1:name "The Cottage Loughmore" ;
     ns2:latitude 52.7571239 ;
     ns2:longitude -7.8269581 .
 
-<https://example.org/irish-tourism/foodspots/1149> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1149> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Limerick> ;
     ns1:name "The French Table Restaurant" ;
     ns2:latitude 52.6607636 ;
     ns2:longitude -8.6352633 .
 
-<https://example.org/irish-tourism/foodspots/1215> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1215> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Cafe> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
     ns1:name "The Loft Café & Restaurant" ;
     ns2:latitude 54.3035755 ;
     ns2:longitude -8.1735234 .
 
-<https://example.org/irish-tourism/foodspots/1234> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1234> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Leitrim> ;
     ns1:name "The Oarsman Pub" ;
     ns2:latitude 53.943912 ;
     ns2:longitude -8.094772 .
 
-<https://example.org/irish-tourism/foodspots/1245> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1245> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Roscommon> ;
     ns1:name "The Old Stone House Restaurant " ;
     ns2:latitude 53.7417184 ;
     ns2:longitude -8.6313677 .
 
-<https://example.org/irish-tourism/foodspots/1377> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1377> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Laois> ;
     ns1:name "Treacy's Bar & Restaurant" ;
     ns2:latitude 53.067824 ;
     ns2:longitude -7.217065 .
 
-<https://example.org/irish-tourism/foodspots/1420> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1420> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
     ns1:name "Shirley Arms Restaurant in the Shirley Arms Hotel" ;
     ns2:latitude 53.9779686 ;
     ns2:longitude -6.7198928 .
 
-<https://example.org/irish-tourism/foodspots/1425> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/1425> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Monaghan> ;
     ns1:name "Wild Thyme Restaurant" ;
     ns2:latitude 54.2165098 ;
     ns2:longitude -7.0436244 .
 
-<https://example.org/irish-tourism/foodspots/989> a ns1:FoodSpot ;
+<https://example.org/irish-tourism/foodspots/989> a ns1:Foodspot ;
     ns1:hasVenueType <https://example.org/irish-tourism/venue-type/Restaurant%2C%20Pub%2FBar> ;
     ns1:locatedInCounty <https://example.org/irish-tourism/county/Longford> ;
     ns1:name "Skelly's Bar and Restaurant" ;

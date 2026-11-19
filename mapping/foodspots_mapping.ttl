@@ -40,7 +40,7 @@
 #                        +--- schema:longitude ---> "Longitude"^^xsd:decimal
 #                        +--- ex:hasVenueType ----> <venue-type/{Venue Type}>
 # ==============================================================================
-<FoodSpotMapping> a rr:TriplesMap ;
+<FoodspotMapping> a rr:TriplesMap ;
 rml:logicalSource [
     rml:source "FoodSpots_cleaned.csv" ;
     rml:referenceFormulation ql:CSV

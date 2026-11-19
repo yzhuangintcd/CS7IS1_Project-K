@@ -1,0 +1,38 @@
+# Summarises accommodation by type (e.g. Hotel, Guesthouse, B&B),
+# showing how many places there are of each type and their average
+# star rating.
+# BIND with REPLACE turns each type IRI into a readable name, and
+# GROUP BY groups the accommodations by that name.
+# COUNT(DISTINCT ...) makes sure each accommodation is counted only once.
+# HAVING keeps only the types whose average star rating is 3 or higher.
+# Only accommodations that have a star rating are included, so
+# totalPlaces counts rated places only.
+# Results are sorted by average star rating (highest first).
+#
+# Output:
+# - accomType:     xsd:string  (local name taken from the type IRI)
+# - totalPlaces:   xsd:integer
+# - avgStarRating: xsd:decimal (rounded to 2 decimal places)
+#
+# Use Case:
+# 1. Travellers can see which types of accommodation tend to be rated
+#    highest and how many of each are available, which helps them
+#    decide what kind of place to book.
+# 2. Tourism bodies can compare quality across accommodation types to
+#    spot which sectors are performing well.
+
+PREFIX ex: <https://example.org/irish-tourism/>
+
+SELECT ?accomType
+       (COUNT(DISTINCT ?accom) AS ?totalPlaces)
+       (ROUND(AVG(?stars) * 100) / 100 AS ?avgStarRating)
+WHERE {
+  ?accom a ex:Accommodation ;
+         ex:hasAccommodationType ?typeUri ;
+         ex:starRating ?stars .
+
+  BIND(REPLACE(STR(?typeUri), "^.*/", "") AS ?accomType)
+}
+GROUP BY ?accomType
+HAVING (AVG(?stars) >= 3)
+ORDER BY DESC(?avgStarRating)

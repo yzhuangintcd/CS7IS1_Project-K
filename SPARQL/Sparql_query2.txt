@@ -1,0 +1,61 @@
+# Returns accommodations in the west of Ireland (west of -8.0 longitude)
+# together with a museum and a food spot in the same county, leaving out
+# any food spot whose venue type is a bar or pub.
+# Star rating and address are optional; locationInfo shows the address,
+# otherwise the town name, otherwise "Address not listed".
+# Results are sorted by county name, then by star rating (highest first).
+#
+# Output:
+# - countyName:   xsd:string  (local name taken from the county IRI)
+# - accomName:    string
+# - locationInfo: string      (address, town name, or "Address not listed")
+# - stars:        xsd:integer (optional; may be unbound)
+# - museumName:   string
+# - foodspotName:     string
+#
+# Use Case:
+# 1. Families or non-drinking travellers planning a west-coast road trip
+#    can get, for each county, a place to stay, a museum to visit and
+#    somewhere to eat, with no pubs or bars included.
+# 2. Tour operators can use the results to put together alcohol-free
+#    cultural itineraries along the west coast.
+
+PREFIX ex: <https://example.org/irish-tourism/>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?countyName ?accomName ?locationInfo ?stars ?museumName ?foodspotName
+WHERE {
+  ?accom a ex:Accommodation ;
+         ex:name ?accomName ;
+         ex:locatedInCounty ?county ;
+         schema:longitude ?lon .
+
+  # Isolate western counties (approx. West of -8.0 longitude)
+  FILTER(?lon < -8.0)
+
+  OPTIONAL { ?accom ex:starRating ?stars . }
+  OPTIONAL { ?accom ex:address ?addr . }
+  OPTIONAL {
+    ?accom ex:locatedInTown ?townUri .
+    BIND(REPLACE(STR(?townUri), "^.*/", "") AS ?townName)
+  }
+  BIND(COALESCE(?addr, ?townName, "Address not listed") AS ?locationInfo)
+
+  ?museum a ex:Museum ;
+          ex:locatedInCounty ?county ;
+          ex:name ?museumName .
+
+  VALUES ?foodClass { ex:Foodspot }
+  ?food a ?foodClass ;
+        ex:locatedInCounty ?county ;
+        ex:name ?foodspotName .
+
+  # Exclude takeaways or fast food via negation
+  FILTER NOT EXISTS {
+    ?food ex:hasVenueType ?vType .
+    FILTER(REGEX(STR(?vType), "Bar|Pub", "i"))
+  }
+
+  BIND(REPLACE(STR(?county), "^.*/", "") AS ?countyName)
+}
+ORDER BY ?countyName DESC(?stars)

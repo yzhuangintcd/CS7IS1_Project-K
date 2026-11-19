@@ -1,0 +1,59 @@
+# Pairs accommodations in Dublin (3 stars or higher) with day-trip ideas
+# in Dublin's three neighbouring counties: Wicklow, Kildare and Meath.
+# For each neighbouring county, the query finds a museum to visit and,
+# where one exists, a food spot.
+# VALUES lists the three neighbouring counties, and BIND with REPLACE
+# turns each county IRI into a readable name.
+# A museum is required, so a county with no museums won't appear.
+# The food spot is OPTIONAL, so a museum is still returned even if that
+# county has no food spot (foodSpotName is then left empty).
+# Each row is one combination of Dublin stay, county, museum and food
+# spot, so a single stay can appear in many rows.
+# Results are sorted by day-trip county, then by star rating (highest first).
+#
+# Output:
+# - dublinStay:    string      (name of the Dublin accommodation)
+# - stars:         xsd:integer (3 or higher)
+# - dayTripCounty: xsd:string  (local name taken from the county IRI)
+# - museumName:    string
+# - foodspotName:  string      (optional; may be unbound)
+#
+# Use Case:
+# 1. Tourists based in Dublin can pick a well-rated place to stay and
+#    plan day trips to nearby counties, with a museum to visit and
+#    somewhere to eat, without having to move accommodation.
+# 2. Dublin hotels can use the results to suggest day trips to their
+#    guests.
+
+PREFIX ex: <https://example.org/irish-tourism/>
+
+SELECT ?dublinStay ?stars ?dayTripCounty ?museumName ?foodspotName
+WHERE {
+  # 1. Stay in Dublin (3 stars or higher)
+  ?accom a ex:Accommodation ;
+         ex:locatedInCounty <https://example.org/irish-tourism/county/Dublin> ;
+         ex:name ?dublinStay ;
+         ex:starRating ?stars .
+  FILTER(?stars >= 3)
+
+  # 2. Pick a neighboring county for a day trip
+  VALUES ?targetCounty {
+    <https://example.org/irish-tourism/county/Wicklow>
+    <https://example.org/irish-tourism/county/Kildare>
+    <https://example.org/irish-tourism/county/Meath>
+  }
+  BIND(REPLACE(STR(?targetCounty), "^.*/", "") AS ?dayTripCounty)
+
+  # 3. Find a museum and a food spot in that day-trip county
+  ?museum a ex:Museum ;
+          ex:locatedInCounty ?targetCounty ;
+          ex:name ?museumName .
+
+  OPTIONAL {
+    VALUES ?foodClass { ex:Foodspot }
+    ?food a ?foodClass ;
+          ex:locatedInCounty ?targetCounty ;
+          ex:name ?foodspotName .
+  }
+}
+ORDER BY ?dayTripCounty DESC(?stars)

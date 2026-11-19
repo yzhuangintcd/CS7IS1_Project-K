@@ -1,0 +1,35 @@
+# Returns all accommodations whose star rating is above the overall
+# (national) average star rating of all accommodations in Ireland,
+# along with the county each one is located in.
+# Results are sorted by star rating (highest first), then by county name.
+#
+# Output:
+# - countyName: xsd:string  (local name taken from the county IRI)
+# - accomName:  string
+# - stars:      xsd:integer
+# - overallAvg: xsd:decimal (overall average, rounded to 2 decimal places)
+# 
+# Use Case:
+# 1. Travellers can shortlist accommodations rated above the national average
+
+PREFIX ex: <https://example.org/irish-tourism/>
+
+SELECT ?countyName ?accomName ?stars ?overallAvg
+WHERE {
+  {
+    SELECT (ROUND(AVG(?r) * 100) / 100 AS ?overallAvg)
+    WHERE {
+      ?a a ex:Accommodation ;
+         ex:starRating ?r .
+    }
+  }
+
+  ?accom a ex:Accommodation ;
+         ex:name ?accomName ;
+         ex:locatedInCounty ?county ;
+         ex:starRating ?stars .
+
+  BIND(REPLACE(STR(?county), "^.*/", "") AS ?countyName)
+  FILTER(?stars > ?overallAvg)
+}
+ORDER BY DESC(?stars) ?countyName

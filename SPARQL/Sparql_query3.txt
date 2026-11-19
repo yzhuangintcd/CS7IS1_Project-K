@@ -1,0 +1,65 @@
+# Builds a new subgraph of recommended stays: accommodations rated
+# 4 stars or higher that have a museum and a food spot in the same
+# county and close by. "Close by" is checked with a simple box of
+# 0.15 degrees of latitude and longitude around the accommodation
+# (roughly 10-17 km, not an exact radius).
+#
+# Output (triples in the constructed graph):
+# - ?accom  a ex:RecommendedStay        (new class for the selected stays)
+# - ?accom  ex:name        ?accomName    (string)
+# - ?accom  ex:starRating  ?stars        (xsd:integer, 4 or higher)
+# - ?accom  ex:inCounty    ?county       (county IRI)
+# - ?accom  ex:nearMuseum  ?museum       (museum IRI)
+# - ?accom  ex:nearFoodSpot ?food        (food spot IRI)
+# - ?museum ex:name        ?museumName   (string)
+# - ?food   ex:name        ?foodName     (string)
+# An accommodation can link to several museums and food spots if more
+# than one is nearby.
+#
+# Use Case:
+# 1. Visitors planning a day trip can see high-rated places to stay that
+#    have a museum and somewhere to eat within a short trip, with no
+#    long drives needed.
+# 2. The smaller graph can be loaded into a visualisation tool to show
+#    how stays, museums and food spots connect, which is much easier to
+#    read than the full tourism dataset.
+
+PREFIX ex: <https://example.org/irish-tourism/>
+PREFIX schema: <https://schema.org/>
+
+CONSTRUCT {
+  ?accom a ex:RecommendedStay ;
+         ex:name ?accomName ;
+         ex:starRating ?stars ;
+         ex:inCounty ?county ;
+         ex:nearMuseum ?museum ;
+         ex:nearFoodSpot ?food .
+  ?museum ex:name ?museumName .
+  ?food ex:name ?foodName .
+}
+WHERE {
+  ?accom a ex:Accommodation ;
+         ex:name ?accomName ;
+         ex:locatedInCounty ?county ;
+         ex:starRating ?stars ;
+         schema:latitude ?aLat ;
+         schema:longitude ?aLon .
+  FILTER(?stars >= 4)
+
+  ?museum a ex:Museum ;
+          ex:locatedInCounty ?county ;
+          ex:name ?museumName ;
+          schema:latitude ?mLat ;
+          schema:longitude ?mLon .
+
+  VALUES ?foodClass { ex:Foodspot }
+  ?food a ?foodClass ;
+        ex:locatedInCounty ?county ;
+        ex:name ?foodName ;
+        schema:latitude ?fLat ;
+        schema:longitude ?fLon .
+
+  # Keep both stops within ~15 km (0.15 degrees) of the stay
+  FILTER(ABS(?aLat - ?mLat) < 0.15 && ABS(?aLon - ?mLon) < 0.15)
+  FILTER(ABS(?aLat - ?fLat) < 0.15 && ABS(?aLon - ?fLon) < 0.15)
+}

@@ -1,0 +1,41 @@
+# Lists every museum, accommodation and food spot in County Dublin
+# in one combined result, with a label showing which category each
+# place belongs to.
+# The Dublin county IRI is bound once to ?dublin and reused in all three
+# branches. Each UNION branch finds one type of place and uses BIND to
+# attach a category label.
+# Results are sorted by category, then alphabetically by name.
+#
+# Output:
+# - category: string ("Accommodation", "Food Spot" or "Museum")
+# - name:     string
+#
+# Use Case:
+# 1. Visitors spending a few days in Dublin get one list of places to
+#    stay, eat and visit, grouped by category, instead of running three
+#    separate searches.
+# 2. A travel app or city guide can use the results to fill a
+#    "Things in Dublin" page with separate sections for each category.
+
+PREFIX ex: <https://example.org/irish-tourism/>
+
+SELECT ?category ?name
+WHERE {
+  BIND(<https://example.org/irish-tourism/county/Dublin> AS ?dublin)
+  {
+    ?place a ex:Museum ; ex:locatedInCounty ?dublin ; ex:name ?name .
+    BIND("Museum" AS ?category)
+  }
+  UNION
+  {
+    ?place a ex:Accommodation ; ex:locatedInCounty ?dublin ; ex:name ?name .
+    BIND("Accommodation" AS ?category)
+  }
+  UNION
+  {
+    VALUES ?foodClass { ex:Foodspot }
+    ?place a ?foodClass ; ex:locatedInCounty ?dublin ; ex:name ?name .
+    BIND("Food Spot" AS ?category)
+  }
+}
+ORDER BY ?category ?name
